@@ -1,0 +1,414 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "d399e818-eedb-4a9e-8763-8d249fe39417",
+        "line": 27,
+        "name": "e-Serbest Meslek Makbuzlari Iptal Et",
+        "description": "",
+        "id": "e-serbest-meslek-makbuzlari-ıptal-et;e-serbest-meslek-makbuzlari-ıptal-et;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9572646200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "48a333d0-ab4a-4360-8060-415e3f23d30c"
+          },
+          {
+            "result": {
+              "duration": 537053800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Makbuz seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Makbuz",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9ba41180-26d2-4771-b687-8333cdfef7da"
+          },
+          {
+            "result": {
+              "duration": 2714010000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzları seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Serbest Meslek Uygulaması",
+                  "offset": 9
+                },
+                {
+                  "val": "e-Serbest Meslek Makbuzları",
+                  "offset": 55
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "acc3aaa9-2bb6-4c25-984b-1d1d82ee7515"
+          },
+          {
+            "result": {
+              "duration": 1802775000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0d031200-b4e9-4331-9e5f-0727ef32eddd"
+          },
+          {
+            "result": {
+              "duration": 1634163300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "812bc15c-d9cd-4672-9bba-2e7e189b046c"
+          },
+          {
+            "result": {
+              "duration": 507962500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "18b354c2-b5ac-469a-a962-7d1d0737f9df"
+          },
+          {
+            "result": {
+              "duration": 857756400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a9833045-ca40-47d5-bf4c-59b8259b81e8"
+          },
+          {
+            "result": {
+              "duration": 821993000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tablodan TEST isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TEST",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "bc0960d5-3e53-4828-afc4-92a5131228be"
+          },
+          {
+            "result": {
+              "duration": 645112900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Butonlardan İptal Et / İtiraz Bildir isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "İptal Et / İtiraz Bildir",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "adfd83ee-5300-405f-bb84-04e72d91f1e9"
+          },
+          {
+            "result": {
+              "duration": 756182000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Alt butonlardan İptal Et butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "İptal Et",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "316fbc3c-6848-45f1-b5f4-707f31ac31d5"
+          },
+          {
+            "result": {
+              "duration": 1611408700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Popup mesajı Seçilen makbuzlardan başarılı durumunda olanlar iptal edilecektir onaylıyor musunuz içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Seçilen makbuzlardan başarılı durumunda olanlar iptal edilecektir onaylıyor musunuz",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b14ef86e-5bf8-452f-9e26-abb909b40397"
+          },
+          {
+            "result": {
+              "duration": 469891500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Yönetim popupında Evet seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Evet",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4251729a-df0c-407d-af79-2bc8863c079b"
+          },
+          {
+            "result": {
+              "duration": 1721874800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Popup mesajı belge iptal edilmiştir içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "belge iptal edilmiştir",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b5dc09cb-d838-46eb-89e8-56aef346f00d"
+          },
+          {
+            "result": {
+              "duration": 556815200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6616da33-24f7-4cbc-972e-2d85ca705c6e"
+          },
+          {
+            "result": {
+              "duration": 1053722000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Butonlardan İptal Geri Al isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "İptal Geri Al",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "cf4adc70-bab7-48e1-94da-f06645d987f6"
+          },
+          {
+            "result": {
+              "duration": 1472508200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Popup mesajı Seçilen makbuzlar için iptal işlemi geri alınacaktır onaylıyor musunuz içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Seçilen makbuzlar için iptal işlemi geri alınacaktır onaylıyor musunuz",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f4d0c91a-76ab-4c7d-ac8e-c09999fedc2c"
+          },
+          {
+            "result": {
+              "duration": 529309200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Yönetim popupında Onayla seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Onayla",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0ba100eb-b0d2-4e41-a6bb-1d70d4db6304"
+          },
+          {
+            "result": {
+              "duration": 1766380900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Popup mesajı İptal Edildi durumunda olan ve raporlanmayan 1 adet belge için iptal işlemi geri alınmıştır içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "İptal Edildi durumunda olan ve raporlanmayan 1 adet belge için iptal işlemi geri alınmıştır",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ae60ae7d-af69-4c0c-9993-aacc6eec7041"
+          },
+          {
+            "result": {
+              "duration": 513078900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f3677455-2f08-4770-b65b-e6d9d9dfb0da"
+          },
+          {
+            "result": {
+              "duration": 3702541200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "09c426b9-80a0-4af7-b99a-9ca9f6aa9175"
+          }
+        ]
+      }
+    ],
+    "name": "e-Serbest Meslek Makbuzlari Iptal Et",
+    "description": "",
+    "id": "e-serbest-meslek-makbuzlari-ıptal-et",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Downloads/EES_Katalon-main/Include/features/e-Makbuz/e-Serbest Meslek Uygulaması/e-Serbest Meslek Makbuzlari/Iptal Et-Geri Al.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "23b88e64-924b-451e-80f0-7f0b76fbd772",
+        "line": 21,
+        "name": "e-Serbest Meslek Makbuz Raporlari",
+        "description": "",
+        "id": "e-serbest-meslek-makbuz-raporlari-gecmisi;e-serbest-meslek-makbuz-raporlari;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19805468000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "52f6f8c7-3274-490b-81fa-d4fb57824a83"
+          },
+          {
+            "result": {
+              "duration": 602894400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Makbuz seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Makbuz",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8366cfce-c36d-4bf9-bef1-28e9f3388484"
+          },
+          {
+            "result": {
+              "duration": 2685060900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuz Raporları seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Serbest Meslek Uygulaması",
+                  "offset": 9
+                },
+                {
+                  "val": "e-Serbest Meslek Makbuz Raporları",
+                  "offset": 55
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "eb221653-e9b4-4ca9-946b-9d9be78c8ee1"
+          },
+          {
+            "result": {
+              "duration": 1799316600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Dönem Tarihi filtresine 2021 Ocak dropdowndan degeri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dönem Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "2021 Ocak",
+                  "offset": 37
+                }
+              ],
+              "location": "filtreler.filtreDropdownSec(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "71d18a1c-1937-4136-a32d-5ef74d7c746b"
+          },
+          {
+            "result": {
+              "duration": 2275787700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Bölüm Tarihi filtresine 11.01.2021 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bölüm Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "11.01.2021",
+                  "offset": 37
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3b1bf67c-f7d2-447f-b3c8-e954a4683c00"
+          },
+          {
+            "result": {
+              "duration": 1932379900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtrelerden Bölüm Tarihi filtresine 11.01.2021 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bölüm Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "11.01.2021",
+                  "offset": 37
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3f0db520-2eaf-4129-9f36-b171e6625145"
+          },
+          {
+            "result": {
+              "duration": 681261100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e61e6756-c877-4460-879d-61da7340cd65"
+          },
+          {
+            "result": {
+              "duration": 884638100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f54dbd04-2ab4-4e7a-9c63-2188aa286fc5"
+          },
+          {
+            "result": {
+              "duration": 1790107400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Tablodan 1641 isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1641",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1ecab375-c134-41f1-93e0-3058135f71b1"
+          },
+          {
+            "result": {
+              "duration": 817744200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Butonlardan İzleme Kayıtları isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "İzleme Kayıtları",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e8413205-130f-438e-8faa-8cb0b6649a91"
+          },
+          {
+            "result": {
+              "duration": 165157000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9bb0bdc4-c367-444b-8b30-f3aea8f0f462"
+          },
+          {
+            "result": {
+              "duration": 13433242900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Serbest Meslek Makbuzu Rapor İzleme Kayıtları baslikli gecmis sayfasi geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Serbest Meslek Makbuzu Rapor İzleme Kayıtları",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.gecmisGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "95b415ad-d435-43dd-8c17-d1fae2c0e8d1"
+          },
+          {
+            "result": {
+              "duration": 167504700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "09cd5c8a-7fb5-49aa-a6da-a576bdd5c76c"
+          },
+          {
+            "result": {
+              "duration": 3274026500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "df9b3605-f685-4b51-adbc-f52dbf40503e"
+          }
+        ]
+      }
+    ],
+    "name": "e-Serbest Meslek Makbuz Raporlari Gecmisi",
+    "description": "",
+    "id": "e-serbest-meslek-makbuz-raporlari-gecmisi",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Downloads/EES_Katalon-main/Include/features/e-Makbuz/e-Serbest Meslek Uygulaması/e-Serbest Meslek Makbuz Raporlari/Izleme Kayitlari.feature",
+    "tags": []
+  }
+]

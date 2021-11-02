@@ -1,0 +1,539 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "a1887b05-2153-408c-a8ca-ef56369be49f",
+        "line": 34,
+        "name": "e-Serbest Meslek Makbuzlari excele aktarma",
+        "description": "",
+        "id": "e-serbest-meslek-makbuzlari-excele-aktarma;e-serbest-meslek-makbuzlari-excele-aktarma;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9500427300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b25d89ca-2f0f-4c23-ab1c-72d94bb985c1"
+          },
+          {
+            "result": {
+              "duration": 573947500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Makbuz seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Makbuz",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "2c2d4342-dcda-49f3-a40b-df985a2c6b03"
+          },
+          {
+            "result": {
+              "duration": 2380004800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzları seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Serbest Meslek Uygulaması",
+                  "offset": 9
+                },
+                {
+                  "val": "e-Serbest Meslek Makbuzları",
+                  "offset": 55
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "48bdb3c0-e603-4765-a173-b2edc78778f5"
+          },
+          {
+            "result": {
+              "duration": 1737350600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "701063f0-6a0c-49e2-9c30-e7564bbb6252"
+          },
+          {
+            "result": {
+              "duration": 1583825800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b1c52057-c35e-412c-8a71-6f31ac370e62"
+          },
+          {
+            "result": {
+              "duration": 983526000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtrelerden Alıcı Unvan filtresine TEST textini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alıcı Unvan",
+                  "offset": 13
+                },
+                {
+                  "val": "TEST",
+                  "offset": 36
+                }
+              ],
+              "location": "filtreler.filtreTexboxinaYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "440accd0-7488-4adf-8aad-86d04c3305ea"
+          },
+          {
+            "result": {
+              "duration": 593297000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ce23ff29-eeff-43a5-ad7f-dc1201da3f3f"
+          },
+          {
+            "result": {
+              "duration": 830497700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "eef6eac0-c276-4f46-ace9-2e4a8418d984"
+          },
+          {
+            "result": {
+              "duration": 829700600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Tablodan TEST isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TEST",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "06cee226-e392-4a09-9afc-224b1baaeac2"
+          },
+          {
+            "result": {
+              "duration": 548224900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Butonlardan Excel isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f0b658e4-c328-47d6-9b14-519ee205835c"
+          },
+          {
+            "result": {
+              "duration": 513456400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Alt butonlardan Excel \u0027e Aktar butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel \u0027e Aktar",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9cc5cb85-196d-45f4-8c40-c18b72b5b1f7"
+          },
+          {
+            "result": {
+              "duration": 1729843900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz.",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e5cd6d58-f865-4f13-ad10-754fd414b708"
+          },
+          {
+            "result": {
+              "duration": 631877900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Yönetim popupında Gönder seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönder",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9e38b000-6f6d-482d-bde1-f1c2665d9e30"
+          },
+          {
+            "result": {
+              "duration": 1456709400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Popup mesajı Toplu Veri İndirme içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu Veri İndirme",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5681ea90-5a62-478a-a3d3-56dd14c8fb46"
+          },
+          {
+            "result": {
+              "duration": 476013000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "41fae113-0ce7-4c44-be40-4fcb4db04c32"
+          },
+          {
+            "result": {
+              "duration": 841554600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Butonlardan Excel isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ff979d22-232d-4698-ad2b-94279e8bfd53"
+          },
+          {
+            "result": {
+              "duration": 527384800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Alt butonlardan Tümünü Excel \u0027e Aktar butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tümünü Excel \u0027e Aktar",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b08deb1d-3ca5-43ed-a201-5da544f7d09a"
+          },
+          {
+            "result": {
+              "duration": 1339447400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz.",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "55cfabee-ef33-4f4c-b3f4-9ec97a54f985"
+          },
+          {
+            "result": {
+              "duration": 515441300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Yönetim popupında Gönder seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönder",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "99e7ab6d-d862-4af6-812d-832fb0a300da"
+          },
+          {
+            "result": {
+              "duration": 1545399100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Popup mesajı Toplu Veri İndirme içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu Veri İndirme",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "317522f9-2a8b-48a8-a872-5153d5560b23"
+          },
+          {
+            "result": {
+              "duration": 497234400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "13c2a4af-57ea-47bf-92e2-fe5d0b91925a"
+          },
+          {
+            "result": {
+              "duration": 1051331400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Ana menüden Raporlar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raporlar",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6a3409e9-6d08-4c2f-baff-f57116bcea51"
+          },
+          {
+            "result": {
+              "duration": 1187265900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Alt menüden Toplu Veri İndirme seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu Veri İndirme",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.altMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e030fac1-f3c2-4a9e-a6b3-0f8816517aa4"
+          },
+          {
+            "result": {
+              "duration": 924919000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Filtrelerden Talep No filtresine Rapor No bilgisi yaz",
+            "match": {
+              "location": "filtreler.filtreRaporNoYaz()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6013e4eb-f519-4d0e-9928-09bffd7cc21f"
+          },
+          {
+            "result": {
+              "duration": 507209800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fefde302-eee7-4125-b932-880763c14a61"
+          },
+          {
+            "result": {
+              "duration": 5256499500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "94f4dabe-bbe1-481d-b0fc-3e33f551a087"
+          },
+          {
+            "result": {
+              "duration": 3031753600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a4cc3a99-1981-426f-9033-87ba995b549a"
+          }
+        ]
+      }
+    ],
+    "name": "e-Serbest Meslek Makbuzlari excele aktarma",
+    "description": "",
+    "id": "e-serbest-meslek-makbuzlari-excele-aktarma",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Downloads/EES_Katalon-main/Include/features/e-Makbuz/e-Serbest Meslek Uygulaması/e-Serbest Meslek Makbuzlari/Excele Aktar.feature",
+    "tags": []
+  }
+]

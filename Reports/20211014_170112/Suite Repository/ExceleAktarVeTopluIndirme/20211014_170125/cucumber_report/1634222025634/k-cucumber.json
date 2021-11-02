@@ -1,0 +1,516 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "2c5c760b-82df-4e2c-978c-02cca9601fd6",
+        "line": 36,
+        "name": "e-Irsaliye Giden Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secilenlerin indirilmesi",
+        "description": "",
+        "id": "e-ırsaliye-giden-kutusu-uygulama-yanıtları-toplu-ındirme---ubl-secilenlerin-indirilmesi;e-ırsaliye-giden-kutusu-uygulama-yanıtları-toplu-ındirme---ubl-secilenlerin-indirilmesi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8982009900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "03782b07-f0c6-4d89-814a-aa4b31bb9076"
+          },
+          {
+            "result": {
+              "duration": 620652700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-İrsaliye seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-İrsaliye",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "89a12004-518d-4f83-8425-c03286560146"
+          },
+          {
+            "result": {
+              "duration": 3633445800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü Giden Kutusu başlığı altındaki İrsaliye Yanıtları seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Giden Kutusu",
+                  "offset": 9
+                },
+                {
+                  "val": "İrsaliye Yanıtları",
+                  "offset": 40
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a72faa27-a3d4-47a7-9ea4-5dac2889197e"
+          },
+          {
+            "result": {
+              "duration": 2098566700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.01.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.01.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c52bccb7-32a6-4ee4-83b0-e293682bf53a"
+          },
+          {
+            "result": {
+              "duration": 2066642700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9e8f348b-e8e8-4553-939a-f483d622fb83"
+          },
+          {
+            "result": {
+              "duration": 674162700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5411019f-04cf-4c4c-b37b-e6bdf5051b20"
+          },
+          {
+            "result": {
+              "duration": 1138666400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f03d42b5-9cf2-49bb-a2f8-ab1bac4728e2"
+          },
+          {
+            "result": {
+              "duration": 964387900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Tablodan Logo Elektronik GIB Test isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logo Elektronik GIB Test",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "71c5b89c-b3f7-49d5-a23f-27d7afbf82ce"
+          },
+          {
+            "result": {
+              "duration": 583452800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Butonlardan Toplu İndirme isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu İndirme",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "969ddc36-011e-4507-88b3-ad3380f38b16"
+          },
+          {
+            "result": {
+              "duration": 516726200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Alt butonlardan UBL Seçilenleri İndir butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UBL Seçilenleri İndir",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "203e7541-3168-4b33-bc01-7b48da33f9fc"
+          },
+          {
+            "result": {
+              "duration": 1846191300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz.",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "2a864b77-c7f9-430a-9b13-b44d680a8a85"
+          },
+          {
+            "result": {
+              "duration": 486577700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Yönetim popupında Gönder seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönder",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8d8a4428-f351-4ec6-957a-a45d19e1ab17"
+          },
+          {
+            "result": {
+              "duration": 1606129600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Popup mesajı Toplu Veri İndirme içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu Veri İndirme",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "497d995e-3b0e-41a1-b522-83bb97033fff"
+          },
+          {
+            "result": {
+              "duration": 502362100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "32cdb10b-4250-47d5-8e9d-70cb1d09b8f3"
+          },
+          {
+            "result": {
+              "duration": 875900800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Butonlardan Toplu İndirme isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu İndirme",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6947441a-b5d1-4c3e-96e8-7e0d00541a89"
+          },
+          {
+            "result": {
+              "duration": 537271800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Alt butonlardan UBL Tümünü İndir butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UBL Tümünü İndir",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "df2cf6cb-0e44-4f7e-ab16-d2ce3e222e47"
+          },
+          {
+            "result": {
+              "duration": 1407296600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz.",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c01d8b36-716f-4eed-9e66-2c049638fd04"
+          },
+          {
+            "result": {
+              "duration": 498335100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Yönetim popupında Gönder seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönder",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d7bd1fc2-63af-41c8-96be-6adadcaeb111"
+          },
+          {
+            "result": {
+              "duration": 1642506100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Popup mesajı Toplu Veri İndirme içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu Veri İndirme",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "488643f7-36ab-4f00-b4fb-dace5d3dc4c6"
+          },
+          {
+            "result": {
+              "duration": 527393800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f368d5d3-d65a-4faa-92e2-02c42874cf4a"
+          },
+          {
+            "result": {
+              "duration": 1152045900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Ana menüden Raporlar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raporlar",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "91680cd5-d4d5-43db-a9c1-d56d8826dcad"
+          },
+          {
+            "result": {
+              "duration": 1435048500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Alt menüden Toplu Veri İndirme seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu Veri İndirme",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.altMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "63496cb5-ccd4-4ce4-866e-ac22a6aea35e"
+          },
+          {
+            "result": {
+              "duration": 988661400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Filtrelerden Talep No filtresine Rapor No bilgisi yaz",
+            "match": {
+              "location": "filtreler.filtreRaporNoYaz()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "441b9874-7e83-4fb7-b8b4-8ed91513e2d8"
+          },
+          {
+            "result": {
+              "duration": 558764200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "562bee11-fab9-4a5e-97b2-2ac73eaae85d"
+          },
+          {
+            "result": {
+              "duration": 6132942800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "105e0d76-ef4c-46a6-87fc-5688c2cd216a"
+          },
+          {
+            "result": {
+              "duration": 3248029200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3299babc-9fa4-4ef3-9e7f-0c0849e8ca31"
+          }
+        ]
+      }
+    ],
+    "name": "e-Irsaliye Giden Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secilenlerin indirilmesi",
+    "description": "",
+    "id": "e-ırsaliye-giden-kutusu-uygulama-yanıtları-toplu-ındirme---ubl-secilenlerin-indirilmesi",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Downloads/EES_Katalon-main/Include/features/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Toplu Indirme.feature",
+    "tags": []
+  }
+]
