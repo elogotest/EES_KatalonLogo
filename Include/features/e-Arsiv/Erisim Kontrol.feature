@@ -38,5 +38,5 @@ Feature: e-Arsiv Erisim Kontrol
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | tag     | tag1                | kullaniciAdi |
-      | ELOGO6       | 123456 | invoice | earsiv:eArsivRaporu | ELOGOGIB     |
+      | kullaniciAdi | sifre  | tag     | tag1                | kullaniciAdi1 |
+      | ELOGO6       | 123456 | invoice | earsiv:eArsivRaporu | ELOGOGIB      |
