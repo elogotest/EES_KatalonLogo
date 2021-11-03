@@ -245,4 +245,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/UBL-Goster-Indir</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fbddc811-267a-4283-8b46-de1a35ee4ab1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Erisim Kontrol</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

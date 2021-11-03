@@ -125,4 +125,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Raporlari/Yeniden Olustur</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>74b78b13-d939-4e2a-a1b7-c2d69493bb31</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Arsiv/Erisim Kontrol</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

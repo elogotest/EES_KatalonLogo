@@ -191,4 +191,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Varsayilan Ile Goster</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>cdf9067c-f4fb-4919-8b4e-9b18caf88fb8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Erisim Kontrol</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
