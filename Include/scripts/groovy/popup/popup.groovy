@@ -76,4 +76,9 @@ class popup {
 	def RaporNoBilgisiKayitEdilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Popup/RaporNoBilgisiKayitEdilir"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Popup email (.*) olarak girilir")
+	def popupeMailGirilir(String email) {
+		WebUI.callTestCase(findTestCase("Test Cases/Popup/PopupaEmailEklenir"), ["Email":email] , FailureHandling.STOP_ON_FAILURE)
+	}
 }

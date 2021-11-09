@@ -13,14 +13,16 @@ Feature: e-Serbest Meslek Makbuz Raporlari excele aktarma
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel 'e Aktar butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
-    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Tümünü Excel 'e Aktar butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
-    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Ana menüden Raporlar seçilir
     * Alt menüden Toplu Veri İndirme seçilir
@@ -30,5 +32,5 @@ Feature: e-Serbest Meslek Makbuz Raporlari excele aktarma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGO6       | 123456 |   11.01.2021 |    11.01.2021 |     1641 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                    |
+      | ELOGO6       | 123456 |   11.01.2021 |    11.01.2021 |     1641 | elogotest@gmail.com;ali.kara@logo.com.tr |

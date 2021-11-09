@@ -13,14 +13,16 @@ Feature: e-Mustahsil Makbuzu Raporlari excele aktarma
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel'e Aktar butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
-    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Tümünü Excel'e Aktar butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
-    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Anasayfaya geri dönülür
     * Ana menüden Raporlar seçilir
@@ -31,5 +33,5 @@ Feature: e-Mustahsil Makbuzu Raporlari excele aktarma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGO6       | 123456 |   09.01.2021 |    09.01.2021 |     2891 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                    |
+      | ELOGO6       | 123456 |   09.01.2021 |    09.01.2021 |     2891 | elogotest@gmail.com;ali.kara@logo.com.tr |

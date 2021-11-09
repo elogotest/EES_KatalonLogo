@@ -11,14 +11,16 @@ Feature: e-Arsiv Raporunun excele aktarilmasi
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel'e Aktar butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
-    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Tümünü Excel'e Aktar butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
-    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Ana menüden Raporlar seçilir
     * Alt menüden Toplu Veri İndirme seçilir
@@ -28,5 +30,5 @@ Feature: e-Arsiv Raporunun excele aktarilmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi |
-      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 |
+      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi | Email                                    |
+      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 | elogotest@gmail.com;ali.kara@logo.com.tr |

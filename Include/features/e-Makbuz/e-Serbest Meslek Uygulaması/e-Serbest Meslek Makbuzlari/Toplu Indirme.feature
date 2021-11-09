@@ -13,15 +13,17 @@ Feature: e-Serbest Meslek Makbuzlari Toplu Indirme - PDF Secilenlerin indirilmes
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan PDF Seçilenleri İndir butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
-    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     #* Ön eki EArchiveInvoice olan dosya indirildi mi
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan PDF Tümünü İndir butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
-    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Ana menüden Raporlar seçilir
     * Alt menüden Toplu Veri İndirme seçilir
@@ -32,5 +34,5 @@ Feature: e-Serbest Meslek Makbuzlari Toplu Indirme - PDF Secilenlerin indirilmes
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                    |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     | elogotest@gmail.com;ali.kara@logo.com.tr |

@@ -13,15 +13,17 @@ Feature: e-Arsiv Toplu Indirme - PDF Tumunun indirilmesi
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan PDF Tümünü İndir butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
-    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     #* Ön eki EArchiveInvoice olan dosya indirildi mi
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan PDF Seçilenleri İndir butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
-    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Ana menüden Raporlar seçilir
     * Alt menüden Toplu Veri İndirme seçilir
@@ -32,5 +34,5 @@ Feature: e-Arsiv Toplu Indirme - PDF Tumunun indirilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  |
-      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  | Email                                    |
+      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test | elogotest@gmail.com;ali.kara@logo.com.tr |
