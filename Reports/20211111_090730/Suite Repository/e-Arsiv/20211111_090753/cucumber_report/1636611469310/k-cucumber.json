@@ -1,0 +1,254 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "d2ed9cbd-e1fd-4d39-a584-f7912b647688",
+        "line": 19,
+        "name": "e-Arsiv Faturasi Tablodaki Verinin Gorseli",
+        "description": "",
+        "id": "e-arsiv-faturasi-tablodaki-verinin-gorseli;e-arsiv-faturasi-tablodaki-verinin-gorseli;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10060653800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "de7bd96e-af46-4c49-ab73-054282e9f01c"
+          },
+          {
+            "result": {
+              "duration": 559824900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Arşiv seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Arşiv",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "11f4c1a1-3868-4837-89c2-da86cd7a4d89"
+          },
+          {
+            "result": {
+              "duration": 4736595800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Arşiv Hareketleri",
+                  "offset": 9
+                },
+                {
+                  "val": "e-Arşiv Faturaları",
+                  "offset": 47
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6a8f3d89-2632-4dbd-9988-f280d02c0e19"
+          },
+          {
+            "result": {
+              "duration": 2002337800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.02.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.02.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8f99e94c-e891-4ee3-83ed-5ab489d4d952"
+          },
+          {
+            "result": {
+              "duration": 1950930000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 29.02.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "29.02.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "883f7f2e-06e8-4c5c-b660-d8b956bf4f75"
+          },
+          {
+            "result": {
+              "duration": 647734600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "96bdd581-c4b9-4462-89fe-02ba878d2a85"
+          },
+          {
+            "result": {
+              "duration": 1101487500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5e03bf11-113b-4f53-9e5d-77c4e6e9ac76"
+          },
+          {
+            "result": {
+              "duration": 1923900000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tablodaki sena şahin isimli verinin Fatura adlı butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sena şahin",
+                  "offset": 10
+                },
+                {
+                  "val": "Fatura",
+                  "offset": 36
+                }
+              ],
+              "location": "tablo.tablodakiVerininButonunaTiklanir(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1fd6c107-b3f4-4225-a94e-a59e75b59065"
+          },
+          {
+            "result": {
+              "duration": 109377300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9e43eb4f-58c3-4e6c-9d63-313915486664"
+          },
+          {
+            "result": {
+              "duration": 1597660700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Yeni sekme başlığında e-Arşiv var mı kontrol edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Arşiv",
+                  "offset": 22
+                }
+              ],
+              "location": "sekmeler.yeniSekmedeVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "dc038db5-38ea-4d7c-bd55-3bf3595be74b"
+          },
+          {
+            "result": {
+              "duration": 157826000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f4fd402a-3a0a-4415-b68e-6af72b1dd85d"
+          },
+          {
+            "result": {
+              "duration": 3144388900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "55171406-d3be-4d22-a212-d6e010280897"
+          }
+        ]
+      }
+    ],
+    "name": "e-Arsiv Faturasi Tablodaki Verinin Gorseli",
+    "description": "",
+    "id": "e-arsiv-faturasi-tablodaki-verinin-gorseli",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Tablodaki Verinin Gorseli.feature",
+    "tags": []
+  }
+]

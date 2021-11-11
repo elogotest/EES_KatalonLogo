@@ -1,0 +1,970 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "1c31858f-2494-4be4-9ea3-c9a02b4a913a",
+        "line": 60,
+        "name": "e-Fatura Erisim Kontrol",
+        "description": "",
+        "id": "e-fatura-erisim-kontrol;e-fatura-erisim-kontrol;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13097083200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7477c6b8-d175-47c0-b18f-c0df482b9c3a"
+          },
+          {
+            "result": {
+              "duration": 3884352800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/IncomingInvoiceDisplayUbl?InvoiceIDs\u003d53937971 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/IncomingInvoiceDisplayUbl?InvoiceIDs\u003d53937971",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8da68e6b-3a1a-4432-ad84-d15cfe266d14"
+          },
+          {
+            "result": {
+              "duration": 486994500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "invoice tagli ubl geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invoice",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.ublGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "68285396-1fa3-43a3-97f5-b89aea3ecd27"
+          },
+          {
+            "result": {
+              "duration": 2233065800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/IncomingInvoiceDisplayUbl?InvoiceIDs\u003d53782980 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/IncomingInvoiceDisplayUbl?InvoiceIDs\u003d53782980",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7e953060-fcdc-4073-9c7c-b7a3e1f14a03"
+          },
+          {
+            "result": {
+              "duration": 1389051500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d885cf44-a9da-476c-bda5-c00f7a494723"
+          },
+          {
+            "result": {
+              "duration": 2512835000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/IncomingInvoiceDisplayPDF?InvoiceIDs\u003d53937970 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/IncomingInvoiceDisplayPDF?InvoiceIDs\u003d53937970",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c09a5e52-c199-4ea3-918b-634c0fd12f65"
+          },
+          {
+            "result": {
+              "duration": 84834100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "PDF açıldı mı",
+            "match": {
+              "location": "butonlar.pdfGorseliKontrolEdilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "09f5f2a0-76e1-495c-8025-f7edcaee02a9"
+          },
+          {
+            "result": {
+              "duration": 2247638500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/IncomingInvoiceDisplayPDF?InvoiceIDs\u003d53782980 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/IncomingInvoiceDisplayPDF?InvoiceIDs\u003d53782980",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "64a3b38c-976c-4ec8-95c0-0a031fa4e83b"
+          },
+          {
+            "result": {
+              "duration": 437920100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "36805b6f-e05d-43e6-8453-8c83e5488bd3"
+          },
+          {
+            "result": {
+              "duration": 3078812500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/InvoiceDisplayWithGF?opType\u003d0\u0026InvoiceIDs\u003d53938685 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/InvoiceDisplayWithGF?opType\u003d0\u0026InvoiceIDs\u003d53938685",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "bf48c129-9320-45a2-814f-df80b1e3538b"
+          },
+          {
+            "result": {
+              "duration": 654284700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Yeni sekme başlığında e-FATURA var mı kontrol edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-FATURA",
+                  "offset": 22
+                }
+              ],
+              "location": "sekmeler.yeniSekmedeVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9fd258f1-ef83-4ddc-be8a-b4ecb430c8a2"
+          },
+          {
+            "result": {
+              "duration": 2238786600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/InvoiceDisplayWithGF?opType\u003d0\u0026InvoiceIDs\u003d53910450 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/InvoiceDisplayWithGF?opType\u003d0\u0026InvoiceIDs\u003d53910450",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9dca5719-8de3-484d-9bd6-5e12336477b4"
+          },
+          {
+            "result": {
+              "duration": 546427900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ea51ad1e-62c7-48c2-8a4f-c321ce7662ca"
+          },
+          {
+            "result": {
+              "duration": 2241237300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/IncomingInvoiceDisplayInvoice?InvoiceID\u003d53910450 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/IncomingInvoiceDisplayInvoice?InvoiceID\u003d53910450",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "24d51df1-7135-472f-8f9f-f8dbbd9df9bd"
+          },
+          {
+            "result": {
+              "duration": 519873300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9da2c4e7-03d6-48b7-a7bd-f166760031c6"
+          },
+          {
+            "result": {
+              "duration": 2915552900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/OutgoingInvoiceDisplayUbl?InvoiceIDs\u003d53937923 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/OutgoingInvoiceDisplayUbl?InvoiceIDs\u003d53937923",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "678d59b1-09a7-4cbf-a9a8-cd0e1d2383da"
+          },
+          {
+            "result": {
+              "duration": 582174600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "invoice tagli ubl geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invoice",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.ublGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b445fd18-9f24-48d2-b3b1-30dff1a2f4b2"
+          },
+          {
+            "result": {
+              "duration": 2300912000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/OutgoingInvoiceDisplayUbl?InvoiceIDs\u003d53917516 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/OutgoingInvoiceDisplayUbl?InvoiceIDs\u003d53917516",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a96aa81b-c635-40a3-a521-9ab0decf8dd5"
+          },
+          {
+            "result": {
+              "duration": 730312800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f0a7816c-7c9d-4575-a957-96bfbbae9d5c"
+          },
+          {
+            "result": {
+              "duration": 2393098400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/OutgoingInvoiceDisplayPDF?InvoiceIDs\u003d53937923 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/OutgoingInvoiceDisplayPDF?InvoiceIDs\u003d53937923",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "30270b84-96a0-4da1-b576-a09918c1f50c"
+          },
+          {
+            "result": {
+              "duration": 112311000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "PDF açıldı mı",
+            "match": {
+              "location": "butonlar.pdfGorseliKontrolEdilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4876784e-5084-4f68-ac57-36123aa6acd7"
+          },
+          {
+            "result": {
+              "duration": 2306250000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/OutgoingInvoiceDisplayPDF?InvoiceIDs\u003d53917516 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/OutgoingInvoiceDisplayPDF?InvoiceIDs\u003d53917516",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "bc194342-0586-4842-a671-42b81dbc7e6f"
+          },
+          {
+            "result": {
+              "duration": 445989700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ebb7f26b-918d-4987-83e1-0cda04987b1e"
+          },
+          {
+            "result": {
+              "duration": 2876170100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/InvoiceDisplayWithGF?opType\u003d1\u0026InvoiceIDs\u003d53938665 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/InvoiceDisplayWithGF?opType\u003d1\u0026InvoiceIDs\u003d53938665",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ca2d5ec4-05a0-41e3-bbe0-cae0da0497cb"
+          },
+          {
+            "result": {
+              "duration": 457507100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Yeni sekme başlığında e-FATURA var mı kontrol edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-FATURA",
+                  "offset": 22
+                }
+              ],
+              "location": "sekmeler.yeniSekmedeVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "afed4e0a-cda4-489c-92c4-d2ef4a5214cd"
+          },
+          {
+            "result": {
+              "duration": 2243221600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/InvoiceDisplayWithGF?opType\u003d1\u0026InvoiceIDs\u003d53935639 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/InvoiceDisplayWithGF?opType\u003d1\u0026InvoiceIDs\u003d53935639",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d0cda1c2-7b0f-479b-ab96-337943029e2d"
+          },
+          {
+            "result": {
+              "duration": 474712500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "bb6cd175-c386-4b28-9220-6d5e29dbdcbd"
+          },
+          {
+            "result": {
+              "duration": 2360954400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayUBL?id\u003d15102201 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayUBL?id\u003d15102201",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d33c57f5-6452-4eb5-98e8-28d548b227ca"
+          },
+          {
+            "result": {
+              "duration": 466380900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "ApplicationResponse tagli ubl geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ApplicationResponse",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.ublGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a7b5fe13-b52d-4eb8-857f-429a1c42d8fd"
+          },
+          {
+            "result": {
+              "duration": 2232522300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayUBL?id\u003d15100352 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayUBL?id\u003d15100352",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5c24fe41-5e15-4224-a976-f0841435d176"
+          },
+          {
+            "result": {
+              "duration": 506905000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ba1f7fbd-599a-44e1-9fe0-c9aa3eef25e8"
+          },
+          {
+            "result": {
+              "duration": 2980260600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayInvoice?id\u003d15102201 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayInvoice?id\u003d15102201",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5b4bafc4-0202-483e-b8e7-e4c8f36d54ca"
+          },
+          {
+            "result": {
+              "duration": 954333700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Yeni sekme başlığında e-FATURA var mı kontrol edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-FATURA",
+                  "offset": 22
+                }
+              ],
+              "location": "sekmeler.yeniSekmedeVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6bc97dcf-c00b-4f99-96c9-30bbb3c3fc3d"
+          },
+          {
+            "result": {
+              "duration": 2281064000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayInvoice?id\u003d15100350 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayInvoice?id\u003d15100350",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a85412bb-29df-4e6f-8b52-931448ab414b"
+          },
+          {
+            "result": {
+              "duration": 447917100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ac653909-7602-4589-9143-e74a80067813"
+          },
+          {
+            "result": {
+              "duration": 2440917700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayResponse?id\u003d15102201 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayResponse?id\u003d15102201",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ce938d41-9b01-41f4-8889-068de776a40e"
+          },
+          {
+            "result": {
+              "duration": 511648300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Yeni sekme başlığında UYGULAMA YANITI var mı kontrol edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UYGULAMA YANITI",
+                  "offset": 22
+                }
+              ],
+              "location": "sekmeler.yeniSekmedeVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7b81fbe3-5200-4671-90f1-11669752d429"
+          },
+          {
+            "result": {
+              "duration": 2224316600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayResponse?id\u003d15100350 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/ApplicationResponses/OutgoingDisplayResponse?id\u003d15100350",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0402c561-d883-4bfa-8151-b4943f1de79d"
+          },
+          {
+            "result": {
+              "duration": 470096200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6f2337d5-a5d2-4099-908b-af94e9ac45b2"
+          },
+          {
+            "result": {
+              "duration": 4709283000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/PostboxIncomingInvoice?Option\u003d0 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/PostboxIncomingInvoice?Option\u003d0",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "48a146dd-009c-4075-b6a9-34d7ce27926e"
+          },
+          {
+            "result": {
+              "duration": 3445492100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "2e9b2355-2f11-4936-9ae3-42cb80b2c11b"
+          },
+          {
+            "result": {
+              "duration": 12601213000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Kullanıcı adı ELOGOGIB ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGOGIB",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 32
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3af44039-0b2f-4f7f-bf10-a41fee00a96e"
+          },
+          {
+            "result": {
+              "duration": 2223573900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "https://efatura-stage.elogo.com.tr/ApplicationResponses/IncomingDisplayResponse?id\u003d15102391 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/ApplicationResponses/IncomingDisplayResponse?id\u003d15102391",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6169ac81-650e-41d7-b27c-a174cb8fbdc1"
+          },
+          {
+            "result": {
+              "duration": 439856600,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a933b169-83c7-4f8b-af09-457815263d00"
+          },
+          {
+            "result": {
+              "duration": 2226542400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "https://efatura-stage.elogo.com.tr/ApplicationResponses/IncomingDisplayUBL?id\u003d15102391 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/ApplicationResponses/IncomingDisplayUBL?id\u003d15102391",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8df56159-89a5-4f1c-8479-8cdf8ae6056e"
+          },
+          {
+            "result": {
+              "duration": 418776200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3360ae14-aff0-40c8-9b77-acddcd5e465a"
+          },
+          {
+            "result": {
+              "duration": 2217710600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "https://efatura-stage.elogo.com.tr/ApplicationResponses/IncomingDisplayInvoice?id\u003d15102390 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/ApplicationResponses/IncomingDisplayInvoice?id\u003d15102390",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "77085cd2-290f-40e8-ad9f-980a04a6f06c"
+          },
+          {
+            "result": {
+              "duration": 439473400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız.",
+                  "offset": 20
+                }
+              ],
+              "location": "sekmeler.hataMesajiGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c50be13c-19d9-47ba-b9db-9a91365dc92c"
+          },
+          {
+            "result": {
+              "duration": 3182581000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "https://efatura-stage.elogo.com.tr/Invoice/PostboxIncomingInvoice?Option\u003d0 isimli linke gidilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://efatura-stage.elogo.com.tr/Invoice/PostboxIncomingInvoice?Option\u003d0",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.linkSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "52c07ed3-ad25-47a2-8d92-f7a379c98508"
+          },
+          {
+            "result": {
+              "duration": 3280053400,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9fceef8f-4cb4-4d43-8bd2-e8f8f8224ba4"
+          }
+        ]
+      }
+    ],
+    "name": "e-Fatura Erisim Kontrol",
+    "description": "",
+    "id": "e-fatura-erisim-kontrol",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Fatura/Erisim Kontrol.feature",
+    "tags": []
+  }
+]
