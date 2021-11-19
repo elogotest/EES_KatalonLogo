@@ -126,4 +126,19 @@ class butonlar {
 	def raporlarSayfaBoyutu(String sayfaBoyutu) {
 		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutuRaporlar"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Zarflar sayfa boyutu (.*) olarak seçilir")
+	def zarflarSayfaBoyutu(String sayfaBoyutu) {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutuZarflar"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Gelen zarflar altındaki zarfa git butonuna tıklanır")
+	def zarfaGitGelenTikla() {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/ZarfaGitGelenZarflar"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Giden zarflar altındaki zarfa git butonuna tıklanır")
+	def zarfaGitGidenTikla() {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/ZarfaGitGidenZarflar"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
 }

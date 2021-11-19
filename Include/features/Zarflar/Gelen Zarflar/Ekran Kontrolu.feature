@@ -9,6 +9,11 @@ Feature: Gelen Zarflar Buton Kontrolu
     * Filtre butonlarından Listele seçilir
     * Tablodan Test Kurum 6 isimli verinin detayı tıklanır
     * Tablodan Test Kurum 6 isimli verinin detayı tıklanır
+    * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
+    * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
+    * Zarflar sayfa boyutu 20 olarak seçilir
+    * Zarflar sayfa boyutu 50 olarak seçilir
+    * Zarflar sayfa boyutu 10 olarak seçilir
     * Filtre alanlarında Zarf ID var mı
     * Filtre alanlarında Durum Kodu var mı
     * Filtre alanlarında Oluşturma Tarihi var mı
@@ -32,6 +37,12 @@ Feature: Gelen Zarflar Buton Kontrolu
     * Alt butonlardan UBL Tümünü İndir var mı
     * Butonlardan İndir isimli butona tıklanır
     * Alt butonlardan İndir var mı
+    * Tablodan Test Kurum 6 isimli verinin detayı tıklanır
+    * Gelen zarflar altındaki zarfa git butonuna tıklanır
+    * Yeni açılan sekmeye geçilir
+    * Tabloda veri var mı kontrol edilir
+    * Ana sekmeye geçilir
+    * Tablodan Test Kurum 6 isimli verinin detayı tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

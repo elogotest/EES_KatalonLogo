@@ -77,4 +77,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Zarflar/Erisim Kontrol</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8184d703-44f8-428a-b3cc-dff048872347</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Zarflar/Giden Zarflar/UBL-Goster</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

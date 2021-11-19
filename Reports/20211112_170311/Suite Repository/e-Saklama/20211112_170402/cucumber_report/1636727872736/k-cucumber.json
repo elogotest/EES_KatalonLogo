@@ -1,0 +1,299 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "cf36e446-252d-4fbb-bda4-9eba97a1b089",
+        "line": 21,
+        "name": "e-Defter Saklama Goster",
+        "description": "",
+        "id": "e-defter-saklama-goster;e-defter-saklama-goster;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12886885200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "40ab3801-4387-4e0d-b63e-b273bb334691"
+          },
+          {
+            "result": {
+              "duration": 637869900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Saklama seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Saklama",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "708c1598-ae67-4f38-8d75-5e3f1d28504e"
+          },
+          {
+            "result": {
+              "duration": 2780334800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü e-Defter başlığı altındaki e-Defter Saklama seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Defter",
+                  "offset": 9
+                },
+                {
+                  "val": "e-Defter Saklama",
+                  "offset": 36
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "71507337-6a73-43ed-9acc-be8a10fbbb6e"
+          },
+          {
+            "result": {
+              "duration": 1415255500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "21d1d522-861b-4ab1-ba6e-9e8ad62d13c8"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepErrorException: Call Test Case \u0027Test Cases/Tablo/KlasorAcilir\u0027 failed because of error(s)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\r\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)\r\n\tat tablo.tablo.adliKlasorAcilir(tablo.groovy:166)\r\n\tat ✽.2021 adlı klasör açılır(C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Saklama/e-Defter/e-Defter Saklama/Sil.feature:8)\r\nCaused by: org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: \n\nassert a\n       |\n       false\n\r\n\tat Method.invokeMethod(Method.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat KlasorAcilir.run(KlasorAcilir:19)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)\r\n\tat com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:138)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\r\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)\r\n\tat tablo.tablo.adliKlasorAcilir(tablo.groovy:166)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:49)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:44)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.Runtime$1.run(Runtime.java:84)\r\n\tat cucumber.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:220)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:81)\r\n\tat cucumber.api.cli.Main.run(Main.java:26)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:106)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Sil.run(Sil:19)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1636725842452.run(TempTestSuite1636725842452.groovy:39)\r\nCaused by: Assertion failed: \n\nassert a\n       |\n       false\n\r\n\tat Method.TextDegerineEsitElementinAltindakineTikla(Method.groovy:262)\r\n\t... 56 more\r\n",
+              "duration": 11487011800,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "2021 adlı klasör açılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2021",
+                  "offset": 0
+                }
+              ],
+              "location": "tablo.adliKlasorAcilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "475961e0-1563-4b9c-81ea-ad2d4ff3b079"
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Mart 2021 adlı klasör açılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mart 2021",
+                  "offset": 0
+                }
+              ],
+              "location": "tablo.adliKlasorAcilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ad00ad74-7892-4179-b8f2-366095cbb091"
+          },
+          {
+            "result": {
+              "duration": 11200,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Yevmiye Dosyaları adlı klasör açılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yevmiye Dosyaları",
+                  "offset": 0
+                }
+              ],
+              "location": "tablo.adliKlasorAcilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "49a8f08c-a441-46cf-8c27-7a2ce435571f"
+          },
+          {
+            "result": {
+              "duration": 1300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Berat Dosyaları adlı klasör açılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Berat Dosyaları",
+                  "offset": 0
+                }
+              ],
+              "location": "tablo.adliKlasorAcilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "785aa2cf-0306-4005-8c63-243aa01aba2f"
+          },
+          {
+            "result": {
+              "duration": 1300,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "1234567806-202103-YB-000001.zip adlı klasör seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567806-202103-YB-000001.zip",
+                  "offset": 0
+                }
+              ],
+              "location": "tablo.adliKlasorSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "949df26a-677a-4cf2-aa3e-e1846f69b8b5"
+          },
+          {
+            "result": {
+              "duration": 3200,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Butonlardan Sil isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sil",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b4c11429-6dfc-4d13-a34e-0026a29f54bb"
+          },
+          {
+            "result": {
+              "duration": 1000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Popup mesajı Seçili e-Defter dosyaları silinecektir içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Seçili e-Defter dosyaları silinecektir",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4427f7aa-e595-4819-a279-0e2fe31c5916"
+          },
+          {
+            "result": {
+              "duration": 1200,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Yönetim popupında Evet seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Evet",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d7e8dff5-aa6b-482c-80dc-5f1e5cbf0efa"
+          },
+          {
+            "result": {
+              "duration": 1300,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "588a3423-1735-459d-af75-7b273873d8f7"
+          },
+          {
+            "result": {
+              "duration": 1200,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "579cbccf-4655-47c3-985c-2b4810af0f46"
+          }
+        ]
+      }
+    ],
+    "name": "e-Defter Saklama Goster",
+    "description": "",
+    "id": "e-defter-saklama-goster",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Saklama/e-Defter/e-Defter Saklama/Sil.feature",
+    "tags": []
+  }
+]

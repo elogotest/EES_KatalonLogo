@@ -19,5 +19,5 @@ Feature: e-Defter Saklama Indir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | dosyaIsmi                           |
-      | ELOGO6       | 123456 | 6090408038-202001-Y-000000-0001.zip |
+      | kullaniciAdi | sifre  | dosyaIsmi                      |
+      | ELOGOGIB     | 123456 | 6090408038-202001-Y-000000.zip |

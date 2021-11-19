@@ -1,0 +1,281 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "6156f3af-82a6-4307-8d6f-10c477d3b6db",
+        "line": 20,
+        "name": "Faturaya Statu Ata",
+        "description": "",
+        "id": "faturaya-statu-ata;faturaya-statu-ata;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10127551000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "dc457a66-e477-4847-b541-e24d8e327690"
+          },
+          {
+            "result": {
+              "duration": 618517100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Fatura seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Fatura",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "79a1ae79-13cc-4b22-af8c-5ea7f7610444"
+          },
+          {
+            "result": {
+              "duration": 3582856900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Giden Kutusu",
+                  "offset": 9
+                },
+                {
+                  "val": "Faturalar",
+                  "offset": 40
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7d7c7450-3f76-47ad-8f6b-09ace0c58e0f"
+          },
+          {
+            "result": {
+              "duration": 2188525200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b1b5f9f1-2feb-475e-856c-b78e0a1a73bd"
+          },
+          {
+            "result": {
+              "duration": 2011975500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "731d742d-121b-4c78-8285-1c554f85a7cd"
+          },
+          {
+            "result": {
+              "duration": 597995200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "bfed4670-a5b8-415f-9296-b51720f1823e"
+          },
+          {
+            "result": {
+              "duration": 890156700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "892c839c-edc9-4ac5-b974-7a262710cd47"
+          },
+          {
+            "result": {
+              "duration": 838448700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tablodan TEST isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TEST",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "66171e33-0e71-442b-a385-6f9c2079b648"
+          },
+          {
+            "result": {
+              "duration": 630319500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Butonlardan Statü Ata isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Statü Ata",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "2ac25375-9f75-4efd-920b-c7dc68651131"
+          },
+          {
+            "result": {
+              "duration": 537627400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Alt butonlardan Öndeğer butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Öndeğer",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f4fcea83-da75-4cda-a02e-0cb7ec6182f8"
+          },
+          {
+            "result": {
+              "duration": 1842777800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Popup mesajı Statü Başarılı Olarak Güncellendi içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Statü Başarılı Olarak Güncellendi",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "af5ed00c-43a6-4d98-9cb2-b6c7f5c63b7f"
+          },
+          {
+            "result": {
+              "duration": 513774100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "df59a7a3-42d9-4ee3-988e-42e13095a920"
+          },
+          {
+            "result": {
+              "duration": 4926617400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "877fefe3-778b-430f-8357-340a87f4052f"
+          }
+        ]
+      }
+    ],
+    "name": "Faturaya Statu Ata",
+    "description": "",
+    "id": "faturaya-statu-ata",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Fatura/Giden Kutusu/Faturalar/Statu Ata.feature",
+    "tags": []
+  }
+]

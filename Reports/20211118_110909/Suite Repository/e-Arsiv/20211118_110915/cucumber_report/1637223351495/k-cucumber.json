@@ -1,0 +1,458 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "9d9b740e-23a3-41da-835b-04696d28ec3d",
+        "line": 31,
+        "name": "e-Arsiv Faturasi Departman ata",
+        "description": "",
+        "id": "e-arsiv-faturasi-departman-ata;e-arsiv-faturasi-departman-ata;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14337639800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c6dbf4e9-42f2-4772-849d-12ad7427d38e"
+          },
+          {
+            "result": {
+              "duration": 761293400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Arşiv seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Arşiv",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f815198e-e66f-4c88-a12d-5bdd425e442e"
+          },
+          {
+            "result": {
+              "duration": 3054932700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Arşiv Hareketleri",
+                  "offset": 9
+                },
+                {
+                  "val": "e-Arşiv Faturaları",
+                  "offset": 47
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "590a7deb-fd79-48ca-b93e-d16f774af2f2"
+          },
+          {
+            "result": {
+              "duration": 5727274600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.01.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.01.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6ae4b0a1-5fd2-4759-99a5-e8c8447bb83e"
+          },
+          {
+            "result": {
+              "duration": 2421109700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "39635682-e24c-4cfe-bf6a-e93c8640d5b8"
+          },
+          {
+            "result": {
+              "duration": 1495437800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtrelerden Alıcı Ünvanı filtresine xcx cx textini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alıcı Ünvanı",
+                  "offset": 13
+                },
+                {
+                  "val": "xcx cx",
+                  "offset": 37
+                }
+              ],
+              "location": "filtreler.filtreTexboxinaYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "707b7c6e-2e82-4f08-b3c0-b5311f8bd6a2"
+          },
+          {
+            "result": {
+              "duration": 598183300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4e65a94b-117e-4fd0-a539-55ae3a5f4925"
+          },
+          {
+            "result": {
+              "duration": 1738709600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "97854700-43e4-409c-a227-0f496eff0e43"
+          },
+          {
+            "result": {
+              "duration": 945278300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Tablodan xcx cx isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xcx cx",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "2807cda6-2f80-4b98-8c75-0d1495f319b7"
+          },
+          {
+            "result": {
+              "duration": 678765900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Butonlardan Departman Ata isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Departman Ata",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fb608c83-9e5e-4485-95b9-80add24516f5"
+          },
+          {
+            "result": {
+              "duration": 107557400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "200ee8ad-2fba-443a-a9a2-bbfe2b03b2e9"
+          },
+          {
+            "result": {
+              "duration": 915842700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "otomasyon isimli departman checkboxı seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "otomasyon",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.departmanCheckboxiSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ef36b95b-57f8-4f19-bd0d-3bde4e11035a"
+          },
+          {
+            "result": {
+              "duration": 1264040700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Departman kaydedilir",
+            "match": {
+              "location": "sekmeler.departmanKaydedilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d0d8bff1-b5f5-43e2-b495-8e3685e2a654"
+          },
+          {
+            "result": {
+              "duration": 1825932000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Popup mesajı Seçilen belgeler ilgili departmanlara aktarılmıştır içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Seçilen belgeler ilgili departmanlara aktarılmıştır",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "52005bd3-610a-4ab7-bd2f-0f4fd7b7cf30"
+          },
+          {
+            "result": {
+              "duration": 493434500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "70882d5b-56ae-4ea6-b9eb-00b85bd0da8a"
+          },
+          {
+            "result": {
+              "duration": 113620000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ad1a4727-f10a-41a1-bbcb-7cc67ccc7c66"
+          },
+          {
+            "result": {
+              "duration": 766816000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Butonlardan Departman Geri Al isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Departman Geri Al",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "bac86062-f262-485b-abdd-3717b9411aab"
+          },
+          {
+            "result": {
+              "duration": 111039200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "79b3d8a2-f9f9-4356-92f1-6188cd35c4bf"
+          },
+          {
+            "result": {
+              "duration": 757357500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "otomasyon isimli departman checkboxı seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "otomasyon",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.departmanCheckboxiSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "dc18b4a1-9ee0-49e1-b67b-4f246e0b4a7e"
+          },
+          {
+            "result": {
+              "duration": 900328800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Departman kaydedilir",
+            "match": {
+              "location": "sekmeler.departmanKaydedilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "02d5844c-5347-46cb-8c80-39b8bdc256b3"
+          },
+          {
+            "result": {
+              "duration": 2028410000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Popup mesajı Seçilen belgelerin ilgili departmanlardaki yetkisi kaldırılmıştır içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Seçilen belgelerin ilgili departmanlardaki yetkisi kaldırılmıştır",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "cb676b90-2a92-4ccb-adc1-3ffe85d09b51"
+          },
+          {
+            "result": {
+              "duration": 527609300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a664fd42-097c-4e8e-bbc8-f6b2c0cf5228"
+          },
+          {
+            "result": {
+              "duration": 123624900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "81859095-a39c-4dd0-bb68-69634940585c"
+          },
+          {
+            "result": {
+              "duration": 3206485900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b13ffd76-b915-4526-8963-3be14c1ab5e6"
+          }
+        ]
+      }
+    ],
+    "name": "e-Arsiv Faturasi Departman ata",
+    "description": "",
+    "id": "e-arsiv-faturasi-departman-ata",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Departman Ata-Geri Al.feature",
+    "tags": []
+  }
+]

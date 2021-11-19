@@ -13,6 +13,7 @@ Feature: Giden Zarflar Toplu Indirme - UBL Secilenlerin indirilmesi
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan UBL Seçilenleri İndir butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
@@ -20,6 +21,7 @@ Feature: Giden Zarflar Toplu Indirme - UBL Secilenlerin indirilmesi
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan UBL Tümünü İndir butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
@@ -32,5 +34,5 @@ Feature: Giden Zarflar Toplu Indirme - UBL Secilenlerin indirilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi     |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Test Kurum 6 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi     |Email                                    |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Test Kurum 6 |elogotest@gmail.com;ali.kara@logo.com.tr |

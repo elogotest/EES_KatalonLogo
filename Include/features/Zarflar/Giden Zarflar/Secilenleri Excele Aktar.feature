@@ -12,12 +12,14 @@ Feature: Giden Zarf excele aktar
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Seçilenleri Excel'e Aktar butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Tümünü Excel'e Aktar butonuna tıklanır
     * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Popup email <Email> olarak girilir
     * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
@@ -29,5 +31,5 @@ Feature: Giden Zarf excele aktar
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi     |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Test Kurum 6 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi     |Email                                    |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Test Kurum 6 |elogotest@gmail.com;ali.kara@logo.com.tr |

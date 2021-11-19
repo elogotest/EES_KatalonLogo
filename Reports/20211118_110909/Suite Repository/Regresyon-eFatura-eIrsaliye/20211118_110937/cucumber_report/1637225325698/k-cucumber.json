@@ -1,0 +1,785 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "b3feedf7-97bc-42e3-bc63-711f58558b4d",
+        "line": 47,
+        "name": "TCKNo ile Hal Tipi Irsaliye senaryosunda irsaliye olusturulmasi ve Excele aktarilmasi",
+        "description": "",
+        "id": "tckno-ile-hal-tipi-ırsaliye-senaryosunda-irsaliye-olusturulmasi-ve-excele-aktarilmasi;tckno-ile-hal-tipi-ırsaliye-senaryosunda-irsaliye-olusturulmasi-ve-excele-aktarilmasi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11164702700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f3d24548-085c-4f90-8893-d86c241e585f"
+          },
+          {
+            "result": {
+              "duration": 533994300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-İrsaliye seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-İrsaliye",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "78ee25b4-de14-41b8-a6ff-006c3cd833b8"
+          },
+          {
+            "result": {
+              "duration": 2600941300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü e-İrsaliye Araçları başlığı altındaki e-İrsaliye Oluşturma seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-İrsaliye Araçları",
+                  "offset": 9
+                },
+                {
+                  "val": "e-İrsaliye Oluşturma",
+                  "offset": 47
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a68bed4a-283b-403c-854e-2d132664cb52"
+          },
+          {
+            "result": {
+              "duration": 3572818000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tablodaki tüm veriler silinir",
+            "match": {
+              "location": "tablo.olusturmaTarihi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8f6e3128-e32b-4d65-bcbb-6245236c1203"
+          },
+          {
+            "result": {
+              "duration": 953734000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Butonlardan Ekle isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ekle",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "beaa0b8a-3f12-4451-a5fe-c641f805e1b1"
+          },
+          {
+            "result": {
+              "duration": 3666205700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Görsel tasarım sayfasının İrsaliye Bilgileri başlığını içerdiği kontrol edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "İrsaliye Bilgileri",
+                  "offset": 26
+                }
+              ],
+              "location": "genel.gorselTasarimSayfasininBasligindaVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "faa00e05-7ab3-41c8-98d1-0882dcc9a58c"
+          },
+          {
+            "result": {
+              "duration": 7623523200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Alıcı adı alanına VirgosolIrsaliyeVKN girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VirgosolIrsaliyeVKN",
+                  "offset": 18
+                }
+              ],
+              "location": "genel.aliciSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a69baf8e-02e5-4b9f-a092-725eece380f8"
+          },
+          {
+            "result": {
+              "duration": 2454672700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Senaryo alanından Hal Tipi İrsaliye seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hal Tipi İrsaliye",
+                  "offset": 18
+                }
+              ],
+              "location": "genel.turSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "603061b0-e870-4f50-ad3f-6b316b262643"
+          },
+          {
+            "result": {
+              "duration": 4838007000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Döküman Para Birimi alanından Euro seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Euro",
+                  "offset": 30
+                }
+              ],
+              "location": "genel.dokumanParaBirimindenSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9cad0753-b8ca-43ee-9e19-f217559dcb41"
+          },
+          {
+            "result": {
+              "duration": 2088335700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Tasarım alanından VirgosolOtomasyon seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VirgosolOtomasyon",
+                  "offset": 18
+                }
+              ],
+              "location": "genel.tasarimSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "bf8ad601-3fc7-4572-9b16-7914557c2a03"
+          },
+          {
+            "result": {
+              "duration": 4834986700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UUC-SAT-1200001",
+                  "offset": 18
+                },
+                {
+                  "val": "31.04.2020",
+                  "offset": 37
+                }
+              ],
+              "location": "genel.siparisBilgileri(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c5803e04-69bc-4376-aae9-9b19536c7aa4"
+          },
+          {
+            "result": {
+              "duration": 14019300300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Farklı Teslimat Adres Tanımı adres,Türkiye,Isparta,Yalvaç,32400 olarak girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adres",
+                  "offset": 29
+                },
+                {
+                  "val": "Türkiye",
+                  "offset": 35
+                },
+                {
+                  "val": "Isparta",
+                  "offset": 43
+                },
+                {
+                  "val": "Yalvaç",
+                  "offset": 51
+                },
+                {
+                  "val": "32400",
+                  "offset": 58
+                }
+              ],
+              "location": "genel.farkliTeslimatAdresTanimi(String,String,String,String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8268901f-3a88-4fc9-a599-2ee1ee7b08a2"
+          },
+          {
+            "result": {
+              "duration": 2716776100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Ekle butonuna basılır",
+            "match": {
+              "location": "genel.ekleButonunaBasilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1a57104b-4013-409f-8758-0afbafeb8252"
+          },
+          {
+            "result": {
+              "duration": 1960458900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Ürün ekleme alanında Malzeme Adı başlığına Otomasyon girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Malzeme Adı",
+                  "offset": 21
+                },
+                {
+                  "val": "Otomasyon",
+                  "offset": 43
+                }
+              ],
+              "location": "genel.malzemeMalHizmetBilgileriGirilir(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d9fb5d24-87e3-42c4-8232-395a57c6171e"
+          },
+          {
+            "result": {
+              "duration": 2364426000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Ürün ekleme alanında Açıklaması başlığına Virgosol girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Açıklaması",
+                  "offset": 21
+                },
+                {
+                  "val": "Virgosol",
+                  "offset": 42
+                }
+              ],
+              "location": "genel.malzemeMalHizmetBilgileriGirilir(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ffa0bfe3-7c91-42be-b226-9c7b51c74db7"
+          },
+          {
+            "result": {
+              "duration": 2329521500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Ürün ekleme alanında Künye Numarası başlığına 1234567890123456789 girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Künye Numarası",
+                  "offset": 21
+                },
+                {
+                  "val": "1234567890123456789",
+                  "offset": 46
+                }
+              ],
+              "location": "genel.malzemeMalHizmetBilgileriGirilir(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fc652348-3831-4b75-992e-f439b7793851"
+          },
+          {
+            "result": {
+              "duration": 2505369400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Ürün ekleme alanında Miktarı başlığına 400 girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Miktarı",
+                  "offset": 21
+                },
+                {
+                  "val": "400",
+                  "offset": 39
+                }
+              ],
+              "location": "genel.malzemeMalHizmetBilgileriGirilir(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "dd96455e-5471-49fa-b116-b9a71cceef84"
+          },
+          {
+            "result": {
+              "duration": 3098290000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Ürün ekleme alanında Birim Fiyat başlığına 100 girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Birim Fiyat",
+                  "offset": 21
+                },
+                {
+                  "val": "100",
+                  "offset": 43
+                }
+              ],
+              "location": "genel.malzemeMalHizmetBilgileriGirilir(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d87a6047-954c-4126-abad-b72c3324249e"
+          },
+          {
+            "result": {
+              "duration": 8631745800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Şöför Bilgileri Virgosol,Otomasyon,11111111110 olarak girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Virgosol",
+                  "offset": 16
+                },
+                {
+                  "val": "Otomasyon",
+                  "offset": 25
+                },
+                {
+                  "val": "11111111110",
+                  "offset": 35
+                }
+              ],
+              "location": "genel.soforBilgileriGirilir(String,String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7374148d-4e08-488f-a95b-0209129aa6b7"
+          },
+          {
+            "result": {
+              "duration": 3552957200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Notlar alanına Otomasyon Not girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Otomasyon Not",
+                  "offset": 15
+                }
+              ],
+              "location": "genel.notGirilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5c1d0443-eb2a-460f-98a7-8c5051b3ba0a"
+          },
+          {
+            "result": {
+              "duration": 1547695500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "E-Irsaliye Ettn bilgisi kayıt edilir",
+            "match": {
+              "location": "genel.IrsaliyeEttnBilgisiKayitEdilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3a216e07-bf7b-4eea-9168-f6665d679231"
+          },
+          {
+            "result": {
+              "duration": 4761800200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Kaydet butonu seçilir",
+            "match": {
+              "location": "genel.kaydetSecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5ea29f51-156b-4ba1-8cde-1ab4e67ca9db"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepErrorException: Call Test Case \u0027Test Cases/Tablo/TablodaEttnliVeriOlusturulduMu\u0027 failed because of error(s)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\r\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)\r\n\tat tablo.tablo.tablodaEttnliVeriOlusturulduMu(tablo.groovy:130)\r\n\tat ✽.Tabloda Ettn bilgisi kaydedilen veri oluşturuldu mu(C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/Regresyon/e-Irsaliye/Hal Tipi Irsaliye.feature:26)\r\nCaused by: org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: \n\nassert a\n       |\n       false\n\r\n\tat Method.invokeMethod(Method.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat TablodaEttnliVeriOlusturulduMu.run(TablodaEttnliVeriOlusturulduMu:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)\r\n\tat com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:138)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\r\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)\r\n\tat tablo.tablo.tablodaEttnliVeriOlusturulduMu(tablo.groovy:130)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:49)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:44)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.Runtime$1.run(Runtime.java:84)\r\n\tat cucumber.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:220)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:81)\r\n\tat cucumber.api.cli.Main.run(Main.java:26)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:106)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Hal Tipi Irsaliye.run(Hal Tipi Irsaliye:19)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1637222977824.run(TempTestSuite1637222977824.groovy:39)\r\nCaused by: Assertion failed: \n\nassert a\n       |\n       false\n\r\n\tat Method.TextDegerineEsitElementVarMi(Method.groovy:277)\r\n\t... 56 more\r\n",
+              "duration": 915929500,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "Tabloda Ettn bilgisi kaydedilen veri oluşturuldu mu",
+            "match": {
+              "location": "tablo.tablodaEttnliVeriOlusturulduMu()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "2b4f6200-0bea-4670-8036-69bfb4e6b098"
+          },
+          {
+            "result": {
+              "duration": 1700,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Tablodan Irsaliye Ettn bilgisi kaydedilen veri seçilir",
+            "match": {
+              "location": "tablo.tablodanIrsaliyeEttnliVeriSecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8d99cba4-af23-42f8-bb81-3d6cf7731f0c"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Butonlardan Numara Oluştur isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Numara Oluştur",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d5bccaab-f3cb-47aa-8953-8aa51d70b316"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Popup mesajı Devam etmek istiyor musunuz içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Devam etmek istiyor musunuz",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c5719093-d955-457e-92d7-fac463465437"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "Yönetim popupında Evet seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Evet",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "72be1553-aa36-4b29-8154-7f62c1500c02"
+          },
+          {
+            "result": {
+              "duration": 200,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Popup mesajı oluşmuştur içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "oluşmuştur",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "2f1f6714-4970-458e-b0c5-0ab1b62c92e5"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "569cf436-5e31-4345-b752-8e9e207228af"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Tablodan Irsaliye Ettn bilgisi kaydedilen veri seçilir",
+            "match": {
+              "location": "tablo.tablodanIrsaliyeEttnliVeriSecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "84523219-e1c2-47c2-991a-f1b2fdcfb17c"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Butonlardan Gönder isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönder",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b45ae089-9335-4750-80bb-db6b21ddf0a5"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Popup mesajı Devam etmek istiyor musunuz içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Devam etmek istiyor musunuz",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5ed456ea-97bb-4a1c-9937-e16bce3ebf4c"
+          },
+          {
+            "result": {
+              "duration": 200,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Yönetim popupında Evet seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Evet",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "57e308fe-6869-4e8e-bb8e-1d65a287be9a"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Ana menüden e-İrsaliye seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-İrsaliye",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8be923f3-e983-4052-8750-6601f7ffbee7"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Alt menü Giden Kutusu başlığı altındaki İrsaliyeler seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Giden Kutusu",
+                  "offset": 9
+                },
+                {
+                  "val": "İrsaliyeler",
+                  "offset": 40
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "edde0231-f921-4744-818e-cf074fe96b1a"
+          },
+          {
+            "result": {
+              "duration": 200,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "Filtrelerden Irsaliye Ettn filtresine Ettn bilgisi yaz",
+            "match": {
+              "location": "filtreler.filtreIrsaliyeEttnYaz()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3b20f733-2247-47e2-842c-ec4e999c486c"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "daba3d76-345c-482b-a70f-caf2e2180181"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9866062a-dff3-44d9-a7c8-6b46abffa24b"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "Tabloda yeni oluşturulan irsaliye verisi başarılı mı",
+            "match": {
+              "location": "tablo.tablodaVeriBasariliMiIrsaliye()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "65802f80-3eed-4ab6-bbfd-2d3d505ee193"
+          },
+          {
+            "result": {
+              "duration": 300,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "aefe0813-3361-4877-b3e9-c547afbca819"
+          }
+        ]
+      }
+    ],
+    "name": "TCKNo ile Hal Tipi Irsaliye senaryosunda irsaliye olusturulmasi ve Excele aktarilmasi",
+    "description": "",
+    "id": "tckno-ile-hal-tipi-ırsaliye-senaryosunda-irsaliye-olusturulmasi-ve-excele-aktarilmasi",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/Regresyon/e-Irsaliye/Hal Tipi Irsaliye.feature",
+    "tags": []
+  }
+]
