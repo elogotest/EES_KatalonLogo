@@ -1,0 +1,577 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "9227e911-9b7b-4759-a58d-b113f0ade84e",
+        "line": 38,
+        "name": "e-Arsiv Toplu Indirme - PDF Tumunun indirilmesi",
+        "description": "",
+        "id": "e-arsiv-toplu-ındirme---pdf-tumunun-indirilmesi;e-arsiv-toplu-ındirme---pdf-tumunun-indirilmesi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14071412000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c2451ff7-fa4a-4214-b28d-d560ebd591a5"
+          },
+          {
+            "result": {
+              "duration": 559853700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Arşiv seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Arşiv",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1fd74578-baf3-48e8-8f7a-5b40d5e698c7"
+          },
+          {
+            "result": {
+              "duration": 2632779500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Arşiv Hareketleri",
+                  "offset": 9
+                },
+                {
+                  "val": "e-Arşiv Faturaları",
+                  "offset": 47
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "16f5c097-73a1-4765-9f14-d5d57a7359e6"
+          },
+          {
+            "result": {
+              "duration": 5147549500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.07.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.07.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0c7de1c9-48f5-443c-a731-6a6bd07651b5"
+          },
+          {
+            "result": {
+              "duration": 2857066300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.07.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.07.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6a9555bc-0a8c-4536-abf0-e4148f43f7ee"
+          },
+          {
+            "result": {
+              "duration": 1186031700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtrelerden Alıcı Ünvanı filtresine test test textini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alıcı Ünvanı",
+                  "offset": 13
+                },
+                {
+                  "val": "test test",
+                  "offset": 37
+                }
+              ],
+              "location": "filtreler.filtreTexboxinaYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ad40ad52-f0d5-4644-9290-9c5019c7f719"
+          },
+          {
+            "result": {
+              "duration": 697227500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0ae4bd19-bdb4-41c6-911f-91c1c70dbdc1"
+          },
+          {
+            "result": {
+              "duration": 1042742100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fb39c8be-e43e-4c98-914b-51c1a2634929"
+          },
+          {
+            "result": {
+              "duration": 967277000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Tablodan test test isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test test",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "379aed51-6a3d-4451-b868-be4d907b4be7"
+          },
+          {
+            "result": {
+              "duration": 636732600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Butonlardan Toplu İndirme isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu İndirme",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "29b8268a-528b-4c97-ad91-d67b4fd74dd8"
+          },
+          {
+            "result": {
+              "duration": 580501200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Alt butonlardan PDF Tümünü İndir butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PDF Tümünü İndir",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f7427c0d-4a83-43ab-9b95-bc7497f0c9bb"
+          },
+          {
+            "result": {
+              "duration": 1984928600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz.",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fd494df6-e086-4aca-a39b-afe6ff9bebb8"
+          },
+          {
+            "result": {
+              "duration": 1015143100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Popup email elogotest@gmail.com;ali.kara@logo.com.tr olarak girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "elogotest@gmail.com;ali.kara@logo.com.tr",
+                  "offset": 12
+                }
+              ],
+              "location": "popup.popupeMailGirilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a1a96a15-ef38-4a7e-9832-d0c7fc1a6f5c"
+          },
+          {
+            "result": {
+              "duration": 516874400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Yönetim popupında Gönder seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönder",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1e88be7c-052d-408a-91ae-6fad13d214ef"
+          },
+          {
+            "result": {
+              "duration": 2177990400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Popup mesajı talebiniz işleme alınmıştır içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "talebiniz işleme alınmıştır",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d2ffb2c2-9ffd-4178-931b-5d81ab80bfe0"
+          },
+          {
+            "result": {
+              "duration": 502512900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d84e4aed-c5ea-4935-9713-4ee1054c17d8"
+          },
+          {
+            "result": {
+              "duration": 894890100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Butonlardan Toplu İndirme isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu İndirme",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "aed3bf94-6cc7-4334-bf56-6cebd10e24ba"
+          },
+          {
+            "result": {
+              "duration": 533844100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Alt butonlardan PDF Seçilenleri İndir butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PDF Seçilenleri İndir",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "67843b16-278a-41d4-a28e-d3031c2fd5ee"
+          },
+          {
+            "result": {
+              "duration": 1334926200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz.",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "611a8940-c7b7-4421-ab70-c2498bcb4a1d"
+          },
+          {
+            "result": {
+              "duration": 1103981400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Popup email elogotest@gmail.com;ali.kara@logo.com.tr olarak girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "elogotest@gmail.com;ali.kara@logo.com.tr",
+                  "offset": 12
+                }
+              ],
+              "location": "popup.popupeMailGirilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "01000b7b-30f8-480d-94c0-97ec01761f74"
+          },
+          {
+            "result": {
+              "duration": 495303500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Yönetim popupında Gönder seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönder",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d5272196-2599-47af-adf3-9cc92fa2c5f0"
+          },
+          {
+            "result": {
+              "duration": 1600607000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Popup mesajı talebiniz işleme alınmıştır içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "talebiniz işleme alınmıştır",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fe0b1427-3707-499b-846c-0c48a66c2585"
+          },
+          {
+            "result": {
+              "duration": 517847600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "624ab889-fc53-460e-84da-9d429afdd31a"
+          },
+          {
+            "result": {
+              "duration": 1038156000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Ana menüden Raporlar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raporlar",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b0c544a7-ac47-4491-8bf0-b2f3b41b267c"
+          },
+          {
+            "result": {
+              "duration": 1374358500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Alt menüden Toplu Veri İndirme seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu Veri İndirme",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.altMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e10311b2-918b-4915-9b17-2cf05c2f6e75"
+          },
+          {
+            "result": {
+              "duration": 1119361000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Filtrelerden Talep No filtresine Rapor No bilgisi yaz",
+            "match": {
+              "location": "filtreler.filtreRaporNoYaz()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5a8e1470-8223-4cfe-ac27-514914925024"
+          },
+          {
+            "result": {
+              "duration": 523414700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "32f7ce35-a5f8-40ed-b06f-c84833d34e17"
+          },
+          {
+            "result": {
+              "duration": 698693800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0b25e9dc-f08a-4533-bff9-f361da7001c5"
+          },
+          {
+            "result": {
+              "duration": 3218851400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "69e32556-7d21-4f08-a3a5-3d854d43b117"
+          }
+        ]
+      }
+    ],
+    "name": "e-Arsiv Toplu Indirme - PDF Tumunun indirilmesi",
+    "description": "",
+    "id": "e-arsiv-toplu-ındirme---pdf-tumunun-indirilmesi",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Toplu Indirme.feature",
+    "tags": []
+  }
+]

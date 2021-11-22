@@ -1,0 +1,547 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 38,
+        "name": "Faturayi excele aktarma",
+        "description": "",
+        "id": "faturayi-excele-aktarma;faturayi-excele-aktarma;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14311405800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1313173400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Fatura seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Fatura",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3522778100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gelen Kutusu",
+                  "offset": 9
+                },
+                {
+                  "val": "Faturalar",
+                  "offset": 40
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5687458300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2643654900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1805117000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtrelerden Gönderici Ünvanı filtresine E LOGO 6 textini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönderici Ünvanı",
+                  "offset": 13
+                },
+                {
+                  "val": "E LOGO 6",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreTexboxinaYaz(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1360432100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1356966000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1450259000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Tablodan E LOGO 6 isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "E LOGO 6",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1083071300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Butonlardan Excel isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1151836700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Alt butonlardan Excel\u0027e Aktar butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel\u0027e Aktar",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2333847200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz.",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1723381300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Popup email elogotest@gmail.com;ali.kara@logo.com.tr olarak girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "elogotest@gmail.com;ali.kara@logo.com.tr",
+                  "offset": 12
+                }
+              ],
+              "location": "popup.popupeMailGirilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1165592100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Yönetim popupında Gönder seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönder",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1826150200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Popup mesajı talebiniz işleme alınmıştır içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "talebiniz işleme alınmıştır",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 602027600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 862068700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Butonlardan Excel isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 628814100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Alt butonlardan Tümünü Excel\u0027e Aktar butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tümünü Excel\u0027e Aktar",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1518532200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz.",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 918004600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Popup email elogotest@gmail.com;ali.kara@logo.com.tr olarak girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "elogotest@gmail.com;ali.kara@logo.com.tr",
+                  "offset": 12
+                }
+              ],
+              "location": "popup.popupeMailGirilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 497212100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Yönetim popupında Gönder seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönder",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1591739300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Popup mesajı talebiniz işleme alınmıştır içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "talebiniz işleme alınmıştır",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 504766100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1104067500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Ana menüden Raporlar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raporlar",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1981080200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Alt menüden Toplu Veri İndirme seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplu Veri İndirme",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.altMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1481018100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Filtrelerden Talep No filtresine Rapor No bilgisi yaz",
+            "match": {
+              "location": "filtreler.filtreRaporNoYaz()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 584656700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 816576700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3814609400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Faturayi excele aktarma",
+    "description": "",
+    "id": "faturayi-excele-aktarma",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Fatura/Gelen Kutusu/Faturalar/Excele Aktar.feature",
+    "tags": []
+  }
+]
