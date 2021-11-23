@@ -1,0 +1,411 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 30,
+        "name": "Faturaya departman ata",
+        "description": "",
+        "id": "faturaya-departman-ata;faturaya-departman-ata;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9761753100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 555490300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Fatura seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Fatura",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2880108700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Giden Kutusu",
+                  "offset": 9
+                },
+                {
+                  "val": "Faturalar",
+                  "offset": 40
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 4833753700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1814957600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 521198400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 900757700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 884287400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tablodan TEST isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TEST",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 731801400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Butonlardan Departman Ata isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Departman Ata",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 82836300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 722846000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "otomasyon isimli departman checkboxı seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "otomasyon",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.departmanCheckboxiSecilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 784521800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Departman kaydedilir",
+            "match": {
+              "location": "sekmeler.departmanKaydedilir()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1835885100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Popup mesajı Seçilen belgeler ilgili departmanlara aktarılmıştır içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Seçilen belgeler ilgili departmanlara aktarılmıştır",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 530737700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 158171900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1010495200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Butonlardan Departman Geri Al isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Departman Geri Al",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 129923500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 709801800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "otomasyon isimli departman checkboxı seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "otomasyon",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.departmanCheckboxiSecilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 787970200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Departman kaydedilir",
+            "match": {
+              "location": "sekmeler.departmanKaydedilir()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 4124255400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Popup mesajı Seçilen belgelerin ilgili departmanlardaki yetkisi kaldırılmıştır içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Seçilen belgelerin ilgili departmanlardaki yetkisi kaldırılmıştır",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2044057700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 125074400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 4357794800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Faturaya departman ata",
+    "description": "",
+    "id": "faturaya-departman-ata",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Fatura/Giden Kutusu/Faturalar/Departman Ata-Geri Al.feature",
+    "tags": []
+  }
+]

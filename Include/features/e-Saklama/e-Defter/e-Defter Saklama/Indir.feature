@@ -1,7 +1,7 @@
 Feature: e-Defter Saklama Indir
 
   Scenario Outline: e-Defter Saklama Indir
-    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
+    * Giriş yapılır
     * Ana menüden e-Saklama seçilir
     * Alt menü e-Defter başlığı altındaki e-Defter Saklama seçilir
     * Filtre butonlarından Listele seçilir
