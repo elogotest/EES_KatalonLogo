@@ -1,0 +1,269 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "5a82a4a0-fa57-4720-97c6-005c03226676",
+        "line": 20,
+        "name": "Faturanin Varsayılan Ile Gosterilmesi",
+        "description": "",
+        "id": "faturanin-varsayılan-ıle-gosterilmesi;faturanin-varsayılan-ıle-gosterilmesi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11539229500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "cdf60a99-5cc8-4df9-a388-3653395818e1"
+          },
+          {
+            "result": {
+              "duration": 598076100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Fatura seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Fatura",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "62390449-6a96-453b-b522-be4fc42bd92e"
+          },
+          {
+            "result": {
+              "duration": 2585586200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gelen Kutusu",
+                  "offset": 9
+                },
+                {
+                  "val": "Faturalar",
+                  "offset": 40
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8a336ef7-e0a5-448b-82c0-4535e0f05c11"
+          },
+          {
+            "result": {
+              "duration": 5032568400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9d51a12c-5aec-492d-a011-758e06dfaa92"
+          },
+          {
+            "result": {
+              "duration": 2361472100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b1387187-2a18-44e3-8d98-e7e6b3eeba10"
+          },
+          {
+            "result": {
+              "duration": 642906100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6b7f7ad1-fc92-47f1-bcb5-5e033a07cac5"
+          },
+          {
+            "result": {
+              "duration": 1208246600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "26fc6c0a-38b6-4597-bba6-5f5dd61df314"
+          },
+          {
+            "result": {
+              "duration": 1001605500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tablodan E LOGO 6 isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "E LOGO 6",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ca046d3d-f8ff-4dd7-9ad9-90d68e65f3af"
+          },
+          {
+            "result": {
+              "duration": 700145000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Butonlardan Varsayılan İle Göster isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Varsayılan İle Göster",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4d806c90-7647-40d2-ba9e-09676fadfcb7"
+          },
+          {
+            "result": {
+              "duration": 105181100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1d6455c5-42c3-4e8f-8711-9b54885a09a2"
+          },
+          {
+            "result": {
+              "duration": 1084410900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Yeni sekme başlığında e-FATURA var mı kontrol edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-FATURA",
+                  "offset": 22
+                }
+              ],
+              "location": "sekmeler.yeniSekmedeVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8f53cd6e-8639-4c2d-b9f5-af6c103d78de"
+          },
+          {
+            "result": {
+              "duration": 197364700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fb0bc030-d0e3-4d86-b1bc-e56c9ee397e7"
+          },
+          {
+            "result": {
+              "duration": 3813309100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0fc1f9bf-005d-488f-8f10-6fe6629b54e6"
+          }
+        ]
+      }
+    ],
+    "name": "Faturanin Varsayılan Ile Gosterilmesi",
+    "description": "",
+    "id": "faturanin-varsayılan-ıle-gosterilmesi",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Fatura/Gelen Kutusu/Faturalar/Varsayilan Ile Goster.feature",
+    "tags": []
+  }
+]

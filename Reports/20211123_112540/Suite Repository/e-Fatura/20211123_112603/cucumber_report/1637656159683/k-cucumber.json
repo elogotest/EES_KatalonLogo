@@ -1,0 +1,1012 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "68e1a0b6-c0d2-4f98-bfae-883c3929b574",
+        "line": 74,
+        "name": "VKNo ile Temel Fatura senaryosunda ve Satis tipinde fatura olusturulmasi",
+        "description": "",
+        "id": "vkno-ile-temel-fatura-senaryosunda-ve-satis-tipinde-fatura-olusturulmasi;vkno-ile-temel-fatura-senaryosunda-ve-satis-tipinde-fatura-olusturulmasi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26093622400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı KAMUIHRAC ve Şifre test1234 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KAMUIHRAC",
+                  "offset": 14
+                },
+                {
+                  "val": "test1234",
+                  "offset": 33
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9cba9add-ea8a-4478-921c-7a8e3287fdcb"
+          },
+          {
+            "result": {
+              "duration": 1201679400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Fatura seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Fatura",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "43801fa9-fd84-4acc-b1e8-1ca954fa2155"
+          },
+          {
+            "result": {
+              "duration": 4884700600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Fatura Araçları",
+                  "offset": 9
+                },
+                {
+                  "val": "e-Fatura Oluşturma",
+                  "offset": 45
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d54b1081-5604-4e37-83da-8540648081dc"
+          },
+          {
+            "result": {
+              "duration": 4147301300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Tablodaki tüm veriler silinir",
+            "match": {
+              "location": "tablo.olusturmaTarihi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c1c0553f-db14-4f4c-8c0e-efc16a9e5410"
+          },
+          {
+            "result": {
+              "duration": 1135038300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Butonlardan Ekle isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ekle",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "58caf802-61f9-4c52-aa66-1af011db9950"
+          },
+          {
+            "result": {
+              "duration": 9738931400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Görsel tasarım sayfasının e-Fatura Bilgileri başlığını içerdiği kontrol edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Fatura Bilgileri",
+                  "offset": 26
+                }
+              ],
+              "location": "genel.gorselTasarimSayfasininBasligindaVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "46410bf5-a43a-44ed-bcf4-ca33851ec7c7"
+          },
+          {
+            "result": {
+              "duration": 10969776000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Alıcı adı alanına UC0018 girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UC0018",
+                  "offset": 18
+                }
+              ],
+              "location": "genel.aliciSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a00a7e12-0bf0-44dc-86d1-e7fc6217cec2"
+          },
+          {
+            "result": {
+              "duration": 2355346700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Senaryo alanından Temel Fatura seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Temel Fatura",
+                  "offset": 18
+                }
+              ],
+              "location": "genel.turSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c94ff365-0e3c-4418-ac0f-015eb34e7891"
+          },
+          {
+            "result": {
+              "duration": 2549536700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Tip alanından Satış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Satış",
+                  "offset": 14
+                }
+              ],
+              "location": "genel.tipSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6ba59587-f67c-4c53-b0e5-44d4b0c4148d"
+          },
+          {
+            "result": {
+              "duration": 2821974900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Ekle butonuna basılır",
+            "match": {
+              "location": "genel.ekleButonunaBasilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "07d5a6e6-73a6-4312-8d81-b2a313cbebcf"
+          },
+          {
+            "result": {
+              "duration": 2998471200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Ürün ekleme alanında Mal/Hizmet başlığına Otomasyon girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mal/Hizmet",
+                  "offset": 21
+                },
+                {
+                  "val": "Otomasyon",
+                  "offset": 42
+                }
+              ],
+              "location": "genel.malzemeMalHizmetBilgileriGirilir(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "495683c8-6ece-4fbf-8b66-0b9112e85b32"
+          },
+          {
+            "result": {
+              "duration": 2439395600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Ürün ekleme alanında Açıklaması başlığına Virgosol girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Açıklaması",
+                  "offset": 21
+                },
+                {
+                  "val": "Virgosol",
+                  "offset": 42
+                }
+              ],
+              "location": "genel.malzemeMalHizmetBilgileriGirilir(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "267a199b-1b39-4153-abb5-a0d95fd22e50"
+          },
+          {
+            "result": {
+              "duration": 2725288000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Ürün ekleme alanında Miktarı başlığına 400 girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Miktarı",
+                  "offset": 21
+                },
+                {
+                  "val": "400",
+                  "offset": 39
+                }
+              ],
+              "location": "genel.malzemeMalHizmetBilgileriGirilir(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d10eabe9-3019-4cfa-a602-ab1991a6a504"
+          },
+          {
+            "result": {
+              "duration": 2945187600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Ürün ekleme alanında Birim Fiyat başlığına 100 girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Birim Fiyat",
+                  "offset": 21
+                },
+                {
+                  "val": "100",
+                  "offset": 43
+                }
+              ],
+              "location": "genel.malzemeMalHizmetBilgileriGirilir(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "036ea7f5-47cc-471a-8b24-7aa7494a6c2e"
+          },
+          {
+            "result": {
+              "duration": 4891923000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Notlar alanına Otomasyon Not girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Otomasyon Not",
+                  "offset": 15
+                }
+              ],
+              "location": "genel.notGirilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "367c8874-f439-46dd-b05b-2bd9b09706cd"
+          },
+          {
+            "result": {
+              "duration": 1732110100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Ettn bilgisi kayıt edilir",
+            "match": {
+              "location": "genel.EttnBilgisiKayitEdilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b6eef91d-5e43-488a-842b-11575fa0a98e"
+          },
+          {
+            "result": {
+              "duration": 7051572000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Kaydet butonu seçilir",
+            "match": {
+              "location": "genel.kaydetSecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1a24493d-3725-461b-93ff-c9abe6acb3b2"
+          },
+          {
+            "result": {
+              "duration": 1654410900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Tabloda VirgosolOtomasyonTEST ünvanlı veri oluşturuldu mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VirgosolOtomasyonTEST",
+                  "offset": 8
+                }
+              ],
+              "location": "tablo.tablodaUnvanliVeriOlusturulduMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1d94ab94-376e-4186-90b5-afa10cc0ce9f"
+          },
+          {
+            "result": {
+              "duration": 1385659600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Tablodan VirgosolOtomasyonTEST isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VirgosolOtomasyonTEST",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "2c2a0afb-8d1c-4670-b76d-ba0179cdeafd"
+          },
+          {
+            "result": {
+              "duration": 4552239200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Butonlardan Değiştir isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Değiştir",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "515693dc-d901-4379-8dc2-a6ae6afb8dbb"
+          },
+          {
+            "result": {
+              "duration": 1812813600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Görsel tasarım sayfasının e-Fatura Bilgileri başlığını içerdiği kontrol edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Fatura Bilgileri",
+                  "offset": 26
+                }
+              ],
+              "location": "genel.gorselTasarimSayfasininBasligindaVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f621c8c4-bda1-4732-9073-99e488858c93"
+          },
+          {
+            "result": {
+              "duration": 3024851200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Notlar alanına Otomasyon Not Değiştir girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Otomasyon Not Değiştir",
+                  "offset": 15
+                }
+              ],
+              "location": "genel.notGirilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e757f4c9-5026-4ce9-a19c-851409c15617"
+          },
+          {
+            "result": {
+              "duration": 5758832900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Kaydet butonu seçilir",
+            "match": {
+              "location": "genel.kaydetSecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "504e8351-3f61-4fa6-b9ff-b900a3565e27"
+          },
+          {
+            "result": {
+              "duration": 1287692100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Tabloda VirgosolOtomasyonTEST ünvanlı veri oluşturuldu mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VirgosolOtomasyonTEST",
+                  "offset": 8
+                }
+              ],
+              "location": "tablo.tablodaUnvanliVeriOlusturulduMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5b3c152a-c814-4223-a258-654d6d76315d"
+          },
+          {
+            "result": {
+              "duration": 923034400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Tablodan VirgosolOtomasyonTEST isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VirgosolOtomasyonTEST",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "91e5ed09-6621-4b15-b5ea-9ba1152ac214"
+          },
+          {
+            "result": {
+              "duration": 982530700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Butonlardan Numara Oluştur isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Numara Oluştur",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "270bbf1b-4864-4e70-8dae-898a061c576d"
+          },
+          {
+            "result": {
+              "duration": 1954673900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Popup mesajı Devam etmek istiyor musunuz içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Devam etmek istiyor musunuz",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e743e9eb-d429-46e6-a97f-78882c5a772a"
+          },
+          {
+            "result": {
+              "duration": 1530483800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Yönetim popupında Evet seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Evet",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a83b68b0-e94b-42ea-a778-1524b1db87e1"
+          },
+          {
+            "result": {
+              "duration": 1613109600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Popup mesajı oluşmuştur içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "oluşmuştur",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "06c82535-418f-44a4-8a64-89c5d40773b3"
+          },
+          {
+            "result": {
+              "duration": 501176500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Yönetim popupında Tamam seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tamam",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "aaa0fc56-8d4e-4dd7-8c95-4bbf9d08d4cf"
+          },
+          {
+            "result": {
+              "duration": 1227025500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Tablodan VirgosolOtomasyonTEST isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VirgosolOtomasyonTEST",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "bee3e439-6c2f-4d07-849b-b312655e61ac"
+          },
+          {
+            "result": {
+              "duration": 932982900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Butonlardan Göster isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Göster",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f85930f5-7a00-4577-895b-88711a4c2110"
+          },
+          {
+            "result": {
+              "duration": 574790600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "402e26d7-382a-434d-a6e3-652688a24371"
+          },
+          {
+            "result": {
+              "duration": 1741552900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Yeni sekme başlığında e-FATURA var mı kontrol edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-FATURA",
+                  "offset": 22
+                }
+              ],
+              "location": "sekmeler.yeniSekmedeVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "23bcb45b-13a8-480c-bb1a-dc0492d3bc3a"
+          },
+          {
+            "result": {
+              "duration": 747955800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "25a5ba0d-0d68-40c5-9a64-618b3746485f"
+          },
+          {
+            "result": {
+              "duration": 948916100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Butonlardan UBL isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UBL",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e644769b-18aa-41b3-93d4-a1c8394b69ab"
+          },
+          {
+            "result": {
+              "duration": 150385900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d3249b9c-b2bc-4a8c-a942-c671550696da"
+          },
+          {
+            "result": {
+              "duration": 1482926900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "invoice tagli ubl geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invoice",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.ublGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a38e4501-af08-4d94-9a42-0104d2af128a"
+          },
+          {
+            "result": {
+              "duration": 213811800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9675a80c-ff18-4513-8bf7-041df73049fc"
+          },
+          {
+            "result": {
+              "duration": 613061300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Butonlardan Excel isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "18de7bc1-7ebb-4738-9a4f-37d443cc93b6"
+          },
+          {
+            "result": {
+              "duration": 1802254900,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Alt butonlardan Excel\u0027e Aktar butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel\u0027e Aktar",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3df4fa29-a80c-41c8-aba9-eb5128a9ec40"
+          },
+          {
+            "result": {
+              "duration": 3986907400,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Ön eki UserInvoice olan dosya indirildi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UserInvoice",
+                  "offset": 7
+                }
+              ],
+              "location": "butonlar.dosyaIndirildiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "953e90d7-f1db-455a-8c52-aa42651a8887"
+          },
+          {
+            "result": {
+              "duration": 678961500,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Butonlardan Excel isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e355a77b-273b-4884-b50e-6eb11b9efba0"
+          },
+          {
+            "result": {
+              "duration": 1054319400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Alt butonlardan Tümünü Excel\u0027e Aktar butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tümünü Excel\u0027e Aktar",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fe93066f-4eee-4850-860d-44006d0f5f85"
+          },
+          {
+            "result": {
+              "duration": 3123007400,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Ön eki UserInvoice olan dosya indirildi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UserInvoice",
+                  "offset": 7
+                }
+              ],
+              "location": "butonlar.dosyaIndirildiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "684e0bcf-aafa-4035-b29a-db4f5211e40a"
+          },
+          {
+            "result": {
+              "duration": 1312587800,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Butonlardan Gönder isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönder",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "35d21fab-59ca-40f9-8098-2cea09d09d87"
+          },
+          {
+            "result": {
+              "duration": 1390193800,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Popup mesajı Devam etmek istiyor musunuz içeriyor mu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Devam etmek istiyor musunuz",
+                  "offset": 13
+                }
+              ],
+              "location": "popup.popupIceriyorMu(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "87e4fdcd-5d47-480f-87cb-58aa1c188180"
+          },
+          {
+            "result": {
+              "duration": 787260500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Yönetim popupında Evet seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Evet",
+                  "offset": 18
+                }
+              ],
+              "location": "popup.yonetimPopupindanSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fdfa0978-6c19-4330-9592-7c6ffe2ab326"
+          },
+          {
+            "result": {
+              "duration": 2079154400,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Ana menüden e-Fatura seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Fatura",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "349288b2-a878-4f5e-98d6-1ff1ece77d3d"
+          },
+          {
+            "result": {
+              "duration": 7056953200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Giden Kutusu",
+                  "offset": 9
+                },
+                {
+                  "val": "Faturalar",
+                  "offset": 40
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "458cd8b2-baa8-471f-9218-b346f279c6ef"
+          },
+          {
+            "result": {
+              "duration": 2162601100,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Filtrelerden Ettn filtresine Ettn bilgisi yaz",
+            "match": {
+              "location": "filtreler.filtreEttnYaz()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8d2bc0e1-fa02-4622-959d-9704fd0c966d"
+          },
+          {
+            "result": {
+              "duration": 1358664600,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "89644d68-578d-4333-9e2a-c7f395452d9e"
+          },
+          {
+            "result": {
+              "duration": 1171372000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "aa05c24f-bc54-441d-aa80-a5f0fb68a51f"
+          },
+          {
+            "result": {
+              "duration": 4338132100,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "cd8e521b-094c-43ff-b746-4f4addd503a5"
+          }
+        ]
+      }
+    ],
+    "name": "VKNo ile Temel Fatura senaryosunda ve Satis tipinde fatura olusturulmasi",
+    "description": "",
+    "id": "vkno-ile-temel-fatura-senaryosunda-ve-satis-tipinde-fatura-olusturulmasi",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Fatura/e-Fatura Araclari/e-Fatura Olusturma/Ekle/VKN-Temel Fatura-Satis Tipinde.feature",
+    "tags": []
+  }
+]

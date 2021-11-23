@@ -1,0 +1,339 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "07259587-0ce6-4552-a23e-463978187769",
+        "line": 25,
+        "name": "Irsaliyenin PDFinin gosterilmesi",
+        "description": "",
+        "id": "ırsaliyenin-pdfinin-gosterilmesi;ırsaliyenin-pdfinin-gosterilmesi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14543180800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c60780f0-3bf4-4313-8d01-51a267a8c2ee"
+          },
+          {
+            "result": {
+              "duration": 530183600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-İrsaliye seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-İrsaliye",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "34860a94-e5ec-4d13-818a-60be522ebbb9"
+          },
+          {
+            "result": {
+              "duration": 8014570300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü Giden Kutusu başlığı altındaki İrsaliyeler seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Giden Kutusu",
+                  "offset": 9
+                },
+                {
+                  "val": "İrsaliyeler",
+                  "offset": 40
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "86395f46-cbcb-471c-8384-0500992fdbb3"
+          },
+          {
+            "result": {
+              "duration": 4880284400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.01.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.01.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "093c8f56-0c23-4825-b851-1a05e02617c2"
+          },
+          {
+            "result": {
+              "duration": 1988137100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "20ab8c6f-4704-48d8-b9f4-e432136302a1"
+          },
+          {
+            "result": {
+              "duration": 571473300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8e8f76b8-e6c1-446f-be76-9a0136a1f92d"
+          },
+          {
+            "result": {
+              "duration": 998332100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b8cd256b-6014-4e7e-b7de-56748ce1a7bb"
+          },
+          {
+            "result": {
+              "duration": 868456000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tablodan TEST isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TEST",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "63561a66-84cf-46d2-998a-1642e3f7e766"
+          },
+          {
+            "result": {
+              "duration": 560758900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Butonlardan PDF isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PDF",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "89ff8057-30b5-499d-ab79-9cf2b58be7e6"
+          },
+          {
+            "result": {
+              "duration": 707269200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Alt butonlardan Göster butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Göster",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "aaa60280-5005-4a06-a829-0da1f244f109"
+          },
+          {
+            "result": {
+              "duration": 123473900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "99abc168-4f5c-4a73-ac82-cf9b76daec2d"
+          },
+          {
+            "result": {
+              "duration": 115481400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "PDF açıldı mı",
+            "match": {
+              "location": "butonlar.pdfGorseliKontrolEdilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c5a14964-5382-4562-8f9f-6cff153df253"
+          },
+          {
+            "result": {
+              "duration": 171819700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4eb2447a-d80e-4d07-b62e-f5a75f272d18"
+          },
+          {
+            "result": {
+              "duration": 515043500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Butonlardan PDF isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PDF",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "64679e73-5ade-4f52-a806-f4f3d6aec0ca"
+          },
+          {
+            "result": {
+              "duration": 873866900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Alt butonlardan İndir butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "İndir",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "89359b56-dc0e-4a52-bc40-6c8bcba7c3c2"
+          },
+          {
+            "result": {
+              "duration": 3082653900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Ön eki Invoice olan dosya indirildi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invoice",
+                  "offset": 7
+                }
+              ],
+              "location": "butonlar.dosyaIndirildiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9ea907b6-6904-4dea-a03b-77a48a9479bd"
+          },
+          {
+            "result": {
+              "duration": 6893473300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "74788a20-b085-4c19-85da-cfdacbb22c8a"
+          }
+        ]
+      }
+    ],
+    "name": "Irsaliyenin PDFinin gosterilmesi",
+    "description": "",
+    "id": "ırsaliyenin-pdfinin-gosterilmesi",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Irsaliye/Giden Kutusu/Irsaliyeler/PDF Goster-Indir.feature",
+    "tags": []
+  }
+]

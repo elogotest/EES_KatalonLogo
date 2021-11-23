@@ -1,0 +1,345 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "efcf884f-8c0f-4ae1-afe4-c002c046e6fb",
+        "line": 25,
+        "name": "e-Fatura Giden Kutusu UBL - Goster",
+        "description": "",
+        "id": "e-fatura-giden-kutusu-ubl---goster;e-fatura-giden-kutusu-ubl---goster;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11286958800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5e131910-a63a-4cb7-8944-304b6ae93c7e"
+          },
+          {
+            "result": {
+              "duration": 584574700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Fatura seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Fatura",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5c3b1a8a-3544-4061-9011-bafbeea4b885"
+          },
+          {
+            "result": {
+              "duration": 16919510400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Giden Kutusu",
+                  "offset": 9
+                },
+                {
+                  "val": "Faturalar",
+                  "offset": 40
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9edb4595-f4ee-42e5-9215-f1a5f035a043"
+          },
+          {
+            "result": {
+              "duration": 5191058700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e35f2caa-a3f9-4fe4-80b0-37a7189f0a78"
+          },
+          {
+            "result": {
+              "duration": 1928218900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a67de4a7-924e-4ea4-9ce7-91daeb5c7848"
+          },
+          {
+            "result": {
+              "duration": 618278200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1a8fadbe-b744-4607-9b98-54ee3c56262a"
+          },
+          {
+            "result": {
+              "duration": 962343400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "477be975-85b7-4950-991b-354279dabf1d"
+          },
+          {
+            "result": {
+              "duration": 919347000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tablodan TEST isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TEST",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1e3977b1-72d9-478d-bb3d-fb07ab6a2230"
+          },
+          {
+            "result": {
+              "duration": 574720200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Butonlardan UBL isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UBL",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e5aaf64d-b01f-43f3-8576-624b8e9c8043"
+          },
+          {
+            "result": {
+              "duration": 559965600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Alt butonlardan Göster butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Göster",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3648c457-12bd-4c4b-a4b5-26e3269dba68"
+          },
+          {
+            "result": {
+              "duration": 97598200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b12b4b94-5427-402b-a1ee-99c6836bb0a9"
+          },
+          {
+            "result": {
+              "duration": 3014838900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "invoice tagli ubl geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invoice",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.ublGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "227a88d4-f7f4-4491-8685-cf4246ee30c3"
+          },
+          {
+            "result": {
+              "duration": 152072400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ce63e136-07f6-4e6f-ac28-4d4eda1a24ea"
+          },
+          {
+            "result": {
+              "duration": 553055200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Butonlardan UBL isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UBL",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "80c58db5-c159-4c01-afe8-b75b44f1414b"
+          },
+          {
+            "result": {
+              "duration": 794671200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Alt butonlardan İndir butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "İndir",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e81ecec3-8364-4299-9199-80e89f37b133"
+          },
+          {
+            "result": {
+              "duration": 3094312600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Ön eki Invoice olan dosya indirildi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invoice",
+                  "offset": 7
+                }
+              ],
+              "location": "butonlar.dosyaIndirildiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "82a99c3c-950a-494d-badf-8e142a6ee68c"
+          },
+          {
+            "result": {
+              "duration": 3098966100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d4a00359-737c-487d-be65-5b0cc4ed60e0"
+          }
+        ]
+      }
+    ],
+    "name": "e-Fatura Giden Kutusu UBL - Goster",
+    "description": "",
+    "id": "e-fatura-giden-kutusu-ubl---goster",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/Documents/GitHub/EES_KatalonLogo/Include/features/e-Fatura/Giden Kutusu/Faturalar/UBL-Goster-Indir.feature",
+    "tags": []
+  }
+]
