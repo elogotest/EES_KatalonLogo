@@ -15,6 +15,6 @@
       <guid>68ad6475-f0ed-40b7-8979-9240b56b7685</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/Tablodaki Verinin Irsaliyeleri</testCaseId>
+      <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/Tablodaki Verinin Butonlari</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
