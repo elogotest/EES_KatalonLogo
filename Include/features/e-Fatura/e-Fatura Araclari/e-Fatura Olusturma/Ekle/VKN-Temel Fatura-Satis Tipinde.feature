@@ -66,6 +66,7 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Satis tipinde fatura olusturulmas
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * e-Fatura oluşturulan faturanın tutar bilgisi 47.200,00 ile aynı mı
     #* Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

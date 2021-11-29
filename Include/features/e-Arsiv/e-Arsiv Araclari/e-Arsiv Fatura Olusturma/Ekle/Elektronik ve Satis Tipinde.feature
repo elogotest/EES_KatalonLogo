@@ -61,6 +61,7 @@ Feature: Gonderim tipi Elektronik ve Satis tipinde e-Arsiv faturasi olusturulmas
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * e-Arşiv oluşturulan faturanın tutar bilgisi 47.200,00 ile aynı mı
     #* Tabloda Başarılı ünvanlı veri oluşturuldu mu
     * Tabloda yeni oluşturulan eArsiv verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir

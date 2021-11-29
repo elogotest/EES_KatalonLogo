@@ -10,6 +10,10 @@
          <value>#customerselectiframe</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'customerselectiframe' and @src = '/Utility/Customer']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//iframe[@id='customerselectiframe']</value>
       </entry>

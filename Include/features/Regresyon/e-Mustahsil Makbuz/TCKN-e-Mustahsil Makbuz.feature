@@ -32,6 +32,7 @@ Feature: TCKNo ile e-Mustahsil Makbuzu Olusturmasi ve Excele aktarilmasi
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * e-Müstahsil Makbuz oluşturulan faturanın tutar bilgisi 36000 ile aynı mı
     * Tabloda yeni oluşturulan emm verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

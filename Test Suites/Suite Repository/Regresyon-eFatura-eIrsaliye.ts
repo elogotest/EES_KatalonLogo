@@ -131,4 +131,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Irsaliye/Temel Irsaliye</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>914bde51-ecad-4b6c-bba3-a29d84f14766</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Regresyon/e-Irsaliye/Temel İrsaliye Matbudan</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

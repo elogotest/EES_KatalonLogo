@@ -42,6 +42,7 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Iade tipinde fatura olusturulmasi
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * e-Fatura oluşturulan faturanın tutar bilgisi 42.480,00 ile aynı mı
     #* Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

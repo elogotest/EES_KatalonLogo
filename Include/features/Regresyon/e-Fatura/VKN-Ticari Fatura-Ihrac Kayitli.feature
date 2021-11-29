@@ -41,6 +41,7 @@ Feature: VKNo ile Ticari Fatura senaryosunda ve Ihrac Kayitli tipinde fatura olu
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * e-Fatura oluşturulan faturanın tutar bilgisi 36.000,00 ile aynı mı
     #* Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

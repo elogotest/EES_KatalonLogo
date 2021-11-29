@@ -52,6 +52,7 @@ Feature: e-Mustahsil Makbuzu Olusturma
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * e-Müstahsil Makbuz oluşturulan faturanın tutar bilgisi 360 ile aynı mı
     * Tabloda yeni oluşturulan emm verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

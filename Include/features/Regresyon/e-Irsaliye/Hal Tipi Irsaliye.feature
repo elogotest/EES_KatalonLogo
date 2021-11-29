@@ -39,6 +39,7 @@ Feature: TCKNo ile Hal Tipi Irsaliye senaryosunda irsaliye olusturulmasi ve Exce
     * Filtrelerden Irsaliye Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * e-İrsaliye oluşturulan faturanın tutar bilgisi 40.000,00 ile aynı mı
     * Tabloda yeni oluşturulan irsaliye verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

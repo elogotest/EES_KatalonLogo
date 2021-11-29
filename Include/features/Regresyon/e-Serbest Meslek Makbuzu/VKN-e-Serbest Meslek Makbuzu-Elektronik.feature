@@ -34,7 +34,8 @@ Feature: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Tabloda yeni oluşturulan smm verisi başarılı mı
+    * e-Serbest Meslek Makbuz oluşturulan faturanın tutar bilgisi 360 ile aynı mı
+    #* Tabloda yeni oluşturulan smm verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

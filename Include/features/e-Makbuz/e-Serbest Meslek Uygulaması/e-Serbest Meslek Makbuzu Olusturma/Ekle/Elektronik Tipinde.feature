@@ -53,6 +53,7 @@ Feature: e-Serbest Meslek Makbuzu Olusturma
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * e-Serbest Meslek Makbuz oluşturulan faturanın tutar bilgisi 360 ile aynı mı
     * Tabloda yeni oluşturulan smm verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

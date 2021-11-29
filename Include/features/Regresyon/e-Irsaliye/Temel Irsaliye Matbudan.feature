@@ -1,4 +1,4 @@
-Feature: TCKNo ile Temel Irsaliye senaryosunda irsaliye olusturulmasi ve Excele aktarilmasi
+Feature: TCKNo ile Temel Irsaliye Matbudan senaryosunda irsaliye olusturulmasi ve Excele aktarilmasi
 
   Scenario Outline: TCKNo ile Temel Irsaliye senaryosunda irsaliye olusturulmasi ve Excele aktarilmasi
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
@@ -40,6 +40,7 @@ Feature: TCKNo ile Temel Irsaliye senaryosunda irsaliye olusturulmasi ve Excele 
     * Filtrelerden Irsaliye Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * e-İrsaliye oluşturulan faturanın tutar bilgisi 40.000,00 ile aynı mı
     * Tabloda yeni oluşturulan irsaliye verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

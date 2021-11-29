@@ -47,6 +47,7 @@ Feature: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi v
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * e-Fatura oluşturulan faturanın tutar bilgisi 42.480,00 ile aynı mı
     #* Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

@@ -48,6 +48,7 @@ Feature: VKNo ile Kamu senaryosunda ve Satis tipinde fatura olusturulmasi ve Exc
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * e-Fatura oluşturulan faturanın tutar bilgisi 58.410,00 ile aynı mı
     #* Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
