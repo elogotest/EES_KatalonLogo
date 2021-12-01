@@ -4,7 +4,7 @@
    <name>hizliKosuCollection</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>4</maxConcurrentInstances>
+   <maxConcurrentInstances>6</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>

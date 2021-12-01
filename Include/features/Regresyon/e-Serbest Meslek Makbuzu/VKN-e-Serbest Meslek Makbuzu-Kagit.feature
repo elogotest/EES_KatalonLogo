@@ -40,4 +40,4 @@ Feature: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
 
     Examples: 
       | kullaniciAdi | sifre  | alici_Adi                | urun_Adi  | brut | stopaj_Orani | KDV_Orani | not           | unvan                   |
-      | ELOGOGIB     | 123456 | VirgosolSerbestMeslekVKN | Otomasyon |  400 |           10 |        18 | Otomasyon Not | VirgosolOtomasyon383411 |
+      | ELOGO6       | 123456 | VirgosolSerbestMeslekVKN | Otomasyon |  400 |           10 |        18 | Otomasyon Not | VirgosolOtomasyon383411 |
