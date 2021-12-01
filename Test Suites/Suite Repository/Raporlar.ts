@@ -33,6 +33,6 @@
       <guid>2eba7f78-f3fc-49db-b4b7-057cc94ff4ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Raporlar/Kümülatif Kontrol Raporu/Ekran Kontrolü ve Excel Aktar</testCaseId>
+      <testCaseId>Test Cases/Case Repository/Raporlar/Kumulatif Kontrol Raporu/Ekran Kontrolu ve Excel Aktar</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

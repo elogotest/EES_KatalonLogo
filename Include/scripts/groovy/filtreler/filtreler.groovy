@@ -58,6 +58,11 @@ class filtreler {
 	def filtreEttnYaz() {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/EttnYaz"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Numara Kontrol Raporu Yıl filtresini seç")
+	def numaraKontrol() {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/NumaraKontrolRapor"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Filtrelerden Irsaliye Ettn filtresine Ettn bilgisi yaz")
 	def filtreIrsaliyeEttnYaz() {

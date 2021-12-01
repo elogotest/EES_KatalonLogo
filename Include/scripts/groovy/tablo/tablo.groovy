@@ -185,22 +185,22 @@ class tablo {
 	def tutarBilgisiDogruMu(String tutarBilgisi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/eArsivVergiDahilTutar"), ["Tutar":tutarBilgisi] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("e-İrsaliye oluşturulan faturanın tutar bilgisi (.*) ile aynı mı")
 	def eIrsaliyeTutarBilgisiDogruMu(String tutarBilgisi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/eIrsaliyeToplamTutar"), ["Tutar":tutarBilgisi] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("e-Fatura oluşturulan faturanın tutar bilgisi (.*) ile aynı mı")
 	def eFaturaTutarBilgisiDogruMu(String tutarBilgisi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/eFaturaToplamTutar"), ["Tutar":tutarBilgisi] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("e-Müstahsil Makbuz oluşturulan faturanın tutar bilgisi (.*) ile aynı mı")
 	def eMMTutarBilgisiDogruMu(String tutarBilgisi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/eMMToplamTutar"), ["Tutar":tutarBilgisi] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("e-Serbest Meslek Makbuz oluşturulan faturanın tutar bilgisi (.*) ile aynı mı")
 	def eSMMTutarBilgisiDogruMu(String tutarBilgisi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/eSMMtoplamTutar"), ["Tutar":tutarBilgisi] , FailureHandling.STOP_ON_FAILURE)

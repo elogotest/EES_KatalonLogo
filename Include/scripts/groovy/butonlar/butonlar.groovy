@@ -127,6 +127,31 @@ class butonlar {
 		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutuRaporlar"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
 	}
 
+	@When("Raporlar Toplu Veri İndirme sayfa boyutu (.*) olarak seçilir")
+	def raporlarTopluVeriSayfaBoyutu(String sayfaBoyutu) {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutuRaporlarTopluVeriIndir"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("SMS Raporları sayfa boyutu (.*) olarak seçilir")
+	def raporlarSmsSayfaBoyutu(String sayfaBoyutu) {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutuSmsRaporlari"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Kontör Kullanım Raporları sayfa boyutu (.*) olarak seçilir")
+	def raporlarKontrKullanSayfaBoyutu(String sayfaBoyutu) {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutuKontrKullanim"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("e-Posta Raporları sayfa boyutu (.*) olarak seçilir")
+	def raporlarePostaSayfaBoyutu(String sayfaBoyutu) {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutuePosta"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Numara Kontrol sayfa boyutu (.*) olarak seçilir")
+	def numarakntrlSayfaBoyutu(String sayfaBoyutu) {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutuNumaraKntrl"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@When("Zarflar sayfa boyutu (.*) olarak seçilir")
 	def zarflarSayfaBoyutu(String sayfaBoyutu) {
 		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutuZarflar"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
