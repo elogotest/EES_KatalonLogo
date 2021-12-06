@@ -35,4 +35,40 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Raporlar/Kumulatif Kontrol Raporu/Ekran Kontrolu ve Excel Aktar</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ad5e35b1-850d-4e00-9dbc-43a44a36d760</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Raporlar/e-Posta Raporlari/Ekran Kontrol</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c3373da-52e5-4057-8346-722f2fc49ef2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Raporlar/Kontor Kullanim Raporu/Ekran Kontrolu</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>359be792-f203-40cc-a624-d8fc8554e237</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Raporlar/Kullanici Raporlari/Ekran Kontrolu</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14a1d75b-4c62-41b7-98e1-0ac874a2a9ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Raporlar/Numara Kontrol Raporu/Ekran Kontrolu</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e2261c1-1221-443b-8434-d5f456c49d02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Raporlar/SMS Raporlari/Ekran Kontrolu</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0ed94e42-1a66-4cb4-86ed-d6c26b444b99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Raporlar/Toplu Veri Indirme/Ekran Kontrolu</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

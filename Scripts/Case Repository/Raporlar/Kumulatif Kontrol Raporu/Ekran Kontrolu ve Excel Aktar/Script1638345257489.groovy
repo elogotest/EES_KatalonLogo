@@ -17,4 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/Raporlar/Kümülatif Kontör Raporu/Ekran Kontrolü ve Excel Aktar.feature')
+CucumberKW.runFeatureFile('Include/features/Raporlar/Kumulatif Kontör Raporu/Ekran Kontrolu ve Excel Aktar.feature')
