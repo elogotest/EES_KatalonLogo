@@ -62,12 +62,12 @@ Feature: Gelen Kutusu Faturalar Buton Kontrolu
     * Alt butonlardan PDF Tümünü İndir var mı
     * Alt butonlardan UBL Seçilenleri İndir var mı
     * Alt butonlardan UBL Tümünü İndir var mı
-    * Butonlardan UBL isimli butona tıklanır
-    * Alt butonlardan Göster var mı
-    * Alt butonlardan İndir var mı
-    * Butonlardan PDF isimli butona tıklanır
-    * Alt butonlardan Göster var mı
-    * Alt butonlardan İndir var mı
+    #* Butonlardan UBL isimli butona tıklanır
+    #* Alt butonlardan Göster var mı
+    #* Alt butonlardan İndir var mı
+    #* Butonlardan PDF isimli butona tıklanır
+    #* Alt butonlardan Göster var mı
+    #* Alt butonlardan İndir var mı
     * Butonlardan Statü Ata isimli butona tıklanır
     * Alt butonlardan Öndeğer var mı
     * Alt butonlardan pahabicilemez var mı

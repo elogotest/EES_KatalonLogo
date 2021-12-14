@@ -41,7 +41,7 @@ Feature: Gonderim tipi Kagit ve Ozel Matrah tipinde e-Arsiv faturasi olusturulma
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Arşiv oluşturulan faturanın tutar bilgisi 42.480,00 ile aynı mı
-    #* Tabloda Başarılı ünvanlı veri oluşturuldu mu
+    * Tabloda Başarılı ünvanlı veri oluşturuldu mu
     * Tabloda yeni oluşturulan eArsiv verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

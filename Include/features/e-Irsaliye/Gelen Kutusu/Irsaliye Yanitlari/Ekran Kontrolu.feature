@@ -36,9 +36,9 @@ Feature: Gelen Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan UBL Seçilenleri İndir var mı
     * Alt butonlardan UBL Tümünü İndir var mı
-    * Butonlardan UBL isimli butona tıklanır
-    * Alt butonlardan Göster var mı
-    * Alt butonlardan İndir var mı
+    #* Butonlardan UBL isimli butona tıklanır
+    #* Alt butonlardan Göster var mı
+    #* Alt butonlardan İndir var mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

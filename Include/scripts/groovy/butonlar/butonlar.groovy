@@ -146,7 +146,7 @@ class butonlar {
 	def raporlarePostaSayfaBoyutu(String sayfaBoyutu) {
 		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutuePosta"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Numara Kontrol sayfa boyutu (.*) olarak seçilir")
 	def numarakntrlSayfaBoyutu(String sayfaBoyutu) {
 		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutuNumaraKntrl"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
