@@ -10,13 +10,13 @@ Feature: e-Irsaliye Giden Kutusu Uygulama Yanıtlari UBL - Goster
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
-    #* Alt butonlardan Göster butonuna tıklanır
+    * Alt butonlardan Göster butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
     * Ana sekmeye geçilir
-    #* Butonlardan UBL isimli butona tıklanır
-    #* Alt butonlardan İndir butonuna tıklanır
-    #* Ön eki ReceiptAdvice olan dosya indirildi mi
+    * Butonlardan UBL isimli butona tıklanır
+    * Alt butonlardan İndir butonuna tıklanır
+    * Ön eki ReceiptAdvice olan dosya indirildi mi
     #* Dosya boyutu 20000 bytedan büyük mü
     * Kullanıcı işlemlerinden Çıkış seçilir
 

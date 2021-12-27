@@ -17,7 +17,9 @@ Feature: e-Posta Raporları Ekran Kontrolü ve Excel Aktar
     * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
     * Tablodan Elogotest Otomasyon isimli veri seçilir
     * Butonlardan Excel isimli butona tıklanır
-    * Ön eki Invoice olan dosya indirildi mi
+    * Popup email <email> olarak girilir
+    * Yönetim popupında Gönder seçilir
+    * Yönetim popupında Tamam seçilir
     * Butonlardan e-Posta Gönder isimli butona tıklanır
     * Popup email <email> olarak girilir
     * Yönetim popupında Gönder seçilir

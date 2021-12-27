@@ -10,13 +10,13 @@ Feature: Irsaliyenin PDFinin gosterilmesi
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan PDF isimli butona tıklanır
-    #* Alt butonlardan Göster butonuna tıklanır
+    * Alt butonlardan Göster butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * PDF açıldı mı
     * Ana sekmeye geçilir
-    #* Butonlardan PDF isimli butona tıklanır
-    #* Alt butonlardan İndir butonuna tıklanır
-    #* Ön eki Invoice olan dosya indirildi mi
+    * Butonlardan PDF isimli butona tıklanır
+    * Alt butonlardan İndir butonuna tıklanır
+    * Ön eki Invoice olan dosya indirildi mi
     #* Dosya boyutu 60000 bytedan büyük mü
     * Kullanıcı işlemlerinden Çıkış seçilir
 

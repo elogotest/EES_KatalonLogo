@@ -32,5 +32,5 @@ Feature: e-Serbest Meslek Makbuz Raporlari excele aktarma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                    |
-      | ELOGO6       | 123456 |   11.01.2021 |    11.01.2021 |     1641 | elogotest@gmail.com;ali.kara@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                                  |
+      | ELOGO6       | 123456 |   11.01.2021 |    11.01.2021 |     1641 | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

@@ -61,7 +61,7 @@ class sekmeler {
 	}
 
 	@When("Oluşturulan Fatura başlığında (.*) var mı")
-	def faturaBaslıgıDogruMu(String title) {
+	def faturaBasligiDogruMu(String title) {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/FaturaBaslıgıDogruMu"), ["Title":title] , FailureHandling.STOP_ON_FAILURE)
 	}
 

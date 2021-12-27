@@ -30,5 +30,5 @@ Feature: e-Arsiv Raporunun excele aktarilmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi | Email                                    |
-      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 | elogotest@gmail.com;ali.kara@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi | Email                                                  |
+      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

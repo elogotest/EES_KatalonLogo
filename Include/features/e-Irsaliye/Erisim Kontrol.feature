@@ -19,6 +19,30 @@ Feature: e-Irsaliye Erisim Kontrol
     * Yeni sekme başlığında e-İRSALİYE var mı kontrol edilir
     * https://efatura-stage.elogo.com.tr/Despatch/DespatchAdviceDisplayWithGF?p=PABybjfA32bFxi%2bu1quzCQ%3d%3d isimli linke gidilir 
     * Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi
+    * https://efatura-stage.elogo.com.tr/Despatch/ReceiptAdviceDisplayUBL?p=pAZjGDeexrLGuX3eiOig0PbNsrRCyw9%2fpZW0wBk2iMc%3d isimli linke gidilir
+    * <tag1> tagli ubl geldi mi
+    * https://efatura-stage.elogo.com.tr/Despatch/ReceiptAdviceDisplayUBL?p=pAZjGDeexrLGuX3eiOig0J3NSy3CABsWP%2b9gyfWeDFg%3d isimli linke gidilir
+    * Gerekli hata mesaji  geldi mi
+    * https://efatura-stage.elogo.com.tr/Despatch/ReceiptAdviceDisplay?p=pAZjGDeexrLGuX3eiOig0DiWYL6VD5rm3VNJmsHsqXo%3d isimli linke gidilir
+    * Yeni sekme başlığında İRSALİYE YANITI var mı kontrol edilir
+    * https://efatura-stage.elogo.com.tr/Despatch/ReceiptAdviceDisplay?p=pAZjGDeexrLGuX3eiOig0CEDqiTghvMdvWuRih60HiU%3d isimli linke gidilir
+    * Gerekli hata mesaji İrsaliye yanıtınız görüntülenememiştir. geldi mi
+    * https://efatura-stage.elogo.com.tr/Despatch/DespatchAdviceDisplay?p=%2fN3VBEiXpm44fEuO1PZTGqGvsDyGgIfIxjXpNwLkZhM%3d isimli linke gidilir
+    * Yeni sekme başlığında e-İRSALİYE var mı kontrol edilir
+    * https://efatura-stage.elogo.com.tr/Despatch/DespatchAdviceDisplay?p=4dGKIwknMvAw0SxR5MXtnUsNTPXVznDr6F2xvnddvP0%3d isimli linke gidilir
+    * Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi
+    * https://efatura-stage.elogo.com.tr/Despatch/DespatchAdviceDisplayUbl?p=n3Pmr%2fo%2fqHb%2fEpDPc1w9Eg%3d%3d isimli linke gidilir
+    * <tag> tagli ubl geldi mi
+    * https://efatura-stage.elogo.com.tr/Despatch/DespatchAdviceDisplayUbl?p=lPa8ONr5YFjE4xINz41doQ%3d%3d isimli linke gidilir
+    * Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi
+    * https://efatura-stage.elogo.com.tr/Despatch/DespatchAdviceDisplayPDF?p=n3Pmr%2fo%2fqHb%2fEpDPc1w9Eg%3d%3d isimli linke gidilir
+    * PDF açıldı mı
+    * https://efatura-stage.elogo.com.tr/Despatch/DespatchAdviceDisplayPDF?p=lPa8ONr5YFjE4xINz41doQ%3d%3d isimli linke gidilir
+    * Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi
+    * https://efatura-stage.elogo.com.tr/Despatch/DespatchAdviceDisplayWithGF?p=n3Pmr%2fo%2fqHb%2fEpDPc1w9Eg%3d%3d isimli linke gidilir
+    * Yeni sekme başlığında e-İRSALİYE var mı kontrol edilir
+    * https://efatura-stage.elogo.com.tr/Despatch/DespatchAdviceDisplayWithGF?p=lPa8ONr5YFjE4xINz41doQ%3d%3d isimli linke gidilir
+    * Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi
     * https://efatura-stage.elogo.com.tr/Invoice/PostboxIncomingInvoice?Option=0 isimli linke gidilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 

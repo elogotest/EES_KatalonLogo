@@ -34,5 +34,5 @@ Feature: e-Arsiv Toplu Indirme - PDF Tumunun indirilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  | Email                                    |
-      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test | elogotest@gmail.com;ali.kara@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  | Email                                                  |
+      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

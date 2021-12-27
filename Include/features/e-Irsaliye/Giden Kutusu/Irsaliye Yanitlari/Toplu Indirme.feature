@@ -34,5 +34,5 @@ Feature: e-Irsaliye Giden Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secile
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 | Email                                    |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | Logo Elektronik GIB Test | elogotest@gmail.com;ali.kara@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 | Email                                                  |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | Logo Elektronik GIB Test | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

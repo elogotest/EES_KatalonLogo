@@ -32,5 +32,5 @@ Feature: e-Mustahsil Makbuzu excele aktarma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                    |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | ELOGO5   | elogotest@gmail.com;ali.kara@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                                  |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | ELOGO5   | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

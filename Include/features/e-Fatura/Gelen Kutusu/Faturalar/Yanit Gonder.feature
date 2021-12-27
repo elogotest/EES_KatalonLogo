@@ -32,6 +32,9 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
+    #* Yönetim popupında Tamam seçilir
+    #* Kullanıcı işlemlerinden Çıkış seçilir
+    #* Kullanıcı adı <kullaniciAdi1> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir
     # * Filtrelerden Ettn filtresine Ettn bilgisi yaz
@@ -56,5 +59,5 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 |
-      | ELOGO6       | 123456 | ELOGO6    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST |
+      | kullaniciAdi | sifre  | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 | kullaniciAdi1 |
+      | ELOGO6       | 123456 | ELOGO6    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST | ELOGOGIB      |

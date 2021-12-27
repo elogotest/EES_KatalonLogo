@@ -29,8 +29,9 @@ Feature: Irsaliye Yanitinin excele aktarilmasi
     * Filtrelerden Talep No filtresine Rapor No bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * Tabloda yeni oluşturulan veri hazırlandı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |          |Email                                    |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | ELOGO TEST | Muhasebe |elogotest@gmail.com;ali.kara@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |          | Email                                                  |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | ELOGO TEST | Muhasebe | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

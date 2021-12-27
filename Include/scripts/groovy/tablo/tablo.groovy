@@ -85,6 +85,11 @@ class tablo {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodaVeriBasariliMiIrsaliye"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 
+	@When("Tabloda yeni oluşturulan veri hazırlandı mı")
+	def tablodaVeriHazirlandiMi() {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodakiVeriHazirlandiMi"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@When("Tabloda yeni oluşturulan eFatura verisi başarılı mı")
 	def tablodaVeriBasariliMiFatura() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodaVeriBasariliMiFatura"), [:] , FailureHandling.STOP_ON_FAILURE)
@@ -156,7 +161,7 @@ class tablo {
 	}
 
 	@When("(.*) adlı yıl seçilir")
-	def adliYılAcilir(String yil) {
+	def adliYilAcilir(String yil) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/YilSecilir"), ["Yil":yil] , FailureHandling.STOP_ON_FAILURE)
 	}
 

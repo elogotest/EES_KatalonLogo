@@ -68,11 +68,11 @@ Feature: Raporlar Toplu Veri İndirme Ekran Kontrolü ve Excel Aktar
     * Filtrelerden Talep Eden Kullanıcı filtresine ELOGO6 textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Talep No filtresine 18404 textini yaz
+    * Filtrelerden Talep No filtresine 20077 textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri |
-      | ELOGO6       | 123456 |   29.11.2021 |
+      | ELOGO6       | 123456 |   10.12.2021 |

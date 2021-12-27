@@ -46,9 +46,10 @@ Feature: e-Fatura Giden Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
     * Filtrelerden Talep No filtresine Rapor No bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * Tabloda yeni oluşturulan veri hazırlandı mı
     #* Ön eki Invoice olan dosya indirildi mi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |Email                                    |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     |elogotest@gmail.com;ali.kara@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                                  |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

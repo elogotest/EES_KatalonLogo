@@ -6,6 +6,8 @@ Feature: Kullanici silme
     * Alt menüden Yetki Yönetimi seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Kullanıcı Kodu filtresine <departman_Adi> textini yaz
+    * Filtre butonlarından Listele seçilir
     * Tablodan <departman_Adi> isimli veri seçilir
     * Butonlardan Sil isimli butona tıklanır
     * Yönetim popupında Evet seçilir

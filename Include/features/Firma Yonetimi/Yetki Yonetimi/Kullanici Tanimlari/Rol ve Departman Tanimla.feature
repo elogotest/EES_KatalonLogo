@@ -6,6 +6,8 @@ Feature: Departman ve Rol tanimlama
     * Alt menüden Yetki Yönetimi seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Kullanıcı Kodu filtresine <kullanici_Adi> textini yaz
+    * Filtre butonlarından Listele seçilir
     * Tablodan <kullanici_Adi> isimli veri seçilir
     * Butonlardan Rol ve Departman Tanımla isimli butona tıklanır
     * Firma kodu <firma_Kodu> olan firma seçilir

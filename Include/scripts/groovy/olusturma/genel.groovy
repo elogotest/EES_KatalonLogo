@@ -65,7 +65,7 @@ class genel {
 	def turSecilir(String tur) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/SenaryoSecilir"), ["Tur":tur] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("İrsaliye tipi alanından Matbudan seçilir")
 	def irsaliyetipiSecilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/IrsaliyeTipiSecilir"), [:] , FailureHandling.STOP_ON_FAILURE)
@@ -148,7 +148,7 @@ class genel {
 	def siparisBilgileri(String no,String tarih) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/SiparisBilgileriGirilir"), ["SiparisNo":no,"Tarih":tarih] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Matbu İrsaliye bilgileri (.*) ve (.*) olarak girilir")
 	def matbuBilgileri(String no,String tarih) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/MatbuIrsaliyeBilgileriGirilir"), ["MatbuNo":no,"Tarih":tarih] , FailureHandling.STOP_ON_FAILURE)
