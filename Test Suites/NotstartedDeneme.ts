@@ -114,5 +114,14 @@
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/regresyoneIrsaliye</testSuiteEntity>
       </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/regresyoneFatura</testSuiteEntity>
+      </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
