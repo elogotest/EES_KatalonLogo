@@ -14,56 +14,62 @@
    <testCaseLink>
       <guid>fb841df6-e5e3-49cc-a276-2d0e4ea29b87</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Hal Komisyoncu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c82852d5-8ee4-43ba-834c-1e9cc7818529</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Hal Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>abf5ab61-becb-4275-b518-c4c443257f56</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Iade</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b6a16c0c-b5a0-4ec3-ba29-4e2ebdaaeef6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Ihrac Kayitli</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b1581aa9-6b8f-48fc-9fab-54e701adb0fe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Istisna</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4bf34e03-0343-4b61-9d1d-b2666b16f4f2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Ozel Matrah</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9f123655-e550-4901-8c80-0e8e14bf8b16</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>44fbfebc-c98a-4903-a493-5be59dcb966d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Tevkifat</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c3ae84f2-649b-426a-9021-b6314a5ed73d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Internet</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ac3f7d00-dd68-42aa-a48e-d52572a384ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Erisim Kontrol</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1e4ecdf5-2638-4aea-be1b-21cfc8a83912</guid>
