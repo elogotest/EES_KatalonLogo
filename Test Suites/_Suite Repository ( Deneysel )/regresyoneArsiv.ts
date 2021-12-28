@@ -74,19 +74,19 @@
    <testCaseLink>
       <guid>1e4ecdf5-2638-4aea-be1b-21cfc8a83912</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Hal Komisyoncu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4072cb54-198a-4358-9d31-ddfcd41959e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Hal Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ff9f0499-aa76-42de-b301-9fbafdf4e250</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Iade</testCaseId>
    </testCaseLink>
    <testCaseLink>
