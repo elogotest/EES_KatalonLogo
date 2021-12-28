@@ -122,19 +122,19 @@
    <testCaseLink>
       <guid>e93234dc-cf49-4a72-a492-d66874b45127</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Irsaliye/Hal Tipi Irsaliye</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c781bb33-7542-45f2-8cb8-472d260d1ade</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Irsaliye/Temel Irsaliye</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>914bde51-ecad-4b6c-bba3-a29d84f14766</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Irsaliye/Temel İrsaliye Matbudan</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
