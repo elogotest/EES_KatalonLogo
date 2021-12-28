@@ -104,19 +104,19 @@
    <testCaseLink>
       <guid>13c8c2eb-bf18-4e70-867f-40f59d447d7e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Ozel Matrah</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6ef2556a-53ee-435b-a826-c237101dc120</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cf31a2f5-31f2-4a3d-ac86-95b58fe3cfc3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Tevkifat</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
