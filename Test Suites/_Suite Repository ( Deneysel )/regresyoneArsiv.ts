@@ -68,7 +68,7 @@
    <testCaseLink>
       <guid>ac3f7d00-dd68-42aa-a48e-d52572a384ab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Erisim Kontrol</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -92,13 +92,13 @@
    <testCaseLink>
       <guid>9264dcc3-9806-4d51-97f8-69dbb4264b97</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Ihrac Kayitli</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>16d94c8c-106d-422f-ac56-b5f169525612</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Istisna</testCaseId>
    </testCaseLink>
    <testCaseLink>
