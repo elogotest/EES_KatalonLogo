@@ -68,55 +68,55 @@
    <testCaseLink>
       <guid>5638ed58-6750-41a0-8e26-a9ebfef124b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6f721168-c03e-4903-b6c0-c904535a8c96</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Sgk</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>96dedc0e-1275-48aa-9c19-f49dccd893c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Tevkifat</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5d52794a-7489-4452-bd6e-9adb65f39f52</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ticari Fatura-Ihrac Kayitli</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e751df71-bff4-4258-847e-a9aa943e07ee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ticari Fatura-Istisna</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>16468ea6-5519-44e2-aa63-dcb2c4f0c1d6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ticari Fatura-Ozel Matrah</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>98ad38c7-863a-4cbe-b0ef-48e8585bc2ad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ticari Fatura-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>88c672f1-1cfe-4885-a2ce-60697778cb10</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ticari Fatura-Tevkifat</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3ef4147d-7dc5-4cb0-8dfc-7a512fe94204</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Yolcu Beraber-Istisna</testCaseId>
    </testCaseLink>
    <testCaseLink>
