@@ -110,91 +110,91 @@
    <testCaseLink>
       <guid>87a55e0f-350c-40d1-9c2b-1b2577211fa8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Departman Ata_Geri Al</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4041b994-0c62-4ed4-ad4c-d1e94d423157</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8d19a85d-cd3a-4c44-9402-3e304a58d273</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Gorseli Ac</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d235981f-fa7d-48cb-a16c-ce719d8e7b47</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Izleme Kayitlari</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4b32c933-fa8b-4288-adda-1f2acf6a01eb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/UBL-Goster-Indir</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d33aa8cd-e22b-483a-975e-6de21445bc63</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Departman Ata_Geri Al</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>072d7f61-22c0-4859-915e-aa97164a9ec4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1c80c94f-f02b-4937-9ffe-0bdadebd2fd6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Gorseli Ac</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>72616ed9-b40f-47b3-be80-1265c69a0deb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Izleme Kayitlari</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>388c822e-fd2f-477f-afcd-a6b2aaf6329d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Statu Ata</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9814ffcb-1415-4111-880d-1e9715dea86e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Tum Hesaplar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c0f18683-bb24-4fe5-a330-69120ab68ddd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/UBL-Goster-Indir</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5afadeba-3b0d-454d-90c0-6c5c92781849</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Pdf Goster-Indir</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4550a6cf-1d7e-4c41-a193-8d60b97d1023</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Varsayilan Ile Goster</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cdf9067c-f4fb-4919-8b4e-9b18caf88fb8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Erisim Kontrol</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
