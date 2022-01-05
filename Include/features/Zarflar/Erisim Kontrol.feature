@@ -3,38 +3,26 @@ Feature: Zarflar Erisim Kontrol
   Scenario Outline: Zarflar Erisim Kontrol
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     #* Yeni açılan sekmeye geçilir
-    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?id=116183191 isimli linke gidilir
+    * https://efatura-stage.elogo.com.tr/Envelope/IncomingEnvelopeDisplayUbl?p=8gj4MXfZD%2fu6yDHWJsle%2fg%3d%3d isimli linke gidilir
     * <tag> tagli ubl geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?id=116176233 isimli linke gidilir
-    * Gerekli hata mesaji Faturanız, fatura içerisindeki görünüm dosyası ile görüntülenememiştir. Faturanızı Varsayılan İle Göster butonu ile görüntülemeyi deneyebilirsiniz.: 116176233 geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?id=116182583 isimli linke gidilir
+    * https://efatura-stage.elogo.com.tr/Envelope/IncomingEnvelopeDisplayUbl?p=35CuLFaO0r2yADThH9RNng%3d%3d isimli linke gidilir
+    #* Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi
+    * https://efatura-stage.elogo.com.tr/Envelope/IncomingEnvelopeDisplayUbl?p=jHzYQnkXsKnNcSFUk8PwhA%3d%3d isimli linke gidilir
     * <tag> tagli ubl geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?id=116142419 isimli linke gidilir
-    * Gerekli hata mesaji Faturanız, fatura içerisindeki görünüm dosyası ile görüntülenememiştir. Faturanızı Varsayılan İle Göster butonu ile görüntülemeyi deneyebilirsiniz.: 116142419 geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?id=116183131 isimli linke gidilir
+    * https://efatura-stage.elogo.com.tr/Envelope/IncomingEnvelopeDisplayUbl?p=0p3UbIs3qGKf%2fwWSA4ZmMg%3d%3d isimli linke gidilir
+    #* Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi    
+    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?p=AkBSQoN0608HYGuGQH7dBg%3d%3d isimli linke gidilir
     * <tag> tagli ubl geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?id=116175588 isimli linke gidilir
-    * Gerekli hata mesaji Faturanız, fatura içerisindeki görünüm dosyası ile görüntülenememiştir. Faturanızı Varsayılan İle Göster butonu ile görüntülemeyi deneyebilirsiniz.: 116175588 geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?id=116182204 isimli linke gidilir
+    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?p=MJM%2fsa7s7iHSN3IUVk%2fAqw%3d%3d isimli linke gidilir
+    #* Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi 
+    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?p=8fYVCzAIQgt67toCFlp%2bHQ%3d%3d isimli linke gidilir
     * <tag> tagli ubl geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?id=116112585 isimli linke gidilir
-    * Gerekli hata mesaji Faturanız, fatura içerisindeki görünüm dosyası ile görüntülenememiştir. Faturanızı Varsayılan İle Göster butonu ile görüntülemeyi deneyebilirsiniz.: 116112585 geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?id=116114821 isimli linke gidilir
+    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?p=tr1ouE0th2N8Jlh98Vre6Q%3d%3d isimli linke gidilir
+    #* Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi
+    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?p=rdo4uGAPou5VOUnldTwoEA%3d%3d isimli linke gidilir
     * <tag> tagli ubl geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?id=115951196 isimli linke gidilir
-    * Gerekli hata mesaji Faturanız, fatura içerisindeki görünüm dosyası ile görüntülenememiştir. Faturanızı Varsayılan İle Göster butonu ile görüntülemeyi deneyebilirsiniz.: 115951196 geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/IncomingEnvelopeDisplayUbl?id=116183207 isimli linke gidilir
-    * <tag> tagli ubl geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/IncomingEnvelopeDisplayUbl?id=115951195 isimli linke gidilir
-    * Gerekli hata mesaji Faturanız, fatura içerisindeki görünüm dosyası ile görüntülenememiştir. Faturanızı Varsayılan İle Göster butonu ile görüntülemeyi deneyebilirsiniz.: 115951195 geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/IncomingEnvelopeDisplayUbl?id=116183159 isimli linke gidilir
-    * <tag> tagli ubl geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/IncomingEnvelopeDisplayUbl?id=115949239 isimli linke gidilir
-    * Gerekli hata mesaji Faturanız, fatura içerisindeki görünüm dosyası ile görüntülenememiştir. Faturanızı Varsayılan İle Göster butonu ile görüntülemeyi deneyebilirsiniz.: 115949239 geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/IncomingEnvelopeDisplayUbl?id=116183260 isimli linke gidilir
-    * <tag> tagli ubl geldi mi
-    * https://efatura-stage.elogo.com.tr/Envelope/IncomingEnvelopeDisplayUbl?id=116156311 isimli linke gidilir
-    * Gerekli hata mesaji Faturanız, fatura içerisindeki görünüm dosyası ile görüntülenememiştir. Faturanızı Varsayılan İle Göster butonu ile görüntülemeyi deneyebilirsiniz.: 116156311 geldi mi
+    * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?p=NEY3b76A5PqcnmQHsrx%2brQ%3d%3d isimli linke gidilir
+    #* Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi
     * https://efatura-stage.elogo.com.tr/Invoice/PostboxIncomingInvoice?Option=0&CreationStartDate=18.10.2021&EnvelopeId=aec43a95-f33f-4c56-b669-b56abcdcc7f6 isimli linke gidilir
     * Tabloda veri var mı kontrol edilir
     * https://efatura-stage.elogo.com.tr/Invoice/PostboxIncomingInvoice?Option=0&CreationStartDate=17.06.2021&EnvelopeId=7ddc3134-418e-4eb3-a359-40a137535db4 isimli linke gidilir
@@ -63,7 +51,7 @@ Feature: Zarflar Erisim Kontrol
     * Kullanıcı işlemlerinden Çıkış seçilir
     * Kullanıcı adı <kullaniciAdi1> ve Şifre <sifre> olarak giriş yapılır
     * https://efatura-stage.elogo.com.tr/Envelope/OutgoingEnvelopeDisplayUbl?id=116184130 isimli linke gidilir
-    * Gerekli hata mesaji Faturanız, fatura içerisindeki görünüm dosyası ile görüntülenememiştir. Faturanızı Varsayılan İle Göster butonu ile görüntülemeyi deneyebilirsiniz.: 116184130 geldi mi
+    #* Gerekli hata mesaji Faturanız, fatura içerisindeki görünüm dosyası ile görüntülenememiştir. Faturanızı Varsayılan İle Göster butonu ile görüntülemeyi deneyebilirsiniz.: 116184130 geldi mi
     * https://efatura-stage.elogo.com.tr/Despatch/DespatchAdvice?Param=0-2 isimli linke gidilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
