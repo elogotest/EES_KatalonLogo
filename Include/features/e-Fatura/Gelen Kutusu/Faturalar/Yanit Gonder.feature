@@ -32,7 +32,7 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
-    #* Yönetim popupında Tamam seçilir
+    #* Yönetim popupında Tamam seçilir*1300/1200 başarılı mı kontrolü ekle 
     #* Kullanıcı işlemlerinden Çıkış seçilir
     #* Kullanıcı adı <kullaniciAdi1> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir

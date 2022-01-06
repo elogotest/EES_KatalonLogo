@@ -9,6 +9,14 @@ Feature: e-Arsiv Raporlari Rapor Olustur
     * Yönetim popupında Evet seçilir
     * Popup mesajı İşleminiz başarıyla tamamlanmıştır. Raporun gönderilebilmesi için Raporlar ekranından ilgili raporlar seçilerek "GİB'e Gönder" butonuna basılması gerekmektedir içeriyor mu
     * Yönetim popupında Tamam seçilir
+    * Filtrelerden Durum filtresine Rapor Oluşturuldu dropdowndan degeri seçilir
+    * Filtre butonlarından Listele seçilir
+    * e-Arşiv Raporları tablosundan veri seçilir
+    * Butonlardan GİB'e Gönder isimli butona tıklanır
+    * Yönetim popupında Tamam seçilir
+    * Filtrelerden Durum filtresine GİB e Gönderildi dropdowndan degeri seçilir
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
