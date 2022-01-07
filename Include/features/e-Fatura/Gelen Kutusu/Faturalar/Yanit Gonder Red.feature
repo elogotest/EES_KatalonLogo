@@ -32,7 +32,7 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
-    #* Yönetim popupında Tamam seçilir*1300/1200 başarılı mı kontrolü ekle 
+    #* Yönetim popupında Tamam seçilir*1300/1200 başarılı mı kontrolü ekle
     #* Kullanıcı işlemlerinden Çıkış seçilir
     #* Kullanıcı adı <kullaniciAdi1> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
@@ -44,6 +44,7 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Tablodan E LOGO 6 isimli veri seçilir
     * Butonlardan Yanıt Gönder isimli butona tıklanır
     #* Popup başlığı Uygulama Yanıtı Gönder içeriyor mu
+    * Uygulama yanıtı popupından reddet seçilir
     * Yönetim popupında Gönder seçilir
     * Popup mesajı Uygulama yanıtı başarıyla oluşturuldu. içeriyor mu
     * Yönetim popupında Tamam seçilir
@@ -57,7 +58,6 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Yeni sekme başlığında UYGULAMA YANITI var mı kontrol edilir
     * Ana sekmeye geçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
-
     Examples: 
       | kullaniciAdi | sifre  | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 | kullaniciAdi1 |
       | ELOGO6       | 123456 | ELOGO6    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST | ELOGOGIB      |
