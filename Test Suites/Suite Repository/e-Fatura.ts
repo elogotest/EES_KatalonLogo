@@ -134,7 +134,7 @@
    <testCaseLink>
       <guid>b15f47c6-9fb8-41da-9ea1-80046f3fcf30</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/Tum Hesaplar Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
