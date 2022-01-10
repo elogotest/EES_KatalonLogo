@@ -62,13 +62,13 @@
    <testCaseLink>
       <guid>41cbd30c-afd8-4240-bb78-7800f12bfaa2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Ozel Matrah</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5638ed58-6750-41a0-8e26-a9ebfef124b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
