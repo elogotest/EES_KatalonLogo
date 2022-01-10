@@ -68,7 +68,7 @@
    <testCaseLink>
       <guid>5638ed58-6750-41a0-8e26-a9ebfef124b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
