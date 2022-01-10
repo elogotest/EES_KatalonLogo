@@ -29,4 +29,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Serbest Meslek Makbuzu/VKN-e-Serbest Meslek Makbuzu-Kagit</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d1f1c74f-6af3-43b4-adad-e6ed12e24478</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Yanit Gonder</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f657bf46-50a2-47ac-8b84-feb5f03fb08b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Yanit Gonder Red</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
