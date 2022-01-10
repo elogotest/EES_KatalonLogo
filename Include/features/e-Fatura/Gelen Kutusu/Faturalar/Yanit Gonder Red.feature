@@ -57,6 +57,12 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Yeni açılan sekmeye geçilir
     * Yeni sekme başlığında UYGULAMA YANITI var mı kontrol edilir
     * Ana sekmeye geçilir
+    * Ana menüden e-Fatura seçilir
+    * Alt menü Gelen Kutusu başlığı altındaki Uygulama Yanıtları seçilir
+    * Filtrelerden İliskili Fatura Ettn filtresine Ettn bilgisi yaz
+    #* Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Tablodaki fatura yanıtı verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
     Examples: 
       | kullaniciAdi | sifre  | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 | kullaniciAdi1 |

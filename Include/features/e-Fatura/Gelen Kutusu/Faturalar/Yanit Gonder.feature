@@ -32,7 +32,7 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
-    #* Yönetim popupında Tamam seçilir*1300/1200 başarılı mı kontrolü ekle 
+    #* Yönetim popupında Tamam seçilir*1300/1200 başarılı mı kontrolü ekle
     #* Kullanıcı işlemlerinden Çıkış seçilir
     #* Kullanıcı adı <kullaniciAdi1> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
@@ -52,10 +52,18 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Alt menü Giden Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtrelerden İliskili Fatura Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
+    #* Tablodan 1234567806 isimli veri seçilir
+    #* Tabloda yeni oluşturulan fatura yanıtı verisi başarılı mı
     * Tablodaki 1234567806 isimli verinin Yanıt adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Yeni sekme başlığında UYGULAMA YANITI var mı kontrol edilir
     * Ana sekmeye geçilir
+    * Ana menüden e-Fatura seçilir
+    * Alt menü Gelen Kutusu başlığı altındaki Uygulama Yanıtları seçilir
+    * Filtrelerden İliskili Fatura Ettn filtresine Ettn bilgisi yaz
+    #* Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Tablodaki fatura yanıtı verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

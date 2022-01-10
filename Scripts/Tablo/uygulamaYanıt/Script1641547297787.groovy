@@ -17,13 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'Method.TextDegerineEsitElementinAltindakiTextboxtaYaz'(findTestObject('Filtreler/Basliklar'), findTestObject(
-	'Filtreler/Basliga_Gore_Textbox'), "İlişkili Fatura ETTN", GlobalVariable.ettn)
-
-
-sayac = 500
-while(WebUI.verifyElementText(findTestObject("Object Repository/Tablo/VeriYok"), "Görüntülenecek veri yok", FailureHandling.OPTIONAL)) {
-	
+CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Filtreler/Butonlar'), "Listele")
+sayac = 80
+while(WebUI.verifyElementText(findTestObject("Object Repository/Tablo/eFaturaYanıt"), "0", FailureHandling.OPTIONAL)) {
 	
 	CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Filtreler/Butonlar'), "Listele")
 	
@@ -33,3 +29,6 @@ while(WebUI.verifyElementText(findTestObject("Object Repository/Tablo/VeriYok"),
 	WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 	}
 }
+
+
+CustomKeywords.'Method.TextDegerineEsitElementVarMi'(findTestObject("Object Repository/Tablo/eFaturaYanıt"), "BAŞARI İLE İŞLENDİ")

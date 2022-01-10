@@ -69,7 +69,7 @@ class tablo {
 	def tablodakiVerininButonunaTiklanir(String veri_Adi,String buton) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablonunButonunaTikla"), ["Veri":veri_Adi,"Buton_Adi":buton] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("e-Arşiv Raporları tablosundan veri seçilir")
 	def eArsivRaporlariVeri() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/eArsivRaporlariTablodakiVeri"), [:] , FailureHandling.STOP_ON_FAILURE)
@@ -118,6 +118,11 @@ class tablo {
 	@When("Tabloda yeni oluşturulan fatura yanıtı verisi başarılı mı")
 	def tablodaVeriBasariliMiUygulamaYaniti() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodaVeriBasariliMiUygulamaYaniti"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Tablodaki fatura yanıtı verisi başarılı mı")
+	def tablodaBasariliMiUygulamaYaniti() {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/uygulamaYanıt"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Tabloda (.*) ünvanlı veri oluşturuldu mu")
