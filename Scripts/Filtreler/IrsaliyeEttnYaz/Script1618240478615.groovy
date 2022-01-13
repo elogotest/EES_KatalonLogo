@@ -19,3 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'Method.TextDegerineEsitElementinAltindakiTextboxtaYaz'(findTestObject('Filtreler/Basliklar'), findTestObject(
 	'Filtreler/Basliga_Gore_Textbox'), "ETTN", GlobalVariable.IrsaliyeEttn)
+
+sayac = 500
+while(WebUI.verifyElementText(findTestObject("Object Repository/Tablo/VeriYok"), "Görüntülenecek veri yok", FailureHandling.OPTIONAL)) {
+	
+	
+	CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Filtreler/Butonlar'), "Listele")
+	
+	sayac = sayac-1
+	Console.println(sayac)
+	if(sayac == 0) {
+	WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+	}
+}

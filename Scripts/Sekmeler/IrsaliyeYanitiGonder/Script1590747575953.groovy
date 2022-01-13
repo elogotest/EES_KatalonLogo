@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Object Repository/Sekmeler/Irsaliye_Yaniti/Aciklama'
 
 WebUI.sendKeys(findTestObject('Object Repository/Sekmeler/Irsaliye_Yaniti/Aciklama'), Aciklama)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Sayfalar/Yetki_Yonetimi/Yetki_Tanimlama/Kaydet'), 10)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Butonlar/KydtBtnIrsaliyeYanit'), 10)
 
-WebUI.click(findTestObject('Object Repository/Sayfalar/Yetki_Yonetimi/Yetki_Tanimlama/Kaydet'))
+WebUI.click(findTestObject('Object Repository/Butonlar/KydtBtnIrsaliyeYanit'))
 

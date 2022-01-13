@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PasaportUlke</name>
+   <name>Pasaport UlkeAdi2</name>
    <tag></tag>
-   <elementGuidId>d280b6ae-5082-4c01-8ec7-8a27c0a68489</elementGuidId>
+   <elementGuidId>f7cd9067-acd9-4013-b571-ec0e5664db89</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;cmbPassportNationalityID_I&quot;]</value>
+         <value>//*[@id=&quot;cmbPassportNationalityID_B-1&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;cmbPassportNationalityID_I&quot;]</value>
+      <value>//*[@id=&quot;cmbPassportNationalityID_B-1&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -9,7 +9,7 @@ Feature: VKNo ile Yolcu Beraber senaryosunda ve Istisna tipinde fatura olusturul
     * Görsel tasarım sayfasının e-Fatura Bilgileri başlığını içerdiği kontrol edilir
     * Senaryo alanından Yolcu Beraber seçilir
     #* Tasarım Boyutu alanından Dikey seçilir
-    * Turist alanına TuristAd,TuristSoyad,1111111111,25.01.2021,Almanya,Türkiye girilir
+    * Turist alanına TuristAd,TuristSoyad,1111111111,Almanya,25.01.2021,Türkiye girilir
     * Döküman Para Birimi alanından Türk Lirası seçilir
     * Ön Ek ARV olarak seçilir
     * Tasarım alanından Otomasyon seçilir
@@ -41,7 +41,7 @@ Feature: VKNo ile Yolcu Beraber senaryosunda ve Istisna tipinde fatura olusturul
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Fatura oluşturulan faturanın tutar bilgisi 42.480,00 ile aynı mı
-    #* Tabloda yeni oluşturulan eFatura verisi başarılı mı
+    * Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

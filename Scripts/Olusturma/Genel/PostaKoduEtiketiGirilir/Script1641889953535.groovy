@@ -18,25 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-sayac = 100
-while(WebUI.verifyElementText(findTestObject("Tablo/DurumBilgisiIrsaliye"), "Henüz Sonuçlanmadı", FailureHandling.OPTIONAL)) {
-	
-	
-	CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Filtreler/Butonlar'), "Listele")
-	
-	sayac = sayac-1
-	Console.println(sayac)
-	if(sayac == 0) {
-	WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
-	}
-}
+WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/pKoduEtiketi'), 10)
+WebUI.clearText(findTestObject('Olusturma/Genel/pKoduEtiketi'))
 
+WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/pKoduEtiketi'), PKodu)
 
-CustomKeywords.'Method.TextDegerineEsitElementVarMi'(findTestObject("Tablo/DurumBilgisiIrsaliye"), "Başarılı")
-
-/*
- * 
- * if(WebUI.verifyElementText(findTestObject("Tablo/DurumBilgisiIrsaliye"), "Başarılı", FailureHandling.STOP_ON_FAILURE)) {
-	
-	
-}*/

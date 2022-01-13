@@ -30,7 +30,7 @@ Feature: e-Irsaliye Gelen Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secile
     * Filtrelerden Talep No filtresine Rapor No bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Tabloda yeni oluşturulan veri hazırlandı mı
+    #* Tabloda yeni oluşturulan veri hazırlandı mı
     #* Ön eki ReceiptAdvice olan dosya indirildi mi
     * Kullanıcı işlemlerinden Çıkış seçilir
 

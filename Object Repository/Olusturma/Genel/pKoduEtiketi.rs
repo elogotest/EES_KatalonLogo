@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PasaportUlke</name>
+   <name>pKoduEtiketi</name>
    <tag></tag>
-   <elementGuidId>d280b6ae-5082-4c01-8ec7-8a27c0a68489</elementGuidId>
+   <elementGuidId>a5d86d9b-ec6f-4eb1-b396-627dea13e7f1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;cmbPassportNationalityID_I&quot;]</value>
+         <value>//*[@id=&quot;txtAlias&quot;]/tbody/tr/td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;cmbPassportNationalityID_I&quot;]</value>
+      <value>//*[@id=&quot;txtAlias&quot;]/tbody/tr/td</value>
    </webElementProperties>
 </WebElementEntity>

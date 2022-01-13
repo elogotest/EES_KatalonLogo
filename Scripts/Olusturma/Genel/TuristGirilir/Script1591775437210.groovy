@@ -30,16 +30,20 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/Tu
 WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportNumarasi'))
 
 WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportNumarasi'), PasNo)
-WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'), 10)
 
-WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'))
-
-WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'), PasTarih)
 WebUI.waitForElementClickable(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportUlke'), 10)
 
 WebUI.click(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportUlke'))
 
 CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject("Object Repository/Olusturma/Genel/TuristGirilir/PasaportUlkeAdi"), PasUlke)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'), 10)
+
+WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'), PasTarih)
+
+/*WebUI.click(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/Pasaport UlkeAdi2'))*/
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/Ulke'), 10)
 
 WebUI.click(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/Ulke'))

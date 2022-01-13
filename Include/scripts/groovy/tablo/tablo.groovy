@@ -119,7 +119,7 @@ class tablo {
 	def tablodaVeriBasariliMiUygulamaYaniti() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodaVeriBasariliMiUygulamaYaniti"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Tablodaki fatura yanıtı verisi başarılı mı")
 	def tablodaBasariliMiUygulamaYaniti() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/uygulamaYanıt"), [:] , FailureHandling.STOP_ON_FAILURE)

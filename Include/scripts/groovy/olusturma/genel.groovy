@@ -168,6 +168,11 @@ class genel {
 	def tasiyiciFirmaBilgileri(String firma) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/TasiyiciFirmaBilgileri"), ["Firma":firma] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Posta kodu etiketi (.*) olarak girilir")
+	def pKoduEtiketiGirilir(String pKodu) {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/PostaKoduEtiketiGirilir"), ["PKodu":pKodu] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Şöför Bilgileri (.*),(.*),(.*) olarak girilir")
 	def soforBilgileriGirilir(String ad,String soyad,String tckn) {
@@ -205,8 +210,8 @@ class genel {
 	}
 
 	@When("Turist alanına (.*),(.*),(.*),(.*),(.*),(.*) girilir")
-	def TuristBilgileriGirilir(String ad,String soyad,String pasNo,String pasTarih,String pasUlke,String ulke) {
-		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/TuristGirilir"), ["Ad":ad,"Soyad":soyad,"PasNo":pasNo,"PasTarih":pasTarih,"PasUlke":pasUlke,"Ulke":ulke] , FailureHandling.STOP_ON_FAILURE)
+	def TuristBilgileriGirilir(String ad,String soyad,String pasNo,String pasUlke,String pasTarih,String ulke) {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/TuristGirilir"), ["Ad":ad,"Soyad":soyad,"PasNo":pasNo,"PasUlke":pasUlke,"PasTarih":pasTarih,"Ulke":ulke] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Fatura tarihi Bilgisi (.*) olarak girilir")

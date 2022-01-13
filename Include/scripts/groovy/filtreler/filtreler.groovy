@@ -83,7 +83,7 @@ class filtreler {
 	def ZarfEttnYaz() {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/ZarfETNNYaz"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Filtrelerden Talep No filtresine Rapor No bilgisi yaz")
 	def filtreRaporNoYaz() {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/RaporNoYaz"), [:] , FailureHandling.STOP_ON_FAILURE)
