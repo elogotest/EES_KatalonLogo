@@ -56,7 +56,7 @@
    <testCaseLink>
       <guid>14a1d75b-4c62-41b7-98e1-0ac874a2a9ed</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Raporlar/Numara Kontrol Raporu/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
