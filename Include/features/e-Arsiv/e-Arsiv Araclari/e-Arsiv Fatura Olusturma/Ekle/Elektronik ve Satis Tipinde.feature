@@ -53,6 +53,7 @@ Feature: Gonderim tipi Elektronik ve Satis tipinde e-Arsiv faturasi olusturulmas
     * Alt butonlardan Tümünü Excel'e Aktar butonuna tıklanır
     * Ön eki UserInvoice olan dosya indirildi mi
     #Belgeyi gönderme.
+    * Tablodan <unvan> isimli veri seçilir
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir

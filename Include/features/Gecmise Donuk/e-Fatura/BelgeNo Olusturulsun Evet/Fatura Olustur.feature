@@ -5,13 +5,14 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Evet
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Parametreler seçilir
     * Parametre butonlarından Web Fatura Oluşturma Parametreleri isimli butona tıklanır
-    * Belge Numarası eLogo Tarafından Oluşturulsun Evet Evet seçili mi
+    #* Belge Numarası eLogo Tarafından Oluşturulsun Evet Evet seçili mi
     * Anasayfaya geri dönülür
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
-    * Tablodaki tüm veriler silinir
+    #* Tablodaki tüm veriler silinir
     * Butonlardan Ekle isimli butona tıklanır
     * Görsel tasarım sayfasının e-Fatura Bilgileri başlığını içerdiği kontrol edilir
+    #* Posta kodu etiketi urn:mail:defaultpk@elogo6.com.tr olarak girilir
     * Alıcı adı alanına <alici_Adi> girilir
     * Fatura tarihi Bilgisi <fatura_tarihi> olarak girilir
     * Ekle butonuna basılır
@@ -29,5 +30,5 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Evet
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi | fatura_tarihi    | fatura_no | urun_Adi  | aciklamasi | unvan             | tag     |
-      | ELOGO6       | 123456 | UC0038    | 27.09.2020 23:44 | EE        | Otomasyon | Virgosol   | VirgosolOtomasyon | invoice |
+      | kullaniciAdi | sifre  | alici_Adi         | fatura_tarihi    | fatura_no | urun_Adi  | aciklamasi | unvan                                             | tag     |
+      | ELOGO6       | 123456 | VirgosolFaturaVKN | 27.09.2020 23:44 | EE        | Otomasyon | Virgosol   | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ | invoice |

@@ -23,5 +23,5 @@ Feature: e-Fatura e-Belge Tarihi Degistirilebilsin
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | unvan | fatura_tarihi    |
-      | ELOGOGIB     | 123456 |   10.11.2020 |    30.11.2020 | TEST  | 02.09.2020 23:44 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | unvan                   | fatura_tarihi    |
+      | ELOGOGIB     | 123456 |   10.11.2020 |    30.11.2020 | VirgosolOtomasyon600413 | 02.09.2020 23:44 |

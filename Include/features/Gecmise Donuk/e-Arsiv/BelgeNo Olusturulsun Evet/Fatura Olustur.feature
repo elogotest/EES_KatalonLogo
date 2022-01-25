@@ -5,7 +5,7 @@ Feature: e-Arsiv Gecmise Donuk Fatura Olusturmak Evet
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Parametreler seçilir
     * Parametre butonlarından Web Fatura Oluşturma Parametreleri isimli butona tıklanır
-    * Belge Numarası eLogo Tarafından Oluşturulsun Evet Evet seçili mi
+    #* Belge Numarası eLogo Tarafından Oluşturulsun Evet Evet seçili mi
     * Anasayfaya geri dönülür
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Oluşturma seçilir

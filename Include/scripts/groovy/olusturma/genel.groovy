@@ -168,7 +168,7 @@ class genel {
 	def tasiyiciFirmaBilgileri(String firma) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/TasiyiciFirmaBilgileri"), ["Firma":firma] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Posta kodu etiketi (.*) olarak girilir")
 	def pKoduEtiketiGirilir(String pKodu) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/PostaKoduEtiketiGirilir"), ["PKodu":pKodu] , FailureHandling.STOP_ON_FAILURE)

@@ -47,8 +47,8 @@ import cucumber.api.java.en.When
 class parametreler {
 
 	@When("Belge Numarası eLogo Tarafından Oluşturulsun Evet (.*) seçili mi")
-	def belgeNoOlusturmaEvet(String deger) {
-		WebUI.callTestCase(findTestCase("Test Cases/Sayfalar/Ayarlar/Parametreler/EvetSeciliMi"), ["Deger":deger] , FailureHandling.STOP_ON_FAILURE)
+	def belgeNoOlusturmaEvet(String evetmi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Sayfalar/Ayarlar/Parametreler/EvetSeciliMi"), ["EvetMi":evetmi] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Belge Numarası eLogo Tarafından Oluşturulsun Hayır (.*) seçili mi")

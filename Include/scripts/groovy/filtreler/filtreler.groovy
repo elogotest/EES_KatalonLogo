@@ -94,6 +94,11 @@ class filtreler {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/BaslangicYaz"), ["Filtre_Adi":filtre_Adi,"Filtre_Degeri":filtreDegeri] , FailureHandling.STOP_ON_FAILURE)
 	}
 
+	@When("Okc islemleri min satis tutarı (.*) ve max satis tutari (.*) olarak girilir")
+	def satisDegerleriGir(String satisDegeriMin, String satisDegeriMax) {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/OkcİslemlerSatisTutari"), ["SatisDegeriMin":satisDegeriMin,"SatisDegeriMax":satisDegeriMax] , FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@When("Filtrelerden (.*) filtresine (.*) bitis degerini yaz")
 	def filtreBitisYaz(String filtre_Adi, String filtreDegeri) {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/BitisYaz"), ["Filtre_Adi":filtre_Adi,"Filtre_Degeri":filtreDegeri] , FailureHandling.STOP_ON_FAILURE)

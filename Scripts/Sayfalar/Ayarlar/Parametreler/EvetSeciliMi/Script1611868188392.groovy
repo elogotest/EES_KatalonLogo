@@ -19,4 +19,4 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementPresent(findTestObject("Sayfalar/Ayarlar/Parametreler/EvetIceriyorMu"), 10)
 
-WebUI.verifyElementText(findTestObject("Sayfalar/Ayarlar/Parametreler/EvetIceriyorMu"), Deger)
+WebUI.verifyElementText(findTestObject("Sayfalar/Ayarlar/Parametreler/EvetIceriyorMu"), EvetMi)
