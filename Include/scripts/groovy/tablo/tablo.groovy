@@ -220,4 +220,14 @@ class tablo {
 	def eSMMTutarBilgisiDogruMu(String tutarBilgisi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/eSMMtoplamTutar"), ["Tutar":tutarBilgisi] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Yeni olusturulan duyurunun düzenle butonuna basılır")
+	def duyuruYntmDuzenle() {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/DuyuruYntmDuzenleBtn"), [:] , FailureHandling.OPTIONAL)
+	}
+	
+	@When("Yeni olusturulan duyurunun sil butonuna basılır")
+	def duyuruYntmSil() {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/DuyuruYntmSilBtn"), [:] , FailureHandling.OPTIONAL)
+	}
 }
