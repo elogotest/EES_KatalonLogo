@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>74a9349a-0e88-4015-aff3-263be83ed6c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Yonetim/GIB Zarf Sorgulama/Ekran Kontrol</testCaseId>
    </testCaseLink>
    <testCaseLink>

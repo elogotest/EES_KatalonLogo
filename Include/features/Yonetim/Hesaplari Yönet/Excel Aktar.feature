@@ -9,7 +9,7 @@ Feature: Hesaplari Yönet Ekranı Excel Btnu Kontrolü
   	* Filtre butonlarından Listele seçilir
   	* Tabloda veri var mı kontrol edilir
   	* Butonlardan Excel var mı
-  	* Tablodaki 4.02.2021 09:40:30 ünvanlı veriye tıklanır
+  	* Tablodaki 4.02.2021 09:40:00 ünvanlı veriye tıklanır
   	* Butonlardan Excel isimli butona tıklanır
   	* Ön eki UserAccounts olan dosya indirildi mi
 		* Kullanıcı işlemlerinden Çıkış seçilir

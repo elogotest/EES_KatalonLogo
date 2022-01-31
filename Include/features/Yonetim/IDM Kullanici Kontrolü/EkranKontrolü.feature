@@ -12,7 +12,7 @@ Feature: Yönetim ekrani IDM Kullanici Ekran Kontrolü
     * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 3 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 4 numaralı sayfa butonuna tıklanır
-    * Sayfa butonlarından 571 numaralı sayfa butonuna tıklanır
+    #* Sayfa butonlarından 571 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
     #* Sayfa boyutu 20 olarak seçilir
     * Filtrelerden Vkn/Tckn filtresine 6090408038 textini yaz

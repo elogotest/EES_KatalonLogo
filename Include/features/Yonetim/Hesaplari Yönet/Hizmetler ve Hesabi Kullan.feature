@@ -11,7 +11,7 @@ Feature: Hesapları Yönet Ekranı Hizmetler ve Hesabi Kullan Btonu Kontrolleri
   	* Filtre butonlarından Listele seçilir
   	* Tabloda veri var mı kontrol edilir
   	* Butonlardan Hizmetler var mı
-  	* Tablodaki 4.02.2021 09:40:30 ünvanlı veriye tıklanır
+  	* Tablodaki 4.02.2021 09:40:00 ünvanlı veriye tıklanır
   	* Butonlardan Hizmetler isimli butona tıklanır
   	* Yeni açılan sekmeye geçilir
   	#* Yeni sekme başlığında Hesap Hizmetleri var mı kontrol edilir

@@ -4,6 +4,8 @@ Feature: Yönetim Kontör Loglari Onayla Btonu
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Yönetim seçilir
     * Alt menüden Kontör Logları seçilir
+    * Filtrelerden Oluşturma Tarihi filtresine <tarih> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <tarih> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
@@ -16,5 +18,5 @@ Feature: Yönetim Kontör Loglari Onayla Btonu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre  | tarih      |
+      | ELOGO6       | 123456 | 20.01.2022 |

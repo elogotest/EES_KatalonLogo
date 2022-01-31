@@ -27,6 +27,10 @@ Feature: OCK Mali Raporlari Buton Kontrolu
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel 'e Aktar var mı
     * Alt butonlardan Tümünü Excel 'e Aktar var mı
+    * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
+    * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
+    #* Sayfa boyutu 100 olarak seçilir
+    #* Sayfa boyutu 50 olarak seçilir
     * Filtrelerden Rapor Türü filtresine Eski Nesil dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
