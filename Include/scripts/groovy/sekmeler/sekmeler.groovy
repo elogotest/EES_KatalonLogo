@@ -49,10 +49,15 @@ class sekmeler {
 	def yeniAcilanSekmeyeGecilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/YeniSekmeyeGec"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni açılan sekmeye geçiş yapılır")
 	def yeniAcilanSekmeyeGecisYapilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/YeniSekmeyeGec1"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni açılan sekme kapatılır")
+	def yeniAcilanSekmeyeKapatilir() {
+		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/SekmeKapatilir"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Ana sekmeye geçilir")
@@ -63,6 +68,11 @@ class sekmeler {
 	@When("Yeni sekme başlığında (.*) var mı kontrol edilir")
 	def yeniSekmedeVarMi(String title) {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/YeniSekmeBasligindaVarMi"), ["Title":title] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Yeni açılan sayfa başlığında (.*) var mı kontrol edilir")
+	def yeniSekmeBasligindaVarMi(String baslik) {
+		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/YeniSayfaBasligindaVarMi"), ["Baslik":baslik] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Oluşturulan Fatura başlığında (.*) var mı")

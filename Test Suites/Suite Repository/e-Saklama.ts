@@ -47,4 +47,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Saklama/e-Belge/e-Belge Saklama/Ekran Kontrolü</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>92da88d9-085a-47ef-ba72-ca613cc3b661</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Saklama/e-Belge/e-Belge Saklama/Hata Kayitlari</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

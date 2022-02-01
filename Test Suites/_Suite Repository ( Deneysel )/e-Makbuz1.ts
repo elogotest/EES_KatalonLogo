@@ -14,43 +14,43 @@
    <testCaseLink>
       <guid>869745f2-8d31-42b3-bc09-9ff10f021f63</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Departman Ata-Geri Al</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>19a46df0-986c-4586-9fd5-f52342c6140f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>046e208e-1620-44ef-b935-9b3c0a67ac4b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Goruntule</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bf9da75c-54bf-4a23-8f40-944a0d884e98</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Iptal Et-Geri Al</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0892d2cc-5dcb-4ce1-9bf6-2eaa5ae2c8da</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Izleme Kayitlari</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7d06459e-d234-4ea3-a2aa-0c96f9ed2a61</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Statu Ata</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a79d2fcf-4af1-4a35-989d-a8670c66a3da</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/UBL</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -184,5 +184,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzu Olusturma/Ekran Kontrolu</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>68c2ad0a-010f-4078-957a-1921a0b5b737</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/Varsayilan İle Göster</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
