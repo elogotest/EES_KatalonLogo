@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>317ab561-3fd6-4914-9fee-dafac451ea1f</testSuiteGuid>
-   <testCaseLink>
-      <guid>2f8f67ac-69a1-42c5-b305-31a508926999</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Saklama/e-Fatura/Zarf Yukleme/Yukle</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

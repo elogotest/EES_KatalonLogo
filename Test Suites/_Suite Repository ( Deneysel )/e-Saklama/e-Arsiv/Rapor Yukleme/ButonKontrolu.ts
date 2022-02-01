@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>638fa67b-01e6-4192-ac65-333bac68d021</testSuiteGuid>
-   <testCaseLink>
-      <guid>6bb5c0d7-9e0b-43b9-9ab4-61d112fb952f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Saklama/e-Arsiv/Rapor Yukleme/ButonKontrolu</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

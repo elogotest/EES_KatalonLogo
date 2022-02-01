@@ -91,7 +91,7 @@ class popup {
 	def kontorAdetGirilir(String adet) {
 		WebUI.callTestCase(findTestCase("Test Cases/Popup/KontorAdet"), ["Adet":adet] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Duyuru başlığı (.*) olarak girilir")
 	def duyuruBaslikGirilir(String baslik) {
 		WebUI.callTestCase(findTestCase("Test Cases/Popup/DuyuruBaslikGirilir"), ["Baslik":baslik] , FailureHandling.STOP_ON_FAILURE)

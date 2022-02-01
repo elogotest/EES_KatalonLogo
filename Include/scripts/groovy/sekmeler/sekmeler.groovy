@@ -49,6 +49,11 @@ class sekmeler {
 	def yeniAcilanSekmeyeGecilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/YeniSekmeyeGec"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Yeni açılan sekmeye geçiş yapılır")
+	def yeniAcilanSekmeyeGecisYapilir() {
+		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/YeniSekmeyeGec1"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Ana sekmeye geçilir")
 	def anaSekmeyeGecilir() {

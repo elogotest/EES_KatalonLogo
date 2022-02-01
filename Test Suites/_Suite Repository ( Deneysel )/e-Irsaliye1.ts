@@ -197,4 +197,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Erisim Kontrol</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c1b7671e-09ac-4f1a-9479-eacdf49bba55</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Olusturma/Ekle/TCKN-Sevk Tipinde- Sanal Kullanici</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

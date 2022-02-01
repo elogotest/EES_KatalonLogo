@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>96c35dc3-1efa-4b36-81f8-72c9cf2e5bf8</testSuiteGuid>
-   <testCaseLink>
-      <guid>93cd515c-85ae-4b74-b747-25af8a4bcce3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Saklama/e-Arsiv/Fatura Yukleme/Yukle</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

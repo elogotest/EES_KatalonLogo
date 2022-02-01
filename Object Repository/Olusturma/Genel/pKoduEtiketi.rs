@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;txtAlias&quot;]/tbody/tr/td</value>
+         <value>//*[@id=&quot;txtAlias_I&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;txtAlias&quot;]/tbody/tr/td</value>
+      <value>//*[@id=&quot;txtAlias_I&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
