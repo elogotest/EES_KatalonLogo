@@ -1,4 +1,4 @@
-Feature: e-Belge Saklama Ekran Kontrolü 
+Feature: e-Belge Saklama Ekran Kontrolü #data eklenince sayfalama kontrolü eklenecek
 
   Scenario Outline: e-Belge Saklama Ekran Kontrolü
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
@@ -14,7 +14,7 @@ Feature: e-Belge Saklama Ekran Kontrolü
     * Ana sekmeye geçilir
     * Tablodan earsiv.zip isimli verinin detayı tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
-
+		
     Examples: 
       | kullaniciAdi | sifre  |
       | ELOGO6       | 123456 |

@@ -27,6 +27,16 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Evet
     * Popup mesajı oluşmuştur içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Tablodaki eFatura verisinin fatura numarası <fatura_no> içeriyor mu
+    * Tablodan <unvan> isimli veri seçilir
+    * Butonlardan Gönder isimli butona tıklanır
+    * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
+    * Yönetim popupında Evet seçilir
+    * Ana menüden e-Fatura seçilir
+    * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
+    * Filtrelerden Ettn filtresine Ettn bilgisi yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    #* Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
