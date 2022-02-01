@@ -12,7 +12,7 @@ Feature: Irsaliyeye Yanit Gonder
     * Alıcı adı alanına <alici_Adi> girilir
     * Senaryo alanından Temel İrsaliye seçilir
     * Farklı Teslimat Adres Tanımı adres,Türkiye,Isparta,Yalvaç,32400 olarak girilir
-    #* Posta kodu etiketi urn:mail:defaultpk@elogo6.com.tr olarak girilir
+    * Posta kodu etiketi urn:mail:defaultpk@elogo6.com.tr olarak girilir
     * Ekle butonuna basılır
     * Ürün ekleme alanında Malzeme Adı başlığına <malzeme_adi> girilir
     * Ürün ekleme alanında Açıklaması başlığına <aciklamasi> girilir

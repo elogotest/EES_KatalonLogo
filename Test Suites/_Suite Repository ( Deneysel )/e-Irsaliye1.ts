@@ -203,4 +203,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Olusturma/Ekle/TCKN-Sevk Tipinde- Sanal Kullanici</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>dcf17ad9-a186-4e48-827f-cb04dd0c3425</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliyeler/Yanit Gonder</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
