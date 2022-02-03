@@ -41,10 +41,9 @@ Feature: TCKNo ile Temel Irsaliye senaryosunda ve SEVK tipinde irsaliye olusturu
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-İrsaliye oluşturulan faturanın tutar bilgisi 40.000,00 ile aynı mı
-    * Tabloda yeni oluşturulan irsaliye verisi başarılı mı
+    * Tabloda yeni oluşturulan irsaliye verisi hatalı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi | malzeme_adi | aciklamasi | miktari | birimFiyat | not                        | not1                   | unvan                 | tag            |
-      | ELOGO6       | 123456 | UC0045    | Otomasyon   | Virgosol   |     400 |        100 | Otomasyon Sanal Kullanıcı  | Otomasyon Not Değiştir | VirgosolOtomasyonTEST | DespatchAdvice |
-   
+      | kullaniciAdi | sifre  | alici_Adi | malzeme_adi | aciklamasi | miktari | birimFiyat | not                       | not1                   | unvan                 | tag            |
+      | ELOGO6       | 123456 | UC0045    | Otomasyon   | Virgosol   |     400 |        100 | Otomasyon Sanal Kullanıcı | Otomasyon Not Değiştir | VirgosolOtomasyonTEST | DespatchAdvice |
