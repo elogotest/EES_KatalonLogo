@@ -1,9 +1,9 @@
-Feature: e-Fatura Taslak Iptal Et
+Feature: e-Irsaliye Taslak Iptal Et
 
-  Scenario Outline: e-Fatura Taslak Iptal Et
+  Scenario Outline: e-Irsaliye Taslak Iptal Et
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
-    * Ana menüden e-Fatura seçilir
-    * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Taslak seçilir
+    * Ana menüden e-İrsaliye seçilir
+    * Alt menü e-İrsaliye Araçları başlığı altındaki e-İrsaliye Taslak seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
