@@ -1,9 +1,9 @@
-Feature: e-Fatura Taslak Gecmis
+Feature: e-Arşiv Taslak Gecmis
 
-  Scenario Outline: e-Fatura Taslak Gecmis
+  Scenario Outline: e-Arşiv Taslak Gecmis
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
-    * Ana menüden e-Fatura seçilir
-    * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Taslak seçilir
+    * Ana menüden e-Arşiv seçilir
+    * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Taslak seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -15,4 +15,4 @@ Feature: e-Fatura Taslak Gecmis
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi                   | baslik                         |
-      | ELOGO6       | 123456 | Elogo Otomasyon (pb-stage) | Taslak Fatura İzleme Kayıtları |
+      | ELOGO6       | 123456 | eLogo Otomasyon (pb-stage) | Taslak Fatura İzleme Kayıtları |

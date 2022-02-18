@@ -1,9 +1,9 @@
-Feature: e-Fatura Taslak Excel e Aktar
+Feature: e-Arşiv Taslak Excel e Aktar
 
-  Scenario Outline: e-Fatura Taslak Excel e Aktar
+  Scenario Outline: e-Arşiv Taslak Excel e Aktar
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
-    * Ana menüden e-Fatura seçilir
-    * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Taslak seçilir
+    * Ana menüden e-Arşiv seçilir
+    * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Taslak seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -18,4 +18,4 @@ Feature: e-Fatura Taslak Excel e Aktar
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi                   | name        |
-      | ELOGO6       | 123456 | Elogo Otomasyon (pb-stage) | UserInvoice |
+      | ELOGO6       | 123456 | eLogo Otomasyon (pb-stage) | UserInvoice |

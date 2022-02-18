@@ -1,9 +1,9 @@
-Feature: e-Fatura Taslak Sil
+Feature: e-Arşiv Taslak Sil
 
-  Scenario Outline: e-Fatura Taslak Sil
+  Scenario Outline: e-Arşiv Taslak Sil
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
-    * Ana menüden e-Fatura seçilir
-    * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Taslak seçilir
+    * Ana menüden e-Arşiv seçilir
+    * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Taslak seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -16,4 +16,4 @@ Feature: e-Fatura Taslak Sil
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi                   | tag        |
-      | ELOGO6       | 123456 | Elogo Otomasyon (pb-stage) | CreditNote |
+      | ELOGO6       | 123456 | eLogo Otomasyon (pb-stage) | CreditNote |
