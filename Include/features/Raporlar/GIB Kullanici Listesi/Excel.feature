@@ -10,7 +10,8 @@ Feature: Faturayi excele aktarma
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel'e Aktar butonuna tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
-# Excele aktar ve kontrol et
+
+    # Excele aktar ve kontrol et
     Examples: 
-      | kullaniciAdi | sifre  | vergi_no   |
-      | ELOGO6       | 123456 | 1234567806 |
+      | kullaniciAdi | sifre    | vergi_no   |
+      | LOGOGIB      | Aa802030 | 1234567806 |

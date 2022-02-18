@@ -15,5 +15,5 @@ Feature: Departman Silme
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | departman_Adi     |
-      | ELOGO6       | 123456 | VirgosolDepartman |
+      | kullaniciAdi | sifre    | departman_Adi     |
+      | LOGOGIB      | Aa802030 | VirgosolDepartman |

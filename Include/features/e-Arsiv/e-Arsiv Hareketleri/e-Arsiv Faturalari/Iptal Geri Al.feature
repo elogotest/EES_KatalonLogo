@@ -17,5 +17,5 @@ Feature: e-Arsiv Faturasi Iptal Geri Al
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  |
-      | ELOGO6       | 123456 |   01.01.2019 |    31.01.2019 | test test |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi  |
+      | LOGOGIB      | Aa802030 |   01.01.2019 |    31.01.2019 | test test |

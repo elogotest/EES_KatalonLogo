@@ -29,11 +29,12 @@ Feature: Gelen Kutusu Uygulama Yanitlari Buton Kontrolu
     * Alt butonlardan Tümünü Excel'e Aktar var mı
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
-    * Tablodan 1234567806 isimli verinin detayı tıklanır
-    * Tablodan 1234567806 isimli verinin detayı tıklanır
+    * Tablodan 6090122074 isimli verinin detayı tıklanır
+    * Tablodan 6090122074 isimli verinin detayı tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
-      | ELOGO6       | 123456 |   01.05.2021 |    06.05.2021 |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 |
+      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 |

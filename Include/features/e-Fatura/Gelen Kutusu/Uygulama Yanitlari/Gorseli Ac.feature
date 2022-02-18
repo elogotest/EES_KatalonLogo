@@ -6,6 +6,7 @@ Feature: Uygulama Yanitinin Gorseli
     * Alt menü Gelen Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodaki <veri_Adi> isimli verinin Yanıt adlı butonuna tıklanır
@@ -15,5 +16,5 @@ Feature: Uygulama Yanitinin Gorseli
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | 1234567806 |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi   |
+      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | 6090122074 |

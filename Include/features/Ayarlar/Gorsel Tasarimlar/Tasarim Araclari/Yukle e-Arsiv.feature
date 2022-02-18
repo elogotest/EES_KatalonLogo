@@ -12,6 +12,5 @@ Feature: Tasarim Araclari Yukle e-Arsiv
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | dosya_adi                                  | dosya                                                  |
-      | ELOGO6       | 123456 | FCDD449F-F6B4-4D5F-B436-1E81B80A7193.xslt- | D:\\upfiles\\FCDD449F-F6B4-4D5F-B436-1E81B80A7193.xslt |
-
+      | kullaniciAdi | sifre    | dosya_adi                                  | dosya                                                  |
+      | LOGOGIB      | Aa802030 | FCDD449F-F6B4-4D5F-B436-1E81B80A7193.xslt- | D:\\upfiles\\FCDD449F-F6B4-4D5F-B436-1E81B80A7193.xslt |

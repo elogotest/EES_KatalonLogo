@@ -10,7 +10,7 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Sgk tipinde fatura olusturulmasi 
     * Senaryo alanından Temel Fatura seçilir
     * Tip alanından Sgk seçilir
     * Döküman Para Birimi alanından Türk Lirası seçilir
-    * Ön Ek ARV olarak seçilir
+    * Ön Ek KGC olarak seçilir
     * Tasarım alanından Otomasyon seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
@@ -39,6 +39,7 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Sgk tipinde fatura olusturulmasi 
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Fatura oluşturulan faturanın tutar bilgisi 42.480,00 ile aynı mı
@@ -46,5 +47,5 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Sgk tipinde fatura olusturulmasi 
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                             |
-      | ELOGO6       | 123456 | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI |
+      | kullaniciAdi | sifre    | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan |
+      | LOGOGIB      | Aa802030 | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | TEST  |

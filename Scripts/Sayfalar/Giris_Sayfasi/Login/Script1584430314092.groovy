@@ -23,13 +23,15 @@ Sayfa_Basligi = WebUI.getWindowTitle()
 
 WebUI.verifyMatch(Sayfa_Basligi, 'LOGO e-Fatura', false)
 
+//WebUI.click(findTestObject('Object Repository/Sayfalar/Giris_Sayfasi/DuyuruKapat'))
+
 WebUI.sendKeys(findTestObject('Sayfalar/Giris_Sayfasi/Firma_Kodu'), KullaniciAdi)
 
 WebUI.sendKeys(findTestObject('Sayfalar/Giris_Sayfasi/Sifre'), Sifre)
 
 WebUI.findWebElement(findTestObject('Sayfalar/Giris_Sayfasi/Giris_Butonu')).click()
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'), 5, FailureHandling.OPTIONAL)) {
+/*if (WebUI.verifyElementPresent(findTestObject('Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'), 5, FailureHandling.OPTIONAL)) {
 	
 	WebUI.click(findTestObject('Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'))
 
@@ -44,5 +46,5 @@ if (WebUI.verifyElementPresent(findTestObject('Sayfalar/Giris_Sayfasi/PopupOK'),
 	//Sayfalar/Giris_Sayfasi/PopupOK
 }
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Kullanici_Islemleri/KullaniciIslemleri'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Kullanici_Islemleri/KullaniciIslemleri'))*/
 

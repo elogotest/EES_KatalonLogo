@@ -6,6 +6,7 @@ Feature: Irsaliye Yanitinin Gorselini Ac
     * Alt menü Giden Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodaki <veri_Adi> isimli verinin İrsaliye Yanıtı adlı butonuna tıklanır
@@ -15,5 +16,5 @@ Feature: Irsaliye Yanitinin Gorselini Ac
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | Logo Elektronik GIB Test |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi            |
+      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | Alfa Anonim Şirketi |

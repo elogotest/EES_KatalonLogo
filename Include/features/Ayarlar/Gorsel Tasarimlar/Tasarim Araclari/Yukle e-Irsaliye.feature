@@ -12,5 +12,5 @@ Feature: Tasarim Araclari Yukle e-Irsaliye
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | name  |
-      | ELOGO6       | 123456 | 13441 |
+      | kullaniciAdi | sifre    | name  |
+      | LOGOGIB      | Aa802030 | 13441 |

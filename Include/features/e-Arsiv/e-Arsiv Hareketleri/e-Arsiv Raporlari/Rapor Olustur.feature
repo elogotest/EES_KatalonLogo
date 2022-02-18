@@ -9,6 +9,7 @@ Feature: e-Arsiv Raporlari Rapor Olustur
     * Yönetim popupında Evet seçilir
     * Popup mesajı İşleminiz başarıyla tamamlanmıştır. Raporun gönderilebilmesi için Raporlar ekranından ilgili raporlar seçilerek "GİB'e Gönder" butonuna basılması gerekmektedir içeriyor mu
     * Yönetim popupında Tamam seçilir
+    * Elogo asistan kapatılır
     * Filtrelerden Durum filtresine Rapor Oluşturuldu dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * e-Arşiv Raporları tablosundan veri seçilir
@@ -20,5 +21,5 @@ Feature: e-Arsiv Raporlari Rapor Olustur
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre    |
+      | LOGOGIB      | Aa802030 |

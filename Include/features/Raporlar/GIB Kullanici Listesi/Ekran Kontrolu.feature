@@ -21,7 +21,7 @@ Feature: Raporlar GIB Kullanici Listesi Buton Kontrolu
     * Alt butonlardan Excel'e Aktar var mı
     * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
-    
+
     Examples: 
-      | kullaniciAdi | sifre  | vergi_no   |
-      | ELOGO6       | 123456 | 1234567806 |
+      | kullaniciAdi | sifre    | vergi_no   |
+      | LOGOGIB      | Aa802030 | 1234567806 |

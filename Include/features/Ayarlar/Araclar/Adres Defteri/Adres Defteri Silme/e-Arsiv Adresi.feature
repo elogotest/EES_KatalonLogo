@@ -20,5 +20,5 @@ Feature: e-Arsiv  adresini silme
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | kisaltma_deger   | no         |
-      | ELOGO6       | 123456 | VirgosolArsivVKN | 5422405266 |
+      | kullaniciAdi | sifre    | kisaltma_deger   | no         |
+      | LOGOGIB      | Aa802030 | VirgosolArsivVKN | 5422405266 |

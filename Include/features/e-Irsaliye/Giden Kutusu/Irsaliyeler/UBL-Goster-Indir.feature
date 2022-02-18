@@ -6,6 +6,7 @@ Feature: e-Irsaliye Giden Kutusu UBL - Göster
     * Alt menü Giden Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -21,5 +22,5 @@ Feature: e-Irsaliye Giden Kutusu UBL - Göster
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | tag            |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | TEST     | DespatchAdvice |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi | tag            |
+      | LOGOGIB      | Aa802030 |   04.02.2022 |    04.02.2022 | Logo     | DespatchAdvice |

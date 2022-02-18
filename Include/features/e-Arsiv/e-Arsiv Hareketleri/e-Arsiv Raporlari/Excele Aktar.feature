@@ -5,6 +5,7 @@ Feature: e-Arsiv Raporunun excele aktarilmasi
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Raporları seçilir
     * Filtrelerden Dönem Tarihi filtresine <filtreDegeri> dropdowndan degeri seçilir
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -30,5 +31,5 @@ Feature: e-Arsiv Raporunun excele aktarilmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi | Email                                                  |
-      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre    | filtreDegeri | veri_Adi | Email                                                  |
+      | LOGOGIB      | Aa802030 | 2022 Ocak    |   280769 | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

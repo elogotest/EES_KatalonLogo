@@ -6,6 +6,7 @@ Feature: e-Mustahsil Makbuzu Goruntule
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodaki <veri_Adi> isimli verinin Görüntüle adlı butonuna tıklanır
@@ -15,5 +16,5 @@ Feature: e-Mustahsil Makbuzu Goruntule
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | ELOGO5   |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi             |
+      | LOGOGIB      | Aa802030 |   31.01.2022 |    31.01.2022 | Hacı Mehmet Adıgüzel |

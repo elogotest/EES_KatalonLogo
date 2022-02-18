@@ -6,6 +6,7 @@ Feature: Irsaliyenin Gorselini Ac
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodaki <veri_Adi> isimli verinin İrsaliye adlı butonuna tıklanır
@@ -15,5 +16,5 @@ Feature: Irsaliyenin Gorselini Ac
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Logo Elektronik GIB Test |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                 |
+      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | Logo Elektronik GIB Test |

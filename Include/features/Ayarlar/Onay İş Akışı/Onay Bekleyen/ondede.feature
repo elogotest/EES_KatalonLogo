@@ -17,5 +17,5 @@ Feature: On Deger Ata
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name              |
-      | ELOGO6       | 123456 |   01.06.2020 |    15.06.2020 | VirgosolOtomasyon |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | name              |
+      | LOGOGIB      | Aa802030 |   01.06.2020 |    15.06.2020 | VirgosolOtomasyon |

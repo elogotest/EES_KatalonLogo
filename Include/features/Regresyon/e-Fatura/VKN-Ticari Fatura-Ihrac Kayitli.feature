@@ -39,12 +39,13 @@ Feature: VKNo ile Ticari Fatura senaryosunda ve Ihrac Kayitli tipinde fatura olu
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Fatura oluşturulan faturanın tutar bilgisi 36.000,00 ile aynı mı
-    #* Tabloda yeni oluşturulan eFatura verisi başarılı mı
+    * Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 |
-      | TIFIHRAC     | test1234 | UC0029    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST |
+      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan |
+      | LOGOGIB      | Aa802030 | logo2     | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | TEST  |

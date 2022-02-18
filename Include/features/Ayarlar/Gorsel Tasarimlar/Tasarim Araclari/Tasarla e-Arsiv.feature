@@ -16,5 +16,5 @@ Feature: Tasarim Araclari Tasarla e-Arsiv
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | baslik                     | aciklama          |
-      | ELOGO6       | 123456 | E-ARŞİV TASARIM AÇIKLAMASI | VirgosolOtomasyon |
+      | kullaniciAdi | sifre    | baslik                     | aciklama          |
+      | LOGOGIB      | Aa802030 | E-ARŞİV TASARIM AÇIKLAMASI | VirgosolOtomasyon |

@@ -15,10 +15,11 @@ Feature: VKN Ile e-Arsiv Adresi Olusturma
     * Adres defteri butonlarından Kaydet butonuna tıklanır
     * Filtre alanlarında Kısaltma var mı
     * Filtrelerden Kısaltma filtresine <kisaltma> textini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | kisaltma         | vkntckn    | unvan             | il       | ilce    | ulke_deger |
-      | ELOGO6       | 123456 | VirgosolArsivVKN | 5422405266 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    |
+      | kullaniciAdi | sifre    | kisaltma         | vkntckn    | unvan             | il       | ilce    | ulke_deger |
+      | LOGOGIB      | Aa802030 | VirgosolArsivVKN | 5422405266 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    |

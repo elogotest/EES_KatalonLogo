@@ -4,8 +4,9 @@ Feature: Raporlar Toplu Veri İndirme Ekran Kontrolü ve Excel Aktar
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Raporlar seçilir
     * Alt menüden Toplu Veri İndirme seçilir
-    #* Filtrelerden Talep Tarihi filtresine <filtreDegeri> baslangic degerini yaz
-    #* Filtrelerden Talep Tarihi filtresine <filtreDegeri> bitis degerini yaz
+    * Filtrelerden Talep Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Talep Tarihi filtresine <filtreDegeri1> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Raporlar Toplu Veri İndirme sayfa boyutu 20 olarak seçilir
@@ -13,7 +14,6 @@ Feature: Raporlar Toplu Veri İndirme Ekran Kontrolü ve Excel Aktar
     * Raporlar Toplu Veri İndirme sayfa boyutu 10 olarak seçilir
     * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 3 numaralı sayfa butonuna tıklanır
-    * Sayfa butonlarından 4 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
     * Filtrelerden Dosya Tipi filtresine Pdf dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
@@ -21,9 +21,9 @@ Feature: Raporlar Toplu Veri İndirme Ekran Kontrolü ve Excel Aktar
     * Filtrelerden Dosya Tipi filtresine Excel dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Dosya Tipi filtresine Ubl dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
+    #* Filtrelerden Dosya Tipi filtresine Ubl dropdowndan degeri seçilir
+    #* Filtre butonlarından Listele seçilir
+    #* Tabloda veri var mı kontrol edilir
     * Filtrelerden Dosya Tipi filtresine TÜMÜ dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -50,18 +50,18 @@ Feature: Raporlar Toplu Veri İndirme Ekran Kontrolü ve Excel Aktar
     * Filtrelerden Belge Türü filtresine e-Arşiv Rapor dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Belge Türü filtresine e-Fatura dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Belge Türü filtresine Uygulama Yanıtı dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Belge Türü filtresine e-İrsaliye dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Belge Türü filtresine e-İrsaliye Yanıtı dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
+    #* Filtrelerden Belge Türü filtresine e-Fatura dropdowndan degeri seçilir
+    #* Filtre butonlarından Listele seçilir
+    #* Tabloda veri var mı kontrol edilir
+    #* Filtrelerden Belge Türü filtresine Uygulama Yanıtı dropdowndan degeri seçilir
+    #* Filtre butonlarından Listele seçilir
+    #* Tabloda veri var mı kontrol edilir
+    #* Filtrelerden Belge Türü filtresine e-İrsaliye dropdowndan degeri seçilir
+    #* Filtre butonlarından Listele seçilir
+    #* Tabloda veri var mı kontrol edilir
+    #* Filtrelerden Belge Türü filtresine e-İrsaliye Yanıtı dropdowndan degeri seçilir
+    #* Filtre butonlarından Listele seçilir
+    #* Tabloda veri var mı kontrol edilir
     * Filtrelerden Belge Türü filtresine e-Serbest Meslek Makbuzu dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -74,13 +74,13 @@ Feature: Raporlar Toplu Veri İndirme Ekran Kontrolü ve Excel Aktar
     * Filtrelerden Belge Türü filtresine e-Müstahsil Makbuzu Rapor dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Belge Türü filtresine Zarf dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
+    #* Filtrelerden Belge Türü filtresine Zarf dropdowndan degeri seçilir
+    #* Filtre butonlarından Listele seçilir
+    #* Tabloda veri var mı kontrol edilir
     * Filtrelerden Belge Türü filtresine TÜMÜ dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Talep Eden Kullanıcı filtresine ELOGO6 textini yaz
+    * Filtrelerden Talep Eden Kullanıcı filtresine LOGOGIB textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     #* Filtrelerden Talep No filtresine 24543 textini yaz
@@ -89,5 +89,5 @@ Feature: Raporlar Toplu Veri İndirme Ekran Kontrolü ve Excel Aktar
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri |
-      | ELOGO6       | 123456 |   12.01.2022 |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri1 |
+      | LOGOGIB      | Aa802030 |   01.02.2022 |    04.02.2022 |

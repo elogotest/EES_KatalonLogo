@@ -6,6 +6,7 @@ Feature: e-Fatura Giden Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secilenl
     * Alt menü Giden Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtrelerden Alıcı VKN filtresine <veri_Adi> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -35,5 +36,5 @@ Feature: e-Fatura Giden Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secilenl
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | Email                                                  |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | 1234567806 | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi   | Email                                                  |
+      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | 6090122074 | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

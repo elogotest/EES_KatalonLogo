@@ -71,5 +71,5 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Satis tipinde fatura olusturulmas
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | not1                   | unvan                 | tag     | dosya                             |
-      | KAMUIHRAC    | test1234 | UC0018    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyonTEST | invoice | C:\\otomasyondownfiles\\yukle.txt |
+      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | not1                   | unvan | tag     | dosya                             |
+      | LOGOGIB      | Aa802030 | logo2     | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Değiştir | TEST  | invoice | C:\\otomasyondownfiles\\yukle.txt |

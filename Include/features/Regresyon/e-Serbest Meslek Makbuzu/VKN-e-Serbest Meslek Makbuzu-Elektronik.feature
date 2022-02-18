@@ -1,7 +1,7 @@
 Feature: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
 
   Scenario Outline: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzu Oluşturma seçilir
     * Tablodaki tüm veriler silinir
@@ -10,7 +10,7 @@ Feature: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
     * Alıcı adı alanına <alici_Adi> girilir
     * Gönderim Şekli Elektronik olarak seçilir
     * Döküman Para Birimi alanından Türk Lirası seçilir
-    * Tasarım alanından e-Serbest Meslek Makbuz Öndeger Sablon Tasarim.xslt- seçilir
+    * Tasarım alanından e-Serbest Meslek Makbuz Öndeğer Şablon Tasarım.xslt- seçilir
     * Ekle butonuna basılır
     * Ürün ekleme alanında Ücretin Ne İçin Alındığı başlığına <urun_Adi> girilir
     * Ürün ekleme alanında Brüt Ücret başlığına <brut> girilir
@@ -32,6 +32,7 @@ Feature: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzları seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Serbest Meslek Makbuz oluşturulan faturanın tutar bilgisi 360 ile aynı mı
@@ -39,5 +40,5 @@ Feature: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi                | urun_Adi  | brut | stopaj_Orani | KDV_Orani | not           | unvan                   |
-      | ELOGOGIB     | 123456 | VirgosolSerbestMeslekVKN | Otomasyon |  400 |           10 |        18 | Otomasyon Not | VirgosolOtomasyon383411 |
+      | kullaniciAdi | sifre    | alici_Adi                | urun_Adi  | brut | stopaj_Orani | KDV_Orani | not           | unvan                   |
+      | LOGOGIB      | Aa802030 | VirgosolSerbestMeslekVKN | Otomasyon |  400 |           10 |        18 | Otomasyon Not | VirgosolOtomasyon187747 |

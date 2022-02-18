@@ -7,6 +7,7 @@ Feature: Departman ve Rol tanimlama
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Filtrelerden Kullanıcı Kodu filtresine <kullanici_Adi> textini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tablodan <kullanici_Adi> isimli veri seçilir
     * Butonlardan Rol ve Departman Tanımla isimli butona tıklanır
@@ -17,5 +18,5 @@ Feature: Departman ve Rol tanimlama
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | kullanici_Adi     | firma_Kodu | departman | rol |
-      | ELOGO6       | 123456 | VirgosolKullanici | ELOGO6     | brk       | brk |
+      | kullaniciAdi | sifre    | kullanici_Adi     | firma_Kodu | departman | rol  |
+      | LOGOGIB      | Aa802030 | VirgosolKullanici | LOGOGIB    | dep3      | dep3 |

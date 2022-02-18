@@ -5,7 +5,8 @@ Feature: e-Arsiv Faturasi Varsayılan Ile Gosterilmesi
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
-    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -16,5 +17,5 @@ Feature: e-Arsiv Faturasi Varsayılan Ile Gosterilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  |
-      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                  |
+      | LOGOGIB      | Aa802030 |   02.02.2022 |    31.07.2020 | eLogo Otomasyon (pb-test) |

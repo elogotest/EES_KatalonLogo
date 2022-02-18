@@ -6,6 +6,7 @@ Feature: Uygulama Yanitinin Gecmisi
     * Alt menü Giden Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -16,5 +17,5 @@ Feature: Uygulama Yanitinin Gecmisi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | baslik                              |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | 1234567806 | Uygulama Yanıtları İzleme Kayıtları |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi   | baslik                              |
+      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | 6090122074 | Uygulama Yanıtları İzleme Kayıtları |

@@ -6,6 +6,7 @@ Feature: Irsaliye Yanitinin excele aktarilmasi
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     #* Filtrelerden Gönderici Ünvanı filtresine <veri_Adi> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -33,5 +34,5 @@ Feature: Irsaliye Yanitinin excele aktarilmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |          | Email                                                  |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | ELOGO TEST | Muhasebe | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                  |          | Email                                                  |
+      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | eLogo Otomasyon (pb-test) | Muhasebe | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

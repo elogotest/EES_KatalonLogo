@@ -13,5 +13,5 @@ Feature: e-Arsiv Fatura Kontrol Raporu Filtre Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre    |
+      | LOGOGIB      | Aa802030 |

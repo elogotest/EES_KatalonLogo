@@ -17,6 +17,5 @@ Feature: e-Defter Saklama Goster
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | dosyaIsmi                       |
-      | ELOGO6       | 123456 | 1234567806-202103-YB-000001.zip |
-
+      | kullaniciAdi | sifre    | dosyaIsmi                       |
+      | LOGOGIB      | Aa802030 | 1234567806-202103-YB-000001.zip |

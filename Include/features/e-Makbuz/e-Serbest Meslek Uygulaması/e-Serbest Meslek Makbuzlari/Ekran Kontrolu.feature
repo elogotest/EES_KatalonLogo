@@ -6,19 +6,16 @@ Feature: e-Serbest Meslek Makbuzlari Buton Kontrolu
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
-    * Tablodan TEST isimli verinin detayı tıklanır
-    * Tablodan TEST isimli verinin detayı tıklanır
-    * Listelenen öğe sayısı Sayfa 1 / 1 (4 öğe) mi
+    * Tablodan eLogo Otomasyon (pb-test) isimli verinin detayı tıklanır
+    * Tablodan eLogo Otomasyon (pb-test) isimli verinin detayı tıklanır
     #* Filtrelerden ETTN filtresine bb24e38e-ea93-4a49-b22e-52269aabcf95 textini yaz
-    * Anasayfaya geri dönülür
+    #* Anasayfaya geri dönülür
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Filtrelerden Makbuz Tarihi filtresine <fatura_tarihi> textini yaz
-    * Filtre butonlarından Listele seçilir
-    * Listelenen öğe sayısı Sayfa 1 / 1 (1 öğe) mi
     * Filtre alanlarında Oluşturma Tarihi var mı
     * Filtre alanlarında Alıcı Unvan var mı
     * Filtre alanlarında Alıcı TCKN var mı
@@ -58,5 +55,5 @@ Feature: e-Serbest Meslek Makbuzlari Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | fatura_tarihi |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 |    02.11.2020 |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | fatura_tarihi |
+      | LOGOGIB      | Aa802030 |   01.01.2022 |    31.01.2022 |    02.11.2020 |

@@ -6,6 +6,7 @@ Feature: e-Arsiv Faturasi Tablodaki Verinin Gorseli
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodaki <veri_Adi> isimli verinin Fatura adlı butonuna tıklanır
@@ -15,5 +16,5 @@ Feature: e-Arsiv Faturasi Tablodaki Verinin Gorseli
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |
-      | ELOGO6       | 123456 |   01.02.2020 |    29.02.2020 | sena şahin |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                  |
+      | LOGOGIB      | Aa802030 |   02.02.2022 |    02.02.2022 | eLogo Otomasyon (pb-test) |

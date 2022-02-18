@@ -6,6 +6,7 @@ Feature: e-Irsaliye Giden Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
     * Alt menü Giden Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtrelerden Alıcı Ünvanı filtresine <veri_Adi> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -50,5 +51,5 @@ Feature: e-Irsaliye Giden Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                                  |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | TEST     | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                       | Email                                                  |
+      | LOGOGIB      | Aa802030 |   04.02.2022 |    04.02.2022 | eLogo Test Otomasyon (pb-test) | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

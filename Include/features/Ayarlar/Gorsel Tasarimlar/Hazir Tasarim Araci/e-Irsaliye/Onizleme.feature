@@ -12,5 +12,5 @@ Feature: e-Irsaliye Hazir Tasarim Araci Onizleme
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | sablon                        |
-      | ELOGO6       | 123456 | e-İrsaliye Hal Şablon Tasarım |
+      | kullaniciAdi | sifre    | sablon                        |
+      | LOGOGIB      | Aa802030 | e-İrsaliye Hal Şablon Tasarım |

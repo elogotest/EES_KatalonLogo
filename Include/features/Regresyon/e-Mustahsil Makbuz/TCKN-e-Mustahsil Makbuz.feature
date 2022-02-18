@@ -14,7 +14,7 @@ Feature: TCKNo ile e-Mustahsil Makbuzu Olusturmasi ve Excele aktarilmasi
     * Ürün ekleme alanında Birim Fiyat başlığına <birimFiyat> girilir
     * Ürün ekleme alanında G.V Stopaj Oranı% başlığına <stopaj_Orani> girilir
     * Notlar alanına <not> girilir
-	  * Ettn bilgisi kayıt edilir
+    * Ettn bilgisi kayıt edilir
     * Kaydet butonu seçilir
     * Tabloda Ettn bilgisi kaydedilen veri oluşturuldu mu
     * Tablodan Ettn bilgisi kaydedilen veri seçilir
@@ -30,6 +30,7 @@ Feature: TCKNo ile e-Mustahsil Makbuzu Olusturmasi ve Excele aktarilmasi
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzları seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Müstahsil Makbuz oluşturulan faturanın tutar bilgisi 36000 ile aynı mı
@@ -37,5 +38,5 @@ Feature: TCKNo ile e-Mustahsil Makbuzu Olusturmasi ve Excele aktarilmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi | malzeme_adi | miktari | birimFiyat | stopaj_Orani | not           | adı_soyadı            |
-      | ELOGO6       | 123456 | UC0038    | Otomasyon   |     400 |        100 |           10 | Otomasyon Not | VirgosolOtomasyonTEST |
+      | kullaniciAdi | sifre    | alici_Adi             | malzeme_adi | miktari | birimFiyat | stopaj_Orani | not           | adı_soyadı |
+      | LOGOGIB      | Aa802030 | VirgosolMüstahsilTCKN | Otomasyon   |     400 |        100 |           10 | Otomasyon Not |            |

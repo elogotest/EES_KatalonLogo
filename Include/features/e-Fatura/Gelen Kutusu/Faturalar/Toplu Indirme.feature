@@ -6,6 +6,7 @@ Feature: e-Fatura Gelen Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
     * Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtrelerden Gönderici Ünvanı filtresine <veri_Adi> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -51,5 +52,5 @@ Feature: e-Fatura Gelen Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                                  |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                 | Email                                                  |
+      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | Logo Elektronik GIB Test | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

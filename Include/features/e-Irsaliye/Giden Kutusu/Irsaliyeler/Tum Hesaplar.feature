@@ -10,5 +10,5 @@ Feature: e-Irsaliye Giden Kutusu Irsaliyeler Tum Hesaplar Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre    |
+      | LOGOGIB      | Aa802030 |

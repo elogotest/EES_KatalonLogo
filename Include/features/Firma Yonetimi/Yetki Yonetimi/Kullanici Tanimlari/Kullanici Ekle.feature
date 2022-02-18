@@ -9,5 +9,5 @@ Feature: Kullanici Eklenir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | kullanici_Kodu    | e-Posta                | adi      | soyadi    | telefon    | unvan | firma_Secimi |
-      | ELOGO6       | 123456 | VirgosolKullanici | otomasyon@virgosol.com | Virgosol | Otomasyon | 5555555555 | Firma | ELOGO6       |
+      | kullaniciAdi | sifre    | kullanici_Kodu    | e-Posta                | adi      | soyadi    | telefon    | unvan | firma_Secimi                                            |
+      | LOGOGIB      | Aa802030 | VirgosolKullanici | otomasyon@virgosol.com | Virgosol | Otomasyon | 5555555555 | Firma | LOGOGIB - LOGO YAZILIM SANAYİ VE TİCARET ANONİM ŞİRKETİ |

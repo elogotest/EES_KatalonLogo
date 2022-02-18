@@ -10,5 +10,5 @@ Feature: e-Serbest Meslek Makbuzu Hazir Tasarim Araci Tasarimi Indir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | sablon                                         |
-      | ELOGO6       | 123456 | e-Serbest Meslek Makbuz Öndeğer Şablon Tasarım |
+      | kullaniciAdi | sifre    | sablon                                         |
+      | LOGOGIB      | Aa802030 | e-Serbest Meslek Makbuz Öndeğer Şablon Tasarım |

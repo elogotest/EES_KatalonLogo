@@ -1,4 +1,4 @@
-Feature: e-Belge Saklama Hata Kayitlari Buton Kontrolü 
+Feature: e-Belge Saklama Hata Kayitlari Buton Kontrolü
 
   Scenario Outline: e-Belge Saklama Hata Kayitlari Buton Kontrolü
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
@@ -7,8 +7,8 @@ Feature: e-Belge Saklama Hata Kayitlari Buton Kontrolü
     * Butonlardan Yükle var mı
     * Butonlardan FTPS Bilgileri var mı
     * Butonlardan Hata Kayıtları var mı
-    * Tablodan earsiv.zip isimli verinin detayı tıklanır
-    * Tablodan earsiv.zip isimli verinin detayı tıklanır
+    * Tablodan allllllll.zip isimli verinin detayı tıklanır
+    * Tablodan allllllll.zip isimli verinin detayı tıklanır
     * Butonlardan Hata Kayıtları isimli butona tıklanır
     * Yeni açılan sekmeye geçiş yapılır
     * Yeni açılan sayfa başlığında Yükleme Hata Kayıtları var mı kontrol edilir
@@ -16,5 +16,5 @@ Feature: e-Belge Saklama Hata Kayitlari Buton Kontrolü
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre    |
+      | LOGOGIB      | Aa802030 |

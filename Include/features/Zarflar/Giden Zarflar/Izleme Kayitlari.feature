@@ -6,6 +6,7 @@ Feature: Giden Zarf Gecmis
     * Alt menüden Giden Zarflar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -16,5 +17,5 @@ Feature: Giden Zarf Gecmis
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi     | baslik                |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Test Kurum 6 | Zarf İzleme Kayıtları |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                                      | baslik                |
+      | LOGOGIB      | Aa802030 |   01.01.2022 |    31.01.2022 | LOGO YAZILIM SANAYİ VE TİCARET ANONİM ŞİRKETİ | Zarf İzleme Kayıtları |

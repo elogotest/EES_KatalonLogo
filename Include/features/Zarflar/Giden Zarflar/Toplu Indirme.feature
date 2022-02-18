@@ -6,6 +6,7 @@ Feature: Giden Zarflar Toplu Indirme - UBL Secilenlerin indirilmesi
     * Alt menüden Giden Zarflar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Elogo asistan kapatılır
     * Filtrelerden Alıcı Ünvanı filtresine <veri_Adi> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -34,5 +35,5 @@ Feature: Giden Zarflar Toplu Indirme - UBL Secilenlerin indirilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi     |Email                                    |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Test Kurum 6 |elogotest@gmail.com;ali.kara@logo.com.tr |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                                      | Email                                    |
+      | LOGOGIB      | Aa802030 |   31.01.2022 |    31.01.2022 | LOGO YAZILIM SANAYİ VE TİCARET ANONİM ŞİRKETİ | elogotest@gmail.com;ali.kara@logo.com.tr |
