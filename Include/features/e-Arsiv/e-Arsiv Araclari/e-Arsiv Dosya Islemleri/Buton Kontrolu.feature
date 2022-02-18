@@ -17,4 +17,4 @@ Feature: e-Arsiv Dosya Islemleri Buton Kontrolu
 
     Examples: 
       | kullaniciAdi | sifre    |
-      | LOGOGIB      | Aa802030 |
+      | ELOGO6       |   123456 |

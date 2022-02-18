@@ -7,11 +7,11 @@ Feature: e-Irsaliye Hazir Tasarim Araci On Deger Ata
     * Sekmelerden e-İrsaliye seçilir
     * <sablon> adlı şablonun Ön Değer Ata adlı butonuna tıkla
     * Popup mesajı Seçilen tasarım, e-İrsaliye belge türü için öndeğer tasarım olarak tanımlanacaktır. Onaylıyor musunuz içeriyor mu
-    * Yönetim popupında Evet seçilir
+    * Yönetim popupında Onayla seçilir
     * Popup mesajı Seçilen tasarım öndeğer tasarım olarak tanımlanmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | sablon                        |
-      | LOGOGIB      | Aa802030 | e-İrsaliye Hal Şablon Tasarım |
+      | kullaniciAdi | sifre  | sablon                        |
+      | ELOGO6       | 123456 | e-İrsaliye Hal Şablon Tasarım |

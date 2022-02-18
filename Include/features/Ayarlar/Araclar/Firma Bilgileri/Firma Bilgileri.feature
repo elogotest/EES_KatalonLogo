@@ -4,8 +4,9 @@ Feature: Firma Bilgileri
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Firma Bilgileri seçilir
+    
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    |
-      | LOGOGIB      | Aa802030 |
+      | kullaniciAdi | sifre  |
+      | ELOGO6       | 123456 |

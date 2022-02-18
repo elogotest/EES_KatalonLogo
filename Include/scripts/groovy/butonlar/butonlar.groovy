@@ -166,9 +166,4 @@ class butonlar {
 	def zarfaGitGidenTikla() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/ZarfaGitGidenZarflar"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-
-	@When("Elogo asistan kapatılır")
-	def asistanKapat() {
-		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/AsistanKapat"), [:] , FailureHandling.STOP_ON_FAILURE)
-	}
 }

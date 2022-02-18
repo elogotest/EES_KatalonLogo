@@ -5,7 +5,6 @@ Feature: e-Arsiv Raporlari Buton Kontrolu
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Raporları seçilir
     * Listelenen öğe bilgisi kayıt edilir
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Listelenen öğe sayısı doğru mu
     * Ana menüden e-Arşiv seçilir
@@ -13,10 +12,9 @@ Feature: e-Arsiv Raporlari Buton Kontrolu
     * Filtrelerden Dönem Tarihi filtresine <filtreDegeri> dropdowndan degeri seçilir
     * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri1> baslangic degerini yaz
     * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    #* Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
-    * Tablodan 280771 isimli verinin detayı tıklanır
-    * Tablodan 280771 isimli verinin detayı tıklanır
+    * Tablodan 2716453 isimli verinin detayı tıklanır
+    * Tablodan 2716453 isimli verinin detayı tıklanır
     * Filtre alanlarında Dönem Tarihi var mı
     * Filtre alanlarında Bölüm Tarihi var mı
     * Filtre alanlarında ETTN var mı
@@ -40,5 +38,5 @@ Feature: e-Arsiv Raporlari Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri1 | filtreDegeri2 |
-      | LOGOGIB      | Aa802030 | 2022 Ocak    |    01.01.2022 |    31.01.2022 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri1 | filtreDegeri2 |
+      | ELOGO6       | 123456 | 2021 Eylül   |    01.09.2021 |    01.09.2021 |

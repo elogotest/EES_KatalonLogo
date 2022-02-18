@@ -44,14 +44,12 @@ Feature: Irsaliyeye Yanit Gonder
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Giden Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Irsaliye Ettn filtresine Ettn bilgisi yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tabloda yeni oluşturulan irsaliye verisi başarılı mı
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Irsaliye Ettn filtresine Ettn bilgisi yaz
-    #* Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -82,5 +80,5 @@ Feature: Irsaliyeye Yanit Gonder
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi | malzeme     | kabulEdilmeyen | KEBirim | eksikMiktar | EBirim | fazlaMiktar | FBirim | aciklama        | alici_Adi | malzeme_adi | aciklamasi | miktari | birimFiyat | not                       | not1                   | unvan | Email                                                  |
-      | LOGOGIB      | Aa802030 |   01.12.2020 |    31.12.2020 | TEST     | 101000033AA |              1 | Adet    |           0 | Adet   |           0 | Adet   | İrsaliye Yanıtı | logo2     | Otomasyon   | Virgosol   |     400 |        100 | Otomasyon İrsaliye Yanıtı | Otomasyon Not Değiştir | TEST  | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | malzeme     | kabulEdilmeyen | KEBirim | eksikMiktar | EBirim | fazlaMiktar | FBirim | aciklama        | alici_Adi | malzeme_adi | aciklamasi | miktari | birimFiyat | not                       | not1                   | unvan | Email                                                  |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 | 101000033AA |              1 | Adet    |           0 | Adet   |           0 | Adet   | İrsaliye Yanıtı | ELOGO6    | Otomasyon   | Virgosol   |     400 |        100 | Otomasyon İrsaliye Yanıtı | Otomasyon Not Değiştir | TEST  | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

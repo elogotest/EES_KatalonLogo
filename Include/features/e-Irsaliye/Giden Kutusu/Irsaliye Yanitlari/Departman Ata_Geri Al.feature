@@ -27,4 +27,4 @@ Feature: Irsaliye Yaniti departman ata
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 | departman |
-      | LOGOGIB       | Aa802030 |   01.02.2022 |    01.02.2022 | Logo Elektronik GIB Test | otomasyon |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | Logo Elektronik GIB Test | otomasyon |

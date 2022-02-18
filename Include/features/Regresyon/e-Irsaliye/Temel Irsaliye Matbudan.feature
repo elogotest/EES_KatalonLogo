@@ -38,7 +38,6 @@ Feature: TCKNo ile Temel Irsaliye Matbudan senaryosunda irsaliye olusturulmasi v
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Giden Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Irsaliye Ettn filtresine Ettn bilgisi yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-İrsaliye oluşturulan faturanın tutar bilgisi 40.000,00 ile aynı mı
@@ -46,6 +45,6 @@ Feature: TCKNo ile Temel Irsaliye Matbudan senaryosunda irsaliye olusturulmasi v
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi           | malzeme_adi | aciklamasi | miktari | birimFiyat | not           | unvan                   |
-      | LOGOGIB      | Aa802030 | VirgosolIrsaliyeVKN | Otomasyon   | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon579238 |
+      | kullaniciAdi | sifre  | alici_Adi           | malzeme_adi | aciklamasi | miktari | birimFiyat | not           | unvan                                             |
+      | ELOGO6       | 123456 | VirgosolIrsaliyeVKN | Otomasyon   | Virgosol   |     400 |        100 | Otomasyon Not | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ |
       #UC0037

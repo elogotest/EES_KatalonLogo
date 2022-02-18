@@ -27,4 +27,4 @@ Feature: Irsaliyenin departman ata ve geri al
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 | departman |
-      | LOGOGIB      | Aa802030 |   01.12.2020 |    31.12.2020 | Logo Elektronik GIB Test | otomasyon |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Logo Elektronik GIB Test | otomasyon |

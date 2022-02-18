@@ -6,7 +6,6 @@ Feature: e-Fatura Gelen Kutusu Uygulama Yanıtlari UBL - Goster
     * Alt menü Gelen Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -18,9 +17,9 @@ Feature: e-Fatura Gelen Kutusu Uygulama Yanıtlari UBL - Goster
     * Butonlardan UBL isimli butona tıklanır
     * Alt butonlardan İndir butonuna tıklanır
     * Ön eki ApplicationResponse olan dosya indirildi mi
-    #* Dosya boyutu 2000 bytedan büyük mü
+   #* Dosya boyutu 2000 bytedan büyük mü
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi   | tag                 |
-      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | 6090122074 | ApplicationResponse |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | tag                 |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | 1234567806 | ApplicationResponse |

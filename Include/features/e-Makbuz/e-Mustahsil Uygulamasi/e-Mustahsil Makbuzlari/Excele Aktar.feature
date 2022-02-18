@@ -6,7 +6,6 @@ Feature: e-Mustahsil Makbuzu excele aktarma
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtrelerden Müstahsil Ad Soyad filtresine <veri_Adi> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -33,5 +32,5 @@ Feature: e-Mustahsil Makbuzu excele aktarma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi             | Email                                                  |
-      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | Hacı Mehmet Adıgüzel | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                                  |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | ELOGO5   | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

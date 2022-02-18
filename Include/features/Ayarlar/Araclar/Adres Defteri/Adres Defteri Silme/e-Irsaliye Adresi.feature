@@ -15,5 +15,5 @@ Feature: e-Irsaliye adresini silme
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | kisaltma_deger      |
-      | LOGOGIB      | Aa802030 | VirgosolIrsaliyeVKN |
+      | kullaniciAdi | sifre  | kisaltma_deger      |
+      | ELOGO6       | 123456 | VirgosolIrsaliyeVKN |

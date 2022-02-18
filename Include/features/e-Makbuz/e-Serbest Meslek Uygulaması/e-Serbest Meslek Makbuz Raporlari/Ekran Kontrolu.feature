@@ -4,13 +4,12 @@ Feature: e-Serbest Meslek Makbuz Raporlari Buton Kontrolu
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuz Raporları seçilir
-    * Filtrelerden Dönem Tarihi filtresine 2022 Ocak dropdowndan degeri seçilir
+    * Filtrelerden Dönem Tarihi filtresine 2021 Ocak dropdowndan degeri seçilir
     * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
-    * Tablodan 11554 isimli verinin detayı tıklanır
-    * Tablodan 11554 isimli verinin detayı tıklanır
+    * Tablodan 1659 isimli verinin detayı tıklanır
+    * Tablodan 1659 isimli verinin detayı tıklanır
     * Filtre alanlarında Dönem Tarihi var mı
     * Filtre alanlarında Bölüm Tarihi var mı
     * Filtre alanlarında ETTN var mı
@@ -29,5 +28,5 @@ Feature: e-Serbest Meslek Makbuz Raporlari Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 |
-      | LOGOGIB      | Aa802030 |   01.01.2022 |   31.01.2022 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
+      | ELOGO6       | 123456 |   11.01.2021 |    11.01.2021 |

@@ -5,7 +5,6 @@ Feature: Giden Kutusu Faturalar Tax Free iptal İşlemi
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Senaryo filtresine Yolcu Beraber Fatura dropdowndan degeri seçilir
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <unvan> isimli veri seçilir
@@ -19,5 +18,5 @@ Feature: Giden Kutusu Faturalar Tax Free iptal İşlemi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | unvan                                                      |
-      | LOGOGIB      | Aa802030 | GÜMRÜK VE TİCARET BAKANLIĞI BİLGİ İŞLEM DAİRESİ BAŞKANLIĞI |
+      | kullaniciAdi | sifre  | unvan                                                      |
+      | ELOGO6       | 123456 | GÜMRÜK VE TİCARET BAKANLIĞI BİLGİ İŞLEM DAİRESİ BAŞKANLIĞI |

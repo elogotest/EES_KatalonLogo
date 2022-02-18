@@ -5,7 +5,6 @@ Feature: e-Arsiv Raporlari Rapor
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Raporları seçilir
     * Filtrelerden Dönem Tarihi filtresine <filtreDegeri> dropdowndan degeri seçilir
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -16,5 +15,5 @@ Feature: e-Arsiv Raporlari Rapor
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | veri_Adi |
-      | LOGOGIB      | Aa802030 | 2022 Ocak    |   279289 |
+      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi |
+      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 |

@@ -6,10 +6,9 @@ Feature: Giden Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Alt menü Giden Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
-    * Tablodan Alfa Anonim Şirketi isimli verinin detayı tıklanır
-    * Tablodan Alfa Anonim Şirketi isimli verinin detayı tıklanır
+    * Tablodan Logo Elektronik GIB Test isimli verinin detayı tıklanır
+    * Tablodan Logo Elektronik GIB Test isimli verinin detayı tıklanır
     * Filtre alanlarında Alıcı Ünvanı var mı
     * Filtre alanlarında Alıcı VKN/TCKN var mı
     * Filtre alanlarında İrsaliye Yanıtı No var mı
@@ -43,5 +42,5 @@ Feature: Giden Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 |
-      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 |

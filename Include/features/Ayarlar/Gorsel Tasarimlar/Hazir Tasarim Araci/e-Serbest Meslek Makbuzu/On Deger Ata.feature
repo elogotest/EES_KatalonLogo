@@ -7,11 +7,11 @@ Feature: e-Serbest Meslek Makbuzu Hazir Tasarim Araci On Deger Ata
     * Sekmelerden e-Serbest Meslek Makbuzu seçilir
     * e-Serbest Meslek Makbuz Öndeğer Şablon Tasarım adlı şablonun Ön Değer Ata adlı butonuna tıkla
     * Popup mesajı Seçilen tasarım, e-Serbest Meslek Makbuzu belge türü için öndeğer tasarım olarak tanımlanacaktır. Onaylıyor musunuz içeriyor mu
-    * Yönetim popupında Evet seçilir
+    * Yönetim popupında Onayla seçilir
     * Popup mesajı Seçilen tasarım öndeğer tasarım olarak tanımlanmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    |
-      | LOGOGIB      | Aa802030 |
+      | kullaniciAdi | sifre  |
+      | ELOGO6       | 123456 |

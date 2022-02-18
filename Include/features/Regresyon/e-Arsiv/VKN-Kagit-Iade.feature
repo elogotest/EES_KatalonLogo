@@ -38,7 +38,6 @@ Feature: Gonderim tipi Kagit ve Iade tipinde e-Arsiv faturasi olusturulmasi
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Arşiv oluşturulan faturanın tutar bilgisi 42.480,00 ile aynı mı
@@ -47,5 +46,5 @@ Feature: Gonderim tipi Kagit ve Iade tipinde e-Arsiv faturasi olusturulmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
-      | LOGOGIB      | Aa802030 | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon806171 |
+      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 |
+      | EARIADE      | test1234 | UC0011    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST |

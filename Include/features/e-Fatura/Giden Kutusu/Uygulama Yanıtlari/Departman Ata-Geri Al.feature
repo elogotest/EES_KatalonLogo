@@ -26,5 +26,5 @@ Feature: Uygulama Yaniti departman ata
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi   | departman |
-      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | 6090122074 | otomasyon |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | departman |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | 1234567806 | otomasyon |

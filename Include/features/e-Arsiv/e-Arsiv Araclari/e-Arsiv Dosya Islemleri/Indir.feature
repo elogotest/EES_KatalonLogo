@@ -11,5 +11,5 @@ Feature: e-Arsiv Dosya Islemleri Indir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | veri_Adi |
-      | LOGOGIB      | Aa802030 |     2020 |
+      | kullaniciAdi | sifre  | veri_Adi |
+      | ELOGO6       | 123456 |     2020 |

@@ -6,7 +6,6 @@ Feature: Gelen Zarf indirme
     * Alt menüden Gelen Zarflar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -16,5 +15,5 @@ Feature: Gelen Zarf indirme
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                 |
-      | LOGOGIB      | Aa802030 |   01.01.2022 |    31.01.2022 | Gelir İdaresi Başkanlığı |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
+      | ELOGO6     | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 |

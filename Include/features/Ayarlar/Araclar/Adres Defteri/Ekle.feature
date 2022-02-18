@@ -19,5 +19,5 @@ Feature: Adres Defteri Ekle butonu Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | kisaltma              | vkntckn    | vkntckn2   | unvan             | il       | ilce   | ulke_deger | e-Fatura_etiket                    |
-      | LOGOGIB      | Aa802030 | VirgosolFaturaSunum33 | 1234567806 | 1234567906 | VirgosolOtomasyon | İstanbul | Kartal | Türkiye    | urn:mail:defaultpk@diyalogo.com.tr |
+      | kullaniciAdi | sifre  | kisaltma              | vkntckn    | vkntckn2   | unvan             | il       | ilce   | ulke_deger | e-Fatura_etiket                    |
+      | ELOGO6       | 123456 | VirgosolFaturaSunum33 | 1234567806 | 1234567906 | VirgosolOtomasyon | İstanbul | Kartal | Türkiye    | urn:mail:defaultpk@diyalogo.com.tr |

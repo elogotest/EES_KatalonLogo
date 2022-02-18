@@ -48,7 +48,6 @@ Feature: VKNo ile Kamu senaryosunda ve Tevkifat tipinde fatura olusturulmasi ve 
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Fatura oluşturulan faturanın tutar bilgisi 39.240,00 ile aynı mı
@@ -56,5 +55,5 @@ Feature: VKNo ile Kamu senaryosunda ve Tevkifat tipinde fatura olusturulmasi ve 
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan |
-      | LOGOGIB      | Aa802030 | logo2     | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | TEST  |
+      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 |
+      | KAMUTEVKIFAT | test1234 | UC0022    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST |

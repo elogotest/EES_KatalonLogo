@@ -10,5 +10,5 @@ Feature: Departman Eklenir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | departman         | aciklama  | posta                  | atayabilirMi |
-      | LOGOGIB      | Aa802030 | VirgosolDepartman | Otomasyon | otomasyon@virgosol.com | Atayamaz     |
+      | kullaniciAdi | sifre  | departman         | aciklama  | posta                  | atayabilirMi |
+      | ELOGO6       | 123456 | VirgosolDepartman | Otomasyon | otomasyon@virgosol.com | Atayamaz     |

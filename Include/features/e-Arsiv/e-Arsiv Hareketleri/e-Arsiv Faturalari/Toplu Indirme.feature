@@ -7,7 +7,6 @@ Feature: e-Arsiv Toplu Indirme - PDF Tumunun indirilmesi
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtrelerden Alıcı Ünvanı filtresine <veri_Adi> textini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -35,5 +34,5 @@ Feature: e-Arsiv Toplu Indirme - PDF Tumunun indirilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi              | Email                                                  |
-      | LOGOGIB      | Aa802030 |   02.02.2022 |    02.02.2022 | Burak Tatkan Altınbaş | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  | Email                                                  |
+      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

@@ -7,7 +7,6 @@ Feature: e-Mustahsil Makbuzlari Toplu Indirme - PDF Secilenlerin indirilmesi
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     #* Filtrelerden Müstahsil Ad Soyad filtresine <veri_Adi> textini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -35,5 +34,5 @@ Feature: e-Mustahsil Makbuzlari Toplu Indirme - PDF Secilenlerin indirilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi             | Email                                                  |
-      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | Hacı Mehmet Adıgüzel | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                                  |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | ELOGO5   | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

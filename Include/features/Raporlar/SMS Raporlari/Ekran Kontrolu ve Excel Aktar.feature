@@ -25,5 +25,5 @@ Feature: SMS Raporları Ekran Kontrolü ve Excel Aktar
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri |
-      | LOGOGIB      | Aa802030 |   28.11.2021 |
+      | kullaniciAdi | sifre  | filtreDegeri |
+      | ELOGO6       | 123456 |   28.11.2021 |

@@ -6,10 +6,9 @@ Feature: Giden Kutusu Uygulama Yanitlari Buton Kontrolu
     * Alt menü Giden Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
-    * Tablodan 6090122074 isimli verinin detayı tıklanır
-    * Tablodan 6090122074 isimli verinin detayı tıklanır
+    * Tablodan 1234567806 isimli verinin detayı tıklanır
+    * Tablodan 1234567806 isimli verinin detayı tıklanır
     * Filtre alanlarında Alıcı VKN var mı
     * Filtre alanlarında ETTN var mı
     * Filtre alanlarında İlişkili Fatura No var mı
@@ -43,5 +42,5 @@ Feature: Giden Kutusu Uygulama Yanitlari Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 |
-      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
+      | ELOGO6       | 123456 |   01.05.2021 |    18.05.2021 | 

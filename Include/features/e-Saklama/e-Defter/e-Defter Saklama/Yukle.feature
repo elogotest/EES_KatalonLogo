@@ -15,5 +15,5 @@ Feature: e-Defter Saklama Yukle
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | dosya                                                                      | dosya_adi                       |
-      | LOGOGIB      | Aa802030 | C:\\otomasyonupfiles\\e-Saklama\\e-Defter\\Invoice17022022092612.zip | 1234567806-202103-YB-000001.zip |
+      | kullaniciAdi | sifre  | dosya                                                                      | dosya_adi                       |
+      | ELOGO6       | 123456 | C:\\otomasyonupfiles\\e-Saklama\\e-Defter\\1234567806-202103-YB-000001.zip | 1234567806-202103-YB-000001.zip |

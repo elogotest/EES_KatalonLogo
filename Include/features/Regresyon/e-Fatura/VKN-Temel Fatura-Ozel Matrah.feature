@@ -39,7 +39,6 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Ozel Matrah tipinde fatura olustu
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Fatura oluşturulan faturanın tutar bilgisi 42.480,00 ile aynı mı
@@ -47,5 +46,5 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Ozel Matrah tipinde fatura olustu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan |
-      | LOGOGIB      | Aa802030 | logo2     | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | TEST  |
+      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 |
+      | TEFMATRAH    | test1234 | UC0026    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST |

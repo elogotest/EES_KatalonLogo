@@ -49,5 +49,5 @@ Feature: Kontör Kullanım Raporları Ekran Kontrolü ve Excel Aktar
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri1 |
-      | LOGOGIB      | Aa802030 |   01.01.2021 |    31.11.2021 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri1 |
+      | ELOGO6       | 123456 |   01.01.2021 |    31.11.2021 |

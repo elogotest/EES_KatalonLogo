@@ -22,5 +22,5 @@ Feature: VKN Ile e-Irsaliye Adresi Olusturma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | kisaltma            | vkntckn    | unvan             | il       | ilce    | ulke_deger | e-Fatura_etiket                    |
-      | LOGOGIB      | Aa802030 | VirgosolIrsaliyeVKN | 6090408038 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    | urn:mail:defaultpk@diyalogo.com.tr |
+      | kullaniciAdi | sifre  | kisaltma            | vkntckn    | unvan             | il       | ilce    | ulke_deger | e-Fatura_etiket                    |
+      | ELOGO6       | 123456 | VirgosolIrsaliyeVKN | 6090408038 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    | urn:mail:defaultpk@diyalogo.com.tr |

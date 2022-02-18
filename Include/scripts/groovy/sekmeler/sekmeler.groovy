@@ -54,7 +54,7 @@ class sekmeler {
 	def yeniAcilanSekmeyeGecisYapilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/YeniSekmeyeGec1"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-
+	
 	@When("Yeni açılan sekme kapatılır")
 	def yeniAcilanSekmeyeKapatilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/SekmeKapatilir"), [:] , FailureHandling.STOP_ON_FAILURE)

@@ -6,7 +6,6 @@ Feature: Tasarim Araclari Guncelle
     * Alt menü Görsel Tasarımlar başlığı altındaki Tasarım Araçları seçilir
     * Filtrelerden Oluşturma Zamanı filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Zamanı filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodaki <name> ünvanlı veriye tıklanır
@@ -19,5 +18,5 @@ Feature: Tasarim Araclari Guncelle
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | name     | baslik                      | aciklama          |
-      | LOGOGIB      | Aa802030 |    2.02.2022 |     2.02.2022 | e-Fatura | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name | baslik                      | aciklama          |
+      | ELOGO6       | 123456 |   18.01.2018 |    31.12.2018 | TEST | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |

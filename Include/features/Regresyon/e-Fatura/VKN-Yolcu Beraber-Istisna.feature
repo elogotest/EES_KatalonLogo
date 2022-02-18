@@ -11,7 +11,7 @@ Feature: VKNo ile Yolcu Beraber senaryosunda ve Istisna tipinde fatura olusturul
     #* Tasarım Boyutu alanından Dikey seçilir
     * Turist alanına TuristAd,TuristSoyad,1111111111,Almanya,25.01.2021,Türkiye girilir
     * Döküman Para Birimi alanından Türk Lirası seçilir
-    * Ön Ek EFA olarak seçilir
+    * Ön Ek ARV olarak seçilir
     * Tasarım alanından Otomasyon seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
@@ -38,7 +38,6 @@ Feature: VKNo ile Yolcu Beraber senaryosunda ve Istisna tipinde fatura olusturul
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Fatura oluşturulan faturanın tutar bilgisi 42.480,00 ile aynı mı
@@ -46,5 +45,5 @@ Feature: VKNo ile Yolcu Beraber senaryosunda ve Istisna tipinde fatura olusturul
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi                | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                                             |
-      | LOGOGIB      | Aa802030 | Logo Elektronik GIB Test | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ |
+      | kullaniciAdi | sifre  | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                                                      |
+      | ELOGO6       | 123456 | UC0034    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | GÜMRÜK VE TİCARET BAKANLIĞI BİLGİ İŞLEM DAİRESİ BAŞKANLIĞI |

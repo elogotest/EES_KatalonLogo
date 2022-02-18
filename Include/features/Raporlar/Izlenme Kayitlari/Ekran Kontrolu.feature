@@ -14,12 +14,11 @@ Feature: Raporlar Izlenme Kayitlari Ekran Kontrolu
     * Filtre butonlarında Listele var mı
     * Filtre butonlarında Temizle var mı
     * Filtrelerden İşlem Tipi filtresine <islem_tipi> dropdowndan degeri seçilir
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | islem_tipi |
-      | LOGOGIB      | Aa802030 | Bildirim   |
+      | kullaniciAdi | sifre  | islem_tipi |
+      | ELOGO6       | 123456 | Bildirim   |

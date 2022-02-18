@@ -7,7 +7,6 @@ Feature: e-Arsiv Faturasi Departman ata
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtrelerden Alıcı Ünvanı filtresine <veri_Adi> textini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -28,5 +27,5 @@ Feature: e-Arsiv Faturasi Departman ata
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi            | departman |
-      | LOGOGIB      | Aa802030 |   02.02.2022 |    02.02.2022 | Ömer Buğra Alpaslan | dep3      |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | departman |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | xcx cx   | otomasyon |

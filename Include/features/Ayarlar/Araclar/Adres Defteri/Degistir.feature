@@ -10,7 +10,7 @@ Feature: Adres Defteri Degistir butonu Kontrolu
     * Butonlardan Değiştir isimli butona tıklanır
     * Adres defterindeki Adres Değiştir başlıklı popup geldi mi
     * Adres defteri VKN/TCKN No textboxına <vkntckn> yazılır
-    #* Unvan alanına TEST yazılı mı
+    * Unvan alanına VirgosolOtomasyon402115 yazılı mı
     * Adres defteri İl textboxına <il> yazılır
     * Adres defteri İlçe textboxına <ilce> yazılır
     * Adres defteri VKN/TCKN No textboxına <vkntckn2> yazılır
@@ -22,5 +22,5 @@ Feature: Adres Defteri Degistir butonu Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | kisaltma | vkntckn    | vkntckn2   | il       | ilce   |
-      | LOGOGIB      | Aa802030 | logo2    | 5422405266 | 1234567906 | İstanbul | Kartal |
+      | kullaniciAdi | sifre  | kisaltma            | vkntckn    | vkntckn2   | il       | ilce   |
+      | ELOGO6       | 123456 | VirgosolArsivDeneme | 5422405266 | 1234567906 | İstanbul | Kartal |

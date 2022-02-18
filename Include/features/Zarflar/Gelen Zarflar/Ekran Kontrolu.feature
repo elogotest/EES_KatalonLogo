@@ -6,10 +6,9 @@ Feature: Gelen Zarflar Buton Kontrolu
     * Alt menüden Gelen Zarflar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
-    * Tablodan Gelir İdaresi Başkanlığı isimli verinin detayı tıklanır
-    * Tablodan Gelir İdaresi Başkanlığı isimli verinin detayı tıklanır
+    * Tablodan Test Kurum 6 isimli verinin detayı tıklanır
+    * Tablodan Test Kurum 6 isimli verinin detayı tıklanır
     * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
     * Zarflar sayfa boyutu 20 olarak seçilir
@@ -38,8 +37,14 @@ Feature: Gelen Zarflar Buton Kontrolu
     * Alt butonlardan UBL Tümünü İndir var mı
     * Butonlardan İndir isimli butona tıklanır
     * Alt butonlardan İndir var mı
+    * Tablodan Test Kurum 6 isimli verinin detayı tıklanır
+    * Gelen zarflar altındaki zarfa git butonuna tıklanır
+    * Yeni açılan sekmeye geçilir
+    * Tabloda veri var mı kontrol edilir
+    * Ana sekmeye geçilir
+    * Tablodan Test Kurum 6 isimli verinin detayı tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 |
-      | LOGOGIB      | Aa802030 |   01.01.2022 |    31.01.2022 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
+      | ELOGO6       | 123456 |   01.11.2020 |    30.11.2020 |

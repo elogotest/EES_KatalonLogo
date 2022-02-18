@@ -13,5 +13,5 @@ Feature: Kural tanimlama
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | departman_Adi     | belge_Turu | yon   | birinci_Parametre_Secenekleri | birinci_Parametre_Degeri | Ikinci_Parametre_Secenekleri | Ikinci_Parametre_Degeri | Mail_Gonderilsin_Mi |
-      | LOGOGIB      | Aa802030 | VirgosolDepartman | e-Fatura   | Giden | Tümü için Yetkili             |                          |                              |                         | Mail Gönderilsin    |
+      | kullaniciAdi | sifre  | departman_Adi     | belge_Turu | yon   | birinci_Parametre_Secenekleri | birinci_Parametre_Degeri | Ikinci_Parametre_Secenekleri | Ikinci_Parametre_Degeri | Mail_Gonderilsin_Mi |
+      | ELOGO6       | 123456 | VirgosolDepartman | e-Fatura   | Giden | Tümü için Yetkili             |                          |                              |                         | Mail Gönderilsin    |

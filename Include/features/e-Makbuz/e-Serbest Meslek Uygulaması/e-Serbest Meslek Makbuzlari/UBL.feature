@@ -6,7 +6,6 @@ Feature: e-Serbest Meslek Makbuzlari UBL
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -17,5 +16,5 @@ Feature: e-Serbest Meslek Makbuzlari UBL
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                  | tag        |
-      | LOGOGIB      | Aa802030 |   01.01.2022 |    31.01.2022 | eLogo Otomasyon (pb-test) | CreditNote |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | tag        |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     | CreditNote |

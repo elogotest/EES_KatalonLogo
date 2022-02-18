@@ -6,7 +6,6 @@ Feature: Giden Zarf Tablodaki Verinin Irsaliyeleri
     * Alt menüden Giden Zarflar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -14,7 +13,7 @@ Feature: Giden Zarf Tablodaki Verinin Irsaliyeleri
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
     * Ana sekmeye geçilir
-    * Tablodaki <veri_Adi> isimli verinin Yanıt adlı butonuna tıklanır
+    * Tablodaki <veri_Adi> isimli verinin Uygulama Yanıtları adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
@@ -42,7 +41,6 @@ Feature: Giden Zarf Tablodaki Verinin Irsaliyeleri
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan <veri_Adi> isimli veri seçilir
     * Tablodan <veri_Adi1> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
@@ -68,12 +66,12 @@ Feature: Giden Zarf Tablodaki Verinin Irsaliyeleri
     * Filtrelerden Belge Türü filtresine e-Fatura dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodaki <veri_Adi1> isimli verinin Faturalar adlı butonuna tıklanır
+    * Tablodaki <veri_Adi> isimli verinin Faturalar adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan <veri_Adi1> isimli veri seçilir
+    * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
@@ -108,12 +106,12 @@ Feature: Giden Zarf Tablodaki Verinin Irsaliyeleri
     * Filtrelerden Oluşturma Tarihi filtresine <tarih> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <tarih1> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Tablodaki <veri_Adi1> isimli verinin İrsaliye Yanıtları adlı butonuna tıklanır
+    * Tablodaki <veri_Adi2> isimli verinin İrsaliye Yanıtları adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan <veri_Adi1> isimli veri seçilir
+    * Tablodan <veri_Adi2> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
@@ -141,12 +139,12 @@ Feature: Giden Zarf Tablodaki Verinin Irsaliyeleri
     * Filtrelerden Oluşturma Tarihi filtresine <tarih2> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <tarih3> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Tablodaki <veri_Adi1> isimli verinin İrsaliyeler adlı butonuna tıklanır
+    * Tablodaki <veri_Adi> isimli verinin İrsaliyeler adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan <veri_Adi1> isimli veri seçilir
+    * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
@@ -171,5 +169,5 @@ Feature: Giden Zarf Tablodaki Verinin Irsaliyeleri
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                 | veri_Adi1                                     | tag                      | Email                                    | tarih      | tarih1     | veri_Adi2                                         | tarih2     | tarih3     | baslik                |
-      | LOGOGIB      | Aa802030 |   31.01.2022 |    31.01.2022 | Gelir İdaresi Başkanlığı | LOGO YAZILIM SANAYİ VE TİCARET ANONİM ŞİRKETİ | StandardBusinessDocument | elogotest@gmail.com;ali.kara@logo.com.tr | 01.01.2022 | 31.01.2022 | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ | 01.01.2022 | 31.01.2022 | Zarf İzleme Kayıtları |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi     | veri_Adi1 | tag                      | Email                                    | tarih      | tarih1     | veri_Adi2                                         | tarih2     | tarih3     | baslik                |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Test Kurum 6 | E LOGO 6  | StandardBusinessDocument | elogotest@gmail.com;ali.kara@logo.com.tr | 01.07.2020 | 31.07.2020 | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ | 01.10.2021 | 31.10.2021 | Zarf İzleme Kayıtları |

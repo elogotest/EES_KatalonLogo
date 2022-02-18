@@ -27,7 +27,7 @@ Feature: e-Makbuz Erisim Kontrol
     * https://efatura-stage.elogo.com.tr/EPReceipt/DisplayFileReport?p=pT5Bj7dhaN5dN%2fCakJ2PBXrUzcvIHaGLz7IXx5bj1cYP0m2JyaEcZf5nUDPkpPaJ8oE21Yhf3d%2f6N70jwOOiaf2G9xgCO4C4KC5153G89lG9Oma0WlPz3jMdjeGSiBr4 isimli linke gidilir
     #* Gerekli hata mesaji Lütfen sadece giriş yaptığınız hesaba ait belgeler için işlem yapınız. geldi mi
     * https://efatura-stage.elogo.com.tr/ReceiptCreation/DisplayReceipt?p=N3OB7HglYhRqpl%2b%2fKEel21vphADtkoBSgI52nxZSdMY%3d isimli linke gidilir
-    * Yeni sekme başlığında e-Müstahsil Makbuzu var mı kontrol edilir
+    * Yeni sekme başlığında e-Müstahsil Makbuzu var mı kontrol edilir 
     * https://efatura-stage.elogo.com.tr/ReceiptCreation/DisplayReceipt?p=ovUACEUqfK5ZA1bXAFVozalSDtNbOASh8hVpDlQ14gM%3d isimli linke gidilir
     * Gerekli hata mesaji Belge bulunamadı ya da yetkisiz kullanıcı geldi mi
     * https://efatura-stage.elogo.com.tr/ReceiptCreation/DisplayUBL?p=W%2fVeomPLLgOzNP6Nu%2bA9s2C%2f81f2i2olGkZYcchvOM0AD6j%2bpDoTPw7YYzNCjwC9 isimli linke gidilir
@@ -66,4 +66,4 @@ Feature: e-Makbuz Erisim Kontrol
 
     Examples: 
       | kullaniciAdi | sifre  | tag        | tag1                |
-      | ELOGO2       | 123456 | CreditNote | earsiv:eArsivRaporu |
+      | ELOGO6       | 123456 | CreditNote | earsiv:eArsivRaporu |

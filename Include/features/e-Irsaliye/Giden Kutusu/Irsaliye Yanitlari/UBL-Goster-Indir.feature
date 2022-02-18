@@ -6,7 +6,6 @@ Feature: e-Irsaliye Giden Kutusu Uygulama Yanıtlari UBL - Goster
     * Alt menü Giden Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -22,5 +21,5 @@ Feature: e-Irsaliye Giden Kutusu Uygulama Yanıtlari UBL - Goster
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi            | tag           |
-      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 | Alfa Anonim Şirketi | ReceiptAdvice |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 | tag           |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | Logo Elektronik GIB Test | ReceiptAdvice |

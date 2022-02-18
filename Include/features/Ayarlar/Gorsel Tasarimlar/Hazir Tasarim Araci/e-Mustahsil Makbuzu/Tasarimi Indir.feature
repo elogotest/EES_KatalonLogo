@@ -10,5 +10,5 @@ Feature: e-Mustahsil Makbuzu Hazir Tasarim Araci Tasarimi Indir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | sablon                                    |
-      | LOGOGIB      | Aa802030 | e-Müstahsil Makbuz Öndeğer Şablon Tasarım |
+      | kullaniciAdi | sifre  | sablon                                    |
+      | ELOGO6       | 123456 | e-Müstahsil Makbuz Öndeğer Şablon Tasarım |

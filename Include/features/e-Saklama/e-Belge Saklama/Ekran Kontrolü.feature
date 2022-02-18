@@ -7,14 +7,14 @@ Feature: e-Belge Saklama Ekran Kontrolü #data eklenince sayfalama kontrolü ekl
     * Butonlardan Yükle var mı
     * Butonlardan FTPS Bilgileri var mı
     * Butonlardan Hata Kayıtları var mı
-    * Tablodan allllllll.zip isimli verinin detayı tıklanır
+    * Tablodan earsiv.zip isimli verinin detayı tıklanır
     * Tablodaki e-Arşiv Fatura isimli verinin Listele adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
-    * Tablodan allllllll.zip isimli verinin detayı tıklanır
+    * Tablodan earsiv.zip isimli verinin detayı tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
-
+		
     Examples: 
-      | kullaniciAdi | sifre    |
-      | LOGOGIB      | Aa802030 |
+      | kullaniciAdi | sifre  |
+      | ELOGO6       | 123456 |

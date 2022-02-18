@@ -15,5 +15,5 @@ Feature: e-Mustahsil adresini silme
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | kisaltma_deger        |
-      | LOGOGIB      | Aa802030 | VirgosolMüstahsilTCKN |
+      | kullaniciAdi | sifre  | kisaltma_deger        |
+      | ELOGO6       | 123456 | VirgosolMüstahsilTCKN |

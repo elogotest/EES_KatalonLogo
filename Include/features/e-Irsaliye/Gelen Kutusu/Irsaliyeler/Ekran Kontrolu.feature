@@ -6,12 +6,20 @@ Feature: Gelen Kutusu Irsaliyeler Buton Kontrolu
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tablodan Logo Elektronik GIB Test isimli verinin detayı tıklanır
     * Tablodan Logo Elektronik GIB Test isimli verinin detayı tıklanır
-    #* Listelenen öğe sayısı Sayfa 1 / 4 (39 öğe) mi
+    * Listelenen öğe sayısı Sayfa 1 / 4 (39 öğe) mi
     #* Filtrelerden ETTN filtresine bb24e38e-ea93-4a49-b22e-52269aabcf95 textini yaz
+    * Anasayfaya geri dönülür
+    * Ana menüden e-İrsaliye seçilir
+    * Alt menü Gelen Kutusu başlığı altındaki İrsaliyeler seçilir
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Filtrelerden İrsaliye Tarihi filtresine <fatura_tarihi_baslangic> baslangic degerini yaz    
+    * Filtrelerden İrsaliye Tarihi filtresine <fatura_tarihi_bitis> bitis degerini yaz
+    * Filtre butonlarından Listele seçilir
+    * Listelenen öğe sayısı Sayfa 1 / 1 (1 öğe) mi
     * Filtre alanlarında Gönderici Ünvanı var mı
     * Filtre alanlarında Oluşturma Tarihi var mı
     * Filtre alanlarında İrsaliye Yanıtı var mı
@@ -58,12 +66,12 @@ Feature: Gelen Kutusu Irsaliyeler Buton Kontrolu
     * Butonlardan Statü Ata isimli butona tıklanır
     * Alt butonlardan Öndeğer var mı
     #Fulltextsearch Islemleri
-    #* Anasayfaya geri dönülür
-    #* Ana menüden e-İrsaliye seçilir
-    #* Alt menü Gelen Kutusu başlığı altındaki İrsaliyeler seçilir
-    #* Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
-    #* Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    #Gönderici Unvanı
+  	* Anasayfaya geri dönülür
+    * Ana menüden e-İrsaliye seçilir
+    * Alt menü Gelen Kutusu başlığı altındaki İrsaliyeler seçilir
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+        #Gönderici Unvanı
     * Filtrelerden Gönderici Ünvanı filtresine Logo Elektronik GIB Test textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -77,38 +85,38 @@ Feature: Gelen Kutusu Irsaliyeler Buton Kontrolu
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Filtrelerden Gönderici Ünvanı filtresine *Elektronik* textini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    #Gönderici VKN/TCKN
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  			#Gönderici VKN/TCKN
     * Filtrelerden Gönderici Ünvanı filtresinin iceriğini sil
-    * Filtrelerden Gönd. VKN/TCKN filtresine 6090122074 textini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Gönd. VKN/TCKN filtresine *90122074 textini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Gönd. VKN/TCKN filtresine 60901220* textini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Gönd. VKN/TCKN filtresine *901220* textini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    #İrsaliye no
+  	* Filtrelerden Gönd. VKN/TCKN filtresine 6090408038 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Gönd. VKN/TCKN filtresine *90408038 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Gönd. VKN/TCKN filtresine 6090408* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Gönd. VKN/TCKN filtresine *90408* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	    #İrsaliye no
     * Filtrelerden Gönd. VKN/TCKN filtresinin iceriğini sil
-    * Filtrelerden İrsaliye No filtresine QTN2022660621521 textini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden İrsaliye No filtresine *N2022660621521 textini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden İrsaliye No filtresine QTN20226606215* textini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden İrsaliye No filtresine *N20226606215* textini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
+  	* Filtrelerden İrsaliye No filtresine AAA2020000000003 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden İrsaliye No filtresine *A2020000000003 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden İrsaliye No filtresine AAA2020000000* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden İrsaliye No filtresine *A2020000000* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir      
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | fatura_tarihi_baslangic | fatura_tarihi_bitis |
-      | LOGOGIB      | Aa802030 |   01.02.2022 |    01.02.2022 |              01.03.2020 |          31.03.2020 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | fatura_tarihi_baslangic | fatura_tarihi_bitis |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 |              01.03.2020 |          31.03.2020 |

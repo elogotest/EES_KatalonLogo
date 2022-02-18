@@ -9,5 +9,5 @@ Feature: e-Fatura Mailing TransId Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    |
-      | LOGOGIB      | Aa802030 |
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

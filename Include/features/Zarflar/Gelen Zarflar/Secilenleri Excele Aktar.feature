@@ -6,7 +6,6 @@ Feature: Gelen Zarflar Excele Aktar
     * Alt menüden Gelen Zarflar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -32,5 +31,5 @@ Feature: Gelen Zarflar Excele Aktar
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                 | Email                                    |
-      | LOGOGIB      | Aa802030 |   01.01.2022 |    31.01.2022 | Gelir İdaresi Başkanlığı | elogotest@gmail.com;ali.kara@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |Email                                    |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 |elogotest@gmail.com;ali.kara@logo.com.tr |

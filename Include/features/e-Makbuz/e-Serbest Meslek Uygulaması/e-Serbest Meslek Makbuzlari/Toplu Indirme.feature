@@ -6,7 +6,6 @@ Feature: e-Serbest Meslek Makbuzlari Toplu Indirme - PDF Secilenlerin indirilmes
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Elogo asistan kapatılır
     * Filtrelerden Alıcı Unvan filtresine <veri_Adi> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -35,5 +34,5 @@ Feature: e-Serbest Meslek Makbuzlari Toplu Indirme - PDF Secilenlerin indirilmes
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi                  | Email                                                  |
-      | LOGOGIB      | Aa802030 |   01.01.2022 |    31.01.2022 | eLogo Otomasyon (pb-test) | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                                  |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

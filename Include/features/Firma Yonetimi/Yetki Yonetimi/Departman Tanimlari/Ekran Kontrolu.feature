@@ -17,5 +17,5 @@ Feature: Departman Tanimlari Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    |
-      | LOGOGIB      | Aa802030 |
+      | kullaniciAdi | sifre  |
+      | ELOGO6       | 123456 |

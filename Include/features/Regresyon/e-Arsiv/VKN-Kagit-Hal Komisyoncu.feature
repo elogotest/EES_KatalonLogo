@@ -11,7 +11,7 @@ Feature: Gonderim tipi Kagit ve Hal Komisyoncu tipinde e-Arsiv faturasi olusturu
     * Gönderim Şekli Kağıt olarak seçilir
     * Tip alanından Hal Komisyoncu seçilir
     * Döküman Para Birimi alanından Türk Lirası seçilir
-    * Ön Ek SAR olarak seçilir
+    * Ön Ek FGX olarak seçilir
     * Tasarım alanından Otomasyon seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
@@ -39,7 +39,6 @@ Feature: Gonderim tipi Kagit ve Hal Komisyoncu tipinde e-Arsiv faturasi olusturu
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Arşiv oluşturulan faturanın tutar bilgisi 42.480,00 ile aynı mı
@@ -48,5 +47,5 @@ Feature: Gonderim tipi Kagit ve Hal Komisyoncu tipinde e-Arsiv faturasi olusturu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
-      | LOGOGIB      | Aa802030 | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon806171 |
+      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 |
+      | HALKOMIS     | test1234 | UC0009    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST |

@@ -7,7 +7,6 @@ Feature: e-Arsiv Faturasinin excele aktarilmasi
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtrelerden Alıcı Ünvanı filtresine <veri_Adi> textini yaz
-    * Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -33,5 +32,5 @@ Feature: e-Arsiv Faturasinin excele aktarilmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | veri_Adi            | Email                                                  |
-      | LOGOGIB      | Aa802030 |   02.02.2022 |    02.02.2022 | Ömer Buğra Alpaslan | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  | Email                                                  |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | test test | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
