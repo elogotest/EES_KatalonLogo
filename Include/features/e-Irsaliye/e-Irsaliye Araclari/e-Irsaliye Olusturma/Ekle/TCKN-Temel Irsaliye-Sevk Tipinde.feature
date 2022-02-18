@@ -64,7 +64,7 @@ Feature: TCKNo ile Temel Irsaliye senaryosunda ve SEVK tipinde irsaliye olusturu
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-İrsaliye oluşturulan faturanın tutar bilgisi 40.000,00 ile aynı mı
-    #* Tabloda yeni oluşturulan irsaliye verisi başarılı mı
+    * Tabloda yeni oluşturulan irsaliye verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

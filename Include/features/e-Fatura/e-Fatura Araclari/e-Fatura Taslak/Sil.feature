@@ -9,11 +9,11 @@ Feature: e-Fatura Taslak Sil
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Sil isimli butona tıklanır
     * Popup mesajı Seçilen kayıtlar silinecektir içeriyor mu
-    * Yönetim popupında Hayır seçilir
-    #* Popup mesajı Numara atanan makbuzlar silinemez içeriyor mu
-    #* Yönetim popupında Tamam seçilir
+    * Yönetim popupında OnaylaOnaylaOnayla seçilir
+    * Popup mesajı Numara atanan makbuzlar silinemez içeriyor mu
+    * Yönetim popupında Tamam seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | veri_Adi                   | tag        |
-      | ELOGO6       | 123456 | Elogo Otomasyon (pb-stage) | CreditNote |
+      | kullaniciAdi | sifre  | veri_Adi               | tag        |
+      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. | CreditNote |
