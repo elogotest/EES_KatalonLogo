@@ -14,5 +14,5 @@ Feature: e-Fatura Taslak Gecmis
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | veri_Adi                   | baslik                         |
-      | ELOGO6       | 123456 | Elogo Otomasyon (pb-stage) | Taslak Fatura İzleme Kayıtları |
+      | kullaniciAdi | sifre  | veri_Adi               | baslik                         |
+      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. | Taslak Fatura İzleme Kayıtları |

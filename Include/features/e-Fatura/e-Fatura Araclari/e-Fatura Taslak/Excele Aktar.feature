@@ -9,13 +9,14 @@ Feature: e-Fatura Taslak Excel e Aktar
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel'e Aktar butonuna tıklanır
-    #* Popup mesajı Toplu Veri İndirme içeriyor mu
-    #* Yönetim popupında Tamam seçilir
+    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Yönetim popupında Tamam seçilir
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Tümünü Excel'e Aktar butonuna tıklanır
-    * Ön eki <name> olan dosya indirildi mi
+    * Popup mesajı . içeriyor mu
+    * Yönetim popupında Tamam seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | veri_Adi                   | name        |
-      | ELOGO6       | 123456 | Elogo Otomasyon (pb-stage) | UserInvoice |
+      | kullaniciAdi | sifre  | veri_Adi               |
+      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. |

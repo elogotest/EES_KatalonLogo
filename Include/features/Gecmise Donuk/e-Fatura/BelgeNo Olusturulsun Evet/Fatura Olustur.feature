@@ -26,7 +26,7 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Evet
     * Yönetim popupında Evet seçilir
     * Popup mesajı oluşmuştur içeriyor mu
     * Yönetim popupında Tamam seçilir
-    #* Tablodaki eFatura verisinin fatura numarası <fatura_no> içeriyor mu
+    * Tablodaki eFatura verisinin fatura numarası <fatura_no> içeriyor mu
     * Tablodan <unvan> isimli veri seçilir
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu

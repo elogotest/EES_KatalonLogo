@@ -14,5 +14,5 @@ Feature: e-Fatura Taslak UBL
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | veri_Adi                   | tag     |
-      | ELOGO6       | 123456 | Elogo Otomasyon (pb-stage) | invoice |
+      | kullaniciAdi | sifre  | veri_Adi               | tag     |
+      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. | invoice |
