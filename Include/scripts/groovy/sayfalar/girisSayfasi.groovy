@@ -49,6 +49,11 @@ class girisSayfasi {
 	def login(String kullanici,String sifre) {
 		WebUI.callTestCase(findTestCase("Test Cases/Sayfalar/Giris_Sayfasi/Login"), ["KullaniciAdi":kullanici,"Sifre":sifre] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@Given("Kullanıcı adı (.*) ve Şifre (.*) ile giriş yapılır")
+	def girisYapilir(String kullanici,String sifre) {
+		WebUI.callTestCase(findTestCase("Test Cases/Sayfalar/Giris_Sayfasi/GirisYapilir"), ["KullaniciAdi":kullanici,"Sifre":sifre] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@Given("Giriş yapılır")
 	def loginn() {

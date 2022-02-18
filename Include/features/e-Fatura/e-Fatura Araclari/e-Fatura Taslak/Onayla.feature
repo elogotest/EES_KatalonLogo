@@ -14,5 +14,5 @@ Feature: e-Fatura Taslak Onaylama
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri           | veri_Adi               |
-      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. | Yeni Adres Anonim A.Ş. |
+      | kullaniciAdi | sifre  | filtreDegeri               | veri_Adi                   |
+      | ELOGO6       | 123456 | Elogo Otomasyon (pb-stage) | Elogo Otomasyon (pb-stage) |
