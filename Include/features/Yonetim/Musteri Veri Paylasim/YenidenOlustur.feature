@@ -5,10 +5,10 @@ Feature: Musteri Veri Paylasim Yeniden Olustur
     * Ana menüden Yönetim seçilir
     * Alt menüden Müşteri Veri Paylaşım seçilir
     * Filtre alanlarında Talep No var mı
-    * Filtrelerden Talep No  filtresine 25581 textini yaz
+    * Filtrelerden Talep No  filtresine 27719 textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan 25581 isimli veri seçilir
+    * Tablodan 27719 isimli veri seçilir
     * Butonlardan Yeniden Oluştur var mı
     * Butonlardan Yeniden Oluştur isimli butona tıklanır
     * Popup mesajı Hatalı durumdaki veri paylaşım talepleri içeriyor mu

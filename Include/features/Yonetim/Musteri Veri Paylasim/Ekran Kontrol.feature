@@ -15,9 +15,9 @@ Feature: Müsteri Veri Paylasımı Ekran Kontrol
     * Filtre alanlarında Durum var mı
     * Filtre butonlarından Listele seçilir
     * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
-    * Sayfa butonlarından 3 numaralı sayfa butonuna tıklanır
+    #* Sayfa butonlarından 3 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
-    * Filtrelerden Talep No  filtresine 25581 textini yaz
+    * Filtrelerden Talep No  filtresine 27719 textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Filtre butonlarından Temizle seçilir

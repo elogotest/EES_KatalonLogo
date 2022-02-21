@@ -20,8 +20,10 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Hayir
     * Tabloda <unvan> ünvanlı veri oluşturuldu mu
     * Tablodan <unvan> isimli veri seçilir
     * Butonlardan Numara Oluştur isimli butona tıklanır
-    * Popup mesajı eski tarihli fatura içeriyor mu
+    * Popup mesajı Fatura numarası, tarihi ve ön eki değiştirilemez. içeriyor mu
+    * Yönetim popupında Evet seçilir
     * Yönetim popupında Tamam seçilir
+    * Tablodan <unvan> isimli veri seçilir
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
@@ -34,4 +36,4 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Hayir
 
     Examples: 
       | kullaniciAdi | sifre  | alici_Adi         | fatura_tarihi    | urun_Adi  | aciklamasi | unvan                   |
-      | ELOGOGIB     | 123456 | VirgosolFaturaVKN | 27.09.2020 23:44 | Otomasyon | Virgosol   | VirgosolOtomasyon600413 |
+      | ELOGOGIB     | 123456 | VirgosolFaturaVKN | 31.12.2021 23:44 | Otomasyon | Virgosol   | VirgosolOtomasyon600413 |

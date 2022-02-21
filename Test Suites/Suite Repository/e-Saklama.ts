@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>46c0cdf3-d860-4b6a-9c37-9d4ba775f667</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Saklama/e-Defter/e-Defter Saklama/Sil</testCaseId>
    </testCaseLink>
    <testCaseLink>

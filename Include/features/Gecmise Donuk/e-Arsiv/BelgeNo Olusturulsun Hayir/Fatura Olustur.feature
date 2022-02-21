@@ -21,20 +21,11 @@ Feature: eArsiv Gecmise Donuk Fatura Olustur Hayir
     * Tabloda <unvan> ünvanlı veri oluşturuldu mu
     * Tablodan <unvan> isimli veri seçilir
     * Butonlardan Numara Oluştur isimli butona tıklanır
-    * Popup mesajı eski tarihli fatura içeriyor mu
-    * Yönetim popupında Tamam seçilir
-    * Tablodan <unvan> isimli veri seçilir
-    * Butonlardan Gönder isimli butona tıklanır
-    * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
+    * Popup mesajı Fatura numarası, tarihi ve ön eki değiştirilemez. içeriyor mu
     * Yönetim popupında Evet seçilir
-    * Ana menüden e-Arşiv seçilir
-    * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
-    * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Tabloda yeni oluşturulan eArsiv verisi başarılı mı
+    * Yönetim popupında Tamam seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | kullaniciAdi | sifre  | alici_Adi         | fatura_tarihi    | urun_Adi  | aciklamasi | unvan             |
-      | ELOGOGIB     | 123456 | VirgosolFaturaVKN | 27.09.2020 23:44 | Otomasyon | Virgosol   | VirgosolOtomasyon |
+      | ELOGOGIB     | 123456 | VirgosolFaturaVKN | 31.12.2021 23:44 | Otomasyon | Virgosol   | VirgosolOtomasyon |

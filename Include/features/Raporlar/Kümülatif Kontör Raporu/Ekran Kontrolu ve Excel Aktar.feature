@@ -74,18 +74,6 @@ Feature: Kümülatif Kontör Raporu Kontrolleri
     * Filtrelerden Firma Tipi filtresine Tümü dropdowndan degeri seçilir
     * Filtrelerden Hizmet Açıklaması filtresine Hepsi dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
-    * Raporlar sayfa boyutu 20 olarak seçilir
-    * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
-    * Tabloda veri var mı kontrol edilir
-    * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
-    * Raporlar sayfa boyutu 10 olarak seçilir
-    * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
-    * Tabloda veri var mı kontrol edilir
-    * Sayfa butonlarından 3 numaralı sayfa butonuna tıklanır
-    * Tabloda veri var mı kontrol edilir
-    * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
-    * Raporlar sayfa boyutu 50 olarak seçilir
-    * Tabloda veri var mı kontrol edilir
     * Butonlardan Excel isimli butona tıklanır
     * Ön eki Kümülatif_Kontör_Raporu olan dosya indirildi mi
     * Kullanıcı işlemlerinden Çıkış seçilir

@@ -41,4 +41,4 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Evet
 
     Examples: 
       | kullaniciAdi | sifre  | alici_Adi         | fatura_tarihi    | fatura_no | urun_Adi  | aciklamasi | unvan                                             | tag     |
-      | ELOGO6       | 123456 | VirgosolFaturaVKN | 27.09.2020 23:44 | EE        | Otomasyon | Virgosol   | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ | invoice |
+      | ELOGO6       | 123456 | VirgosolFaturaVKN | 27.09.2020 23:44 | ED        | Otomasyon | Virgosol   | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ | invoice |
