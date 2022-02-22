@@ -89,7 +89,7 @@ class tablo {
 	def tablodaVeriBasariliMiIrsaliye() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodaVeriBasariliMiIrsaliye"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Tabloda yeni oluşturulan irsaliye verisi hatalı mı")
 	def tablodaVeriHataliMiIrsaliye() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodakiVeriHataliMiIrsaliye"), [:] , FailureHandling.STOP_ON_FAILURE)

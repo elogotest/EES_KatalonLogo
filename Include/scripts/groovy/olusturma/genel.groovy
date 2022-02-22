@@ -110,6 +110,12 @@ class genel {
 	def kaydetSecilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/KaydetButonunaTiklanir"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Kaydet butonuna tıklanır")
+	def kaydetbtnSecilir() {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/KaydetSecilir"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 	@When("Vazgeç butonu seçilir")
 	def vazgecSecilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/VazgecButonunaTiklanir"), [:] , FailureHandling.STOP_ON_FAILURE)
