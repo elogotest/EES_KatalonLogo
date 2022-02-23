@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>2e03c7d2-f795-4e69-b09d-64d9443e824a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Taslak/Onayla</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -112,5 +112,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Taslak/UBL</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>17bdd7d8-c461-4b63-858d-405c4014a04e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Taslak/Ekran Kontrol</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
