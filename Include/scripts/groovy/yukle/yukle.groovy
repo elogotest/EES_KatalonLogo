@@ -60,6 +60,11 @@ class yukle {
 	def eFaturaDosyaYukleme(String dosya) {
 		WebUI.callTestCase(findTestCase("Test Cases/Yukle/DosyaYukleme"), ["Dosya":dosya] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("e Fatura Dosya Yükleme alanına (.*) dizinindeki dosya yüklenir")
+	def DosyaYukleme(String dsya) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yukle/eFaturaDosyaYükleme"), ["Dsya":dsya] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Tasarım Araçları Dosya Yükleme alanına (.*) dizinindeki dosya yüklenir")
 	def tasaarimAraclariDosyaYukleme(String dosya) {

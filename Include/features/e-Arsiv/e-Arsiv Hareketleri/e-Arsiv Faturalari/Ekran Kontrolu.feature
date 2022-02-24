@@ -7,8 +7,8 @@ Feature: e-Arsiv Faturalar Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Tablodan deney deney isimli verinin detayı tıklanır
-    * Tablodan deney deney isimli verinin detayı tıklanır
+    * Tablodan sena şahin isimli verinin detayı tıklanır
+    * Tablodan sena şahin isimli verinin detayı tıklanır
     * Listelenen öğe sayısı Sayfa 1 / 61 (603 öğe) mi
     * Filtrelerden Tür filtresine İADE dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir

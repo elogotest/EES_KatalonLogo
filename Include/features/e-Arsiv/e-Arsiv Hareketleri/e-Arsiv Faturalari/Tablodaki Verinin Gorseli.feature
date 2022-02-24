@@ -15,5 +15,5 @@ Feature: e-Arsiv Faturasi Tablodaki Verinin Gorseli
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |
-      | ELOGO6       | 123456 |   01.02.2020 |    29.02.2020 | sena şahin |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi    |
+      | ELOGO6       | 123456 |   01.02.2020 |    29.02.2020 | REMZİ ELMAS |
