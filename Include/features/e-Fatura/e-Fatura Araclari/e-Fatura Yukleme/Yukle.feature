@@ -18,3 +18,5 @@ Feature: e-Fatura Yukleme
     Examples: 
       | kullaniciAdi | sifre  | dosya                                                        | dosya_adi            |
       | ELOGO6       | 123456 | C:\\otomasyonupfiles\\e-Fatura Yükleme\\eLogoExcelFatura.xls | eLogoExcelFatura.xls |
+      | ELOGO6       | 123456 | C:\\otomasyonupfiles\\e-Fatura Yükleme\\eLogoExcelFatura.xls | eLogoExcelFatura.xls |
+      
