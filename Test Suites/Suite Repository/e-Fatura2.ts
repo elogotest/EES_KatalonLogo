@@ -24,12 +24,6 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Yanit Gonder Red</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>305f8570-7fb8-453a-80cf-18637d5c5654</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Yukleme/Yukle</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>4a709318-8b00-44eb-8d67-ec5184effed8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -46,5 +40,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Yukleme/UBL ve Fatura Görseli</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>305f8570-7fb8-453a-80cf-18637d5c5654</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Yukleme/Yukle</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
