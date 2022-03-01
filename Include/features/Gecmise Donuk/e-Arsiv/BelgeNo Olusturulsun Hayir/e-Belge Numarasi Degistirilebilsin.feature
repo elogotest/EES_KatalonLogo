@@ -25,5 +25,5 @@ Feature: e-Belge Numarasi Degistirilebilsin
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | unvan                                             | belge_no         |
-      | ELOGOGIB     | 123456 |   28.02.2021 |    28.02.2021 | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ | EAR2021000000012 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | unvan                   | belge_no         |
+      | ELOGOGIB     | 123456 |   24.02.2022 |    24.02.2022 | VirgosolOtomasyon600413 | EAR2021000000019 |
