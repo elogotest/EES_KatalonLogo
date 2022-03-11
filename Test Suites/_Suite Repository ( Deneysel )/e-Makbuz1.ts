@@ -191,4 +191,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/Varsayilan İle Göster</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>cf115786-4c5d-44ae-b7ea-060df0b21f7c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/FamilyName</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

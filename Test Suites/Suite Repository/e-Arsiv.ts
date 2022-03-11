@@ -131,4 +131,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Arsiv/Erisim Kontrol</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>837a5728-fb38-401d-800a-c82aa1ec574b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/FamilyName</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

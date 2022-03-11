@@ -47,4 +47,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Yukleme/UBL ve Fatura Görseli</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6e88f57a-fde6-406d-90e2-21a4da177129</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/FamilyName</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

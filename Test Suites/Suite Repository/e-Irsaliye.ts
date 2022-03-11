@@ -197,4 +197,10 @@
       <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Erisim Kontrol</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>925297e8-2202-4ff7-9b92-f7bf7e725b49</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/FamilyName</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

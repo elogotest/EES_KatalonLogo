@@ -13,6 +13,7 @@ Feature: e-Fatura Giden Kutusu UBL - Goster
     * Alt butonlardan Göster butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
+    #* Oluşturulan Ubl'in FamilyName alanı Tckn ile aynı mı
     * Ana sekmeye geçilir
     * Butonlardan UBL isimli butona tıklanır
     * Alt butonlardan İndir butonuna tıklanır

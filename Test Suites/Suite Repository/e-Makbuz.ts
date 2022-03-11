@@ -185,4 +185,10 @@
       <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzu Olusturma/Ekran Kontrolu</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f0eec861-b21f-47ae-a54a-65b87cb27884</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/FamilyName</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
