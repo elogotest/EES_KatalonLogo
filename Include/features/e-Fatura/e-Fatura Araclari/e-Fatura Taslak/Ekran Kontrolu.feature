@@ -24,7 +24,7 @@ Feature: e-Fatura Taslak Buton Kontrolu
     * Butonlardan UBL var mı
     * Butonlardan Sil var mı
     * Butonlardan Excel var mı
-    * Butonlardan İzleme Kayıtları var mı
+    #* Butonlardan İzleme Kayıtları var mı
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel'e Aktar var mı
     * Alt butonlardan Tümünü Excel'e Aktar var mı

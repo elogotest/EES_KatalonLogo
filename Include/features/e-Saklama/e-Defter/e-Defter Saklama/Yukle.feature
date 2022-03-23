@@ -9,7 +9,7 @@ Feature: e-Defter Saklama Yukle
     * Dosya Yükleme alanına <dosya> dizinindeki dosya yüklenir
     * Popup mesajı Devam etmek istiyor musunuz? içeriyor mu
     * Yönetim popupında Onayla seçilir
-    #* Yönetim popupında Onayla seçilir
+    * Yönetim popupında Onayla seçilir
     * Yükleme ekranından çıkılır
     #* Tabloda <dosya_adi> ünvanlı veri oluşturuldu mu
     * Kullanıcı işlemlerinden Çıkış seçilir

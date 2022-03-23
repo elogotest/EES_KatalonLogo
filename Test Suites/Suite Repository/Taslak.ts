@@ -44,7 +44,7 @@
    <testCaseLink>
       <guid>46b3eac5-273d-47b6-b127-887b49e52fc5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Araclari/e-Arsiv Taslak/Izleme Kayitlari</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -92,7 +92,7 @@
    <testCaseLink>
       <guid>ba88c8ed-74d2-45a2-aafd-0f98b1d3f84f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Taslak/Izleme Kayitlari</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -118,5 +118,53 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Taslak/Ekran Kontrol</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f29bf3b4-59b2-47e2-a8ae-e9bbad0681a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Taslak/Degistir</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>85eeebe4-b7b8-48c5-aa07-9ec53202706f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Taslak/Ekran Kontrol</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>37e58f61-4628-4390-b8ff-393228609067</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Taslak/Excele Aktar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9ea1a3ff-fc17-460f-b3f0-a7ca9ab87fc8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Taslak/Goster</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>132372fb-081c-4928-930b-2f866d4efc91</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Taslak/Iptal Et</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2dcb64f6-8d9f-4240-9439-740e55c9f57e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Taslak/Izleme Kayitlari</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>465eb9ae-8081-4366-ac57-693e6465976c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Taslak/Sil</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>968ec5fd-7c46-4a23-bf6e-236b834542b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/e-Irsaliye Araclari/e-Irsaliye Taslak/UBL</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
