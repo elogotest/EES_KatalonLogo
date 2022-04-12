@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pasUlkeAdi</name>
+   <tag></tag>
+   <elementGuidId>fa9e47e0-3436-4216-bcc8-4945bfa6a1d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.ant-select-item.ant-select-item-option</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>.ant-select-item.ant-select-item-option</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pasTarihBugün</name>
+   <tag></tag>
+   <elementGuidId>b240c035-5848-4cf6-b450-84ab56f5f151</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='reactRoot']/div[5]/div/div/div/div/div/div[2]/table/tbody/tr/td[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='reactRoot']/div[5]/div/div/div/div/div/div[2]/table/tbody/tr/td[2]/div</value>
+   </webElementProperties>
+</WebElementEntity>
