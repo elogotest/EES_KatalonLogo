@@ -2,36 +2,31 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
 
   Scenario Outline: Ticari Fatura ile Yanit Gonder Kontrolu
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
-    * Ana menüden e-Fatura seçilir
-    * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
-    * Tablodaki tüm veriler silinir
-    * Butonlardan Ekle isimli butona tıklanır
-    * Görsel tasarım sayfasının e-Fatura Bilgileri başlığını içerdiği kontrol edilir
-    * Alıcı adı alanına <alici_Adi> girilir
-    * Senaryo alanından Ticari Fatura seçilir
-    * Tip alanından Satış seçilir
-    * Döküman Para Birimi alanından Türk Lirası seçilir
-    * Ön Ek ARV olarak seçilir
-    * Tasarım alanından VirgosolOtomasyon seçilir
-    * Ekle butonuna basılır
-    * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir
-    * Ürün ekleme alanında Açıklaması başlığına <aciklamasi> girilir
-    * Ürün ekleme alanında Miktarı başlığına <miktari> girilir
-    * Ürün ekleme alanında Birim Fiyat başlığına <birimFiyat> girilir
-    * Ürün ekleme alanında İskonto Oranı % başlığına 10 girilir
-    * Ettn bilgisi kayıt edilir
-    * Kaydet butonu seçilir
-    * Tabloda Ettn bilgisi kaydedilen veri oluşturuldu mu
-    * Tablodan Ettn bilgisi kaydedilen veri seçilir
-    * Butonlardan Numara Oluştur isimli butona tıklanır
-    * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
-    * Yönetim popupında Evet seçilir
-    * Popup mesajı oluşmuştur içeriyor mu
-    * Yönetim popupında Tamam seçilir
-    * Tablodan Ettn bilgisi kaydedilen veri seçilir
-    * Butonlardan Gönder isimli butona tıklanır
-    * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
-    * Yönetim popupında Evet seçilir
+    * Ana menüden Fatura Oluşturma seçilir
+    * Alt menüden Fatura Oluşturma seçilir
+    #* Elogo asistan kapatılır
+    * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
+    #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
+    * Yeni olusturma ekranından <alici_Adi> VKN/TCKN bilgisine sahip kullanıcı seçilir
+    * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
+    * Yeni olusturma ekranı Gönderim Şekli Ticari Fatura olarak seçilir
+    * Yeni olusturma ekranı Tip alanından Satış seçilir
+    * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
+    * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
+    * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
+    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
+    * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
+    * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
+    * Yeni oluşturma ekranı Filtrele butonuna tıklanır
+    * Tabloda veri var mı kontrol edilir
+    * Tablodaki yeni oluşan veri seçilir
+    * Tablodaki dropdown butonlarından Numara Ver seçilir
+    #* Açılan popup mesajı Oluşturulacak fatura numarası : KGC2022000000092 Fatura numarası oluşturulduktan sonra fatura silinemez. Fatura numarası, tarihi ve ön eki değiştirilemez. Devam etmek istiyor musunuz? ile aynı mı
+    #* Yeni oluşturma ekranı filtre butonlarından Evet seçilir
+    * Açılan popuptan evet seçilir
+    #* Tablodaki yeni oluşan veri seçilir
+    * Tablodaki dropdown butonlarından Alıcıya Gönder seçilir
+    * Açılan popuptan evet seçilir
     #* Yönetim popupında Tamam seçilir*1300/1200 başarılı mı kontrolü ekle
     #* Kullanıcı işlemlerinden Çıkış seçilir
     #* Kullanıcı adı <kullaniciAdi1> ve Şifre <sifre> olarak giriş yapılır
@@ -64,6 +59,7 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Tabloda veri var mı kontrol edilir
     * Tablodaki fatura yanıtı verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 | kullaniciAdi1 |
-      | ELOGO6       | 123456 | ELOGO6    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST | ELOGOGIB      |
+      | kullaniciAdi | sifre  | alici_Adi                  | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 | kullaniciAdi1 |
+      | ELOGO6       | 123456 | Elogo Otomasyon (pb-stage) | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST | ELOGOGIB      |

@@ -4,7 +4,7 @@ Feature: e-Fatura Olusturma Buton Kontrolu
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
-    * Filtre alanlarında Durumu var mı
+    #* Filtre alanlarında Durumu var mı
     * Filtre alanlarında Oluşturma Tarihi var mı
     * Filtre alanlarında Toplam Tutar var mı
     * Filtre alanlarında Müşteri Bayi Kodu var mı
@@ -17,7 +17,7 @@ Feature: e-Fatura Olusturma Buton Kontrolu
     * Filtre alanlarında Senaryo var mı
     * Filtre butonlarında Listele var mı
     * Filtre butonlarında Temizle var mı
-    * Butonlardan Ekle var mı
+    #* Butonlardan Ekle var mı
     * Butonlardan Numara Oluştur var mı
     * Butonlardan Gönder var mı
     * Butonlardan Değiştir var mı

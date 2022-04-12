@@ -20,7 +20,7 @@
    <testCaseLink>
       <guid>b96cc070-b220-4afa-a881-d2735ff743e0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Olusturma/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
