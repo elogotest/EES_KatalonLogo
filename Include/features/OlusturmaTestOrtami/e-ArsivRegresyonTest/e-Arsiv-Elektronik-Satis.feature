@@ -21,8 +21,6 @@ Feature: Yeni olusturma ekranı Gönderim tipi Elektronik ve Satis tipinde e-Ars
     * Tabloda veri var mı kontrol edilir
     * Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Numara Ver seçilir
-    #* Açılan popup mesajı Oluşturulacak fatura numarası : KGC2022000000092 Fatura numarası oluşturulduktan sonra fatura silinemez. Fatura numarası, tarihi ve ön eki değiştirilemez. Devam etmek istiyor musunuz? ile aynı mı
-    #* Yeni oluşturma ekranı filtre butonlarından Evet seçilir
     * Açılan popuptan evet seçilir
     #* Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Alıcıya Gönder seçilir
