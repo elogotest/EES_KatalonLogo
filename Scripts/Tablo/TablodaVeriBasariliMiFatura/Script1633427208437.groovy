@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-sayac =200
+sayac =80
 while(WebUI.verifyElementText(findTestObject("Object Repository/Tablo/DurumBilgisiFatura"), "Henüz Sonuçlanmadı", FailureHandling.OPTIONAL)) {
 	
 	

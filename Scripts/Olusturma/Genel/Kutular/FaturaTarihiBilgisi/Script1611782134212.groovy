@@ -21,6 +21,8 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Olusturma/Genel/
 
 WebUI.click(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiDropdown'))
 
+WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'))
+
 WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'), FaturaTarihi)
 
 WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'), Keys.chord(Keys.ENTER))
