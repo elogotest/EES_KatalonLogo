@@ -16,5 +16,5 @@ Feature: e-Arsiv Faturasi Statu Ata
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  |
-      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi               |
+      | ELOGO6       | 123456 |   13.04.2022 |    13.04.2022 | VirgosolOtomasyon40648 |

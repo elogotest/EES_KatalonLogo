@@ -10,11 +10,11 @@ Feature: e-Arsiv Raporlari Tablodaki Verinin Gorseli
     * Tablodaki <veri_Adi> isimli verinin Faturalar adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan xcx cx isimli verinin detayı tıklanır
-    * Seçilen verinin Rapor Numarası bilgisi 2691121 ile eşleşiyor mu
+    * Tablodan Elif Dilay Altınkaya isimli verinin detayı tıklanır
+    * Seçilen verinin Rapor Numarası bilgisi 2739374 ile eşleşiyor mu
     * Ana sekmeye geçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | veri_Adi |
-      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 |
+      | ELOGO6       | 123456 | 2022 Mart    |  2739374 |

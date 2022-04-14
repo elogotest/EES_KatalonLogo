@@ -7,9 +7,9 @@ Feature: e-Arsiv Faturalar Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Tablodan sena şahin isimli verinin detayı tıklanır
-    * Tablodan sena şahin isimli verinin detayı tıklanır
-    * Listelenen öğe sayısı Sayfa 1 / 61 (603 öğe) mi
+    * Tablodan VirgosolOtomasyon40648 isimli verinin detayı tıklanır
+    * Tablodan VirgosolOtomasyon40648 isimli verinin detayı tıklanır
+    * Listelenen öğe sayısı Sayfa 1 / 181 (1809 öğe) mi
     * Filtrelerden Tür filtresine İADE dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -22,7 +22,7 @@ Feature: e-Arsiv Faturalar Buton Kontrolu
     * Filtrelerden Fatura Tarihi filtresine <fatura_tarihi_baslangic> baslangic degerini yaz    
     * Filtrelerden Fatura Tarihi filtresine <fatura_tarihi_bitis> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Listelenen öğe sayısı Sayfa 1 / 1 (2 öğe) mi   
+    #* Listelenen öğe sayısı Sayfa Sayfa 1 / 23 (228 öğe) mi   
     * Filtre alanlarında Alıcı Ünvanı var mı
     * Filtre alanlarında Vergi Dahil Tutar var mı
     * Filtre alanlarında Fatura Tarihi var mı
@@ -75,65 +75,51 @@ Feature: e-Arsiv Faturalar Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
         #alıcı ünvani 
-    * Filtrelerden Alıcı Ünvanı filtresine ERKOÇ MAKİNA VE PLASTİK SAN. VE TİC. AHMET USTABAŞ textini yaz
+    * Filtrelerden Alıcı Ünvanı filtresine eLogo Otomasyon (pb-stage) textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Alıcı Ünvanı filtresine ERKOÇ MAKİNA VE PLASTİK SAN. VE TİC textini yaz
+    * Filtrelerden Alıcı Ünvanı filtresine eLogo Otomasyon (pb- textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Alıcı Ünvanı filtresine *est test textini yaz
+    * Filtrelerden Alıcı Ünvanı filtresine *Otomasyon (pb-stage) textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Alıcı Ünvanı filtresine sena* textini yaz
+    * Filtrelerden Alıcı Ünvanı filtresine eLogo Otomasyon (pb-* textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Alıcı Ünvanı filtresine *DENEME* textini yaz
+    * Filtrelerden Alıcı Ünvanı filtresine *o Otomasyon (pb* textini yaz
   	* Filtre butonlarından Listele seçilir
   	* Tabloda veri var mı kontrol edilir
   			#FaturaNo
     * Filtrelerden Alıcı Ünvanı filtresinin iceriğini sil
-  	* Filtrelerden Fatura No filtresine AAA2020000000039 textini yaz
+  	* Filtrelerden Fatura No filtresine YIG2022000000277 textini yaz
   	* Filtre butonlarından Listele seçilir
   	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Fatura No filtresine *0000041 textini yaz
+  	* Filtrelerden Fatura No filtresine *022000000277 textini yaz
   	* Filtre butonlarından Listele seçilir
   	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Fatura No filtresine AAA20200000* textini yaz
+  	* Filtrelerden Fatura No filtresine YIG2022000000* textini yaz
   	* Filtre butonlarından Listele seçilir
   	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Fatura No filtresine *AA2020000000* textini yaz
+  	* Filtrelerden Fatura No filtresine *G20220000002* textini yaz
   	* Filtre butonlarından Listele seçilir
   	* Tabloda veri var mı kontrol edilir
   	    #Alıcı VKN/TCKN
     * Filtrelerden Fatura No filtresinin iceriğini sil
-  	* Filtrelerden Vkn/Tckn filtresine 40708619814 textini yaz
+  	* Filtrelerden Vkn/Tckn filtresine 5422405266 textini yaz
   	* Filtre butonlarından Listele seçilir
   	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Vkn/Tckn filtresine *8619814 textini yaz
+  	* Filtrelerden Vkn/Tckn filtresine *22405266 textini yaz
   	* Filtre butonlarından Listele seçilir
   	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Vkn/Tckn filtresine 4070861* textini yaz
+  	* Filtrelerden Vkn/Tckn filtresine 54224052* textini yaz
   	* Filtre butonlarından Listele seçilir
   	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Vkn/Tckn filtresine *7086198* textini yaz
+  	* Filtrelerden Vkn/Tckn filtresine *4224052* textini yaz
   	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir  	    
-  	    #Müşteri Bayi Kodu????
-  	* Filtrelerden Vkn/Tckn filtresinin iceriğini sil
-  	* Filtrelerden Müşteri Bayi Kodu filtresine CustomerDealerNo textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Müşteri Bayi Kodu filtresine *omerDealerNo textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Müşteri Bayi Kodu filtresine CustomerDeale* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Müşteri Bayi Kodu filtresine *tomerDealer* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir      			
+  	* Tabloda veri var mı kontrol edilir  	          			
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | fatura_tarihi_baslangic | fatura_tarihi_bitis |
-      | ELOGO6       | 123456 |   01.01.2020 |    10.04.2020 |              10.01.2020 |          11.01.2020 |
+      | ELOGO6       | 123456 |   01.04.2022 |    14.04.2022 |              13.04.2022 |          13	.04.2022 |
