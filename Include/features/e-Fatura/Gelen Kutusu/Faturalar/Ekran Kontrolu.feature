@@ -7,19 +7,19 @@ Feature: Gelen Kutusu Faturalar Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Tablodan Logo Elektronik GIB Test isimli verinin detayı tıklanır
-    * Tablodan Logo Elektronik GIB Test isimli verinin detayı tıklanır
-    * Listelenen öğe sayısı Sayfa 1 / 2 (11 öğe) mi
+    * Tablodan eLogo Otomasyon pb-stage isimli verinin detayı tıklanır
+    * Tablodan eLogo Otomasyon pb-stage isimli verinin detayı tıklanır
+    * Listelenen öğe sayısı Sayfa 1 / 124 (1240 öğe) mi
     #* Filtrelerden ETTN filtresine bb24e38e-ea93-4a49-b22e-52269aabcf95 textini yaz
     * Anasayfaya geri dönülür
-		* Ana menüden e-Fatura seçilir
+    * Ana menüden e-Fatura seçilir
     * Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
-    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz    
-    * Filtrelerden Fatura Tarihi filtresine <fatura_tarihi_baslangic> baslangic degerini yaz    
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Filtrelerden Fatura Tarihi filtresine <fatura_tarihi_baslangic> baslangic degerini yaz
     * Filtrelerden Fatura Tarihi filtresine <fatura_tarihi_bitis> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Listelenen öğe sayısı Sayfa 1 / 1 (1 öğe) mi
+    * Listelenen öğe sayısı Sayfa 1 / 15 (144 öğe) mi
     * Filtre alanlarında Gönderici Ünvanı var mı
     * Filtre alanlarında Oluşturma Tarihi var mı
     * Filtre alanlarında Uygulama Yanıtı var mı
@@ -72,57 +72,57 @@ Feature: Gelen Kutusu Faturalar Buton Kontrolu
     * Alt butonlardan Öndeğer var mı
     * Alt butonlardan pahabicilemez var mı
     #Fulltextsearch Islemleri
-  	* Anasayfaya geri dönülür
+    * Anasayfaya geri dönülür
     * Ana menüden e-Fatura seçilir
     * Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-        #Gönderici Unvanı
-    * Filtrelerden Gönderici Ünvanı filtresine ADORE OYUNCAK VE EĞİTİM ARAÇLARI SAN TİC A.Ş textini yaz
+    #Gönderici Unvanı
+    * Filtrelerden Gönderici Ünvanı filtresine Logo Elektronik GIB Test textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Gönderici Ünvanı filtresine ADORE OYUNCAK VE EĞİTİM ARAÇLARI SAN textini yaz
+    * Filtrelerden Gönderici Ünvanı filtresine Logo Elektronik GIB textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Gönderici Ünvanı filtresine *EĞİTİM ARAÇLARI SAN TİC A.Ş textini yaz
+    * Filtrelerden Gönderici Ünvanı filtresine *go Elektronik GIB Test textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Gönderici Ünvanı filtresine ADORE OYUNCAK* textini yaz
+    * Filtrelerden Gönderici Ünvanı filtresine Logo Elektronik GIB T* textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Gönderici Ünvanı filtresine *OYUNCAK* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  			#Gönderici VKN/TCKN
+    * Filtrelerden Gönderici Ünvanı filtresine *Elektronik GIB* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    #Gönderici VKN/TCKN
     * Filtrelerden Gönderici Ünvanı filtresinin iceriğini sil
-  	* Filtrelerden Gönd. VKN/TCKN filtresine 6090408038 textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Gönd. VKN/TCKN filtresine *90408038 textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Gönd. VKN/TCKN filtresine 6090408* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Gönd. VKN/TCKN filtresine *90408* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	    #Fatura no
+    * Filtrelerden Gönd. VKN/TCKN filtresine 1234567806 textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Gönd. VKN/TCKN filtresine *34567806 textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Gönd. VKN/TCKN filtresine 12345678* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Gönd. VKN/TCKN filtresine *23456780* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    #Fatura no
     * Filtrelerden Gönd. VKN/TCKN filtresinin iceriğini sil
-  	* Filtrelerden Fatura No filtresine EFA2020000000013 textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Fatura No filtresine *FA2020000000013 textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Fatura No filtresine EFA202000000* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Fatura No filtresine *2020000000* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir  
+    * Filtrelerden Fatura No filtresine MFZ2022873570432 textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Fatura No filtresine *Z2022873570432 textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Fatura No filtresine MFZ20228735704* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Fatura No filtresine *FZ20228735704* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | fatura_tarihi_baslangic | fatura_tarihi_bitis |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.01.2020 |              28.01.2020 |          30.01.2020 |
+      | ELOGO6       | 123456 |   01.04.2022 |    14.04.2022 |              13.04.2022 |          13.04.2022 |

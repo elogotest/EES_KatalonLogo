@@ -7,8 +7,8 @@ Feature: Giden Zarflar Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Tablodan ELOGO2 isimli verinin detayı tıklanır
-    * Tablodan ELOGO2 isimli verinin detayı tıklanır
+    * Tablodan E LOGO 6 isimli verinin detayı tıklanır
+    * Tablodan E LOGO 6 isimli verinin detayı tıklanır
     * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 3 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
@@ -39,14 +39,14 @@ Feature: Giden Zarflar Buton Kontrolu
     * Alt butonlardan UBL Tümünü İndir var mı
     * Butonlardan İndir isimli butona tıklanır
     * Alt butonlardan İndir var mı
-    * Tablodan ELOGO2 isimli verinin detayı tıklanır
+    * Tablodan E LOGO 6 isimli verinin detayı tıklanır
     * Giden zarflar altındaki zarfa git butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
-    * Tablodan ELOGO2 isimli verinin detayı tıklanır
+    * Tablodan E LOGO 6 isimli verinin detayı tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.01.2020 |
+      | ELOGO6       | 123456 |   11.04.2022 |    11.04.2022 |

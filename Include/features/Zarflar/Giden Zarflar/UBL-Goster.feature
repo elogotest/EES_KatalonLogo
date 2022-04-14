@@ -18,4 +18,4 @@ Feature: Giden Zarf GIB
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | tag                         |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 | sh:StandardBusinessDocument |
+      | ELOGO6       | 123456 |   13.04.2022 |    13.04.2022 | E LOGO 6 | sh:StandardBusinessDocument |

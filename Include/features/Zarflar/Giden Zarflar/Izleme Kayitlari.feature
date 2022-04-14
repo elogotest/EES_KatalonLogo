@@ -17,4 +17,4 @@ Feature: Giden Zarf Gecmis
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi     | baslik                |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Test Kurum 6 | Zarf İzleme Kayıtları |
+      | ELOGO6       | 123456 |   11.04.2022 |    11.04.2022 | Test Kurum 6 | Zarf İzleme Kayıtları |

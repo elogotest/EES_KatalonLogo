@@ -15,7 +15,7 @@ Feature: e-Posta Raporları Ekran Kontrolü ve Excel Aktar
     * Sayfa butonlarından 3 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 4 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
-    * Tablodan Elogotest Otomasyon isimli veri seçilir
+    * Tablodan eLogo Otomasyon (pb-stage) isimli veri seçilir
     * Butonlardan Excel isimli butona tıklanır
     * Popup email <email> olarak girilir
     * Yönetim popupında Gönder seçilir
@@ -31,4 +31,4 @@ Feature: e-Posta Raporları Ekran Kontrolü ve Excel Aktar
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | email                |
-      | ELOGO6       | 123456 |   28.11.2021 | ali.kara@logo.com.tr |
+      | ELOGO6       | 123456 |   01.04.2022 | ali.kara@logo.com.tr |

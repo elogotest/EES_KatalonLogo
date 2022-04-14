@@ -35,4 +35,4 @@ Feature: Gelen Zarflar Toplu Indirme - UBL Secilenlerin indirilmesi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |Email                                    |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 |elogotest@gmail.com;ali.kara@logo.com.tr |
+      | ELOGO6       | 123456 |   14.04.2022 |    14.04.2022 | E LOGO 6 |elogotest@gmail.com;ali.kara@logo.com.tr |

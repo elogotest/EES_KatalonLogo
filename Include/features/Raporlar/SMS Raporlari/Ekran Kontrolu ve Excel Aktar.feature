@@ -17,7 +17,7 @@ Feature: SMS Raporları Ekran Kontrolü ve Excel Aktar
     * Sayfa butonlarından 3 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 4 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
-    * Tablodan Elogotest Otomasyon isimli veri seçilir
+    * Tablodan Elogo Otomasyon isimli veri seçilir
     * Butonlardan Excel isimli butona tıklanır
     * Ön eki Earchive olan dosya indirildi mi
     * Butonlardan Yeniden Gönder isimli butona tıklanır
@@ -26,4 +26,4 @@ Feature: SMS Raporları Ekran Kontrolü ve Excel Aktar
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri |
-      | ELOGO6       | 123456 |   28.11.2021 |
+      | ELOGO6       | 123456 |   01.04.2022 |

@@ -51,5 +51,5 @@ Feature: e-Fatura Giden Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | Email                                                  |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                | Email                                                  |
+      | ELOGO6       | 123456 |   14.04.2022 |    14.04.2022 | VirgosolOtomasyon431572 | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |

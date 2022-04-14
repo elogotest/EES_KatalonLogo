@@ -5,8 +5,6 @@ Feature: Kullanıcı Raporları Ekran Kontrolü
     * Ana menüden Raporlar seçilir
     * Alt menüden Kullanıcı Raporları seçilir
     * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
-    * Sayfa butonlarından 3 numaralı sayfa butonuna tıklanır
-    * Sayfa butonlarından 4 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
     

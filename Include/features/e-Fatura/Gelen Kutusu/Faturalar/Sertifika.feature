@@ -16,4 +16,4 @@ Feature: Faturanin Sertifikasi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 |
+      | ELOGO6       | 123456 |   13.04.2022 |    13.04.2022 | E LOGO 6 |

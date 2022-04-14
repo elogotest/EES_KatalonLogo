@@ -13,7 +13,7 @@ Feature: Gelen Zarf Tablodaki Verinin Irsaliyeleri
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
     * Ana sekmeye geçilir
-    * Tablodaki <veri_Adi> isimli verinin Uygulama Yanıtları adlı butonuna tıklanır
+    * Tablodaki <veri_Adi> isimli verinin Faturalar adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
@@ -42,7 +42,7 @@ Feature: Gelen Zarf Tablodaki Verinin Irsaliyeleri
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan <veri_Adi> isimli veri seçilir
+    #* Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
@@ -70,12 +70,12 @@ Feature: Gelen Zarf Tablodaki Verinin Irsaliyeleri
     * Yönetim popupında Tamam seçilir
     * Filtrelerden Belge Türü filtresine e-İrsaliye dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
-    * Tablodaki <veri_Adi1> isimli verinin İrsaliyeler adlı butonuna tıklanır
+    * Tablodaki <veri_Adi> isimli verinin İrsaliyeler adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan <veri_Adi1> isimli veri seçilir
+    * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
@@ -132,12 +132,12 @@ Feature: Gelen Zarf Tablodaki Verinin Irsaliyeleri
     * Filtrelerden Oluşturma Tarihi filtresine <tarih> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <tarih1> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Tablodaki <veri_Adi1> isimli verinin İrsaliye Yanıtları adlı butonuna tıklanır
+    * Tablodaki <veri_Adi> isimli verinin İrsaliye Yanıtları adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan <veri_Adi1> isimli veri seçilir
+    * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
@@ -162,5 +162,5 @@ Feature: Gelen Zarf Tablodaki Verinin Irsaliyeleri
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | veri_Adi1                | tag                      | Email                                    | veri_Adi2    | tarih      | tarih1     | baslik                |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 | Logo Elektronik GIB Test | StandardBusinessDocument | elogotest@gmail.com;ali.kara@logo.com.tr | Test Kurum 6 | 01.08.2020 | 31.08.2020 | Zarf İzleme Kayıtları |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | veri_Adi1                                         | tag                      | Email                                    | veri_Adi2    | tarih      | tarih1     | baslik                |
+      | ELOGO6       | 123456 |   12.04.2022 |    12.04.2022 | E LOGO 6 | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ | StandardBusinessDocument | elogotest@gmail.com;ali.kara@logo.com.tr | Test Kurum 6 | 13.04.2022 | 13.04.2022 | Zarf İzleme Kayıtları |

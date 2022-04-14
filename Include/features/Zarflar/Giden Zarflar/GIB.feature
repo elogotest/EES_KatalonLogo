@@ -15,5 +15,5 @@ Feature: Giden Zarf GIB
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                    |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.01.2020 | GÜMRÜK VE TİCARET BAKANLIĞI |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi     |
+      | ELOGO6       | 123456 |   11.04.2022 |    11.04.2022 | Test Kurum 6 |

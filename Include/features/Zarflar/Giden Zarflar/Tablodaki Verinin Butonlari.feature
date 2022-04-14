@@ -170,4 +170,4 @@ Feature: Giden Zarf Tablodaki Verinin Irsaliyeleri
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi     | veri_Adi1 | tag                      | Email                                    | tarih      | tarih1     | veri_Adi2                                         | tarih2     | tarih3     | baslik                |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Test Kurum 6 | E LOGO 6  | StandardBusinessDocument | elogotest@gmail.com;ali.kara@logo.com.tr | 01.07.2020 | 31.07.2020 | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ | 01.10.2021 | 31.10.2021 | Zarf İzleme Kayıtları |
+      | ELOGO6       | 123456 |   13.04.2022 |    13.04.2022 | Test Kurum 6 | E LOGO 6  | StandardBusinessDocument | elogotest@gmail.com;ali.kara@logo.com.tr | 12.04.2022 | 12.04.2022 | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ | 11.04.2022 | 11.04.2022 | Zarf İzleme Kayıtları |

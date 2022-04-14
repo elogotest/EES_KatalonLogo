@@ -22,4 +22,4 @@ Feature: e-Fatura Gelen Kutusu Uygulama Yanıtlari UBL - Goster
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | tag                 |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | 1234567806 | ApplicationResponse |
+      | ELOGO6       | 123456 |   13.04.2022 |    13.04.2022 | 1234567806 | ApplicationResponse |

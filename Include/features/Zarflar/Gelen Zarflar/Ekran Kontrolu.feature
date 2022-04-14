@@ -47,4 +47,4 @@ Feature: Gelen Zarflar Buton Kontrolu
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
-      | ELOGO6       | 123456 |   01.11.2020 |    30.11.2020 |
+      | ELOGO6       | 123456 |   13.04.2022 |    13.04.2022 |

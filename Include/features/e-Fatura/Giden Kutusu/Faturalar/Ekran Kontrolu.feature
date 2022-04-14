@@ -7,19 +7,19 @@ Feature: Giden Kutusu Faturalar Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Tablodan HANS MÜLLER isimli verinin detayı tıklanır
-    * Tablodan HANS MÜLLER isimli verinin detayı tıklanır
-    * Listelenen öğe sayısı Sayfa 1 / 4 (34 öğe) mi
+    * Tablodan Elogo Otomasyon (pb-stage) isimli verinin detayı tıklanır
+    * Tablodan Elogo Otomasyon (pb-stage) isimli verinin detayı tıklanır
+    * Listelenen öğe sayısı Sayfa 1 / 153 (1527 öğe) mi
     #* Filtrelerden ETTN filtresine bb24e38e-ea93-4a49-b22e-52269aabcf95 textini yaz
     * Anasayfaya geri dönülür
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Filtrelerden Fatura Tarihi filtresine <fatura_tarihi_baslangic> baslangic degerini yaz    
+    * Filtrelerden Fatura Tarihi filtresine <fatura_tarihi_baslangic> baslangic degerini yaz
     * Filtrelerden Fatura Tarihi filtresine <fatura_tarihi_bitis> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Listelenen öğe sayısı Sayfa 1 / 1 (2 öğe) mi
+    * Listelenen öğe sayısı Sayfa 1 / 22 (215 öğe) mi
     * Filtre alanlarında Alıcı Ünvan var mı
     * Filtre alanlarında Oluşturma Tarihi var mı
     * Filtre alanlarında Uygulama Yanıtı var mı
@@ -73,71 +73,58 @@ Feature: Giden Kutusu Faturalar Buton Kontrolu
     * Butonlardan Statü Ata isimli butona tıklanır
     * Alt butonlardan Öndeğer var mı
     #Fulltextsearch Islemleri
-  	* Anasayfaya geri dönülür
+    * Anasayfaya geri dönülür
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-        #Alıcı Unvanı
-    * Filtrelerden Alıcı Ünvanı filtresine ADORE OYUNCAK VE EĞİTİM ARAÇ.SAN.TİC.A.Ş textini yaz
+    #Alıcı Unvanı
+    * Filtrelerden Alıcı Ünvanı filtresine VirgosolOtomasyon431572 textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Alıcı Ünvanı filtresine ADORE OYUNCAK VE EĞİTİM ARAÇ.SAN textini yaz
+    * Filtrelerden Alıcı Ünvanı filtresine VirgosolOtomasyon431 textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Alıcı Ünvanı filtresine *OYUNCAK VE EĞİTİM ARAÇ.SAN.TİC.A.Ş textini yaz
+    * Filtrelerden Alıcı Ünvanı filtresine *gosolOtomasyon431572 textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Alıcı Ünvanı filtresine ADORE OYUNCAK* textini yaz
+    * Filtrelerden Alıcı Ünvanı filtresine VirgosolOtomasyon431* textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Alıcı Ünvanı filtresine *OYUNCAK* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  			#Alıcı VKN
+    * Filtrelerden Alıcı Ünvanı filtresine *rgosolOtomasyon431* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    #Alıcı VKN
     * Filtrelerden Alıcı Ünvanı filtresinin iceriğini sil
-  	* Filtrelerden Alıcı VKN filtresine 6090408038 textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Alıcı VKN filtresine *90408038 textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Alıcı VKN filtresine 6090408* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Alıcı VKN filtresine *90408* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	    #Fatura no
+    * Filtrelerden Alıcı VKN filtresine 6090408038 textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Alıcı VKN filtresine *90408038 textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Alıcı VKN filtresine 6090408* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Alıcı VKN filtresine *90408* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    #Fatura no
     * Filtrelerden Alıcı VKN filtresinin iceriğini sil
-  	* Filtrelerden Fatura No filtresine ERS2020000000020 textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Fatura No filtresine *RS2020000000020 textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Fatura No filtresine ERS2020000000* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Fatura No filtresine *RS2020000000* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	  	#Müşteri Bayi Kodu
-  	* Filtrelerden Alıcı VKN filtresinin iceriğini sil
-  	* Filtrelerden Müşteri Bayi Kodu filtresine CustomerDealerNo textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Müşteri Bayi Kodu filtresine *tomerDealerNo textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Müşteri Bayi Kodu filtresine CustomerDeal* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir
-  	* Filtrelerden Müşteri Bayi Kodu filtresine *omerDealer* textini yaz
-  	* Filtre butonlarından Listele seçilir
-  	* Tabloda veri var mı kontrol edilir         
+    * Filtrelerden Fatura No filtresine ARV2022000000580 textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Fatura No filtresine *V2022000000580 textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Fatura No filtresine ARV20220000005* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Fatura No filtresine *V20220000005* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    #Müşteri Bayi Kodu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | fatura_tarihi_baslangic | fatura_tarihi_bitis |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.01.2020 |              05.01.2020 |          05.01.2020 |
+      | ELOGO6       | 123456 |   01.04.2022 |    14.04.2022 |              13.04.2022 |          13.04.2022 |

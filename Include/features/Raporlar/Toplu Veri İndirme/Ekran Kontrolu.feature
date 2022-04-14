@@ -51,7 +51,7 @@ Feature: Raporlar Toplu Veri İndirme Ekran Kontrolü ve Excel Aktar
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Filtrelerden Belge Türü filtresine e-Fatura dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
+    * Filtre butonlarından Listele seçilir								
     * Tabloda veri var mı kontrol edilir
     * Filtrelerden Belge Türü filtresine Uygulama Yanıtı dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
@@ -90,4 +90,4 @@ Feature: Raporlar Toplu Veri İndirme Ekran Kontrolü ve Excel Aktar
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri |
-      | ELOGO6       | 123456 |   12.01.2022 |
+      | ELOGO6       | 123456 |   14.04.2022 |

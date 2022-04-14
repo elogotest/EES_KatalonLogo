@@ -16,5 +16,5 @@ Feature: Faturanin Gecmisi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | baslik                  |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     | Fatura İzleme Kayıtları |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                | baslik                  |
+      | ELOGO6       | 123456 |   13.04.2022 |    13.04.2022 | VirgosolOtomasyon431572 | Fatura İzleme Kayıtları |

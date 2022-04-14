@@ -16,5 +16,5 @@ Feature: Faturanin Varsayılan Ile Gosterilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 |
+      | ELOGO6       | 123456 |   14.04.2022 |    14.04.2022 | eLogo Otomasyon pb-stage |
