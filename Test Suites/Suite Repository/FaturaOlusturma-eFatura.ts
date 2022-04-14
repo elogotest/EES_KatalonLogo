@@ -66,42 +66,6 @@
       <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Temel-Tevkifat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e75e1632-332e-4f35-bfd3-91d4f73aac44</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-Iade</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f8917608-297c-4aac-a499-a0472cbf48e0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-IhracKayitli</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>35769a81-163f-4562-803e-b02d035153c8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-Istisna</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>de3133f2-6a7d-4fe0-aa42-117d6419590f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-OzelMatrah</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a9521314-f2c7-4bde-b332-fc5a3a3c7585</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-Satis</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>12263385-9f24-4f28-a7bf-358c8aad0c73</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-TevkifatIade</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b8190975-29c1-4a40-b2a8-01a5e3227b3a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
