@@ -9,7 +9,7 @@ Feature: Gelen Kutusu Faturalar Buton Kontrolu
     * Filtre butonlarından Listele seçilir
     * Tablodan eLogo Otomasyon pb-stage isimli verinin detayı tıklanır
     * Tablodan eLogo Otomasyon pb-stage isimli verinin detayı tıklanır
-    * Listelenen öğe sayısı Sayfa 1 / 124 (1240 öğe) mi
+    * Listelenen öğe sayısı Sayfa 1 / 125 (1243 öğe) mi
     #* Filtrelerden ETTN filtresine bb24e38e-ea93-4a49-b22e-52269aabcf95 textini yaz
     * Anasayfaya geri dönülür
     * Ana menüden e-Fatura seçilir

@@ -13,7 +13,7 @@ Feature: Giden Zarf Tablodaki Verinin Irsaliyeleri
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
     * Ana sekmeye geçilir
-    * Tablodaki <veri_Adi> isimli verinin Uygulama Yanıtları adlı butonuna tıklanır
+    * Tablodaki <veri_Adi> isimli verinin Faturalar adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
@@ -71,7 +71,7 @@ Feature: Giden Zarf Tablodaki Verinin Irsaliyeleri
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan <veri_Adi> isimli veri seçilir
+    #* Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
@@ -106,12 +106,12 @@ Feature: Giden Zarf Tablodaki Verinin Irsaliyeleri
     * Filtrelerden Oluşturma Tarihi filtresine <tarih> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <tarih1> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Tablodaki <veri_Adi2> isimli verinin İrsaliye Yanıtları adlı butonuna tıklanır
+    * Tablodaki <veri_Adi> isimli verinin İrsaliye Yanıtları adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan <veri_Adi2> isimli veri seçilir
+    * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi

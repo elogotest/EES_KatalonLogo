@@ -90,4 +90,4 @@ Feature: Raporlar Toplu Veri İndirme Ekran Kontrolü ve Excel Aktar
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri |
-      | ELOGO6       | 123456 |   14.04.2022 |
+      | ELOGO6       | 123456 |   15.04.2022 |

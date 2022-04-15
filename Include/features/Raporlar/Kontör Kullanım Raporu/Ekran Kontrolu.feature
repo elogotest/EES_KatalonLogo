@@ -10,8 +10,8 @@ Feature: Kontör Kullanım Raporları Ekran Kontrolü ve Excel Aktar
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
-    * Sayfa butonlarından 3 numaralı sayfa butonuna tıklanır
-    * Sayfa butonlarından 4 numaralı sayfa butonuna tıklanır
+    #* Sayfa butonlarından 3 numaralı sayfa butonuna tıklanır
+    #* Sayfa butonlarından 4 numaralı sayfa butonuna tıklanır
     * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
     * Kontör Kullanım Raporları sayfa boyutu 20 olarak seçilir
     * Kontör Kullanım Raporları sayfa boyutu 50 olarak seçilir
@@ -23,31 +23,15 @@ Feature: Kontör Kullanım Raporları Ekran Kontrolü ve Excel Aktar
     * Tabloda veri var mı kontrol edilir
     * Filtrelerden Hizmet Açıklaması filtresine e-İrsaliye Gelen dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
-    * Filtrelerden Hizmet Açıklaması filtresine e-Arşiv SMS dropdowndan degeri seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Hizmet Açıklaması filtresine Saklama (2014 Sonrası) dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Firma Adı filtresine ELOGO6ALT textini yaz
-    * Filtrelerden Hizmet Açıklaması filtresine Hepsi dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Hizmet Açıklaması filtresine MT940 dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Hizmet Açıklaması filtresine e-Mutabakat dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Hizmet Açıklaması filtresine e-İrsaliye Gelen dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Hizmet Açıklaması filtresine e-Müstahsil Makbuzu dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Hizmet Açıklaması filtresine Hepsi dropdowndan degeri seçilir
-    * Filtrelerden Kullanıcı Kodu filtresine ELOGO6ALT textini yaz
+      * Filtrelerden Hizmet Açıklaması filtresine DSD_AR dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri1 |
-      | ELOGO6       | 123456 |   14.04.2022 |    14.04.2022 |
+      | ELOGO6       | 123456 |   14.04.2022 |    15.04.2022 |
