@@ -39,4 +39,4 @@ Feature: e-Arsiv Gecmise Donuk Fatura Olusturmak Evet
 
     Examples: 
       | kullaniciAdi | sifre  | alici_Adi  | fatura_tarihi    | urun_Adi  | aciklamasi | unvan             | fatura_no |
-      | ELOGO6       | 123456 | 5422405266 | 27.09.2020 23:44 | Otomasyon | Virgosol   | VirgosolOtomasyon | FF        |
+      | ELOGO6       | 123456 | 5422405266 | 27-09-2020 23:44 | Otomasyon | Virgosol   | VirgosolOtomasyon | FF        |

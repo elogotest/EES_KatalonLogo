@@ -7,39 +7,42 @@ Feature: e-Fatura e-Belge Numarasi silinebilsin
     * Parametre butonlarından Web Fatura Oluşturma Parametreleri isimli butona tıklanır
     * e-Belge silinebilsin Evet secilir
     * Anasayfaya geri dönülür
-    * Ana menüden e-Fatura seçilir
-    * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
-    * Butonlardan Ekle isimli butona tıklanır
-    * Alıcı adı alanına <alici_Adi> girilir
-    * Ekle butonuna basılır
-    * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir
-    * Ürün ekleme alanında Açıklaması başlığına <aciklamasi> girilir
-    * Kaydet butonu seçilir
-    * Tabloda <unvan> ünvanlı veri oluşturuldu mu
-    * Tablodan <unvan> isimli veri seçilir
-    * Butonlardan Sil isimli butona tıklanır
-    * Popup mesajı Seçilen faturalar silinecektir, devam etmek istiyor musunuz? içeriyor mu
-    * Yönetim popupında Evet seçilir
-    * Popup mesajı Seçtiğiniz faturalar başarıyla silinmiştr. içeriyor mu
-    * Yönetim popupında Tamam seçilir
+    * Ana menüden Fatura Oluşturma seçilir
+    * Alt menüden Fatura Oluşturma seçilir
+    #* Elogo asistan kapatılır
+    * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
+    * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
+    * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
+    * Yeni olusturma ekranı Tip alanından Satış seçilir
+    * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
+    * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
+    * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
+    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
+    * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
+    * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
+    * Yeni oluşturma ekranı Filtrele butonuna tıklanır
+    * Tabloda veri var mı kontrol edilir
+    * Tablodaki yeni oluşan veri seçilir
+    * Tablodaki dropdown butonlarından Numara Ver seçilir
+    * Açılan popuptan evet seçilir
+    * Tablodaki dropdown butonlarından Sil seçilir
+    * Açılan popuptan evet seçilir
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Parametreler seçilir
     * Parametre butonlarından Web Fatura Oluşturma Parametreleri isimli butona tıklanır
     * e-Belge silinebilsin Hayır secilir
     * Anasayfaya geri dönülür
-    * Ana menüden e-Fatura seçilir
-    * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
-    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
-    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tablodan <unvan_2> isimli veri seçilir
-    * Butonlardan Sil isimli butona tıklanır
-    * Popup mesajı Seçilen faturalar silinecektir, devam etmek istiyor musunuz? içeriyor mu
-    * Yönetim popupında Evet seçilir
-    * Popup mesajı Numara atanan faturalar silinemez içeriyor mu
-    * Yönetim popupında Tamam seçilir
+    * Ana menüden Fatura Oluşturma seçilir
+    * Alt menüden Fatura Oluşturma seçilir
+    * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
+    * Yeni oluşturma ekranında Filtrelerden ETTN filtresine ce4b4251-e11e-4966-967d-68fdf44d0d0b textini yaz
+    * Yeni oluşturma ekranı Filtrele butonuna tıklanır
+    * Tabloda veri var mı kontrol edilir
+    * Tablodaki yeni oluşan veri seçilir
+    * Tablodaki dropdown butonlarından Sil seçilir
+    * Açılan popuptan evet seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi         | urun_Adi  | aciklamasi | unvan                   | filtreDegeri | filtreDegeri2 | unvan_2                 |
-      | ELOGOGIB     | 123456 | VirgosolFaturaVKN | Otomasyon | Virgosol   | VirgosolOtomasyon600413 |   01.10.2020 |    31.10.2020 | VirgosolOtomasyon600413 |
+      | kullaniciAdi | sifre  | vkntckn                 | urun_Adi  | aciklamasi | unvan                   | filtreDegeri | filtreDegeri2 | unvan_2                 |
+      | ELOGOGIB     | 123456 | VirgosolOtomasyon600413 | Otomasyon | Virgosol   | VirgosolOtomasyon600413 |   01.10.2020 |    31.10.2020 | VirgosolOtomasyon600413 |

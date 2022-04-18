@@ -7,15 +7,16 @@ Feature: e-Fatura e-Belge Tarihi Degistirilebilsin
     * Parametre butonlarından Web Fatura Oluşturma Parametreleri isimli butona tıklanır
     * e-Belge tarihi degistirilebilsin Evet secilir
     * Anasayfaya geri dönülür
-    * Ana menüden e-Fatura seçilir
-    * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
-    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
-    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tablodan <unvan> isimli veri seçilir
-    * Butonlardan Değiştir isimli butona tıklanır
-    * Fatura tarihi Bilgisi <fatura_tarihi> olarak girilir
-    * Vazgeç butonu seçilir
+    * Ana menüden Fatura Oluşturma seçilir
+    * Alt menüden Fatura Oluşturma seçilir
+    * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
+    * Yeni oluşturma ekranında Filtrelerden ETTN filtresine 5800cd32-2df3-4268-b69a-ad356841cf41 textini yaz
+    * Yeni oluşturma ekranı Filtrele butonuna tıklanır
+    * Tabloda veri var mı kontrol edilir
+    * Tablodaki yeni oluşan veri seçilir
+    * Tablodaki dropdown butonlarından Değiştir seçilir
+    * Yeni oluşturma ekranı Fatura Tarihi <fatura_tarihi> olarak girilir
+    * Yeni oluşturma ekranı filtre butonlarından Vazgeç seçilir
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Parametreler seçilir
     * Parametre butonlarından Web Fatura Oluşturma Parametreleri isimli butona tıklanır
@@ -24,4 +25,4 @@ Feature: e-Fatura e-Belge Tarihi Degistirilebilsin
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | unvan                   | fatura_tarihi    |
-      | ELOGOGIB     | 123456 |   10.11.2020 |    30.11.2020 | VirgosolOtomasyon600413 | 02.09.2020 23:44 |
+      | ELOGOGIB     | 123456 |   10.11.2020 |    30.11.2020 | VirgosolOtomasyon600413 | 02-09-2020 23:44 |

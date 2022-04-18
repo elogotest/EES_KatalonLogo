@@ -7,17 +7,18 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Evet
     * Parametre butonlarından Web Fatura Oluşturma Parametreleri isimli butona tıklanır
     * e-Belge numarası degistirilebilsin Evet secilir
     * Anasayfaya geri dönülür
-    * Ana menüden e-Fatura seçilir
-    * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
-    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
-    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tablodan <unvan> isimli veri seçilir
-    * Butonlardan Değiştir isimli butona tıklanır
+    * Ana menüden Fatura Oluşturma seçilir
+    * Alt menüden Fatura Oluşturma seçilir
+    * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
+    * Yeni oluşturma ekranında Filtrelerden ETTN filtresine ce4b4251-e11e-4966-967d-68fdf44d0d0b textini yaz
+    * Yeni oluşturma ekranı Filtrele butonuna tıklanır
+    * Tabloda veri var mı kontrol edilir
+    * Tablodaki yeni oluşan veri seçilir
+    * Tablodaki dropdown butonlarından Değiştir seçilir
     * Belge no bilgisi <belge_no> olarak girilir
-    * Kaydet butonu seçilir
-    * Popup mesajı fatura numarası daha önce kullanıldığı için aynı numara tekrar kullanılamaz. içeriyor mu
-    * Yönetim popupında Tamam seçilir
+    * Enter'a bas
+    * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
+    * Yeni oluşturma ekranı filtre butonlarından Vazgeç seçilir
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Parametreler seçilir
     * Parametre butonlarından Web Fatura Oluşturma Parametreleri isimli butona tıklanır
@@ -26,4 +27,4 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Evet
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | unvan                   | belge_no         |
-      | ELOGOGIB     | 123456 |   15.11.2020 |    17.11.2020 | VirgosolOtomasyon600413 | ZZZ2020000000798 |
+      | ELOGOGIB     | 123456 |   15.11.2020 |    17.11.2020 | VirgosolOtomasyon600413 | ZZZ2021000000029 |

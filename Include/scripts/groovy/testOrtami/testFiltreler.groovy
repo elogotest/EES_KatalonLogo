@@ -70,6 +70,11 @@ public class testFiltreler {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/NumaraliSayfayGecTest"), ["SayfaNumarasi":sayfaNumarasi] , FailureHandling.STOP_ON_FAILURE)
 	}
 
+	@When("Yeni oluşturma ekranı Fatura Tarihi (.*) olarak girilir")
+	def faturaTarihiGirilir(String faturaTarihi) {
+		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/FaturaTarihi"), ["FaturaTarihi":faturaTarihi] , FailureHandling.STOP_ON_FAILURE)
+	}
+
 
 	@When("Yeni oluşturma ekranı Filtrele butonuna tıklanır")
 	def filtreleBtnTikla() {
@@ -170,7 +175,7 @@ public class testFiltreler {
 	def künyeNumarasi() {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/KünyeNumarasiGirilir"),[:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Olusturma ekranı Tip alanından Hal Komisyoncu seçilir")
 	def halKomis() {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/HalKomisSecilir"),[:] , FailureHandling.STOP_ON_FAILURE)

@@ -21,7 +21,10 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Olusturma/Genel/
 
 WebUI.click(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiDropdown'))
 
-WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'))
+//WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'), Keys.chord(Keys.SHIFT, Keys.ARROW_UP))
+WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'), FaturaTarihi)
 
