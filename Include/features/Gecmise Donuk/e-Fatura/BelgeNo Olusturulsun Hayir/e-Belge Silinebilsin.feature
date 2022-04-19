@@ -35,7 +35,7 @@ Feature: e-Fatura e-Belge Numarasi silinebilsin
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
     * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
-    * Yeni oluşturma ekranında Filtrelerden ETTN filtresine ce4b4251-e11e-4966-967d-68fdf44d0d0b textini yaz
+    * Yeni oluşturma ekranında Filtrelerden ETTN filtresine 39A6E07E-3229-427D-98E2-82C22DD1860E textini yaz
     * Yeni oluşturma ekranı Filtrele butonuna tıklanır
     * Tabloda veri var mı kontrol edilir
     * Tablodaki yeni oluşan veri seçilir

@@ -4,15 +4,18 @@ Feature: Kümülatif Kontör Raporu Kontrolleri
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Raporlar seçilir
     * Alt menüden Kümülatif Kontör Raporu seçilir
-    * Filtrelerden Firma Adı filtresine E LOGO 6 textini yaz
+    #* Filtrelerden Firma Adı filtresine ELOGO6 textini yaz
     * Filtrelerden İşlem Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden İşlem Tarihi filtresine <filtreDegeri1> bitis degerini yaz
     * Enter'a bas
+    #* Filtre butonlarından Listele seçilir
     * Filtrelerden VKN / TCKN filtresine 1234567806 textini yaz
     * Filtrelerden Kullanıcı Kodu filtresine ELOGO6 textini yaz
     * Filtrelerden Firma Tipi filtresine Tümü dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * Raporlar sayfa boyutu 20 olarak seçilir
+    * Raporlar sayfa boyutu 10 olarak seçilir
     * Filtrelerden Hizmet Açıklaması filtresine e-İrsaliye Giden dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
@@ -55,6 +58,10 @@ Feature: Kümülatif Kontör Raporu Kontrolleri
     * Tabloda veri var mı kontrol edilir
     * Filtrelerden Firma Adı filtresine ELOGO6ALT textini yaz
     * Filtre butonlarından Listele seçilir
+    * Raporlar sayfa boyutu 20 olarak seçilir
+    * Raporlar sayfa boyutu 10 olarak seçilir
+    * Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
+    * Sayfa butonlarından 1 numaralı sayfa butonuna tıklanır
     * Filtrelerden Hizmet Açıklaması filtresine e-Fatura Gelen dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
