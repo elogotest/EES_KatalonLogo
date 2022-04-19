@@ -10,7 +10,7 @@ Feature: Yeni olusturma ekranı Gönderim tipi Elektronik ve Hal Satis tipinde e
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
     * Yeni olusturma ekranı Gönderim Şekli Elektronik olarak seçilir
-    * Olusturma ekranı Tip alanından Hal Komisyoncu seçilir
+    * Yeni olusturma ekranı Tip alanından Hal Komisyoncu seçilir
     * Künye Numarası girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
@@ -40,4 +40,4 @@ Feature: Yeni olusturma ekranı Gönderim tipi Elektronik ve Hal Satis tipinde e
 
     Examples: 
       | kullaniciAdi | sifre  | vkntckn                 |
-      | ELOGO6       | 123456 | VirgosolOtomasyon806171 |
+      | ELOGO6       | 123456 | VirgosolOtomasyon402115 |

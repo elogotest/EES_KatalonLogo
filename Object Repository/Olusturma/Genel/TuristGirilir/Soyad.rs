@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'txtSurName_I']</value>
+         <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[1]/div[1]/div/form/div/div[2]/div/div[2]/div[1]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>txtSurName_I</value>
+      <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[1]/div[1]/div/form/div/div[2]/div/div[2]/div[1]/div/input</value>
    </webElementProperties>
 </WebElementEntity>

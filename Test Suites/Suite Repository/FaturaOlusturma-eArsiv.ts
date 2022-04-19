@@ -32,7 +32,7 @@
    <testCaseLink>
       <guid>5f1aaca0-ccfa-4cda-8f96-55c336753929</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eArsivRegresyonTest/e-Arsiv-Internet</testCaseId>
    </testCaseLink>
    <testCaseLink>

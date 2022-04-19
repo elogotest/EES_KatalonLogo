@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//input[@value=''])[18]</value>
+         <value>//div[@id='reactRoot']/div/div/div/div/div[9]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/table/tbody/tr[2]/td[11]/div/div/div/div/div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//input[@value=''])[18]</value>
+      <value>//div[@id='reactRoot']/div/div/div/div/div[9]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div/div/div/table/tbody/tr[2]/td[11]/div/div/div/div/div/div/input</value>
    </webElementProperties>
 </WebElementEntity>

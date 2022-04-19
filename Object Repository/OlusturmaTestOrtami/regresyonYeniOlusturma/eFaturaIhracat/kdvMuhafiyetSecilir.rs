@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;react-select-5-option-0&quot;)/td[@class=&quot;ant-table-cell&quot;]</value>
+         <value>//tr[@id='react-select-3-option-11']/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react-select-5-option-0&quot;)/td[@class=&quot;ant-table-cell&quot;]</value>
+      <value>//tr[@id='react-select-3-option-11']/td[2]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//tr[@id='react-select-7-option-26']/td</value>
+         <value>//tr[@id='react-select-4-option-26']/td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//tr[@id='react-select-7-option-26']/td</value>
+      <value>//tr[@id='react-select-4-option-26']/td</value>
    </webElementProperties>
 </WebElementEntity>
