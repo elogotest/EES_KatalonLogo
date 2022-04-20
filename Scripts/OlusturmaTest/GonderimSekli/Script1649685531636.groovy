@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+WebUI.delay(3)
 WebUI.waitForElementClickable(findTestObject('Object Repository/OlusturmaTestOrtami/eArsiv/GonderimSekli'), 10)
 
 WebUI.click(findTestObject('Object Repository/OlusturmaTestOrtami/eArsiv/GonderimSekli'))
