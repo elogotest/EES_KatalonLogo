@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>1a705968-d68b-49de-a8ae-2cb0b4553345</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ihracat</testCaseId>
    </testCaseLink>
    <testCaseLink>

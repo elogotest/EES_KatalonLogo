@@ -11,7 +11,7 @@ Feature: e-Arsiv e-Belge Numarasi silinebilsin
     * Alt menüden Fatura Oluşturma seçilir
     #* Elogo asistan kapatılır
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
-    * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
+    * Yeni olusturma ekranından <unvan> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
     * Yeni olusturma ekranı Tip alanından Satış seçilir
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
@@ -34,15 +34,27 @@ Feature: e-Arsiv e-Belge Numarasi silinebilsin
     * Anasayfaya geri dönülür
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
+    * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
+    #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
+    * Yeni olusturma ekranından <unvan> VKN/TCKN bilgisine sahip kullanıcı seçilir
+    * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
+   #* Fatura tarihi Bilgisi <fatura_tarihi> olarak girilir
+    * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
+    * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
+    * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
+    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
     * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
-    * Yeni oluşturma ekranında Filtrelerden ETTN filtresine 2c56a7a2-ce1a-48a9-949f-a77806e34f79 textini yaz
+    * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
     * Yeni oluşturma ekranı Filtrele butonuna tıklanır
     * Tabloda veri var mı kontrol edilir
     * Tablodaki yeni oluşan veri seçilir
+    * Tablodaki dropdown butonlarından Numara Ver seçilir
+    * Açılan popuptan evet seçilir
+    #* Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Sil seçilir
     * Açılan popuptan evet seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | kullaniciAdi | sifre  | vkntckn    | urun_Adi  | aciklamasi | unvan                   | filtreDegeri | filtreDegeri2 | unvan_2                |
-      | ELOGOGIB     | 123456 | 5422405266 | Otomasyon | Virgosol   | VirgosolOtomasyon600413 |   25.09.2020 |    25.09.2020 | VirgosolOtomasyon39267 |
+      | ELOGOGIB     | 123456 | 5422405266 | Otomasyon | Virgosol   | VirgosolOtomasyon699944 |   25.09.2020 |    25.09.2020 | VirgosolOtomasyon39267 |

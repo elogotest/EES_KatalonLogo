@@ -39,5 +39,5 @@ Feature: Yeni olusturma ekranı Temel Fatura  ve İstisna tipinde e-Fatura olust
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | vkntckn                 |
-      | ELOGO6       | 123456 | VirgosolOtomasyon431572 |
+      | kullaniciAdi | sifre  | vkntckn    |
+      | ELOGO6       | 123456 | ELOGO TEST |

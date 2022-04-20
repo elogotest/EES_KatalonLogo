@@ -31,7 +31,7 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Hayir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Tabloda yeni oluşturulan eFatura verisi başarılı mı
+    #* Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

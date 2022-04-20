@@ -9,11 +9,21 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Evet
     * Anasayfaya geri dönülür
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
+    * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
+    #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
+    * Yeni olusturma ekranından <unvan> VKN/TCKN bilgisine sahip kullanıcı seçilir
+    * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
+    * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
+    * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
+    * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
+    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
     * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
-    * Yeni oluşturma ekranında Filtrelerden ETTN filtresine ce4b4251-e11e-4966-967d-68fdf44d0d0b textini yaz
+    * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
     * Yeni oluşturma ekranı Filtrele butonuna tıklanır
     * Tabloda veri var mı kontrol edilir
     * Tablodaki yeni oluşan veri seçilir
+    * Tablodaki dropdown butonlarından Numara Ver seçilir
+    * Açılan popuptan evet seçilir
     * Tablodaki dropdown butonlarından Değiştir seçilir
     * Belge no bilgisi <belge_no> olarak girilir
     * Enter'a bas
@@ -27,4 +37,4 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Evet
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | unvan                   | belge_no         |
-      | ELOGOGIB     | 123456 |   15.11.2020 |    17.11.2020 | VirgosolOtomasyon600413 | ZZZ2021000000029 |
+      | ELOGOGIB     | 123456 |   15.11.2020 |    17.11.2020 | VirgosolOtomasyon600413 | ZZZ2022000000000 |

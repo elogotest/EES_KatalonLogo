@@ -9,8 +9,17 @@ Feature: e-Arsiv e-Belge Tarihi Degistirilebilsin
     * Anasayfaya geri dönülür
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
+    * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
+    #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
+    * Yeni olusturma ekranından <unvan> VKN/TCKN bilgisine sahip kullanıcı seçilir
+    * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
+    * Fatura tarihi Bilgisi <filtreDegeri> olarak girilir
+    * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
+    * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
+    * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
+    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
     * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
-    * Yeni oluşturma ekranında Filtrelerden ETTN filtresine 2c56a7a2-ce1a-48a9-949f-a77806e34f79 textini yaz
+    * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
     * Yeni oluşturma ekranı Filtrele butonuna tıklanır
     * Tabloda veri var mı kontrol edilir
     * Tablodaki yeni oluşan veri seçilir
@@ -24,5 +33,5 @@ Feature: e-Arsiv e-Belge Tarihi Degistirilebilsin
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | unvan                  | fatura_tarihi    |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    08.10.2020 | VirgosolOtomasyon39267 | 02-09-2020 23:44 |
+      | kullaniciAdi | sifre  | filtreDegeri     | filtreDegeri2 | unvan                   | fatura_tarihi    |
+      | ELOGOGIB     | 123456 | 01-01-2020 11:45 |    08.10.2020 | VirgosolOtomasyon699944 | 02-09-2020 23:44 |

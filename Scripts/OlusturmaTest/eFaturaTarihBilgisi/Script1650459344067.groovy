@@ -17,28 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiDropdown'),
+	10)
 
-sayac =80
-while(WebUI.verifyElementText(findTestObject("Object Repository/Tablo/DurumBilgisiFatura"), "Henüz Sonuçlanmadı", FailureHandling.OPTIONAL)) {
-	
-	
-	CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Filtreler/Butonlar'), "Listele")
-	
-	sayac = sayac-1
-	Console.println(sayac)
-	if(sayac == 0) {
-	WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
-	}
-	
-	
-}
+WebUI.click(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiDropdown'))
 
+//WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'))
 
-CustomKeywords.'Method.TextDegerineEsitElementVarMi'(findTestObject("Object Repository/Tablo/DurumBilgisiFatura"), "Başarılı")
+WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'), Keys.chord(Keys.SHIFT, Keys.ARROW_UP))
+WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'), Keys.chord(Keys.BACK_SPACE))
 
-/*
- *
- * if(WebUI.verifyElementText(findTestObject("Tablo/DurumBilgisiIrsaliye"), "Başarılı", FailureHandling.STOP_ON_FAILURE)) {
-	
-	
-}*/
+WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'), FaturaTarihi)
+
+WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/FaturaTarihiBilgisi/FaturaTarihiBilgisi'), Keys.chord(Keys.ENTER))

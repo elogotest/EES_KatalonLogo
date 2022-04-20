@@ -38,5 +38,5 @@ Feature: e-FATURA Gecmise Donuk Fatura Olusturmak Evet
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi | fatura_tarihi    | urun_Adi  | aciklamasi | unvan             | fatura_no |
-      | ELOGO6       | 123456 | ELOGO6ALT | 18-03-2021 23:44 | Otomasyon | Virgosol   | VirgosolOtomasyon | FF        |
+      | kullaniciAdi | sifre  | alici_Adi  | fatura_tarihi    | urun_Adi  | aciklamasi | unvan             | fatura_no |
+      | ELOGO6       | 123456 | ELOGO TEST | 18-03-2021 23:44 | Otomasyon | Virgosol   | VirgosolOtomasyon | FF        |

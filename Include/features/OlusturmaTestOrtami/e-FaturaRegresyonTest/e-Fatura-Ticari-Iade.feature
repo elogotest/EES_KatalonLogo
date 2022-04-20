@@ -39,5 +39,5 @@ Feature: Yeni olusturma ekranı Ticari Fatura  ve İade tipinde e-Fatura olustur
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | vkntckn                 |
-      | ELOGO6       | 123456 | VirgosolOtomasyon431572 |
+      | kullaniciAdi | sifre  | vkntckn    |
+      | ELOGO6       | 123456 | ELOGO TEST |

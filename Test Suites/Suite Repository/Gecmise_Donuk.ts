@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>44fe141c-fbfb-4074-b566-4d798ca6de4d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Gecmise Donuk/e-Fatura/BelgeNo Olusturulsun Hayir/e-Belge Tarihi Degistirilebilsin</testCaseId>
    </testCaseLink>
    <testCaseLink>

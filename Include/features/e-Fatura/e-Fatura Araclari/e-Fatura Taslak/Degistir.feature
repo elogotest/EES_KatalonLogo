@@ -15,6 +15,7 @@ Feature: e-Fatura Taslak Degistir
     #* Notlar alanına <not> girilir
     #* Ürün ekleme alanında Mal/Hizmet başlığına Otomasyon girilir
     * Kaydet butonuna tıklanır
+    * Filtre butonlarından Listele seçilir
     * Tablodan <unvan> isimli veri seçilir
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
