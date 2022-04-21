@@ -5,18 +5,12 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>24b0ac46-745c-45ad-91d0-e494fb6c77db</testSuiteGuid>
-   <testCaseLink>
-      <guid>3912e4be-c8de-4cd0-a3ce-7f6f16745bb6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-Iade</testCaseId>
-   </testCaseLink>
    <testCaseLink>
       <guid>7b0268e7-03a5-4841-b676-27c597e4cc93</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -42,9 +36,27 @@
       <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>574f72d9-45f2-43eb-afbd-9da8b0218549</guid>
+      <guid>ab3d631d-ccbc-4754-9142-f6d8ea5fde61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-TevkifatIade</testCaseId>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Kamu-IhracKayitli</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>54e31e21-e5ee-40db-9a01-8a8b98500d76</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Kamu-Istisna</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8fc45c79-0f9a-4aea-8a45-3f21ccfeb6cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Kamu-OzelMatrah</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f05b3f1b-c945-4383-ac94-30801558ad06</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Kamu-Satis</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

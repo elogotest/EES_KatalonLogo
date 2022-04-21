@@ -1,16 +1,17 @@
-Feature: Ubl FamilyName Kntrolü e Arsiv
+Feature: Yeni olusturma ekranı Temel Fatura  ve İade tipinde e-Fatura olusturulmasi
 
-  Scenario Outline: Ubl FamilyName Kntrolü e Arsiv
+  Scenario Outline: Yeni olusturma ekranı Temel Fatura  ve Iade tipinde e-Fatura olusturulmasi
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
     #* Elogo asistan kapatılır
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
-    #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
-    * Yeni olusturma ekranından <alici_Adi> VKN/TCKN bilgisine sahip kullanıcı seçilir
+    #* Yeni oluşturma ekranı filtre butonlarından  seçilir
+    * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
-    * Yeni olusturma ekranı Gönderim Şekli Elektronik olarak seçilir
-    * Yeni olusturma ekranı Tip alanından Satış seçilir
+    * Yeni olusturma ekranı Gönderim Şekli Kamu olarak seçilir
+    * Yeni olusturma ekranı Tip alanından İhraç Kayıtlı seçilir
+    * Kamu Ödeme Bilgileri TR193739520062686063252625,3214525138 olarak girilir
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
@@ -21,25 +22,23 @@ Feature: Ubl FamilyName Kntrolü e Arsiv
     * Tabloda veri var mı kontrol edilir
     * Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Numara Ver seçilir
+    #* Açılan popup mesajı Oluşturulacak fatura numarası : KGC2022000000092 Fatura numarası oluşturulduktan sonra fatura silinemez. Fatura numarası, tarihi ve ön eki değiştirilemez. Devam etmek istiyor musunuz? ile aynı mı
+    #* Yeni oluşturma ekranı filtre butonlarından Evet seçilir
     * Açılan popuptan evet seçilir
     #* Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Alıcıya Gönder seçilir
     * Açılan popuptan evet seçilir
-    * Ana menüden e-Arşiv seçilir
-    * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
+    * Ana menüden e-Fatura seçilir
+    * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
+    #* Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * e-Arşiv oluşturulan faturanın tutar bilgisi 142.780,00 ile aynı mı
+    * e-Fatura oluşturulan faturanın tutar bilgisi 121.000,00 TRY ile aynı mı
     #* Tabloda Başarılı ünvanlı veri oluşturuldu mu
-    * Tabloda yeni oluşturulan eArsiv verisi başarılı mı
-    * Tablodan Test Tckn isimli veri seçilir
-    * Butonlardan UBL isimli butona tıklanır
-    * Yeni açılan sekmeye geçilir
-    * Oluşturulan Ubl'in FamilyName alanı Tckn ile aynı mı
-    * Ana sekmeye geçilir
+    * Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | not1                   | unvan | tag     |
-      | SAHIS6       | 123456 | Test      | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Degistir |       | invoice |
+      | kullaniciAdi | sifre  | vkntckn    |
+      | ELOGO6       | 123456 | ELOGO TEST |

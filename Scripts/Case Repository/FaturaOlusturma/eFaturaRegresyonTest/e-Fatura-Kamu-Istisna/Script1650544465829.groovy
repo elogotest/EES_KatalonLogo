@@ -17,12 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(4)
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/OlusturmaTestOrtami/eArsiv/GonderimSekli'), 10)
-
-WebUI.click(findTestObject('Object Repository/OlusturmaTestOrtami/eArsiv/GonderimSekli'))
-
-CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Object Repository/OlusturmaTestOrtami/eArsiv/GonderimSekliSecilir'), 
-    GonderimSekli)
-
+CucumberKW.runFeatureFile('Include/features/OlusturmaTestOrtami/e-FaturaRegresyonTest/e-Fatura-Kamu-Istisna.feature')

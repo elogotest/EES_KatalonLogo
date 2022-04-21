@@ -1,6 +1,6 @@
-Feature: Yeni olusturma ekranı Ticari Fatura  ve İade tipinde e-Fatura olusturulmasi
+Feature: Yeni olusturma ekranı Temel Fatura  ve İade tipinde e-Fatura olusturulmasi
 
-  Scenario Outline: Yeni olusturma ekranı Ticari Fatura  ve Iade tipinde e-Fatura olusturulmasi
+  Scenario Outline: Yeni olusturma ekranı Temel Fatura  ve Iade tipinde e-Fatura olusturulmasi
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
@@ -9,8 +9,9 @@ Feature: Yeni olusturma ekranı Ticari Fatura  ve İade tipinde e-Fatura olustur
     #* Yeni oluşturma ekranı filtre butonlarından  seçilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
-    * Yeni olusturma ekranı Gönderim Şekli Ticari Fatura olarak seçilir
-    * Yeni olusturma ekranı Tip alanından İade seçilir
+    * Yeni olusturma ekranı Gönderim Şekli Kamu olarak seçilir
+    * Yeni olusturma ekranı Tip alanından Özel Matrah seçilir
+    * Kamu Ödeme Bilgileri TR193739520062686063252625,3214525138 olarak girilir
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
