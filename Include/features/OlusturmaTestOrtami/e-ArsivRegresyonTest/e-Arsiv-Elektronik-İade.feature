@@ -1,6 +1,6 @@
-Feature: Yeni olusturma ekranı Gönderim tipi Elektronik ve İhrac Kayitli tipinde e-Arsiv faturasi olusturulmasi
+Feature: Yeni olusturma ekranı Gönderim tipi Elektronik ve İade tipinde e-Arsiv faturasi olusturulmasi
 
-  Scenario Outline: Yeni olusturma ekranı Gönderim tipi Elektronik  ve İhrac Kayitli tipinde e-Arsiv faturasi olusturulmasi
+  Scenario Outline: Yeni olusturma ekranı Gönderim tipi Elektronik  ve İade tipinde e-Arsiv faturasi olusturulmasi
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir

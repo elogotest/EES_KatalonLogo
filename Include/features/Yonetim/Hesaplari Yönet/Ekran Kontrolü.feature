@@ -15,8 +15,8 @@ Feature: Yönetim Hesapları Yönet Ekran Kontrolü
     * Butonlardan Excel var mı
     * Butonlardan Hizmetler var mı
     * Butonlardan Hesabı Kullan var mı
-    * Butonlardan Kontör Ekle var mı
-    * Butonlardan Kontör Çıkar var mı
+    #* Butonlardan Kontör Ekle var mı
+    #* Butonlardan Kontör Çıkar var mı
     * Butonlardan Kontör Bilgileri var mı
     * Butonlardan Süreci Sıfırla var mı
     * Butonlardan Gib Hesabı Sil var mı

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#cmbPassportNationalityID_DDD_L_LBT td</value>
+         <value>//*[@id=&quot;reactRoot&quot;]/div[3]/div/div/div/div[2]/div[1]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>css</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>#cmbPassportNationalityID_DDD_L_LBT td</value>
+      <value>//*[@id=&quot;reactRoot&quot;]/div[3]/div/div/div/div[2]/div[1]/div/div</value>
    </webElementProperties>
 </WebElementEntity>

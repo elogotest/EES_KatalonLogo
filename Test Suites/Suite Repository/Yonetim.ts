@@ -56,7 +56,7 @@
    <testCaseLink>
       <guid>b1507a88-8a48-46ec-a5e6-fac2a2724e90</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Yonetim/Hesaplari Yonet/Kontor Ekle ve Cikar</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -68,7 +68,7 @@
    <testCaseLink>
       <guid>706c7ae2-3c08-4897-b355-723dfefd2350</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Yonetim/Kontor Loglari/Onayla</testCaseId>
    </testCaseLink>
    <testCaseLink>

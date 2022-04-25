@@ -35,7 +35,7 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Olusturma/Genel/
 
 WebUI.click(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportUlke'))
 
-CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject("Object Repository/Olusturma/Genel/TuristGirilir/PasaportUlkeAdi"), PasUlke)
+CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportUlkeAdi'), PasUlke)
 WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'), 10)
 
 WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'))

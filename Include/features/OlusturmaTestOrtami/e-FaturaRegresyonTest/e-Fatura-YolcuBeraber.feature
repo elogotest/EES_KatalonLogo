@@ -11,7 +11,7 @@ Feature: Yeni olusturma ekranı Temel Fatura  ve İhrac Kayitli tipinde e-Fatura
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
     * Yeni olusturma ekranı Gönderim Şekli Yolcu Beraber olarak seçilir
     * Yeni olusturma ekranı Tip alanından İstisna seçilir
-    * Turist alanına TuristAd,TuristSoyad,1111111111,Almanya,25.01.2021,Türkiye girilir
+    * Turist alanına TuristAd,TuristSoyad,1111111111,Almanya,25-01-2021,Türkiye girilir
     #* Turist bilgileri girilir  pasaport tarihi alanı eklenecek
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
