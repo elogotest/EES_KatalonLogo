@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>1a705968-d68b-49de-a8ae-2cb0b4553345</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ihracat</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -68,7 +68,7 @@
    <testCaseLink>
       <guid>b8190975-29c1-4a40-b2a8-01a5e3227b3a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-YolcuBeraber</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

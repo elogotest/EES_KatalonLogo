@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PasaportUlkeAdi</name>
+   <name>TablodakiVerilerinTamami</name>
    <tag></tag>
-   <elementGuidId>5a80c0e1-ac81-4749-8956-daf915743bea</elementGuidId>
+   <elementGuidId>cd79a8ae-6eea-4c78-96eb-b1504dbc1e31</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.ant-select-item-option-content</value>
+         <value>//*[@id=&quot;reactRoot&quot;]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[1]/table/thead/tr/th[1]/div/label/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>css</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>.ant-select-item-option-content</value>
+      <value>//*[@id=&quot;reactRoot&quot;]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[1]/table/thead/tr/th[1]/div/label/span/input</value>
    </webElementProperties>
 </WebElementEntity>

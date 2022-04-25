@@ -59,4 +59,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Kamu-Satis</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>2bb1c65b-a195-4abd-9037-bd24dc9ac28d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Temel-Sgk</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

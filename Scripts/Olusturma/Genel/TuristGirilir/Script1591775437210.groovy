@@ -15,6 +15,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import java.awt.Desktop.Action
+import java.awt.Robot
+import java.awt.event.KeyEvent
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/Ad'), 10)
 WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/Ad'))
@@ -38,15 +41,11 @@ WebUI.click(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/Pasa
 CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportUlkeAdi'), PasUlke)
 WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'), 10)
 
-WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'))
-
-WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'), PasTarih)
-
-/*WebUI.click(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/Pasaport UlkeAdi2'))*/
-
 WebUI.waitForElementClickable(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/Ulke'), 10)
 
 WebUI.click(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/Ulke'))
 
-CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject("Object Repository/Olusturma/Genel/TuristGirilir/UlkeAdi"), Ulke)
+CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/UlkeAdi'), Ulke)
+
+WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/TuristGirilir/PasaportTarihi'), PasTarih)
 

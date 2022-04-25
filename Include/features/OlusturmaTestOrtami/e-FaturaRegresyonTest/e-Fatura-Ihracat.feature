@@ -22,8 +22,6 @@ Feature: Yeni olusturma ekranı Temel Fatura  ve İhrac Kayitli tipinde e-Fatura
     * Tabloda veri var mı kontrol edilir
     * Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Numara Ver seçilir
-    #* Açılan popup mesajı Oluşturulacak fatura numarası : KGC2022000000092 Fatura numarası oluşturulduktan sonra fatura silinemez. Fatura numarası, tarihi ve ön eki değiştirilemez. Devam etmek istiyor musunuz? ile aynı mı
-    #* Yeni oluşturma ekranı filtre butonlarından Evet seçilir
     * Açılan popuptan evet seçilir
     #* Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Alıcıya Gönder seçilir
@@ -31,7 +29,6 @@ Feature: Yeni olusturma ekranı Temel Fatura  ve İhrac Kayitli tipinde e-Fatura
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    #* Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Fatura oluşturulan faturanın tutar bilgisi 121.000,00 TRY ile aynı mı

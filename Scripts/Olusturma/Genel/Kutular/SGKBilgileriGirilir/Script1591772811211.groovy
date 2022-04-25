@@ -66,8 +66,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/Ku
 
 WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBilgileri/Baslangic'), BaslangicTarih)
 
+WebUI.delay(1)
 
-
+robot.keyPress(KeyEvent.VK_ENTER);
 
 
 

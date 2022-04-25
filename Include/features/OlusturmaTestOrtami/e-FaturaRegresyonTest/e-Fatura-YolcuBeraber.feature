@@ -10,8 +10,9 @@ Feature: Yeni olusturma ekranı Temel Fatura  ve İhrac Kayitli tipinde e-Fatura
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
     * Yeni olusturma ekranı Gönderim Şekli Yolcu Beraber olarak seçilir
-    * Yeni olusturma ekranı Tip alanından İstisna seçilir
-    * Turist alanına TuristAd,TuristSoyad,1111111111,Almanya,25-01-2021,Türkiye girilir
+    #* Yeni olusturma ekranı Tip alanından İstisna seçilir
+    * Turist alanına TuristAd,TuristSoyad,1111111111,Almanya,25-01-2021,Afganistan girilir
+    * Enter'a bas
     #* Turist bilgileri girilir  pasaport tarihi alanı eklenecek
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
@@ -35,8 +36,7 @@ Feature: Yeni olusturma ekranı Temel Fatura  ve İhrac Kayitli tipinde e-Fatura
     #* Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * e-Fatura oluşturulan faturanın tutar bilgisi 121.000,00 TRY ile aynı mı
-    #* Tabloda Başarılı ünvanlı veri oluşturuldu mu
+    * e-Fatura oluşturulan faturanın tutar bilgisi 142.780,00 TRY ile aynı mı
     * Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

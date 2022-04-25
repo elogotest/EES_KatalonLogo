@@ -17,12 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/OlusturmaTestOrtami/eArsiv/FaturaTipi'), 10)
-
-WebUI.click(findTestObject('Object Repository/OlusturmaTestOrtami/eArsiv/FaturaTipi'))
-
-WebUI.scrollToElement(findTestObject('Object Repository/OlusturmaTestOrtami/regresyonYeniOlusturma/HalKomis'), 3)
-
-//WebUI.click(findTestObject('Object Repository/OlusturmaTestOrtami/regresyonYeniOlusturma/HalKomis'))
-
-CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Object Repository/OlusturmaTestOrtami/eArsiv/GonderimSekliSecilir'), 'Hal Komisyoncu')
+CucumberKW.runFeatureFile('Include/features/OlusturmaTestOrtami/e-FaturaRegresyonTest/e-Fatura-Sgk.feature')

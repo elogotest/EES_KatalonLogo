@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#cmbTouristCountry_DDD_L_LBT td</value>
+         <value>.ant-select-item-option-content</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#cmbTouristCountry_DDD_L_LBT td</value>
+      <value>.ant-select-item-option-content</value>
    </webElementProperties>
 </WebElementEntity>

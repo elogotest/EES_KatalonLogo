@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'cmbTouristCountry_I']</value>
+         <value>//*[@id=&quot;rc_select_10&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>cmbTouristCountry_I</value>
+      <value>//*[@id=&quot;rc_select_10&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
