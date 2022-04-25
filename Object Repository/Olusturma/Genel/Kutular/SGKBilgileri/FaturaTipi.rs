@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'SgkDocumentTypeCode_I']</value>
+         <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[4]/div[1]/div/div/div[2]/div/form/div/div[1]/div/div[2]/div[1]/div/div/div/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>SgkDocumentTypeCode_I</value>
+      <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[4]/div[1]/div/div/div[2]/div/form/div/div[1]/div/div[2]/div[1]/div/div/div/span[1]</value>
    </webElementProperties>
 </WebElementEntity>

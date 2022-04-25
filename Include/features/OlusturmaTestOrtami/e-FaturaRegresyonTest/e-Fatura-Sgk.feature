@@ -11,7 +11,9 @@ Feature: Yeni olusturma ekranı Temel Fatura  ve Sgk tipinde e-Fatura olusturulm
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
     * Yeni olusturma ekranı Gönderim Şekli Temel Fatura olarak seçilir
     * Yeni olusturma ekranı Tip alanından Sgk seçilir
+    #* Sgk baslangic 1-01-2022 olarak girilir  
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
+    * SGK Bilgileri Eczane,1111111111,Virgosol,1111111111,1-01-2022,31-12-2022 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
     #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FaturaTipiAd</name>
+   <name>sgkBilgileriSecilir</name>
    <tag></tag>
-   <elementGuidId>d0e839c8-d996-4d42-8dbb-ffe9de94c308</elementGuidId>
+   <elementGuidId>4c9fb4c4-9ca5-4fcf-bf98-3c3f8c4b0538</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='reactRoot']/div[4]/div/div</value>
+         <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[4]/div[1]/div/div/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='reactRoot']/div[4]/div/div</value>
+      <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[4]/div[1]/div/div/div[1]</value>
    </webElementProperties>
 </WebElementEntity>

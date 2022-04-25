@@ -34,7 +34,7 @@ Feature: e-Arsiv Gecmise Donuk Fatura Olusturmak Evet
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Tabloda yeni oluşturulan eArsiv verisi başarılı mı
+    #* Tabloda yeni oluşturulan eArsiv verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

@@ -180,9 +180,14 @@ public class testFiltreler {
 	def halKomis() {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/HalKomisSecilir"),[:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Kamu Ödeme Bilgileri (.*),(.*) olarak girilir")
 	def kamuOdemeBilgileriGirilir(String iban,String vkn) {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/KamuÖdemeBilgileri"), ["Iban":iban,"Vkn":vkn] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Sgk baslangic (.*) olarak girilir")
+	def baslangicGirilir(String baslangicTarih) {
+		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/sgkBaslangicTarih"), ["BaslangicTarih":baslangicTarih] , FailureHandling.STOP_ON_FAILURE)
 	}
 }

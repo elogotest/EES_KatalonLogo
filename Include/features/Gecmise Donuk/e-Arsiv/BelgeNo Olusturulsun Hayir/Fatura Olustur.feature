@@ -32,10 +32,6 @@ Feature: eArsiv Gecmise Donuk Fatura Olustur Hayir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Tabloda yeni oluşturulan eArsiv verisi başarılı mı
-    #* Popup mesajı Fatura numarası, tarihi ve ön eki değiştirilemez. içeriyor mu
-    #* Yönetim popupında Evet seçilir
-    #* Yönetim popupında Tamam seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
