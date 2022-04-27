@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.delay(2)
 //WebUI.waitForElementVisible(findTestObject('OlusturmaTestOrtami/regresyonYeniOlusturma/VknTcknGir'), 10)
 //WebUI.click(findTestObject('OlusturmaTestOrtami/regresyonYeniOlusturma/VknTcknGir'))
 WebUI.sendKeys(findTestObject('OlusturmaTestOrtami/regresyonYeniOlusturma/VknTcknGir'), VknTckn)

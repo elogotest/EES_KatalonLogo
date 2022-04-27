@@ -1,9 +1,11 @@
-Feature: Yeni olusturma ekranı Hal Fatura  ve Komisyoncu tipinde e-Fatura olusturulmasi
+Feature: Yeni olusturma ekranı Hal Fatura  ve Satıs tipinde e-Fatura olusturulmasi
 
-  Scenario Outline: Yeni olusturma ekranı Hal Fatura  ve Komisyoncu tipinde e-Fatura olusturulmasi
+  Scenario Outline: Yeni olusturma ekranı Hal Fatura  ve Satis tipinde e-Fatura olusturulmasi
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
+    * Tablodaki verilerin tamamı silinir
+    * Açılan popuptan evet seçilir
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     #* Yeni oluşturma ekranı filtre butonlarından  seçilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir

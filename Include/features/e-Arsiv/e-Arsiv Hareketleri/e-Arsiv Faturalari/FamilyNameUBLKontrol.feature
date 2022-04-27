@@ -33,10 +33,10 @@ Feature: Ubl FamilyName Kntrolü e Arsiv
     * e-Arşiv oluşturulan faturanın tutar bilgisi 142.780,00 ile aynı mı
     #* Tabloda Başarılı ünvanlı veri oluşturuldu mu
     #* Tabloda yeni oluşturulan eArsiv verisi başarılı mı
-    * Tablodan Test Otomasyon isimli veri seçilir
+    * Tablodan Test Tckn isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
-    * Oluşturulan Ubl'in FamilyName alanı Otomasyon ile aynı mı
+    * Oluşturulan Ubl'in FamilyName alanı Tckn ile aynı mı
     * Ana sekmeye geçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 

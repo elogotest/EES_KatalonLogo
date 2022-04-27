@@ -191,7 +191,7 @@ public class testFiltreler {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/sgkBaslangicTarih"), ["BaslangicTarih":baslangicTarih] , FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Tablodaki verilerin tamamı seçilir")
+	@When("Tablodaki verilerin tamamı silinir")
 	def tablodakiVeriler() {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/TablodakiVerileriSil"),[:] , FailureHandling.STOP_ON_FAILURE)
 	}

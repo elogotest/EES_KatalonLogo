@@ -1,6 +1,6 @@
-Feature: Yeni olusturma ekranı Temel Fatura  ve İhrac Kayitli tipinde e-Fatura olusturulmasi
+Feature: Yeni olusturma ekranı İhracat tipinde e-Fatura olusturulmasi
 
-  Scenario Outline: Yeni olusturma ekranı Ticari Fatura  ve Ihrac Kayitli tipinde e-Fatura olusturulmasi
+  Scenario Outline: Yeni olusturma ekranı ihracat tipinde e-Fatura olusturulmasi
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir

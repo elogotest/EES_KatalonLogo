@@ -4,7 +4,8 @@ Feature: Yeni olusturma ekranı Hal Fatura  ve Komisyoncu tipinde e-Fatura olust
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
-    #* Elogo asistan kapatılır
+    #* Tablodaki verilerin tamamı silinir
+    #* Açılan popuptan evet seçilir
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     #* Yeni oluşturma ekranı filtre butonlarından  seçilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir

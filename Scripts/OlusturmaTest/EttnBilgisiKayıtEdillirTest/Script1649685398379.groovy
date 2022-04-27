@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject("Object Repository/OlusturmaTestOrtami/regresyonYeniOlusturma/ettnBilgisi"), 7)
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject("Object Repository/OlusturmaTestOrtami/regresyonYeniOlusturma/ettnBilgisi"), 10)
 
 GlobalVariable.ettn = WebUI.getAttribute(findTestObject("Object Repository/OlusturmaTestOrtami/regresyonYeniOlusturma/ettnBilgisi"), "value")
 

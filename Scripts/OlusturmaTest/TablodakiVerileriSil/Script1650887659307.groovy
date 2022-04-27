@@ -19,4 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('OlusturmaTestOrtami/FiltrelerYeniOlusturma/TablodakiVerilerinTamami'))
 
+WebUI.click(findTestObject('Object Repository/OlusturmaTestOrtami/FiltrelerYeniOlusturma/Dropdown'))
+
+WebUI.click(findTestObject('OlusturmaTestOrtami/FiltrelerYeniOlusturma/SilButonu'))
+
 

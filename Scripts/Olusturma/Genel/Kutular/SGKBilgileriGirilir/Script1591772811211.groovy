@@ -50,16 +50,6 @@ WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBil
 
 WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBilgileri/MukellefKodu'), MukellefKodu)
 
-
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBilgileri/Bitis'), 10)
-
-//WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBilgileri/Bitis'))
-
-WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBilgileri/Bitis'), BitisTarih)
-
-robot.keyPress(KeyEvent.VK_ENTER);
-
 WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBilgileri/Baslangic'), 10)
 
 //WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBilgileri/Baslangic'))
@@ -69,6 +59,16 @@ WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBilg
 WebUI.delay(1)
 
 robot.keyPress(KeyEvent.VK_ENTER);
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBilgileri/Bitis'), 10)
+
+//WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBilgileri/Bitis'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Olusturma/Genel/Kutular/SGKBilgileri/Bitis'), BitisTarih)
+
+robot.keyPress(KeyEvent.VK_ENTER);
+
+
 
 
 

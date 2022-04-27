@@ -34,4 +34,4 @@ Feature: Uygulama Yanitinin Excele aktarilmasi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | Email                                                  |
-      | ELOGO6       | 123456 |   14.04.2022 |    14.04.2022 | 1234567806 | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
+      | ELOGO6       | 123456 |   01.04.2022 |    26.04.2022 | 1234567806 | elogotestelogo@gmail.com;ali.karaotomasyon@logo.com.tr |
