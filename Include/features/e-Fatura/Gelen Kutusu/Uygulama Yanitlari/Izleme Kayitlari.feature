@@ -17,4 +17,4 @@ Feature: Uygulama Yanitinin Gecmisi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | baslik                              |
-      | ELOGO6       | 123456 |   14.04.2022 |    14.04.2022 | 1234567806 | Uygulama Yanıtları İzleme Kayıtları |
+      | ELOGO6       | 123456 |   01.04.2022 |    26.04.2022 | 1234567806 | Uygulama Yanıtları İzleme Kayıtları |

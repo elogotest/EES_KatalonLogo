@@ -21,15 +21,10 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Tabloda veri var mı kontrol edilir
     * Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Numara Ver seçilir
-    #* Açılan popup mesajı Oluşturulacak fatura numarası : KGC2022000000092 Fatura numarası oluşturulduktan sonra fatura silinemez. Fatura numarası, tarihi ve ön eki değiştirilemez. Devam etmek istiyor musunuz? ile aynı mı
-    #* Yeni oluşturma ekranı filtre butonlarından Evet seçilir
     * Açılan popuptan evet seçilir
     #* Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Alıcıya Gönder seçilir
     * Açılan popuptan evet seçilir
-    #* Yönetim popupında Tamam seçilir*1300/1200 başarılı mı kontrolü ekle
-    #* Kullanıcı işlemlerinden Çıkış seçilir
-    #* Kullanıcı adı <kullaniciAdi1> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir
     # * Filtrelerden Ettn filtresine Ettn bilgisi yaz
