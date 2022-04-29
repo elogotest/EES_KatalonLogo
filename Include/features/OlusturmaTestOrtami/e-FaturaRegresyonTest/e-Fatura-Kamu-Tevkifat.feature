@@ -1,12 +1,14 @@
-Feature: Yeni olusturma ekranı Temel Fatura  ve İade tipinde e-Fatura olusturulmasi
+Feature: Yeni olusturma ekranı Temel Fatura  ve Tevkifat İade tipinde e-Fatura olusturulmasi
 
-  Scenario Outline: Yeni olusturma ekranı Temel Fatura  ve Iade tipinde e-Fatura olusturulmasi
+  Scenario Outline: Yeni olusturma ekranı Temel Fatura  ve Tevkifat Iade tipinde e-Fatura olusturulmasi
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
+    #* Ana menüden Fatura Oluşturma seçilir
+    #* Alt menüden Fatura Oluşturma seçilir
+   	#* Tablodaki verilerin tamamı silinir
+    #* Açılan popuptan evet seçilir
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
-    #* Elogo asistan kapatılır
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
-    #* Yeni oluşturma ekranı filtre butonlarından  seçilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
     * Yeni olusturma ekranı Gönderim Şekli Kamu olarak seçilir

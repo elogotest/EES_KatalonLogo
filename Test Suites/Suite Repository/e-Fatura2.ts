@@ -14,13 +14,13 @@
    <testCaseLink>
       <guid>5c616c74-97b7-4d5c-8a56-1863c00f2885</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Yanit Gonder</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d2c5a837-664b-4927-864b-83cf12d514e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Yanit Gonder Red</testCaseId>
    </testCaseLink>
    <testCaseLink>
