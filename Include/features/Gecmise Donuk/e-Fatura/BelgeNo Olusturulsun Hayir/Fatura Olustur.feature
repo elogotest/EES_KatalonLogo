@@ -16,6 +16,7 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Hayir
     #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
     * Yeni olusturma ekranından <alici_Adi> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
+    * Yeni oluşturma ekranı Fatura Tarihi <fatura_tarihi> olarak girilir
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir

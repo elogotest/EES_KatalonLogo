@@ -4,7 +4,9 @@ Feature: Yeni olusturma ekranı Ticari Fatura  ve Satis tipinde e-Fatura olustur
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
-    #* Elogo asistan kapatılır
+    * Tablodaki verilerin tamamı silinir
+    * Açılan popuptan evet seçilir
+    * Tablodaki verilerin tamamı seçilir
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
@@ -12,7 +14,6 @@ Feature: Yeni olusturma ekranı Ticari Fatura  ve Satis tipinde e-Fatura olustur
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
-    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
     * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
     * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
     * Yeni oluşturma ekranı Filtrele butonuna tıklanır
@@ -29,7 +30,6 @@ Feature: Yeni olusturma ekranı Ticari Fatura  ve Satis tipinde e-Fatura olustur
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Fatura oluşturulan faturanın tutar bilgisi 142.780,00 TRY ile aynı mı
-    #* Tabloda Başarılı ünvanlı veri oluşturuldu mu
     * Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

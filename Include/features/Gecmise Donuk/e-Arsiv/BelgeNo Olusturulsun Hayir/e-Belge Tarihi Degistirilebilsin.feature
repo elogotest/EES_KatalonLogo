@@ -13,14 +13,12 @@ Feature: e-Arsiv e-Belge Tarihi Degistirilebilsin
     * Açılan popuptan evet seçilir
     * Tablodaki verilerin tamamı seçilir
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
-    #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
     * Yeni olusturma ekranından <unvan> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
-    * Fatura tarihi Bilgisi <filtreDegeri> olarak girilir
+    #* Fatura tarihi Bilgisi <filtreDegeri> olarak girilir
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
-    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
     * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
     * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
     * Yeni oluşturma ekranı Filtrele butonuna tıklanır

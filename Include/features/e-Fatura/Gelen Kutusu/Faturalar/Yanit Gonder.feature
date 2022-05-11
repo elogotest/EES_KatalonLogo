@@ -4,7 +4,9 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
-    #* Elogo asistan kapatılır
+    * Tablodaki verilerin tamamı silinir
+    * Açılan popuptan evet seçilir
+    * Tablodaki verilerin tamamı seçilir
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
     * Yeni olusturma ekranından <alici_Adi> VKN/TCKN bilgisine sahip kullanıcı seçilir
@@ -14,7 +16,6 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
-    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
     * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
     * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
     * Yeni oluşturma ekranı Filtrele butonuna tıklanır
@@ -27,13 +28,10 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Açılan popuptan evet seçilir
     * Ana menüden e-Fatura seçilir
     * Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir
-    # * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtrelerden eFatura Ettn filtresine Ettn bilgisi yaz
-    #* Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan E LOGO 6 isimli veri seçilir
     * Butonlardan Yanıt Gönder isimli butona tıklanır
-    #* Popup başlığı Uygulama Yanıtı Gönder içeriyor mu
     * Yönetim popupında Gönder seçilir
     * Popup mesajı Uygulama yanıtı başarıyla oluşturuldu. içeriyor mu
     * Yönetim popupında Tamam seçilir
@@ -42,8 +40,6 @@ Feature: Ticari Fatura ile Yanit Gonder Kontrolu
     * Alt menü Giden Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtrelerden İliskili Fatura Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
-    #* Tablodan 1234567806 isimli veri seçilir
-    #* Tabloda yeni oluşturulan fatura yanıtı verisi başarılı mı
     * Tablodaki 1234567806 isimli verinin Yanıt adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Yeni sekme başlığında UYGULAMA YANITI var mı kontrol edilir

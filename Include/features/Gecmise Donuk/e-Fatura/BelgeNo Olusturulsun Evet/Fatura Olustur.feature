@@ -12,12 +12,11 @@ Feature: e-FATURA Gecmise Donuk Fatura Olusturmak Evet
     * Tablodaki verilerin tamamı silinir
     * Açılan popuptan evet seçilir
     * Tablodaki verilerin tamamı seçilir
-    #* Elogo asistan kapatılır
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
     * Yeni olusturma ekranından <alici_Adi> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
-    * Fatura tarihi Bilgisi <fatura_tarihi> olarak girilir
+    * Yeni oluşturma ekranı Fatura Tarihi <fatura_tarihi> olarak girilir
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
