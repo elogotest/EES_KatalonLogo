@@ -9,6 +9,9 @@ Feature: e-Arsiv Gecmise Donuk Fatura Olusturmak Evet
     * Anasayfaya geri dönülür
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
+    * Tablodaki verilerin tamamı silinir
+    * Açılan popuptan evet seçilir
+    * Tablodaki verilerin tamamı seçilir
     #* Elogo asistan kapatılır
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir

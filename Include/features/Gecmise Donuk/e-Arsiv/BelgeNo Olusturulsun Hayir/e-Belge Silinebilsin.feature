@@ -9,6 +9,9 @@ Feature: e-Arsiv e-Belge Numarasi silinebilsin
     * Anasayfaya geri dönülür
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
+    * Tablodaki verilerin tamamı silinir
+    * Açılan popuptan evet seçilir
+    * Tablodaki verilerin tamamı seçilir
     #* Elogo asistan kapatılır
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     * Yeni olusturma ekranından <unvan> VKN/TCKN bilgisine sahip kullanıcı seçilir

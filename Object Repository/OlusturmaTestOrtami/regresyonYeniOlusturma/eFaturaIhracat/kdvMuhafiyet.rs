@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[11]/div/div/div/div/div[1]</value>
+         <value>//*[@id=&quot;react-select-3-input&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[11]/div/div/div/div/div[1]</value>
+      <value>//*[@id=&quot;react-select-3-input&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

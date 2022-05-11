@@ -4,6 +4,9 @@ Feature: Yeni olusturma ekranı Gönderim tipi Elektronik ve İade tipinde e-Ars
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
+    * Tablodaki verilerin tamamı silinir
+    * Açılan popuptan evet seçilir
+    * Tablodaki verilerin tamamı seçilir
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
@@ -12,7 +15,6 @@ Feature: Yeni olusturma ekranı Gönderim tipi Elektronik ve İade tipinde e-Ars
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
-    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
     * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
     * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
     * Yeni oluşturma ekranı Filtrele butonuna tıklanır
@@ -26,7 +28,6 @@ Feature: Yeni olusturma ekranı Gönderim tipi Elektronik ve İade tipinde e-Ars
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    #* Elogo asistan kapatılır
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * e-Arşiv oluşturulan faturanın tutar bilgisi 142.780,00 ile aynı mı

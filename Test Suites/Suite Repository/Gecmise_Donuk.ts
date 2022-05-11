@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>73cc15d0-4852-47c8-8463-7766ff286460</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Gecmise Donuk/e-Arsiv/BelgeNo Olusturulsun Hayir/e-Belge Silinebilsin</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -56,7 +56,7 @@
    <testCaseLink>
       <guid>0c02552d-9932-47cf-8cdc-1385dbacac49</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/Gecmise Donuk/e-Fatura/BelgeNo Olusturulsun Hayir/e-Belge Silinebilsin</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -92,7 +92,7 @@ public class testFiltreler {
 	}
 
 	@When("Yeni olusturma ekranından (.*) VKN/TCKN bilgisine sahip kullanıcı seçilir")
-	def newaliciSec(String vknTckn) {
+	def yenialiciSec(String vknTckn) {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/AliciSecilirTest"), ["VknTckn":vknTckn] , FailureHandling.STOP_ON_FAILURE)
 	}
 
@@ -194,5 +194,10 @@ public class testFiltreler {
 	@When("Tablodaki verilerin tamamı silinir")
 	def tablodakiVeriler() {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/TablodakiVerileriSil"),[:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Tablodaki verilerin tamamı seçilir")
+	def tablodakiVerilerinTumu() {
+		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/TablodakiVerilerinTümü"),[:] , FailureHandling.STOP_ON_FAILURE)
 	}
 }

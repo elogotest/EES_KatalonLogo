@@ -38,3 +38,5 @@ WebUI.click(findTestObject('Object Repository/OlusturmaTestOrtami/regresyonYeniO
 
 WebUI.click(findTestObject('Object Repository/OlusturmaTestOrtami/regresyonYeniOlusturma/kamuödemebilgileri/DövizCinsiDropdown'))
 
+/*CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Object Repository/OlusturmaTestOrtami/regresyonYeniOlusturma/kamuödemebilgileri/DövizCinsiDropdown'),
+	'ABD Doları')*/
