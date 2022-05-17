@@ -25,7 +25,7 @@ Feature: e-Arsiv e-Belge Tarihi Degistirilebilsin
     * Tabloda veri var mı kontrol edilir
     * Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Değiştir seçilir
-    * Yeni oluşturma ekranı Fatura Tarihi <fatura_tarihi> olarak girilir
+    * Yeni oluşturma e-Arsiv ekranı Fatura Tarihi <fatura_tarihi> olarak girilir
     * Yeni oluşturma ekranı filtre butonlarından Vazgeç seçilir
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Parametreler seçilir

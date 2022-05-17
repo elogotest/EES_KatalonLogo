@@ -9,18 +9,13 @@ Feature: e-Fatura e-Belge Numarasi silinebilsin
     * Anasayfaya geri dönülür
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
-    * Tablodaki verilerin tamamı silinir
-    * Açılan popuptan evet seçilir
-    * Tablodaki verilerin tamamı seçilir
-    #* Elogo asistan kapatılır
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
-    * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
-    * Yeni olusturma ekranı Tip alanından Satış seçilir
-    * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
-    * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
+    * Gecmise yönelik faturanın Ettn bilgisi kayıt edilir
+    #* Yeni olusturma ekranı Tip alanından Satış seçilir
+    * Gecmişe yönelik MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
+    #* Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
-    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
     * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
     * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
     * Yeni oluşturma ekranı Filtrele butonuna tıklanır
@@ -40,11 +35,9 @@ Feature: e-Fatura e-Belge Numarasi silinebilsin
     * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
     * Yeni olusturma ekranından <unvan> VKN/TCKN bilgisine sahip kullanıcı seçilir
-    * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
-    * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
-    * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
+    * Gecmise yönelik faturanın Ettn bilgisi kayıt edilir
+    * Gecmişe yönelik MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
-    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
     * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
     * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
     * Yeni oluşturma ekranı Filtrele butonuna tıklanır
@@ -57,5 +50,5 @@ Feature: e-Fatura e-Belge Numarasi silinebilsin
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | vkntckn                 | urun_Adi  | aciklamasi | unvan                   | filtreDegeri | filtreDegeri2 | unvan_2                 |
-      | ELOGOGIB     | 123456 | VirgosolOtomasyon600413 | Otomasyon | Virgosol   | VirgosolOtomasyon600413 |   01.10.2020 |    31.10.2020 | VirgosolOtomasyon600413 |
+      | kullaniciAdi | sifre  | vkntckn | urun_Adi  | aciklamasi | unvan  | filtreDegeri | filtreDegeri2 | 
+      | ELOGOGIB     | 123456 | ELOGO6  | Otomasyon | Virgosol   | ELOGO6 |   01.10.2020 |    31.10.2020 | 
