@@ -105,12 +105,12 @@ public class testFiltreler {
 	def malHizmetBilgileri(String malHizmet,String aciklamasi,String miktari,String fiyati) {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/MalHizmetBilgileriGirilir"), ["MalHizmet":malHizmet,"Aciklamasi":aciklamasi,"Miktari":miktari,"Fiyati":fiyati] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Gecmişe yönelik MalHizmet Bilgileri (.*),(.*),(.*),(.*) olarak girilir")
 	def gecmisMalHizmetBilgileri(String malHizmet,String aciklamasi,String miktari,String fiyati) {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/gecmiseYönelik/MalHizmetGirilir"), ["MalHizmet":malHizmet,"Aciklamasi":aciklamasi,"Miktari":miktari,"Fiyati":fiyati] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni olusturma ekranı Notlar alanına (.*) bilgisi girilir")
 	def notGirilir(String not) {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/NotGirilir"), ["Not":not] , FailureHandling.STOP_ON_FAILURE)
@@ -120,7 +120,7 @@ public class testFiltreler {
 	def EttnBilgisiKayitEdilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/EttnBilgisiKayıtEdillirTest"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Gecmise yönelik faturanın Ettn bilgisi kayıt edilir")
 	def gecmisEttnBilgisiKayitEdilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/gecmiseYönelik/EttnBilgisiKayitEdilir"), [:] , FailureHandling.STOP_ON_FAILURE)

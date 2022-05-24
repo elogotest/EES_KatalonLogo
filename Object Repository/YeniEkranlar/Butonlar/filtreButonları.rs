@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Basliklar</name>
+   <name>filtreButonları</name>
    <tag></tag>
-   <elementGuidId>60d534c8-6962-40cc-b48a-dd892b8cabc0</elementGuidId>
+   <elementGuidId>4bfa5121-329f-4ab2-8b0c-8179263a4702</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[starts-with(@id, 'label-logo-elements-') and @ref_element = 'Object Repository/YeniEkranlar/Filtreler/ReactRoot' and @ref_element_is_shadow_root = 'true']</value>
+         <value>//*[@role = 'button' and @ref_element = 'Object Repository/YeniEkranlar/Filtreler/ReactRoot' and @ref_element_is_shadow_root = 'true']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>starts with</matchCondition>
-      <name>id</name>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
       <type>Main</type>
-      <value>label-logo-elements-</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

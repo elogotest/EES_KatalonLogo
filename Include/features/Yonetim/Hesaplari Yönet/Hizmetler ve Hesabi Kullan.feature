@@ -7,7 +7,7 @@ Feature: Hesapları Yönet Ekranı Hizmetler ve Hesabi Kullan Btonu Kontrolleri
     * Ana menüden Yönetim seçilir
     * Alt menüden Hesapları Yönet seçilir
     * Filtrelerden Firma Adı filtresine ELOGO6 textini yaz
-    * Filtrelerden E-posta  filtresine yasin.gokoguz@elogo.com.tr textini yaz
+    * Filtrelerden E-posta  filtresine yasing@logo.com.tr textini yaz
   	* Filtre butonlarından Listele seçilir
   	* Tabloda veri var mı kontrol edilir
   	* Butonlardan Hizmetler var mı
