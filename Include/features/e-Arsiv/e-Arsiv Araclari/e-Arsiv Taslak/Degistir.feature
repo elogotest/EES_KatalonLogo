@@ -23,10 +23,13 @@ Feature: e-Arsiv Taslak Degistir
     #* Yönetim popupında Tamam seçilir
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
-    * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    * Filtre butonlarından Listele seçilir
+    * Yeni ekranlar Filtreler butonuna tıklanır
+    * Yeni ekranlarda filtrelerden Ettn filtresine Ettn bilgisi yaz
+    * Yeni ekran filtre butonlarından Filtrele isimli butona tıklanır
     * Tabloda veri var mı kontrol edilir
-    * Tabloda yeni oluşturulan eArsiv verisi başarılı mı
+    #* e-Arşiv oluşturulan faturanın tutar bilgisi 1,18 ile aynı mı
+    #* Tabloda Başarılı ünvanlı veri oluşturuldu mu
+    #* Tabloda yeni oluşturulan eArsiv verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

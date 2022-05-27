@@ -46,9 +46,14 @@ import cucumber.api.java.en.When
 
 class Filtreler {
 
-
 	@When("Yeni ekranlar Filtre başlıklarından (.*) var mı")
 	def filtreBasligiVarMi(String filtreBasligi) {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Filtreler/FiltreBasligiVarMi'), ["FiltreBasligi":filtreBasligi] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Yeni ekranlarda filtrelerden Ettn filtresine Ettn bilgisi yaz")
+	def filtreEttnYaz() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Filtreler/ETTNYaz'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 }

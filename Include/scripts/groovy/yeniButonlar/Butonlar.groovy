@@ -49,10 +49,14 @@ class Butonlar {
 	def filtreButonuVarMi(String buton) {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/FiltreButonuVarMi'), ["Buton":buton] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Yeni ekran filtre butonlarından (.*) isimli butona tıklanır")
+	def butonaTikla(String buton_Adi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/FiltreButonunaTiklanir"), ["Buton_Adi":buton_Adi] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Yeni ekranlar Filtreler butonuna tıklanır")
 	def filtrelerButonunaTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/FiltrelerButonu'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
 }

@@ -56,7 +56,7 @@ class filtreler {
 
 	@When("Filtrelerden Ettn filtresine Ettn bilgisi yaz")
 	def filtreEttnYaz() {
-		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/EttnYaz"), [:] , FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Test Cases/Filtreler/EttnYaz'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Numara Kontrol Raporu Yıl filtresini seç")
