@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Filtrele</name>
+   <name>TablodakiVeri</name>
    <tag></tag>
-   <elementGuidId>b58fa23f-007d-41a2-ac62-f9a776557fac</elementGuidId>
+   <elementGuidId>944e9400-1866-4afa-94f8-6587d4ed82c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//vaadin-menu-bar-button[@ref_element = 'Object Repository/YeniEkranlar/Filtreler/MenuBar' and @ref_element_is_shadow_root = 'true']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,14 +17,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>vaadin-menu-bar-button</value>
+      <value>vaadin-checkbox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/YeniEkranlar/Filtreler/MenuBar</value>
+      <value>Object Repository/YeniEkranlar/Filtreler/ReactRoot</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

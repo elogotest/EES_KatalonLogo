@@ -2,8 +2,12 @@ Feature: e-Arsiv Faturaları Ekran ve Filtre Kontrolü
 
   Scenario Outline: e-Arsiv Faturaları Ekran ve Filtre Kontrolü
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
-    * https://efatura-stage.elogo.com.tr/EArchive/EArchiveInvoicesList isimli linke gidilir
+    * Ana menüden e-Arşiv seçilir
+    * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
+    #* Yeni ekran üst butonlardan Filtreler isimli butona tıklanır
     * Yeni ekranlar Filtreler butonuna tıklanır
+    * Yeni ekranlar Üst butonlardan Filtreler var mı
+    * Yeni ekranlar Üst butonlardan Kolonlar var mı
     * Yeni ekranlar Filtre başlıklarından Fatura Numarası var mı
     * Yeni ekranlar Filtre başlıklarından Oluşturma Tarihi var mı
     * Yeni ekranlar Filtre başlıklarından Fatura Tarihi var mı

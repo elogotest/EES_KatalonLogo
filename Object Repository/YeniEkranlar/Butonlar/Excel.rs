@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MenuBar</name>
+   <name>Excel</name>
    <tag></tag>
-   <elementGuidId>9179b19d-18dd-4d9d-ada0-2bc863ffa947</elementGuidId>
+   <elementGuidId>b88db545-8a6d-4781-b69a-9f0c1fe28c2c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//logo-elements-menu-bar[@ref_element = 'Object Repository/YeniEkranlar/Filtreler/ReactRoot' and @ref_element_is_shadow_root = 'true']</value>
+         <value>//*[@id=&quot;reactRoot&quot;]//logo-elements-form-layout/div/div[2]/logo-elements-menu-bar[1]//div/vaadin-menu-bar-button[1]/vaadin-context-menu-item/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,16 +15,16 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>logo-elements-menu-bar</value>
+      <value>//*[@id=&quot;reactRoot&quot;]//logo-elements-form-layout/div/div[2]/logo-elements-menu-bar[1]//div/vaadin-menu-bar-button[1]/vaadin-context-menu-item/div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/YeniEkranlar/Filtreler/ReactRoot</value>
+      <value>Object Repository/YeniEkranlar/Filtreler/MenuBar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -49,14 +49,29 @@ class Butonlar {
 	def filtreButonuVarMi(String buton) {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/FiltreButonuVarMi'), ["Buton":buton] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni ekran filtre butonlarından (.*) isimli butona tıklanır")
 	def butonaTikla(String buton_Adi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/FiltreButonunaTiklanir"), ["Buton_Adi":buton_Adi] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekran üst butonlardan (.*) isimli butona tıklanır")
+	def ustButonaTikla(String buton_Adi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/FiltrelerButonu"), ["Buton_Adi":buton_Adi] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Yeni ekranlar Filtreler butonuna tıklanır")
 	def filtrelerButonunaTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/FiltrelerButonu'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Yeni ekranlar Excel butonuna tıklanır")
+	def excelButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ExceleTiklanir'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Yeni ekranlar Üst butonlardan (.*) var mı")
+	def üstButonVarMi(String üstButon) {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ÜstButonVarMi'), ["ÜstButon":üstButon] , FailureHandling.STOP_ON_FAILURE)
 	}
 }

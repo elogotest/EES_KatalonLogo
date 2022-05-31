@@ -1,4 +1,4 @@
-package yeniFiltreler
+package yeniTablo
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -44,21 +44,13 @@ import cucumber.api.java.en.When
 
 
 
-class Filtreler {
+class tablo {
 
-	@When("Yeni ekranlar Filtre başlıklarından (.*) var mı")
-	def filtreBasligiVarMi(String filtreBasligi) {
-		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Filtreler/FiltreBasligiVarMi'), ["FiltreBasligi":filtreBasligi] , FailureHandling.STOP_ON_FAILURE)
+
+	@When("Yeni ekranlar tablodaki veri seçilir")
+	def yeniTablodakiVeriSecilir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Tablo/TablodakiVeriSeçilir'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("Yeni ekranlarda filtrelerden Ettn filtresine Ettn bilgisi yaz")
-	def filtreEttnYaz() {
-		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Filtreler/ETTNYaz'), [:] , FailureHandling.STOP_ON_FAILURE)
-	}
-	
-	@Given("Yeni ekranlarda filtrelerden (.*) filtresine (.*) textini yaz")
-	def filtreTexboxinaYaz(String filtre_Adi, String filtreDegeri) {
-		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Filtreler/FiltrelereYaz"), ["Filtre_Adi":filtre_Adi,"Filtre_Degeri":filtreDegeri] , FailureHandling.STOP_ON_FAILURE)
-	}
-	
+
 }

@@ -4,6 +4,8 @@ Feature: e-Arsiv Gelen Faturaları(İVD) Ekran ve Filtre Kontrolü
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Gelen Faturalar (İVD) seçilir
+    * Yeni ekranlar Üst butonlardan Filtreler var mı
+    * Yeni ekranlar Üst butonlardan Kolonlar var mı
     * Yeni ekranlar Filtre başlıklarından Fatura Numarası var mı
     * Yeni ekranlar Filtre başlıklarından VKN/TCKN var mı
     * Yeni ekranlar Filtre başlıklarından Gönderici Unvan var mı

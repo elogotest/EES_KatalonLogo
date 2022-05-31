@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MenuBar</name>
+   <name>ÜstButon</name>
    <tag></tag>
-   <elementGuidId>9179b19d-18dd-4d9d-ada0-2bc863ffa947</elementGuidId>
+   <elementGuidId>b58fa23f-007d-41a2-ac62-f9a776557fac</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//logo-elements-menu-bar[@ref_element = 'Object Repository/YeniEkranlar/Filtreler/ReactRoot' and @ref_element_is_shadow_root = 'true']</value>
+         <value>//vaadin-menu-bar-button[@ref_element = 'Object Repository/YeniEkranlar/Filtreler/MenuBar' and @ref_element_is_shadow_root = 'true']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,14 +17,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>logo-elements-menu-bar</value>
+      <value>vaadin-menu-bar-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/YeniEkranlar/Filtreler/ReactRoot</value>
+      <value>Object Repository/YeniEkranlar/Filtreler/MenuBar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

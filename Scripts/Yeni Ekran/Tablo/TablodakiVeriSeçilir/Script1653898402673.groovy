@@ -17,11 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-
-
-WebUI.navigateToUrl("https://efatura-stage.elogo.com.tr/Invoice/OutgoingInvoiceDisplayPDF?InvoiceIDs=53936743", FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.navigateToUrl("https://efatura-stage.elogo.com.tr/Invoice/OutgoingInvoiceDisplayPDF?InvoiceIDs=53936744", FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/YeniEkranlar/Tablo/TablodakiVeri'))

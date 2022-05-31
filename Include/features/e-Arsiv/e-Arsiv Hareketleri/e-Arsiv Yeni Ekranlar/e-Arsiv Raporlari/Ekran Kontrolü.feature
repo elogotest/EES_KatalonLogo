@@ -5,6 +5,8 @@ Feature: e-Arsiv Raporları Ekran ve Filtre Kontrolü
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Raporları seçilir
     * Yeni ekranlar Filtreler butonuna tıklanır
+    * Yeni ekranlar Üst butonlardan Filtreler var mı
+    * Yeni ekranlar Üst butonlardan Kolonlar var mı
     * Yeni ekranlar Filtre başlıklarından Rapor Numarası var mı
     * Yeni ekranlar Filtre başlıklarından ETTN var mı
     * Yeni ekranlar Filtre başlıklarından Rapor Tarihi var mı
@@ -17,5 +19,5 @@ Feature: e-Arsiv Raporları Ekran ve Filtre Kontrolü
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | 
+      | kullaniciAdi | sifre  |
       | ELOGO6       | 123456 |

@@ -44,12 +44,12 @@ Feature: Raporlar Toplu Veri İndirme Ekran Kontrolü ve Excel Aktar
     * Filtrelerden Kullanım Seçeneği filtresine HEPSİ dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Belge Türü filtresine e-Arşiv dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
-    * Filtrelerden Belge Türü filtresine e-Arşiv Rapor dropdowndan degeri seçilir
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
+    #* Filtrelerden Belge Türü filtresine e-Arşiv dropdowndan degeri seçilir
+    #* Filtre butonlarından Listele seçilir
+    #* Tabloda veri var mı kontrol edilir
+    #* Filtrelerden Belge Türü filtresine e-Arşiv Rapor dropdowndan degeri seçilir
+    #* Filtre butonlarından Listele seçilir
+    #* Tabloda veri var mı kontrol edilir
     * Filtrelerden Belge Türü filtresine e-Fatura dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir								
     * Tabloda veri var mı kontrol edilir
