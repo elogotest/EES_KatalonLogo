@@ -22,4 +22,4 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.*;
 
-CustomKeywords.'Method.TextDegerineEsitElementeTiklaEquals'(findTestObject('Object Repository/YeniEkranlar/Butonlar/ÜstButon'), Buton_Adi)
+WebUI.click(findTestObject('Object Repository/YeniEkranlar/Butonlar/ÜstButon'))

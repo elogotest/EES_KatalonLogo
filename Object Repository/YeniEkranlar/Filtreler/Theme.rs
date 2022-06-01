@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ÜstButon</name>
+   <name>Theme</name>
    <tag></tag>
-   <elementGuidId>b58fa23f-007d-41a2-ac62-f9a776557fac</elementGuidId>
+   <elementGuidId>fcf8c5ee-0f7e-4709-86de-8a60660d8bb9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//vaadin-menu-bar-button[@ref_element = 'Object Repository/YeniEkranlar/Filtreler/MenuBar' and @ref_element_is_shadow_root = 'true']</value>
+         <value>//*[@theme = 'secondary contrast small']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,16 +15,16 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>theme</name>
       <type>Main</type>
-      <value>vaadin-menu-bar-button</value>
+      <value>secondary contrast small</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/YeniEkranlar/Filtreler/Theme</value>
+      <value>Object Repository/YeniEkranlar/Filtreler/ReactRoot</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
