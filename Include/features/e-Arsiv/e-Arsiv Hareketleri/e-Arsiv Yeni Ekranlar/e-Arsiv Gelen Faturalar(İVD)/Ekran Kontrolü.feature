@@ -22,5 +22,5 @@ Feature: e-Arsiv Gelen Faturaları(İVD) Ekran ve Filtre Kontrolü
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | 
-      | ELOGO6       | 123456 |   
+      | kullaniciAdi | sifre  | baslangic  |
+      | ELOGO6       | 123456 | 01.05.2022 |

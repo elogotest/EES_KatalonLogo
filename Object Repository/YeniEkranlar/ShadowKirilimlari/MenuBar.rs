@@ -18,13 +18,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>logo-elements-menu-bar</value>
+      <webElementGuid>8ef8b92c-1590-41a5-8263-7b0936a85f30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/YeniEkranlar/Filtreler/ReactRoot</value>
+      <value>Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot</value>
+      <webElementGuid>76f5c2b1-f6df-4461-b975-7029737fd384</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,5 +34,6 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>61f927e6-4df5-437a-b619-aef0556a8e0e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

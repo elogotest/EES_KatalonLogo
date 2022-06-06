@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]//logo-elements-form-layout/div/div[2]/logo-elements-menu-bar[1]//div/vaadin-menu-bar-button[1]/vaadin-context-menu-item/div</value>
+         <value>//vaadin-menu-bar-button[@ref_element = 'Object Repository/YeniEkranlar/Filtreler/MenuBar' and @ref_element_is_shadow_root = 'true']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,16 +15,18 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>//*[@id=&quot;reactRoot&quot;]//logo-elements-form-layout/div/div[2]/logo-elements-menu-bar[1]//div/vaadin-menu-bar-button[1]/vaadin-context-menu-item/div</value>
+      <value>vaadin-menu-bar-button</value>
+      <webElementGuid>b5a22e7c-3b80-4c70-906f-8d19f1514c29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/YeniEkranlar/Filtreler/MenuBar</value>
+      <value>Object Repository/YeniEkranlar/ShadowKirilimlari/ThemeSecondry</value>
+      <webElementGuid>8fc00ae9-28c9-405a-873b-59e6f3634990</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,5 +34,6 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>3b566a9a-be6a-40de-8e78-ee9af6a1a735</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

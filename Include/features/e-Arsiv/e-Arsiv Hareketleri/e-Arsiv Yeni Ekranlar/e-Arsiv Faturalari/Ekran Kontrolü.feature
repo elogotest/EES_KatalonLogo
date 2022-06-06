@@ -34,8 +34,22 @@ Feature: e-Arsiv Faturaları Ekran ve Filtre Kontrolü
     * Yeni ekranlar Filtre butonlarından Filtrele var mı
     * Yeni ekranlar Filtre butonlarından Temizle var mı
     * Yeni ekranlar Filtre butonlarından Vazgeç var mı
+    * Yeni ekranlarda filtrelerden Oluşturma Tarihi filtresine <baslangic> textini yaz
+    * Enter'a bas
+    * Yeni ekran filtre butonlarından Filtrele isimli butona tıklanır
+    * Tabloda veri var mı kontrol edilir
+    * Yeni ekran sayfa numarasi 2 olarak secilir
+    * Yeni ekran sayfa numarasi 3 olarak secilir
+    * Yeni ekran sayfa numarasi 1 olarak secilir
+    * Yeni ekranlar sonraki sayfa numarasına tıklanır
+    * Yeni ekranlar önceki sayfa numarasına tıklanır
+    #* Yeni ekran sayfa boyutu 25 olarak secilir
+    #* Yeni ekran sayfa boyutu 50 olarak secilir
+    #* Yeni ekran sayfa boyutu 100 olarak secilir
+    #* Yeni ekran sayfa boyutu 250 olarak secilir
+    #* Yeni ekran sayfa boyutu 10 olarak secilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | 
-      | ELOGO6       | 123456 |   
+      | kullaniciAdi | sifre  | baslangic  |
+      | ELOGO6       | 123456 | 26.05.2022 |

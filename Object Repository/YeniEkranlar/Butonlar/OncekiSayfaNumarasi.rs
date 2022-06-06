@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Theme</name>
+   <name>OncekiSayfaNumarasi</name>
    <tag></tag>
-   <elementGuidId>fcf8c5ee-0f7e-4709-86de-8a60660d8bb9</elementGuidId>
+   <elementGuidId>3bb57f3a-da00-482f-80a0-6f0727f5fd9d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@theme = 'secondary contrast small']</value>
+         <value>//*[@class = 'pre-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,16 +15,18 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>theme</name>
+      <name>class</name>
       <type>Main</type>
-      <value>secondary contrast small</value>
+      <value>pre-button</value>
+      <webElementGuid>520c2092-0e0a-4cf3-a947-2e6070df50dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/YeniEkranlar/Filtreler/ReactRoot</value>
+      <value>Object Repository/YeniEkranlar/ShadowKirilimlari/SayfaNumarasiveBoyutu</value>
+      <webElementGuid>67e046f8-1cdf-4889-9588-409a80d60acf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,5 +34,6 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>2b50f049-1935-4784-aaee-accbfb93ad76</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

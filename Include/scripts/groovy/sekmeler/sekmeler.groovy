@@ -84,12 +84,12 @@ class sekmeler {
 	def familyName(String familyName) {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/FamilyName"), ["FamilyName":familyName] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Oluşturulan eSMM Ubl'in FamilyName alanı (.*) ile aynı mı")
 	def familyNameeSMM(String familyName) {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/FamilyNameeSMM"), ["FamilyName":familyName] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Oluşturulan eMM Ubl'in FamilyName alanı (.*) ile aynı mı")
 	def familyNameeMM(String familyName) {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/FamilyNameeMM"), ["FamilyName":familyName] , FailureHandling.STOP_ON_FAILURE)
@@ -99,12 +99,12 @@ class sekmeler {
 	def familyNameFatura(String familyName) {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/FamilyNameeFatura"), ["FamilyName":familyName] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Oluşturulan eIrsaliye Ubl'in FamilyName alanı (.*) ile aynı mı")
 	def familyNameIrsaliye(String familyName) {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/FamilyNameeIrsaliye"), ["FamilyName":familyName] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("(.*) tagli ubl geldi mi")
 	def ublGeldiMi(String tag) {
 		WebUI.callTestCase(findTestCase("Test Cases/Sekmeler/TagGeldiMi"), ["Tag":tag] , FailureHandling.STOP_ON_FAILURE)

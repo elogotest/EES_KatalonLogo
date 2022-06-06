@@ -54,10 +54,35 @@ class Butonlar {
 	def butonaTikla(String buton_Adi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/FiltreButonunaTiklanir"), ["Buton_Adi":buton_Adi] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
+	@When("Yeni ekran butonlarından (.*) isimli butona tıklanır")
+	def butonaTiklanir(String buton_Adi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/ButonaTiklanir"), ["Buton_Adi":buton_Adi] , FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@When("Yeni ekran üst butonlardan (.*) isimli butona tıklanır")
 	def ustButonaTikla(String buton_Adi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/FiltrelerButonu"), ["Buton_Adi":buton_Adi] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekran sayfa numarasi (.*) olarak secilir")
+	def sayfaNumarasiSecilir(String sayfaNumarasi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/SayfaNumarasi"), ["SayfaNumarasi":sayfaNumarasi] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekran sayfa boyutu (.*) olarak secilir")
+	def sayfaBoyutuSecilir(String sayfaBoyutu) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/SayfaBoyutuSecilir"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekranlar önceki sayfa numarasına tıklanır")
+	def öncekiSayfaNumarasiButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/OncekiSayfaNumarasiTiklanir'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekranlar sonraki sayfa numarasına tıklanır")
+	def sonrakiSayfaNumarasiButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/SonrakiSayfaNumarasi'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Yeni ekranlar Filtreler butonuna tıklanır")
@@ -73,5 +98,10 @@ class Butonlar {
 	@When("Yeni ekranlar Üst butonlardan (.*) var mı")
 	def üstButonVarMi(String üstButon) {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ÜstButonVarMi'), ["ÜstButon":üstButon] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Excel alt butonlarından Excele Akatar'a tıklanır")
+	def excelAltButontikla() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ExcelAltButonTiklanir'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 }
