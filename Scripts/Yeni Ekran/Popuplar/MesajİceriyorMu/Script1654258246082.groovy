@@ -15,7 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject("Object Repository/YeniEkranlar/Popup/PopupIcerigi"), 10)
+//WebUI.waitForElementVisible(findTestObject("Object Repository/YeniEkranlar/Popup/PopupIcerigi"), 10)
+
+String Mesaj='talebiniz işleme alınmıştır'
 
 if (!WebUI.getText(findTestObject("Object Repository/YeniEkranlar/Popup/PopupIcerigi")).contains(Mesaj)) {
 	assert false

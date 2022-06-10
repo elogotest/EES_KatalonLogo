@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PopupIcerigi</name>
+   <name>Popup</name>
    <tag></tag>
-   <elementGuidId>acdf92cb-d0a8-478d-9b6a-2b7c39c0532b</elementGuidId>
+   <elementGuidId>1b8371a3-0a34-4fe9-a6bf-866bdbddc9bb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//vaadin-notification-card[@ref_element = 'Object Repository/YeniEkranlar/ShadowKirilimlari/Popup' and @ref_element_is_shadow_root = 'true']</value>
+         <value>//logo-elements-notification[@ref_element = 'Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot' and @ref_element_is_shadow_root = 'true']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>vaadin-notification-card</value>
-      <webElementGuid>71b0e34c-cd43-48a6-84d3-d94ba3dc41e2</webElementGuid>
+      <value>logo-elements-notification</value>
+      <webElementGuid>e24bd49f-21a2-4647-9f79-1a9e287cb72a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
