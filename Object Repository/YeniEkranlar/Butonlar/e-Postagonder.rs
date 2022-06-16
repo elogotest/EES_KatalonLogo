@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MenuBar</name>
+   <name>e-Postagonder</name>
    <tag></tag>
-   <elementGuidId>9179b19d-18dd-4d9d-ada0-2bc863ffa947</elementGuidId>
+   <elementGuidId>a453766a-b2a6-46cd-9d74-af93e925ba0e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//logo-elements-menu-bar[@ref_element = 'Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot' and @ref_element_is_shadow_root = 'true']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,16 +17,16 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>logo-elements-menu-bar</value>
-      <webElementGuid>e4b0e970-4387-47cb-9b47-4b53a9ebaf89</webElementGuid>
+      <value>vaadin-menu-bar-button</value>
+      <webElementGuid>c20c9e46-a0b4-4ba4-9d2a-a39badd6ffb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot</value>
-      <webElementGuid>d6569a8d-eb7e-4a9f-ac2d-a80e3ce5369f</webElementGuid>
+      <value>Object Repository/YeniEkranlar/ShadowKirilimlari/MenuBar2</value>
+      <webElementGuid>7e8f5375-2ad3-4bfa-b21d-528caffb7002</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,6 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3dc09679-7fa3-4251-80b2-7a05d19791b7</webElementGuid>
+      <webElementGuid>2c5716de-c688-4d52-bac8-f9892c30fe36</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

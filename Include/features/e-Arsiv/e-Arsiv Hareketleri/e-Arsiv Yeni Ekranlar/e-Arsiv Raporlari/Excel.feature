@@ -15,8 +15,15 @@ Feature: e-Arsiv Raporları Excel
     * Excel alt butonlarından Excele Akatar'a tıklanır
     * Yeni ekranlar e-Posta bilgisi <e-Posta> olarak girilir
     * Yeni ekran filtre butonlarından Gönder isimli butona tıklanır
+    * Yeni ekranlar popup mesajı talebiniz işleme alınmıştır içeriyor mu
+    * Ana menüden Raporlar seçilir
+    * Alt menüden Toplu Veri İndirme seçilir
+    * Filtrelerden Talep No filtresine Rapor No bilgisi yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Tabloda yeni oluşturulan veri hazırlandı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | kullaniciAdi | sifre  | raporNo | baslangic  | e-Posta              |
-      | ELOGO6       | 123456 | 2744417 | 26.05.2022 | ali.kara@logo.com.tr |
+      | ELOGO6       | 123456 | 2744176 | 01.05.2022 | ali.kara@logo.com.tr |

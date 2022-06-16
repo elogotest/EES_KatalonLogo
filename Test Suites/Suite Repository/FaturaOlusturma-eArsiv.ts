@@ -18,6 +18,18 @@
       <testCaseId>Test Cases/Case Repository/FaturaOlusturma/ButonKontrol</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>33883372-5091-4fc4-ba47-7fffd75d1a51</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/EkranKontrolü</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1fbd30c0-5c1a-4119-9d2e-614e9c3e4724</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/Excele Aktar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>24f23e6c-70a4-4eb8-960c-0579a208788b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -52,71 +64,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eArsivRegresyonTest/eArsiv-Elektronik-Tevkifat</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5c5f1d3c-23c3-4356-b888-ecc3cb594757</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eArsivRegresyonTest/eArsiv-Elektronik-İhracKayitli</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5f1aaca0-ccfa-4cda-8f96-55c336753929</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eArsivRegresyonTest/e-Arsiv-Internet</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a9f4f8d3-a160-48ad-8923-b0e631cb167d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eArsivRegresyonTest/eArsiv-Kagit-Satis</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c47e78fb-9709-4ffd-84d7-2edc9ba80227</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eArsivRegresyonTest/e-Arsiv-Kagit-OzelMatrah</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bf8e7508-0274-487d-a281-8249e19e98dc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eArsivRegresyonTest/e-Arsiv-Kagit-Istisna</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>dd2d1719-b294-4f25-9df3-f242d0b23d5d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eArsivRegresyonTest/e-Arsiv-Kagit-HalSatis</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ad23cc44-092c-410f-b737-27cb3365151e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eArsivRegresyonTest/eArsiv-Kagit-Tevkifat</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2285f0bf-dd5a-4c9d-9e2e-ac9ebf110885</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eArsivRegresyonTest/e-Arsiv-Kagit-İade</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a8812f09-e71b-4b35-85e0-90d842f30890</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eArsivRegresyonTest/eArsiv-Kagit-İhracKayitli</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>33883372-5091-4fc4-ba47-7fffd75d1a51</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/EkranKontrolü</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1fbd30c0-5c1a-4119-9d2e-614e9c3e4724</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/Excele Aktar</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

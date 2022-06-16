@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//vaadin-notification-card[@ref_element = 'Object Repository/YeniEkranlar/ShadowKirilimlari/Popup' and @ref_element_is_shadow_root = 'true']</value>
+         <value>vaadin-notification-card > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>css</name>
       <type>Main</type>
-      <value>vaadin-notification-card</value>
-      <webElementGuid>71b0e34c-cd43-48a6-84d3-d94ba3dc41e2</webElementGuid>
+      <value>vaadin-notification-card > span</value>
+      <webElementGuid>60849941-b212-4db6-96f6-5f515d2b03fb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

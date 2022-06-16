@@ -64,22 +64,22 @@ class Butonlar {
 	def ustButonaTikla(String buton_Adi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/FiltrelerButonu"), ["Buton_Adi":buton_Adi] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni ekran sayfa numarasi (.*) olarak secilir")
 	def sayfaNumarasiSecilir(String sayfaNumarasi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/SayfaNumarasi"), ["SayfaNumarasi":sayfaNumarasi] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni ekran sayfa boyutu (.*) olarak secilir")
 	def sayfaBoyutuSecilir(String sayfaBoyutu) {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/SayfaBoyutuSecilir"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni ekranlar önceki sayfa numarasına tıklanır")
 	def öncekiSayfaNumarasiButonunaTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/OncekiSayfaNumarasiTiklanir'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni ekranlar sonraki sayfa numarasına tıklanır")
 	def sonrakiSayfaNumarasiButonunaTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/SonrakiSayfaNumarasi'), [:] , FailureHandling.STOP_ON_FAILURE)
@@ -93,6 +93,11 @@ class Butonlar {
 	@When("Yeni ekranlar Excel butonuna tıklanır")
 	def excelButonunaTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ExceleTiklanir'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekranlar Üst butonlardan e-Posta Gönder secilir")
+	def üstButonSecilir(String buton_Adi) {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ePostaGonder'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Yeni ekranlar Üst butonlardan (.*) var mı")

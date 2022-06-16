@@ -1,6 +1,6 @@
-Feature: e-Arsiv Faturaları Excel
+Feature: e-Arsiv Faturaları e-Posta Gönder
 
-  Scenario Outline: e-Arsiv Faturaları Excel
+  Scenario Outline: e-Arsiv Faturaları e-Posta Gönder
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
@@ -11,8 +11,7 @@ Feature: e-Arsiv Faturaları Excel
     * Yeni ekran filtre butonlarından Filtrele isimli butona tıklanır
     * Tabloda veri var mı kontrol edilir
     * Yeni ekranlar tablodaki veri seçilir
-    * Yeni ekranlar Excel butonuna tıklanır
-    * Excel alt butonlarından Excele Akatar'a tıklanır
+    * Yeni ekranlar Üst butonlardan e-Posta Gönder secilir
     * Yeni ekranlar e-Posta bilgisi <e-Posta> olarak girilir
     * Yeni ekran filtre butonlarından Tamam isimli butona tıklanır
     * Yeni ekranlar popup mesajı talebiniz işleme alınmıştır içeriyor mu

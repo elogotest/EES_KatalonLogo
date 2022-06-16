@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MenuBar</name>
+   <name>MenuBar2</name>
    <tag></tag>
-   <elementGuidId>9179b19d-18dd-4d9d-ada0-2bc863ffa947</elementGuidId>
+   <elementGuidId>856e0975-0023-46cd-a345-5e27f400d8c3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//logo-elements-menu-bar[@ref_element = 'Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot' and @ref_element_is_shadow_root = 'true']</value>
+         <value>logo-elements-menu-bar:nth-child(2)[count(. | //*[@ref_element = 'Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot' and @ref_element_is_shadow_root = 'true']) = count(//*[@ref_element = 'Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot' and @ref_element_is_shadow_root = 'true'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,10 +15,10 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>logo-elements-menu-bar</value>
-      <webElementGuid>e4b0e970-4387-47cb-9b47-4b53a9ebaf89</webElementGuid>
+      <value>logo-elements-menu-bar:nth-child(2)</value>
+      <webElementGuid>b38463a5-d4ab-4963-9690-dc3c2eafd6c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot</value>
-      <webElementGuid>d6569a8d-eb7e-4a9f-ac2d-a80e3ce5369f</webElementGuid>
+      <webElementGuid>e2704d7d-6fa6-437d-9d8f-a00ddea20675</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,6 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3dc09679-7fa3-4251-80b2-7a05d19791b7</webElementGuid>
+      <webElementGuid>dfa647fb-2081-4da7-893e-0bba32929ea4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
