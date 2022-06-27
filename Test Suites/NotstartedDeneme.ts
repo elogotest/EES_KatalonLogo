@@ -3,6 +3,7 @@
    <description></description>
    <name>NotstartedDeneme</name>
    <tag></tag>
+   <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>7</maxConcurrentInstances>
    <testSuiteRunConfigurations>
@@ -10,6 +11,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -19,6 +21,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -28,6 +31,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -37,6 +41,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -46,6 +51,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -55,6 +61,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -64,6 +71,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -73,6 +81,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -82,15 +91,17 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/regresyoneIrsaliye</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -100,6 +111,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -109,6 +121,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -118,6 +131,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -127,6 +141,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -136,6 +151,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -145,6 +161,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -154,15 +171,17 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Suite Repository/e-Irsaliye</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -172,6 +191,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -181,6 +201,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -190,6 +211,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -199,6 +221,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -208,6 +231,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -217,6 +241,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -226,6 +251,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -235,6 +261,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>

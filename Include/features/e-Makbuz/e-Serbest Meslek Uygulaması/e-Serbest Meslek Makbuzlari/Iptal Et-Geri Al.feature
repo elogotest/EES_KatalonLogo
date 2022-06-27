@@ -23,5 +23,5 @@ Feature: e-Serbest Meslek Makbuzlari Iptal Et
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi              |
+      | ELOGO6       | 123456 |   23.06.2022 |    23.06.2022 | VirgosolOtomasyonTEST |

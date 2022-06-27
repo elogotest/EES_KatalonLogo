@@ -17,4 +17,4 @@ Feature: e-Serbest Meslek Makbuzlari Statu Ata
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi              |
-      | ELOGO6       | 123456 |   08.04.2021 |    08.04.2021 | VirgosolOtomasyonTEST |
+      | ELOGO6       | 123456 |   23.06.2022 |    23.06.2022 | VirgosolOtomasyonTEST |

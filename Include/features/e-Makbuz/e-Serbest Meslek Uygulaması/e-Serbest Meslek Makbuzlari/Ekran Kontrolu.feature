@@ -9,7 +9,7 @@ Feature: e-Serbest Meslek Makbuzlari Buton Kontrolu
     * Filtre butonlarından Listele seçilir
     * Tablodan TEST isimli verinin detayı tıklanır
     * Tablodan TEST isimli verinin detayı tıklanır
-    * Listelenen öğe sayısı Sayfa 1 / 1 (4 öğe) mi
+    * Listelenen öğe sayısı Sayfa 1 / 1 (1 öğe) mi
     #* Filtrelerden ETTN filtresine bb24e38e-ea93-4a49-b22e-52269aabcf95 textini yaz
     * Anasayfaya geri dönülür
     * Ana menüden e-Makbuz seçilir
@@ -59,4 +59,4 @@ Feature: e-Serbest Meslek Makbuzlari Buton Kontrolu
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | fatura_tarihi |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 |    02.11.2020 |
+      | ELOGO6       | 123456 |   23.06.2022 |    23.06.2022 |    23.06.2022 |

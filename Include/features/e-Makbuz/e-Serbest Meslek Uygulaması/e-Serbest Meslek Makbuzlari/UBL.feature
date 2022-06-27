@@ -16,5 +16,5 @@ Feature: e-Serbest Meslek Makbuzlari UBL
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | tag        |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     | CreditNote |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi              | tag        |
+      | ELOGO6       | 123456 |   23.06.2022 |    23.06.2022 | VirgosolOtomasyonTEST | CreditNote |
