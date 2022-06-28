@@ -17,4 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/OlusturmaTestOrtami/e-FaturaRegresyonTest/e-Fatura-Sgk.feature')
+CucumberKW.runFeatureFile('Include/features/OlusturmaEkranlari/e-FaturaOlusturma/e-Fatura-Sgk.feature')

@@ -17,4 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/OlusturmaTestOrtami/e-ArsivRegresyonTest/e-Arsiv-Kagit-Tevkifat.feature')
+CucumberKW.runFeatureFile('Include/features/OlusturmaEkranlari/e-ArsivOlusturma/e-Arsiv-Kagit-Tevkifat.feature')

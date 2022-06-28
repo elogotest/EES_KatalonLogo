@@ -12,57 +12,66 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>24b0ac46-745c-45ad-91d0-e494fb6c77db</testSuiteGuid>
    <testCaseLink>
-      <guid>7b0268e7-03a5-4841-b676-27c597e4cc93</guid>
+      <guid>4a25a428-83b9-4cfc-a1c8-e97d9d84c27e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-IhracKayitli</testCaseId>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Temel-OzelMatrah</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>267bd046-e8d6-4b22-9d60-3ca20aacffc0</guid>
+      <guid>8b408cb8-5030-4e43-924f-f57edf09c146</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-Istisna</testCaseId>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Temel-Satis</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9677c8dd-d6f6-4731-b6d6-d31b02d95a25</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-OzelMatrah</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9edd7621-d591-4d27-b743-f02aab5abdf6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-Satis</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ab3d631d-ccbc-4754-9142-f6d8ea5fde61</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Kamu-IhracKayitli</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>54e31e21-e5ee-40db-9a01-8a8b98500d76</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Kamu-Istisna</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8fc45c79-0f9a-4aea-8a45-3f21ccfeb6cc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Kamu-OzelMatrah</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f05b3f1b-c945-4383-ac94-30801558ad06</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Kamu-Satis</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2bb1c65b-a195-4abd-9037-bd24dc9ac28d</guid>
+      <guid>a6196e04-192b-431e-b897-29e1daf58ea2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Temel-Sgk</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>189c3210-16e2-4df1-a0af-f206b41bb69d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Temel-Tevkifat</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>22de3ae4-53b3-44db-ba55-e3bde0dd1cbc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-IhracKayitli</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21730183-31eb-4f79-997a-94584cfb29ee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-Istisna</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f6d8462-754a-482e-9448-a8bbd25eb96e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-OzelMatrah</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6eb1303a-dc1f-46f7-8b35-9cf57697d8ce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-Ticari-Satis</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1dd79d39-2939-4e91-a89b-928a1cc31308</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/FaturaOlusturma/eFaturaRegresyonTest/e-Fatura-YolcuBeraber</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
