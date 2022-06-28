@@ -14,5 +14,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CucumberKW.runFeatureFile('Include/features/e-Fatura/Giden Kutusu/Faturalar/Excele Aktar.feature')
+CucumberKW.runFeatureFile('Include/features/e-Fatura/e-Fatura Yeni Ekranlar/Giden Kutusu/Faturalar/ExceleAktar.feature')
 

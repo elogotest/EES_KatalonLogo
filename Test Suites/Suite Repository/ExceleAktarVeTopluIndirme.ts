@@ -12,139 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>4b14cc15-e048-4e7d-8071-2e45db1ed3b9</testSuiteGuid>
    <testCaseLink>
-      <guid>2cc8abe0-ab34-4a42-8d3b-8c3505133dd2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Excele Aktar</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cc0f96c9-01db-4d2f-a866-be75e22aaa70</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Toplu Indirme</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1e7863f5-e7f0-4180-9b0e-c8544ba22bbf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/Excele Aktar</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>edaa185c-1630-4de8-b2d3-33c279baabdb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/Toplu Indirme</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ca8fd24b-87ff-4382-86b4-f7843195c65a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Excele Aktar</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c07863bb-d6cc-4ba8-82cd-47d24a4a2a96</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Toplu Indirme</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fc764e7b-1335-49f3-934a-0a375ebec353</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Excele Aktar</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a9bd425a-a394-4c56-9418-109214da35c3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Toplu Indirme</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>16933c2d-f643-415e-bcea-82db057e95cc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Excele Aktar</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9e940566-bdb3-4228-9006-c848fd559652</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Toplu Indirme</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3fdf3559-9bf4-4cf9-8960-6a048dd9d53f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Raporlari/Excele Aktar</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9e6d2430-6830-49e3-a1c8-5df21bad0be8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliye Yanitlari/Excele Aktar</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7e02ffd7-aa17-4bd2-b550-0e78c73cfada</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliyeler/Excele Aktar</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bf3bea09-e221-40d6-97de-9dfd4c70a1ba</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliye Yanitlari/Toplu Indirme</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a89893ea-c3e3-452a-bace-7a6a72321f35</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliyeler/Toplu Indirme</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8fd3b97b-bff2-4225-9715-9dce122516ea</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Excele Aktar</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>66d6c699-410c-4420-8e8a-f29d1f5b3d9d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Toplu Indirme</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c247594d-3c99-4602-adc1-6ff2cb140cb9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Excele Aktar</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a5974147-49c6-4112-84ff-8a7260fff0ee</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Toplu Indirme</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f65dda1b-0d80-4c36-a2a8-9e39c42231c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -212,6 +79,34 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Zarflar/Giden Zarflar/Toplu Indirme</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>daa9136f-bb8d-49f6-8017-8406915a8a22</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliye Yanitlari/Excele Aktar</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9e398fc7-49cc-4ed7-ad96-be1e036da9e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliyeler/Excele Aktar</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f507e36-c55d-4bc7-88a9-05b96d382573</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Excele Aktar</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d6ef31f2-d663-40c6-a554-465c29bf67c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Excele Aktar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
