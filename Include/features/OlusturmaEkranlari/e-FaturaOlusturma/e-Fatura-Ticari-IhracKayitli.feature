@@ -27,12 +27,10 @@ Feature: Yeni olusturma ekranı Ticari Fatura  ve İhrac Kayıtlı tipinde e-Fat
     * Açılan popuptan evet seçilir
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
-    * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    * Filtre butonlarından Listele seçilir
+    * Yeni ekranlar Filtreler butonuna tıklanır
+    * Yeni ekranlarda filtrelerden Ettn filtresine Ettn bilgisi yaz
+    * Yeni ekran filtre butonlarından Filtrele isimli butona tıklanır
     * Tabloda veri var mı kontrol edilir
-    * e-Fatura oluşturulan faturanın tutar bilgisi 121.000,00 TRY ile aynı mı
-    #* Tabloda Başarılı ünvanlı veri oluşturuldu mu
-    * Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

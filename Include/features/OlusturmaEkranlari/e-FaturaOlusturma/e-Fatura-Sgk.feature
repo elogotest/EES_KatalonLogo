@@ -29,11 +29,10 @@ Feature: Yeni olusturma ekranı Temel Fatura  ve Sgk tipinde e-Fatura olusturulm
     * Açılan popuptan evet seçilir
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
-    * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    * Filtre butonlarından Listele seçilir
+    * Yeni ekranlar Filtreler butonuna tıklanır
+    * Yeni ekranlarda filtrelerden Ettn filtresine Ettn bilgisi yaz
+    * Yeni ekran filtre butonlarından Filtrele isimli butona tıklanır
     * Tabloda veri var mı kontrol edilir
-    * e-Fatura oluşturulan faturanın tutar bilgisi 142.780,00 TRY ile aynı mı
-    #* Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
