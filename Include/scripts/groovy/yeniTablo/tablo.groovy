@@ -51,6 +51,4 @@ class tablo {
 	def yeniTablodakiVeriSecilir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Tablo/TablodakiVeriSeçilir'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-
-
 }

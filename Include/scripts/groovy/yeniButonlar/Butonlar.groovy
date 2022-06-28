@@ -94,7 +94,7 @@ class Butonlar {
 	def excelButonunaTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ExceleTiklanir'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni ekranlar Üst butonlardan e-Posta Gönder secilir")
 	def üstButonSecilir(String buton_Adi) {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ePostaGonder'), [:] , FailureHandling.STOP_ON_FAILURE)

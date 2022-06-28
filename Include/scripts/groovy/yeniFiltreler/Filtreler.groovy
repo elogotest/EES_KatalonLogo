@@ -50,7 +50,7 @@ class Filtreler {
 	def filtreBasligiVarMi(String filtreBasligi) {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Filtreler/FiltreBasligiVarMi'), ["FiltreBasligi":filtreBasligi] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni ekranlar e-Posta bilgisi (.*) olarak girilir")
 	def ePostaBilgisiGirilir(String ePosta) {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Filtreler/ePostaBilgisiGirilir'), ["EPosta":ePosta] , FailureHandling.STOP_ON_FAILURE)

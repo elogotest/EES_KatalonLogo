@@ -45,10 +45,9 @@ import cucumber.api.java.en.When
 
 
 class popup {
-	
+
 	@When("Yeni ekranlar popup mesajı talebiniz işleme alınmıştır içeriyor mu")
 	def popupIceriyorMu() {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/MesajİceriyorMu"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-
 }

@@ -23,10 +23,10 @@ Feature: e-Fatura Taslak Degistir
     #* Yönetim popupında Tamam seçilir
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
-    * Filtrelerden Ettn filtresine Ettn bilgisi yaz
-    * Filtre butonlarından Listele seçilir
+    * Yeni ekranlar Filtreler butonuna tıklanır
+    * Yeni ekranlarda filtrelerden Ettn filtresine Ettn bilgisi yaz
+    * Yeni ekran filtre butonlarından Filtrele isimli butona tıklanır
     * Tabloda veri var mı kontrol edilir
-    #* Tabloda yeni oluşturulan eFatura verisi başarılı mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
