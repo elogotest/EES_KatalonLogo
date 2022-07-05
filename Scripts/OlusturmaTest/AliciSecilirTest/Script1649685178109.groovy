@@ -18,8 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(2)
-//WebUI.waitForElementVisible(findTestObject('OlusturmaTestOrtami/regresyonYeniOlusturma/VknTcknGir'), 10)
-//WebUI.click(findTestObject('OlusturmaTestOrtami/regresyonYeniOlusturma/VknTcknGir'))
+
 WebUI.sendKeys(findTestObject('OlusturmaTestOrtami/regresyonYeniOlusturma/VknTcknGir'), VknTckn)
 
 WebUI.delay(5)
@@ -27,5 +26,5 @@ WebUI.delay(5)
 CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Object Repository/OlusturmaTestOrtami/regresyonYeniOlusturma/aliciTablosu'),
 	VknTckn)
 
-//WebUI.click(findTestObject('OlusturmaTestOrtami/regresyonYeniOlusturma/SecBtn'))
+
 

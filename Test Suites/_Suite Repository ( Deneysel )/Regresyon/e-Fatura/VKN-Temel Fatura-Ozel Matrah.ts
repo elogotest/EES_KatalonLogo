@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>2aef7605-c035-46dd-a48e-82132ddf5990</testSuiteGuid>
-   <testCaseLink>
-      <guid>481fa9d8-8fc7-4e04-af32-b08c81446688</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Ozel Matrah</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

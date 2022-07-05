@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>1860d0bf-d065-41de-a03d-90277f4c38d7</testSuiteGuid>
-   <testCaseLink>
-      <guid>55ccfdb7-0713-465f-9135-049794d3f652</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Istisna</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

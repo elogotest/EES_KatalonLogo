@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PopupMesaji</name>
+   <tag></tag>
+   <elementGuidId>8443495e-d905-4e2f-a3ac-0ee58972de38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;overlay&quot;]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;overlay&quot;]/div</value>
+      <webElementGuid>8775a6e5-a485-43a4-996b-2893dc3b41cc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

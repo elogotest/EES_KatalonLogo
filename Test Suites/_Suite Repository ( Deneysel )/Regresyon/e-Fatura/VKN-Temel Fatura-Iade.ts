@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d4fc2d1d-bf48-4e8b-9e37-860ba196d35c</testSuiteGuid>
-   <testCaseLink>
-      <guid>81bbcdcd-ca49-436e-b3e4-2234351f9d84</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Iade</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

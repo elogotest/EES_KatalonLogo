@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3d436631-0234-41e2-ac7e-4f03af80b585</testSuiteGuid>
-   <testCaseLink>
-      <guid>1c11ec07-1ff8-44e4-a927-bb660ceb327d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Hal Komisyoncu</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

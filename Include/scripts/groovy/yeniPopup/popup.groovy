@@ -50,4 +50,19 @@ class popup {
 	def popupIceriyorMu() {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/MesajİceriyorMu"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
+
+	@When("Yeni ekranlar acılan popup (.*) içeriyor mu")
+	def popupMesaji(String name) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/PopupMesajı"), ['Name':name] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekranlar yönetim popup butonlarından iptal seçilir")
+	def popupIptal() {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/PopupIptal"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekranlar yönetim popup butonlarından Tamam seçilir")
+	def popupTamam() {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/PopupTamam"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
 }

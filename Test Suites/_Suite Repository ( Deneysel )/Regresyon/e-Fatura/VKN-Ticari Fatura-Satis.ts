@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>e1aca34b-4a11-4102-9166-db50e9e90f07</testSuiteGuid>
-   <testCaseLink>
-      <guid>19399c0b-a4ca-40b8-aaba-042ad3b44871</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ticari Fatura-Satis</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

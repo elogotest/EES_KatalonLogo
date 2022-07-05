@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>673bf6ca-1f9e-43bb-bbec-b8243b412876</testSuiteGuid>
-   <testCaseLink>
-      <guid>cdefb4fe-2228-4dff-b571-cfd4b2f1209a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Istisna</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

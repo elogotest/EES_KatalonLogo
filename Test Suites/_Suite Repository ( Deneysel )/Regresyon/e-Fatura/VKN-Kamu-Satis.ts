@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>149a1722-0eb9-4acf-92f2-69a562815576</testSuiteGuid>
-   <testCaseLink>
-      <guid>1ea9fe17-2c2c-4b49-ae75-be08b74c7bd1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Kamu-Satis</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

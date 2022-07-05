@@ -51,4 +51,15 @@ class tablo {
 	def yeniTablodakiVeriSecilir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Tablo/TablodakiVeriSeçilir'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Yeni ekranlar tablodaki ilk veri seçilir")
+	def TablodakiVeriSecilir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Tablo/TablodakiVeriSeçilir'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekrnalar tablodaki (.*) isimli veri seçilir")
+	def tablodanVeriSecilir(String veri_Adi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Tablo/TablodanVeriSecilir"), ["Veri_Adi":veri_Adi] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 }
