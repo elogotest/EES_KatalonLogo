@@ -7,16 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[1]/div[1]/div/form/div/div[2]/div/div[2]/div[1]/div/input</value>
+         <value>//*[@name = 'LastName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[1]/div[1]/div/form/div/div[2]/div/div[2]/div[1]/div/input</value>
+      <webElementGuid>5c1236f9-9dbb-4b39-9547-c5ce6802e2a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>LastName</value>
+      <webElementGuid>12904991-8e48-4ce6-b9e8-dad1e9b8ff1a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

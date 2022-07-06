@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[4]/div[1]/div/div/div[1]</value>
+         <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[4]/div[1]/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[4]/div[1]/div/div/div[1]</value>
+      <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[4]/div[1]/div/div/div</value>
+      <webElementGuid>f95600d2-2104-481c-8922-d72b74a3d7a7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

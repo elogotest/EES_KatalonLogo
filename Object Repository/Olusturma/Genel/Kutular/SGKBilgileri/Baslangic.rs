@@ -7,16 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[4]/div[1]/div/div/div[2]/div/form/div/div[5]/div/div[2]/div/div/div/div/input</value>
+         <value>//*[@name = 'PeriodStartDate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[4]/div[1]/div/div/div[2]/div/form/div/div[5]/div/div[2]/div/div/div/div/input</value>
+      <webElementGuid>5b3c4ba2-b5f0-41d6-9d04-b7533af83f55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>PeriodStartDate</value>
+      <webElementGuid>f92a6acd-e7a1-410b-baed-5f0266d3a20e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

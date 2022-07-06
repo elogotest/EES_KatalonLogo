@@ -7,16 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]/div/div/div[1]/div/div[1]/div[3]/form/div/div[9]/div/div[2]/div/div/label/span/input</value>
+         <value>//*[@name = 'checkEArchiveInternet']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;reactRoot&quot;]/div/div/div[1]/div/div[1]/div[3]/form/div/div[9]/div/div[2]/div/div/label/span/input</value>
+      <webElementGuid>ffa28a3b-eb6f-47c3-b556-5fe8f1e4b848</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>checkEArchiveInternet</value>
+      <webElementGuid>e1fef33d-eee0-4e09-a54a-7dc02fc9a0f5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

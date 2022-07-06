@@ -7,16 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[6]/div/div/div/div[2]/div/form/div/div[4]/div/div[2]/div[1]/div/input</value>
+         <value>//*[@name = 'txtEArsivInternetWebAdres']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[6]/div/div/div/div[2]/div/form/div/div[4]/div/div[2]/div[1]/div/input</value>
+      <webElementGuid>449b8478-fa05-4b71-8e1b-dac2f4d010aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>txtEArsivInternetWebAdres</value>
+      <webElementGuid>6a9218b1-2ebd-4b0f-9b23-444475f4a9ef</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

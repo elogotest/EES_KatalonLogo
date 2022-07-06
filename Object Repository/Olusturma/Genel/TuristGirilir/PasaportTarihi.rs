@@ -7,16 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[1]/div[1]/div/form/div/div[4]/div/div[2]/div[1]/div/div/div/input</value>
+         <value>//*[@name = 'PassportDate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[1]/div[1]/div/form/div/div[4]/div/div[2]/div[1]/div/div/div/input</value>
+      <webElementGuid>04a5188b-5a11-4977-a705-c347caf03406</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>PassportDate</value>
+      <webElementGuid>6d4c5a6c-4f11-4b52-addc-4e60d6cd8514</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

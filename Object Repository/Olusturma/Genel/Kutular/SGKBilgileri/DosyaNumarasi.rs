@@ -7,16 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[4]/div[1]/div/div/div[2]/div/form/div/div[2]/div/div[2]/div[1]/div/input</value>
+         <value>//*[@name = 'SgkFileNumber']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[4]/div[1]/div/div/div[2]/div/form/div/div[2]/div/div[2]/div[1]/div/input</value>
+      <webElementGuid>5d7dda98-746b-46e3-b15c-448df90b7267</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>SgkFileNumber</value>
+      <webElementGuid>23502702-d3af-4450-805f-0836b9eadac8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

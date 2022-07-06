@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;rc_select_9&quot;]</value>
+         <value>//*[@id=&quot;rc_select_8&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;rc_select_9&quot;]</value>
+      <value>//*[@id=&quot;rc_select_8&quot;]</value>
+      <webElementGuid>18145e87-3f58-4b1a-b6d1-8877b9bf1531</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

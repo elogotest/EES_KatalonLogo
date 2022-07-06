@@ -7,16 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[4]/div[1]/div/div/div[2]/div/form/div/div[4]/div/div[2]/div[1]/div/input</value>
+         <value>//*[@name = 'SgkFirmCode']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[4]/div[1]/div/div/div[2]/div/form/div/div[4]/div/div[2]/div[1]/div/input</value>
+      <webElementGuid>35f9c3e4-5067-4644-8fa5-f86585510531</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>SgkFirmCode</value>
+      <webElementGuid>5739bf0f-58bc-44e7-a79c-86caed3db0e1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
