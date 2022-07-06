@@ -29,6 +29,8 @@ WebUI.sendKeys(findTestObject('Sayfalar/Giris_Sayfasi/Sifre'), Sifre)
 
 WebUI.findWebElement(findTestObject('Sayfalar/Giris_Sayfasi/Giris_Butonu')).click()
 
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'), 5, FailureHandling.OPTIONAL)) {
 	
 	WebUI.click(findTestObject('Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'))
