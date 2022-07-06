@@ -7,7 +7,8 @@ Feature: Yeni olusturma ekranı Hal Fatura  ve Satıs tipinde e-Fatura olusturul
     * Tablodaki verilerin tamamı silinir
     * Açılan popuptan evet seçilir
     * Tablodaki verilerin tamamı seçilir
-    * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
+    * https://efatura-stage.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList/create isimli linke gidilir
+    #* Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     #* Yeni oluşturma ekranı filtre butonlarından  seçilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir

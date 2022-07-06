@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
+WebUI.waitForElementClickable(findTestObject('Olusturma/Genel/AliciBilgisi/Alici_Ara'), 2, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Olusturma/Genel/AliciBilgisi/Alici_Ara'))
 
 WebUI.click(findTestObject('Olusturma/Genel/AliciBilgisi/Alici_Bilgisi'))

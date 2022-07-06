@@ -7,16 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[8]/div/div/div/div[2]/div/form/div/div[1]/div/div[2]/div[1]/div/input</value>
+         <value>//*[@name = 'PaymentIbanNo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[8]/div/div/div/div[2]/div/form/div/div[1]/div/div[2]/div[1]/div/input</value>
+      <webElementGuid>f812ec34-77fc-4e8c-9ae9-008baa17ba4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>PaymentIbanNo</value>
+      <webElementGuid>dda34125-d8de-44bf-a4f3-e41b16172c89</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

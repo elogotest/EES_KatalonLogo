@@ -12,7 +12,8 @@ Feature: e-Fatura Gecmise Donuk Fatura Olusturmak Evet
     * Tablodaki verilerin tamamı silinir
     * Açılan popuptan evet seçilir
     * Tablodaki verilerin tamamı seçilir
-    * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
+    * https://efatura-stage.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList/create isimli linke gidilir
+    #* Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
     * Yeni olusturma ekranından <unvan> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir

@@ -7,16 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[1]/div[3]/form/div/div[3]/div/div[2]/div/div/div/div/input</value>
+         <value>//*[@name = 'InvoiceDate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;reactRoot&quot;]/div[2]/div/div[1]/div/div[1]/div[3]/form/div/div[3]/div/div[2]/div/div/div/div/input</value>
+      <webElementGuid>563fef56-d457-49bc-b1d4-23f3b2179952</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>InvoiceDate</value>
+      <webElementGuid>d49853dd-64ce-4e67-ae14-54f199f9c1c3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

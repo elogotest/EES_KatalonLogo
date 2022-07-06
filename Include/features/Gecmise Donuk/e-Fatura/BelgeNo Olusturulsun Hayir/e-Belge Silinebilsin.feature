@@ -9,7 +9,8 @@ Feature: e-Fatura e-Belge Numarasi silinebilsin
     * Anasayfaya geri dönülür
     * Ana menüden Fatura Oluşturma seçilir
     * Alt menüden Fatura Oluşturma seçilir
-    * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
+    * https://efatura-stage.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList/create isimli linke gidilir
+    #* Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Gecmise yönelik faturanın Ettn bilgisi kayıt edilir
     #* Yeni olusturma ekranı Tip alanından Satış seçilir

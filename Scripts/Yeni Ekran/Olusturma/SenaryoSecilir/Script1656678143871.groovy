@@ -17,11 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/YeniEkranlar/Olusturma/Senaryo'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Object Repository/YeniEkranlar/Olusturma/Senaryo'), 2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/YeniEkranlar/Olusturma/Senaryo'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.sendKeys(findTestObject('Object Repository/YeniEkranlar/Olusturma/Senaryo'), Keys.chord(Keys.SHIFT, Keys.ARROW_UP))
 WebUI.sendKeys(findTestObject('Object Repository/YeniEkranlar/Olusturma/Senaryo'), Keys.chord(Keys.BACK_SPACE))
 
 
 WebUI.sendKeys(findTestObject('Object Repository/YeniEkranlar/Olusturma/Senaryo'),Senaryo)
+
+WebUI.sendKeys(findTestObject('Object Repository/YeniEkranlar/Olusturma/Senaryo'), Keys.chord(Keys.ENTER))

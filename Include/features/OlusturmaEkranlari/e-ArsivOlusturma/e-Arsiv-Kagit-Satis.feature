@@ -7,7 +7,8 @@ Feature: Yeni olusturma ekranı Gönderim tipi Kagit ve Satis tipinde e-Arsiv fa
     * Tablodaki verilerin tamamı silinir
     * Açılan popuptan evet seçilir
     * Tablodaki verilerin tamamı seçilir
-    * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
+    #* Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
+    * https://efatura-stage.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList/create isimli linke gidilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
     * Yeni olusturma ekranı Tip alanından Satış seçilir

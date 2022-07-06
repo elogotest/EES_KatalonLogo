@@ -12,15 +12,14 @@ Feature: e-FATURA Gecmise Donuk Fatura Olusturmak Evet
     * Tablodaki verilerin tamamı silinir
     * Açılan popuptan evet seçilir
     * Tablodaki verilerin tamamı seçilir
-    * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
-    #* Yeni oluşturma ekranı filtre butonlarından Alıcı Seç seçilir
+    * https://efatura-stage.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList/create isimli linke gidilir
+    #* Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilirr
     * Yeni olusturma ekranından <alici_Adi> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
     * Yeni oluşturma ekranı Fatura Tarihi <fatura_tarihi> olarak girilir
     * Yeni olusturma ekranı MalHizmet Bilgileri Otomasyon,Katalon,100,10 olarak girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir
     * Yeni oluşturma ekranı filtre butonlarından Kaydet seçilir
-    #* https://efatura-test.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList isimli linke gidilir
     * Yeni oluşturma ekranı filtre butonlarından Filtreler seçilir
     * Yeni oluşturma ekranı ETTN filtresine ettn bilgisini yaz
     * Yeni oluşturma ekranı Filtrele butonuna tıklanır
@@ -28,7 +27,6 @@ Feature: e-FATURA Gecmise Donuk Fatura Olusturmak Evet
     * Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Numara Ver seçilir
     * Açılan popuptan evet seçilir
-    #* Tablodaki yeni oluşan veri seçilir
     * Tablodaki dropdown butonlarından Alıcıya Gönder seçilir
     * Açılan popuptan evet seçilir
     * Ana menüden e-Fatura seçilir

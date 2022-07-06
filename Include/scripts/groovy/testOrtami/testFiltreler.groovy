@@ -79,6 +79,12 @@ public class testFiltreler {
 	def eArsivfaturaTarihiGirilir(String faturaTarihi) {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/eArsivFaturaTarihi"), ["FaturaTarihi":faturaTarihi] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	
+	@When("Yeni olusturma ekranından (.*) VKN/TCKN bilgisine sahip kullanıcı seçilir")
+	def yenialiciSec(String vknTckn) {
+		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/AliciSecilirTest"), ["VknTckn":vknTckn] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 
 	@When("Yeni oluşturma ekranı Filtrele butonuna tıklanır")
@@ -94,11 +100,6 @@ public class testFiltreler {
 	@When("Yeni oluşturma ekranı Sayfa boyutu (.*) olarak seçilir")
 	def sayfaBoyutu(String sayfaBoyutu) {
 		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/SayfaBoyutuTest"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@When("Yeni olusturma ekranından (.*) VKN/TCKN bilgisine sahip kullanıcı seçilir")
-	def yenialiciSec(String vknTckn) {
-		WebUI.callTestCase(findTestCase("Test Cases/OlusturmaTest/AliciSecilirTest"), ["VknTckn":vknTckn] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Yeni olusturma ekranı MalHizmet Bilgileri (.*),(.*),(.*),(.*) olarak girilir")

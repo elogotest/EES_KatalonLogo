@@ -12,7 +12,8 @@ Feature: e-Arsiv e-Belge Tarihi Degistirilebilsin
     * Tablodaki verilerin tamamı silinir
     * Açılan popuptan evet seçilir
     * Tablodaki verilerin tamamı seçilir
-    * Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
+    * https://efatura-stage.elogo.com.tr/InvoiceCreation/UserInvoiceCreationList/create isimli linke gidilir
+    #* Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     * Yeni olusturma ekranından <unvan> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
     #* Fatura tarihi Bilgisi <filtreDegeri> olarak girilir

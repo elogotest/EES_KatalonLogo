@@ -9,7 +9,7 @@ Feature: TCKNo ile Temel Irsaliye senaryosunda irsaliye olusturulmasi ve Excele 
     * Yeni olusturma ekranından <alici_Adi> bilgisine sahip kullanıcı seçilir
     * Enter'a bas
     * Yeni olusturma ekranında senaryo alanından Temel İrsaliye isimli senaryo seçilir
-    * Enter'a bas
+    #* Enter'a bas
     * Döküman Para Birimi alanından Euro seçilir
     * Tasarım alanından VirgosolOtomasyon seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
