@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Excel</name>
+   <name>Sil</name>
    <tag></tag>
-   <elementGuidId>b88db545-8a6d-4781-b69a-9f0c1fe28c2c</elementGuidId>
+   <elementGuidId>d8235086-3787-4834-b767-2539113f0ab4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[ends-with(@id, '-excel')]</value>
+         <value>//*[ends-with(@id, '-delete')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>vaadin-menu-bar-button</value>
-      <webElementGuid>abdcccd8-a18f-4fa4-a085-f7ea61dc711e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>ends with</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>-excel</value>
-      <webElementGuid>f422fd45-57f6-45c8-b44e-d149001e35fa</webElementGuid>
+      <value>-delete</value>
+      <webElementGuid>0fed7b6c-4ecf-4640-b30b-cf842ae1ea1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +26,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot</value>
-      <webElementGuid>9e758566-da49-4bf4-b453-fe72df4ae2ee</webElementGuid>
+      <webElementGuid>ced176fa-a036-4eeb-815c-f1b90d565c3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +34,6 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>18a44094-83cb-4ace-a039-de59f713fad9</webElementGuid>
+      <webElementGuid>e6197111-22c8-4545-9559-697b6e15530b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

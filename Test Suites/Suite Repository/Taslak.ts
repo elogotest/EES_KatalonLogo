@@ -82,13 +82,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1db10989-4f5e-4b63-b5b9-e8faa7dd1d7e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Taslak/Goster</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c82f0c7f-383c-40be-ba4d-76f8883616c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -103,10 +96,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f37a65df-b45b-41ee-a617-0d0e4fd07507</guid>
+      <guid>5aa11710-ca8e-40ac-a98b-edffedc882ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Taslak/UBL</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Taslak/Aliciya Gönder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

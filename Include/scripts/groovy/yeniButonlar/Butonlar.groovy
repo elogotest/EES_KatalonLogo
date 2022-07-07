@@ -95,6 +95,32 @@ class Butonlar {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ExceleTiklanir'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 
+	@When("Yeni ekranlar Iptal Et butonuna tıklanır")
+	def iptalEtButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/IptalEt'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekranlar Tablodaki Menu butonuna tıklanır")
+	def tablodakiMenuTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/TablodakiMenuButonu'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Yeni ekranlar Degistir butonuna tıklanır")
+	def degistirTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/Degistir'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+
+	@When("Yeni ekranlar Sil butonuna tıklanır")
+	def silButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/Sil'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Yeni ekranlar Alıcıya gönder butonuna tıklanır")
+	def aliciyaGönderButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/AliciyaGönder'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@When("Yeni ekranlar butonlarından Yeni Ekle seçilir")
 	def yeniEkleSecilir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/YeniEkleTiklanir'), [:] , FailureHandling.STOP_ON_FAILURE)

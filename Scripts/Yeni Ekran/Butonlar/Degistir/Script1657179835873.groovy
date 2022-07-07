@@ -17,4 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/e-Fatura/e-Fatura Yeni Ekranlar/e-Fatura Araclari/e-Fatura Taslak/Excel.feature')
+WebUI.click(findTestObject('Object Repository/YeniEkranlar/Butonlar/Degistir'), FailureHandling.STOP_ON_FAILURE)
