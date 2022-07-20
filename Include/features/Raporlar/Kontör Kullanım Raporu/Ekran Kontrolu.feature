@@ -34,4 +34,4 @@ Feature: Kontör Kullanım Raporları Ekran Kontrolü ve Excel Aktar
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri1 |
-      | ELOGO6       | 123456 |   14.04.2022 |    15.04.2022 |
+      | ELOGO6       | 123456 |   14.04.2022 |    15.07.2022 |

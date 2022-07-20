@@ -18,6 +18,6 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c655c8c1-1c99-4aef-9bd0-9ceae5618592</webElementGuid>
+      <webElementGuid>865fd70d-dba5-402e-b805-79077fdc204c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

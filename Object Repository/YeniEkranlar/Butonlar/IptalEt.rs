@@ -18,6 +18,6 @@
       <name>id</name>
       <type>Main</type>
       <value>-cancel-grid</value>
-      <webElementGuid>55c3d921-44e1-4af3-bca2-1135f3fea4a5</webElementGuid>
+      <webElementGuid>d4c0009f-83a6-4bf8-8846-a428b4b47403</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

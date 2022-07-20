@@ -46,9 +46,9 @@ import cucumber.api.java.en.When
 
 class popup {
 
-	@When("Yeni ekranlar popup mesajı talebiniz işleme alınmıştır içeriyor mu")
-	def popupIceriyorMu() {
-		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/MesajİceriyorMu"), [:] , FailureHandling.STOP_ON_FAILURE)
+	@When("Yeni ekranlar popup mesajı (.*) içeriyor mu")
+	def popupIceriyorMu(String mesaj) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/MesajİceriyorMu"), ['Mesaj':mesaj] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Yeni ekranlar acılan popup (.*) içeriyor mu")
@@ -60,9 +60,29 @@ class popup {
 	def popupIptal() {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/PopupIptal"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Tamam secilir")
+	def tamamSecilir() {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/TamamSecilir"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Departman otomasyon olarak secilir")
+	def departmanSecilir() {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/Departman Secilir"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Yeni ekranlar yönetim popup butonlarından Tamam seçilir")
 	def popupTamam() {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/PopupTamam"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekranlar popup butonlarından (.*) secilir")
+	def popupBtn(String popupBtn) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/PopupButonlarındanSecilir"), ['PopupBtn':popupBtn] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Dosya Tipi (.*) olarak secilir")
+	def dosyaTipi(String option) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/DosyaTipiSecilir"), ['Option':option] , FailureHandling.STOP_ON_FAILURE)
 	}
 }

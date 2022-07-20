@@ -12,7 +12,7 @@ Feature: Yeni olusturma ekranı Hal Fatura  ve Satıs tipinde e-Fatura olusturul
     #* Yeni oluşturma ekranı filtre butonlarından  seçilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
     * Yeni olusturulan faturanın Ettn bilgisi kayıt edilir
-    * Yeni olusturma ekranı Gönderim Şekli Hal Faturası olarak seçilir
+    * Yeni olusturma ekranı Gönderim Şekli Hal Fatura olarak seçilir
     * Yeni olusturma ekranı Tip alanından Satış seçilir
     * Künye Numarası girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir

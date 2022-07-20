@@ -11,7 +11,7 @@ Feature: Yeni olusturma ekranı Hal Fatura  ve Komisyoncu tipinde e-Fatura olust
     #* Yeni oluşturma ekranı filtre butonlarından Yeni Ekle seçilir
     #* Yeni oluşturma ekranı filtre butonlarından  seçilir
     * Yeni olusturma ekranından <vkntckn> VKN/TCKN bilgisine sahip kullanıcı seçilir
-    * Yeni olusturma ekranı Gönderim Şekli Hal Faturası olarak seçilir
+    * Yeni olusturma ekranı Gönderim Şekli Hal Fatura olarak seçilir
     * Yeni olusturma ekranı Tip alanından Komisyoncu seçilir
     * Künye Numarası girilir
     * Yeni olusturma ekranı Notlar alanına Otomasyon Not bilgisi girilir

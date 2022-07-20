@@ -11,9 +11,9 @@ Feature: e-Arsiv Faturaları e-Posta Gönder
     * Yeni ekran filtre butonlarından Filtrele isimli butona tıklanır
     * Tabloda veri var mı kontrol edilir
     * Yeni ekranlar tablodaki veri seçilir
-    * Yeni ekranlar Üst butonlardan e-Posta Gönder secilir
+    * Yeni ekranlar ePosta Gönder butonuna tıklanır
     * Yeni ekranlar e-Posta bilgisi <e-Posta> olarak girilir
-    * Yeni ekran filtre butonlarından Tamam isimli butona tıklanır
+    * Yeni ekran filtre butonlarından Gönder isimli butona tıklanır
     * Yeni ekranlar popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Ana menüden Raporlar seçilir
     * Alt menüden Toplu Veri İndirme seçilir

@@ -95,14 +95,49 @@ class Butonlar {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ExceleTiklanir'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 
+	@When("Yeni ekranlar Mutakabat butonuna tıklanır")
+	def mutakabatButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/Mutakabat'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Yeni ekranlar Menu butonuna tıklanır")
+	def menuButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/MenuBtn'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Yeni ekranlar Iptal Islemleri butonuna tıklanır")
+	def ıptalIslemleriButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/Iptal Islemleri/Iptal Islemleri'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Yeni ekranlar Iptal Geri Al butonuna tıklanır")
+	def ıptalGeriAlButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/Iptal Islemleri/IptalGeriAl'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@When("Yeni ekranlar Iptal Et butonuna tıklanır")
 	def iptalEtButonunaTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/IptalEt'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
+	@When("e-Arsiv Faturaları Iptal Et butonuna tıklanır")
+	def iptalButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/Iptal Islemleri/Iptal Et e Arsiv'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Yeni ekranlar ePosta Gönder butonuna tıklanır")
+	def ePostaButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/e-PostaGonder'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@When("Yeni ekranlar Tablodaki Menu butonuna tıklanır")
 	def tablodakiMenuTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/TablodakiMenuButonu'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Yeni ekranlar için Tablodaki Menu butonuna tıklanır")
+	def tablodakiMenuTiklanir2() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/TablodakiMenuButonu2'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Yeni ekranlar Degistir butonuna tıklanır")
@@ -120,6 +155,11 @@ class Butonlar {
 	def aliciyaGönderButonunaTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/AliciyaGönder'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Yeni ekranlar Rapor Islemleri butonuna tıklanır")
+	def raporIslemleriButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/RaporIslemleri'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Yeni ekranlar butonlarından Yeni Ekle seçilir")
 	def yeniEkleSecilir() {
@@ -134,5 +174,10 @@ class Butonlar {
 	@When("Excel alt butonlarından Excele Akatar'a tıklanır")
 	def excelAltButontikla() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ExcelAltButonTiklanir'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Menü altındaki seçeneklerden (.*) isimli butona tıklanır")
+	def menudenItemSecilir(String item_Adi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/MenuItemSecilir"), ["Item_Adi":item_Adi] , FailureHandling.STOP_ON_FAILURE)
 	}
 }

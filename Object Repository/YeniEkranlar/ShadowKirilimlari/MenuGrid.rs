@@ -18,7 +18,7 @@
       <name>id</name>
       <type>Main</type>
       <value>-menu-grid</value>
-      <webElementGuid>23c44e79-181d-4023-ae2c-a56cbad843cc</webElementGuid>
+      <webElementGuid>5d5efbbe-69ec-4441-a411-e2b35ef85aff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot</value>
-      <webElementGuid>c7802829-51ae-4e9b-ac50-23e159943c67</webElementGuid>
+      <webElementGuid>72f59b62-09c1-4bbe-a55a-192cc3b33a43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,6 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>51dd367f-34b5-42ce-aa99-0246c6dcf878</webElementGuid>
+      <webElementGuid>68878336-2b43-4406-b07e-12a40edcaa38</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

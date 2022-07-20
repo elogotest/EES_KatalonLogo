@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TamamSecilir</name>
+   <tag></tag>
+   <elementGuidId>e4f5e593-f905-42d5-bcd7-77db4851e2ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;overlay&quot;]/div/logo-elements-form-layout/logo-elements-form-item[3]/logo-elements-horizontal-layout/logo-elements-button[2]/text()[count(. | //*[@ref_element = 'Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot' and @ref_element_is_shadow_root = 'true']) = count(//*[@ref_element = 'Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot' and @ref_element_is_shadow_root = 'true'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;overlay&quot;]/div/logo-elements-form-layout/logo-elements-form-item[3]/logo-elements-horizontal-layout/logo-elements-button[2]/text()</value>
+      <webElementGuid>08869d33-bb09-48b1-9579-389b1e34126c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot</value>
+      <webElementGuid>355257be-4d9d-40f8-87da-023b8461596c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>39ca1ebb-a0d5-44e3-89ff-96d4297e86ce</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

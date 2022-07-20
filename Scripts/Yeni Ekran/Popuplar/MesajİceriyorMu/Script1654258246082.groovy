@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 //WebUI.waitForElementVisible(findTestObject("Object Repository/YeniEkranlar/Popup/PopupIcerigi"), 10)
 
-String Mesaj='talebiniz işleme alınmıştır'
+//String Mesaj='talebiniz işleme alınmıştır'
 
 if (!WebUI.getText(findTestObject("Object Repository/YeniEkranlar/Popup/PopupIcerigi")).contains(Mesaj)) {
 	assert false
