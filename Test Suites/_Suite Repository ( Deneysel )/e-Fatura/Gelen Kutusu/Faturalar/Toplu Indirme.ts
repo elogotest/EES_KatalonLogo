@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>7e57a5e2-5fcf-4006-9791-6a90b7f37fd5</testSuiteGuid>
-   <testCaseLink>
-      <guid>050e979c-e1fc-4536-b541-d63e4c1ad492</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Toplu Indirme</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

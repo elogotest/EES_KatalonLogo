@@ -12,20 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>38902749-fceb-4569-9c52-4d6fbb0089a0</testSuiteGuid>
    <testCaseLink>
-      <guid>5c616c74-97b7-4d5c-8a56-1863c00f2885</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Yanit Gonder</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d2c5a837-664b-4927-864b-83cf12d514e1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Yanit Gonder Red</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>305f8570-7fb8-453a-80cf-18637d5c5654</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

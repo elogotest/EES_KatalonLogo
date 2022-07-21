@@ -15,5 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-CucumberKW.runFeatureFile('Include/features/e-Fatura/Gelen Kutusu/Faturalar/Departman Ata-Geri Al.feature')
+CucumberKW.runFeatureFile('Include/features/e-Fatura/e-Fatura Yeni Ekranlar/Gelen Kutusu/Faturalar/Departman Ata Geri Al.feature')
 

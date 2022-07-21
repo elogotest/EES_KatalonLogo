@@ -7,18 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'logo-elements-checkbox-41' and @ref_element = 'Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot' and @ref_element_is_shadow_root = 'true']</value>
+         <value>//*[@name = '139']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>logo-elements-checkbox-41</value>
-      <webElementGuid>7850a874-f7b6-44ce-b1b3-0b6d1ccf7300</webElementGuid>
+      <webElementGuid>aee39918-efb4-46b2-9236-bc08cec5052f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>139</value>
+      <webElementGuid>7682f738-3b59-4e0c-9b24-1579aec860a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +34,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/YeniEkranlar/ShadowKirilimlari/ReactRoot</value>
-      <webElementGuid>0f12e74d-63a8-4ea0-9027-6cfc605dd0a4</webElementGuid>
+      <webElementGuid>a42937ec-b1a6-4df9-bbf6-e802a918383d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +42,6 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2309d715-374a-45e7-8c86-6bd06ce0b989</webElementGuid>
+      <webElementGuid>13aef5de-e3b8-44a5-a9eb-6fe0c9c3e8ee</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -135,6 +135,11 @@ class Butonlar {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/TablodakiMenuButonu'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 	
+	@When("Yeni ekranlarda Tablodaki Menu butonuna tıklanır")
+	def tablodakiMenu2Tiklanir() {
+		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/treeMenuBtn'), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@When("Yeni ekranlar için Tablodaki Menu butonuna tıklanır")
 	def tablodakiMenuTiklanir2() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/TablodakiMenuButonu2'), [:] , FailureHandling.STOP_ON_FAILURE)
@@ -155,7 +160,7 @@ class Butonlar {
 	def aliciyaGönderButonunaTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/AliciyaGönder'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni ekranlar Rapor Islemleri butonuna tıklanır")
 	def raporIslemleriButonunaTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/RaporIslemleri'), [:] , FailureHandling.STOP_ON_FAILURE)
@@ -175,7 +180,7 @@ class Butonlar {
 	def excelAltButontikla() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/ExcelAltButonTiklanir'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Menü altındaki seçeneklerden (.*) isimli butona tıklanır")
 	def menudenItemSecilir(String item_Adi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Butonlar/MenuItemSecilir"), ["Item_Adi":item_Adi] , FailureHandling.STOP_ON_FAILURE)
