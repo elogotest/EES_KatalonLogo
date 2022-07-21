@@ -134,7 +134,7 @@ class Butonlar {
 	def tablodakiMenuTiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/TablodakiMenuButonu'), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni ekranlarda Tablodaki Menu butonuna tıklanır")
 	def tablodakiMenu2Tiklanir() {
 		WebUI.callTestCase(findTestCase('Test Cases/Yeni Ekran/Butonlar/treeMenuBtn'), [:] , FailureHandling.STOP_ON_FAILURE)
