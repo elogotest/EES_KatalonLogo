@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>35e28d2a-efd4-4de2-bad2-3e2251eb7146</testSuiteGuid>
-   <testCaseLink>
-      <guid>4bef9aaf-33d2-4161-93d1-137217f05d2c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Tum Hesaplar Kontrolu</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

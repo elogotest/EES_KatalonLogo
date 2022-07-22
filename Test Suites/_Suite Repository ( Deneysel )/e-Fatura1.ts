@@ -12,185 +12,108 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>46472a0b-512d-43d0-b833-927b588197ec</testSuiteGuid>
    <testCaseLink>
-      <guid>ae68d414-2385-41e3-8147-09a15ad52062</guid>
+      <guid>364108d5-5981-401c-a829-241aaa7d685e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Olusturma/Ekle/VKN-Temel Fatura-Satis Tipinde</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Departman Ata Geri Al</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b96cc070-b220-4afa-a881-d2735ff743e0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Olusturma/Ekran Kontrolu</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>645b9209-fee4-453c-ae25-f520650b1751</guid>
+      <guid>ab4a6fee-fecf-4264-8a1d-e0b04c4f2366</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Taslak/Ekran Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/e-Posta Gönder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bd2e3890-b941-4e24-bebb-1961939ef13e</guid>
+      <guid>46ba4aad-ebf3-4d50-a6bb-a7a7efa93f8a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Yukleme/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/EkranKontrol</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>02a10040-c00d-48e3-8ed2-c7a450b3e309</guid>
+      <guid>bad25131-271d-44cc-9587-af21992eda71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Yukleme/Excele Aktar</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/ERP Durum Güncelleme</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d2590bd5-e856-4ffc-8672-84342255ed65</guid>
+      <guid>2bd16a74-5f99-45d0-a0d2-e8cb8bc105fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Departman Ata-Geri Al</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Iptal Et Geri Al</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4fc4c21f-d5cd-4fa2-9b95-aa8e26764f04</guid>
+      <guid>98a5619a-92fa-4af2-8ced-fd162949ca83</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Ekran Kontrolu</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4aabe062-ff14-48b4-9735-e92625be8a20</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Statu Ata</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d4f2452a-bf06-4bda-9280-9ad0bb6dafe6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Departman Ata-Geri Al</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>45a3b730-ee63-403f-91bb-7fc172cb0d8a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Ekran Kontrolu</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c38f791d-c488-4a2b-bfd5-9b389851fb4e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Gorseli Ac</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6d8dc668-ac5b-4dff-ab0a-b4d6e20e3091</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Izleme Kayitlari</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7969aad5-7bbd-4104-9628-355faea62fb6</guid>
+      <guid>e6e28d85-c032-4916-b635-a159dfe3f4ec</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/PDF Secilenleri Indir</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>10a584b9-e3f0-4dd8-81d2-871325aeb09d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/PDF Tümünü Indir</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>67c195bb-54b7-4e07-9436-a0251e753f01</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Sertifika</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a59bfc49-b6eb-45bb-84c5-53debe6a2789</guid>
+      <guid>0a87fab6-373e-4ad5-b0ba-c5f889fc8264</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Statu Ata</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Sil</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c79cea28-285c-45fb-b52a-45d8d8ca2b32</guid>
+      <guid>6251bdcf-f3bc-4767-94c3-0ac485ab03ab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Tum Hesaplar Kontrolu</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Statü Secimi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a954b5b0-2b95-4a59-b79d-ac1379aa97c5</guid>
+      <guid>65141fd7-434f-4b38-ac1f-fee6ac787850</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/UBL-Goster-Indir</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Tekrar Aliciya Gönder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a0abc370-9fe0-4e97-8b1c-6b402c1f4de4</guid>
+      <guid>5b427ce6-d8f8-4381-91b9-a3daf424fc2e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/PDF Goster-Indir</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/UBL Secilenleri Indir</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e4312085-72c1-44c6-b745-98b26d0252dc</guid>
+      <guid>038f9295-dac7-4046-96c9-6908be1703fc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Varsayilan Ile Goster</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/UBL Tümünü Indir</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b140d0bc-b8b1-4380-a67b-eb2e8e265908</guid>
+      <guid>e0a8087d-8538-45c1-b531-a3f5491b23e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Departman Ata-Geri Al</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>25f54763-dbea-4e2d-9fdf-3091bfb7a788</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Ekran Kontrolu</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>66f5361b-9176-4ead-9388-8464e9837c56</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Fatura</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9bdadb83-204f-4e77-8a71-9944c09ca882</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Gorseli Ac</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f6bb2c12-1529-465a-875b-d7a732414738</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Izleme Kayitlari</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>466c2971-cf7a-4bc2-9ac2-1ce1bea19b39</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Tum Hesaplar Kontrolu</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8e5fd431-53dd-48de-bd90-d0de0574294e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/UBL-Goster-Indir</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fbddc811-267a-4283-8b46-de1a35ee4ab1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Erisim Kontrol</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Zarfa Git</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

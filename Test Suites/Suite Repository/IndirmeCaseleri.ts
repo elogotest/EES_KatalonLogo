@@ -33,13 +33,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4700a389-f20f-400a-8311-e88ea1adfbed</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/UBL-Goster-Indir</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>bd035b5b-5b17-44a8-aadf-b135d1a370c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

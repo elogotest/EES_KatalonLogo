@@ -60,12 +60,12 @@ class popup {
 	def popupIptal() {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/PopupIptal"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Tamam secilir")
 	def tamamSecilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/TamamSecilir"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Departman otomasyon olarak secilir")
 	def departmanSecilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/Departman Secilir"), [:] , FailureHandling.STOP_ON_FAILURE)
@@ -75,14 +75,19 @@ class popup {
 	def popupTamam() {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/PopupTamam"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Yeni ekranlar popup butonlarından (.*) secilir")
 	def popupBtn(String popupBtn) {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/PopupButonlarındanSecilir"), ['PopupBtn':popupBtn] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Dosya Tipi (.*) olarak secilir")
 	def dosyaTipi(String option) {
 		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/DosyaTipiSecilir"), ['Option':option] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("İptal Tipi (.*) olarak secilir")
+	def iptalTipi(String option) {
+		WebUI.callTestCase(findTestCase("Test Cases/Yeni Ekran/Popuplar/Iptal Tipi Secilir"), ['Option':option] , FailureHandling.STOP_ON_FAILURE)
 	}
 }

@@ -22,4 +22,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.*;
 
-WebUI.click(findTestObject('Object Repository/YeniEkranlar/Butonlar/ÜstButon'))
+// WebUI.click(findTestObject('Object Repository/YeniEkranlar/Butonlar/ÜstButon'))
+
+CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Object Repository/YeniEkranlar/Butonlar/ÜstButon'), 'Filtreler' )

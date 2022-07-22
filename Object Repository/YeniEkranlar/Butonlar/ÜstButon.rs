@@ -7,18 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//vaadin-menu-bar-button[@ref_element = 'Object Repository/YeniEkranlar/Filtreler/MenuBar' and @ref_element_is_shadow_root = 'true']</value>
+         <value>//*[@role = 'menuitem']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>vaadin-menu-bar-button</value>
-      <webElementGuid>89d470ce-0632-4350-842f-9607f047d23f</webElementGuid>
+      <webElementGuid>a4d89d09-8b94-4dae-a6da-021d43ebe00d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>0d0e687a-b5c9-48e6-8a4b-cabca92b8877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +34,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/YeniEkranlar/ShadowKirilimlari/Theme</value>
-      <webElementGuid>378ad6d3-5246-4d77-b8a3-3154701b7da8</webElementGuid>
+      <webElementGuid>8e2e13e5-af11-4db8-b0f0-7ba8e399d2a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +42,6 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9fdf6fa7-89f9-4cf6-80c0-b56903cc6176</webElementGuid>
+      <webElementGuid>514e9ca9-a5d6-49fb-adef-65a4f99bb88a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
