@@ -7,25 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'ProfileId']</value>
+         <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[1]/div[3]/form/div/div[4]/div/div[2]/div/div/div/div/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;reactRoot&quot;]/div[1]/div/div[1]/div/div[1]/div[3]/form/div/div[4]/div/div[2]/div/div/div/div/span[2]</value>
-      <webElementGuid>6a775a65-6aae-4d9f-b5d2-d9eb35f3f0ed</webElementGuid>
+      <webElementGuid>31e62f63-6419-4d77-a639-fcda384445b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ProfileId</value>
-      <webElementGuid>d14e3ea3-9033-428c-bf19-53cbf6ff5cf1</webElementGuid>
+      <value>SendType</value>
+      <webElementGuid>96b727f9-b8fd-4b62-a3fa-8904715c1210</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
