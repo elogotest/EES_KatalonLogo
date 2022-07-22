@@ -40,13 +40,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1db980c-d1c2-40e9-bd72-1bf3d122fa11</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/UBL-Goster-Indir</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e36cd9e9-5982-4330-96dd-c0f94a3bb8a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

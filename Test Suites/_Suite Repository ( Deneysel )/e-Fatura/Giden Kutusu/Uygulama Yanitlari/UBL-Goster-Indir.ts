@@ -11,10 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>7f7b7de0-8b43-48a6-bb89-b54621e6f14d</testSuiteGuid>
-   <testCaseLink>
-      <guid>ffb5b0fb-12eb-4697-b9a7-6235d09b9525</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/UBL-Goster-Indir</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

@@ -15,6 +15,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/e-Fatura/Giden Kutusu/Uygulama Yanıtlari/Toplu Indirme.feature')
-
+CucumberKW.runFeatureFile('Include/features/e-Fatura/e-Fatura Yeni Ekranlar/Giden Kutusu/Uygulama Yanıtları/Faturaya Git.feature')
